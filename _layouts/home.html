@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+	{% include head.html %}
+	
+	<body id="page-top">
+
+		<!--			<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="{{ '/' | relative_url }}">-->
+		<!--				<img src="{{ '/assets/images/logo/eAST-logo-white.png' | relative_url }}" height="60">-->
+		<!--			</a>-->
+		{% include navigation.html %}
+
+		{{ content }}
+		
+		{% include footer.html %}
+
+	</body>
+</html>

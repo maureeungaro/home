@@ -1,0 +1,33 @@
+# this add content to the website from the local dir _content
+collections:
+  content:
+    output: true
+    permalink: /content/:title.html
+  documentation:
+    output: true
+  tutorials:
+    output: true
+    
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "home"
+ 
+exclude:
+  - .git/
+  - .idea/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - todo
+
+domain: maureeungaro.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://maureeungaro.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /home                # place folder name if the site is served in a sub folder

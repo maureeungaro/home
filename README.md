@@ -20,9 +20,28 @@ bundle add jekyll
 
 may need ro run `bundle install` to install missing gems
 
-## jekyll tutorial:
+## Create a new site:
 
-[jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
+Follow the [jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
+
+At the editing the Gemfile step, add
+
+gem "github-pages", "~> 227", group: :jekyll_plugins
+
+check the [dependency versions](https://pages.github.com/versions/) 
+
+Copy most files from a previous project:
+
+```
+_config.yml
+_content/
+_includes/
+_layouts/
+_sass/
+_site/
+assets/
+```
+
 
 ## ICONS
 
@@ -33,8 +52,4 @@ https://feathericons.com
 ## GH-PAGES
 
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
-
-Remember to use the exact dependencies that are used on github:
-
-https://pages.github.com/versions/
 

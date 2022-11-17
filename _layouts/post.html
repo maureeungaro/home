@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+	{% include head.html %}
+
+	<body id="page-top">
+
+		{% include navigation.html %}
+
+		<section class="projects-section">
+			<div class="container px-4 px-lg-0">
+				<div class="row gx-lg-5">
+					<div class="project-text w-100 my-auto">
+						<h2 class="text-white mb-4">{{ page.title }}</h2>
+						<p class="text-black  mb-0">
+						<p> Updated {{ page.date | date_to_string }} - {{ page.author }}</p>
+						{{ content }}
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{% include footer.html %}
+
+	</body>
+</html>
