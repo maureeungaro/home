@@ -2,45 +2,37 @@
 
 `bundle exec jekyll serve`
 
-## To install jekyll:
 
-It can be done with ruby
+## To install [jekyll](https://jekyllrb.com):
+
+It can be done with ruby. 
+The ruby-install ruby can be skipped, can use brew to overwrite the old system version,
+for example 
+
+```
+brew install ruby@3.0
+brewDir=$(brew --prefix)
+if [ -d $brewDir ]; then
+	export PATH=$brewDir/opt/ruby@3.0/bin:$PATH
+fi
+```
+ 
  
 ```
 brew install chruby ruby-install  
-sudo gem install jekyll
+(sudo) gem install jekyll
 ```
-
-## To create a new Gemfile:
-
-```
-bundle init
-bundle add jekyll
-```
-
-may need ro run `bundle install` to install missing gems
 
 ## Create a new site:
 
-Follow the [jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
+Check the [quickstart](https://jekyllrb.com).
 
-At the editing the Gemfile step, add
 
-gem "github-pages", "~> 227", group: :jekyll_plugins
+## [Minima](https://github.com/jekyll/minima#readme) Motes
 
-check the [dependency versions](https://pages.github.com/versions/) 
+- The tab order is given by the filename, so you can prepend `a_` etc.
+- See 'layouts' for the 4 choices
 
-Copy most files from a previous project:
-
-```
-_config.yml
-_content/
-_includes/
-_layouts/
-_sass/
-_site/
-assets/
-```
 
 
 ## ICONS
@@ -52,4 +44,8 @@ https://feathericons.com
 ## GH-PAGES
 
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+
+Remember to use the exact dependencies that are used on GitHub:
+
+https://pages.github.com/versions/
 
