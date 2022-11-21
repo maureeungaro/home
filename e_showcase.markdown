@@ -11,7 +11,6 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 	{% for presentation in site.data.meson_electroproduction %}
 		<tr>
             <td> {{ presentation.title }} </td>
-            <td>{{presentation.venue}} </td>
 
                 {% if presentation.pdf == "yes" %}
                     <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"> pdf </a> </td>
@@ -19,11 +18,14 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
                     <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"> pdf </a> </td>
                 {% endif %}
                 {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"> keynote </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"> key </a> </td>
                 {% endif %}
                 {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx"> powerpoint </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx"> ppt </a> </td>
                 {% endif %}
+
+            <td>{{presentation.occasion}} </td>
+            <td> {{presentation.date}} </td>
 
         </tr>
 	{% endfor %}
