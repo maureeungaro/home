@@ -38,7 +38,7 @@ Check the [quickstart](https://jekyllrb.com).
 ## ICONS
 
 https://feathericons.com
-
+https://realfavicongenerator.net
 
 
 ## GH-PAGES
@@ -48,4 +48,20 @@ https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/crea
 Remember to use the exact dependencies that are used on GitHub:
 
 https://pages.github.com/versions/
+
+
+## Style
+
+Use a file assets/main.scss with the following content:
+
+
+```
+---
+---
+
+@import "{{ site.theme }}";
+
+<your settings here>
+
+```
 
