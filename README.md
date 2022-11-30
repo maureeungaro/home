@@ -50,7 +50,7 @@ Remember to use the exact dependencies that are used on GitHub:
 https://pages.github.com/versions/
 
 
-## Style
+## Modifying default Style
 
 Use a file assets/main.scss with the following content:
 
@@ -65,3 +65,16 @@ Use a file assets/main.scss with the following content:
 
 ```
 
+## Adding Content
+
+The files in directories starting with an underscore
+are not processed by jekyll if specified in the _config.yml file like this:
+
+```
+# this add content to the website from the local dirs starting with _
+collections:
+  pi0:
+    output: true
+```
+
+Optionally [permalinks](https://jekyllrb.com/docs/permalinks/) can be added for navigation.

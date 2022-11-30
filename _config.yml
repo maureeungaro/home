@@ -44,3 +44,21 @@ exclude:
    - Gemfile.lock
    - README.md
    - todo
+
+# this add content to the website from the local dirs starting with _
+collections:
+  meson:
+    output: true
+
+# shortcuts to symbols, accessible with {{ site.symbol_name }}
+
+
+pi: "&pi;"
+pi0: "&pi;<sup>0</sup>"
+q2: "Q<sup>2</sup>"
+w2: "W<sup>2</sup>"
+gev2: "GeV<sup>2</sup>"
+rarr: "&rarr;"
+delta: "&Delta;"
+deltaM: "&Delta;(1232)"
+
