@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CLAS12 Technical Notes
+title: Mauri's CLAS12 Technical Notes
 ---
 
 ## [CLAS12 Technical Notes](https://misportal.jlab.org/mis/physics/clas12/index.cfm)

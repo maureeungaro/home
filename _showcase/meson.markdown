@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Meson Electro-production
+title: Mauri's Meson Electro-production research
 permalink: /showcase/meson
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---
 
 <table>
-	{% for presentation in site.data.meson_electroproduction %}
+	{% for presentation in site.data.meson_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
                 {% if presentation.pdf == "yes" %}

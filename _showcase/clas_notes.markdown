@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CLAS Technical Notes
+title: Mauri's CLAS Technical Notes
 ---
 
 ## [CLAS Technical Notes](https://misportal.jlab.org/ul/Physics/Hall-B/clas/index.cfm)
