@@ -51,6 +51,16 @@ collections:
     output: true
   showcase:
     output: true
+  gemc:
+    output: true
+  ltcc:
+    output: true
+  osg:
+    output: true
+  geant4:
+    output: true
+  clas12Tags:
+    output: true
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
 
