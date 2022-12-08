@@ -61,6 +61,38 @@ A list of all meson electro-production presentations can be found at [mauri's me
 
 <br/>
 
+# Low Threshold Cherenkov Counter (LTCC)
+
+<table>
+	{% for presentation in site.data.ltcc_presentations %}
+		<tr>
+            <td> {{ presentation.title }} </td>
+
+                {% if presentation.pdf == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"> pdf </a> </td>
+                {% elsif presentation.pdf == "no_animation" %}
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"> pdf </a> </td>
+                {% endif %}
+                {% if presentation.key == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"> key </a> </td>
+                {% endif %}
+                {% if presentation.pptx == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx"> ppt </a> </td>
+                {% endif %}
+                {% if presentation.pptx == "no" %}
+                    <td> na </td>
+                {% endif %}
+
+            <td>{{presentation.occasion}} </td>
+            <td> {{presentation.date}} </td>
+
+        </tr>
+	{% endfor %}
+</table>
+
+
+<br/>
+
 # CLAS/CLAS12 Technical Notes
 
 Selected Notes:
