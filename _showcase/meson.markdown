@@ -20,6 +20,9 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
                 {% if presentation.pptx == "yes" %}
                     <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx"> ppt </a> </td>
                 {% endif %}
+                {% if presentation.pptx == "no" %}
+                    <td> na </td>
+                {% endif %}
             <td>{{presentation.occasion}} </td>
             <td> {{presentation.date}} </td>
         </tr>
