@@ -2,13 +2,26 @@
 layout: default
 ---
 
+<br/>
+
 # Single meson electro-production at high {{ site.q2 }} with CLAS
 
-## {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region
+<br/>
 
-- [[home]](pi0_resonance)
+## Ongoing:
 
 
-## {{ site.pi0 }} electro-production at high {{ site.q2 }} in the Delta resonance region
+- [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance/pi0_resonance)
 
-- [[home]](pi0_delta)
+
+
+<br/>
+
+---
+
+<br/>
+
+## Published:
+
+
+- [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the Delta resonance region](pi0_delta)
