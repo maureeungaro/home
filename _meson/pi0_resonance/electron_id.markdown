@@ -49,6 +49,6 @@ ___
 
 
 <div style="margin-top:10px;">
-     <iframe width="130%" height="1250" src="https://userweb.jlab.org/~ungaro/plots/epid/slices.html"  frameborder="0" ></iframe>
+     <iframe width="130%" height="1350" src="https://userweb.jlab.org/~ungaro/plots/epid/slices.html"  frameborder="0" ></iframe>
 </div>
 
