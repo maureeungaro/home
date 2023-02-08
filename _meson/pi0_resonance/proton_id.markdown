@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance/pi0_resonance)
+## [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance)
 
 # Proton Identification
 
@@ -12,18 +12,42 @@ The cuts are sector-dependent.
 
 <br/>
 
-## Analysis note section:
-
-- [pi0.pdf](https://userweb.jlab.org/~ungaro/docs/pi0.pdf)
 
 
+
+
+
+
+
+
+
+
+## PDFs:
+
+- [Proton Identification](https://github.com/maureeungaro/pubs/blob/main/pdfs/proton_pid.pdf)
+
+<br/>
+
+___
 
 <br/>
 
 
 ## Proton ID complete set of plots:
+*click on a table cell to show the plot on a larger window*
 
 
 <div style="margin-top:10px;">
-     <iframe width="130%" height="750" src="https://userweb.jlab.org/~ungaro/plots/ppid/cuts.html" frameborder="0" ></iframe>
+     <iframe width="130%" height="700" src="https://userweb.jlab.org/~ungaro/plots/ppid/cuts.html"   frameborder="0" ></iframe>
 </div>
+
+<br/>
+
+___
+
+<br/>
+
+<div style="margin-top:10px;">
+     <iframe width="130%" height="700" src="https://userweb.jlab.org/~ungaro/plots/ppid/slices.html"  frameborder="0" ></iframe>
+</div>
+

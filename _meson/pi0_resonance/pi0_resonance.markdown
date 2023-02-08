@@ -17,18 +17,34 @@ The c.m. differential cross sections and beam spin asymmetries are measured.
 
 <br/>
 
-## Analysis note:
+___
 
-- [pi0.pdf](https://userweb.jlab.org/~ungaro/docs/pi0.pdf)
+<br/>
 
+## PDFs:
 
+- [Full analysis note](https://github.com/maureeungaro/pubs/blob/main/pdfs/pi0.pdf)
 
+<br/>
+
+___
 
 <br/>
 
 
-## Individual sections plots:
+## Individual sections pages:
 
 
 - [Electron Identification](electron_id)
 - [Proton Identification](proton_id)
+- [Vertex Correction and Cut](vertex)
+
+
+<br/>
+
+___
+
+<br/>
+
+
+[//]: # (## Related pages)
