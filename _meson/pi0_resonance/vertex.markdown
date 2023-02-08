@@ -24,7 +24,7 @@ A selection on the electron and proton z-vertexes and their differences is appli
 
 ## PDFs:
 
-- [Vertex Correction and Cut](https://github.com/maureeungaro/pubs/blob/main/pdfs/vertex.pdf)
+- <a href= "{{ "/vertex.pdf"  | prepend: site.mauriPubs }}"> Vertex Correction and Cut </a>
 
 <br/>
 

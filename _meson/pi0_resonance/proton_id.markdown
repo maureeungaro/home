@@ -24,7 +24,7 @@ The cuts are sector-dependent.
 
 ## PDFs:
 
-- [Proton Identification](https://github.com/maureeungaro/pubs/blob/main/pdfs/proton_pid.pdf)
+- <a href= "{{ "/proton_pid.pdf"  | prepend: site.mauriPubs }}"> Proton Identification </a>
 
 <br/>
 

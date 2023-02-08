@@ -24,7 +24,7 @@ The track is also required to have hit matches in CC, DC, EC and SC and to be ti
 
 ## PDFs:
 
-- [Electron Identification](https://github.com/maureeungaro/pubs/blob/main/pdfs/electron_pid.pdf)
+- <a href= "{{ "/electron_pid.pdf"  | prepend: site.mauriPubs }}"> Electron Identification </a>
 
 <br/>
 
