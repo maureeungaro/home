@@ -23,7 +23,7 @@ ___
 
 ## PDFs:
 
-- [Full analysis note](https://github.com/maureeungaro/pubs/blob/main/pdfs/pi0.pdf)
+- <a href= "{{ "/pi0.pdf"  | prepend: site.mauriPubs }}"> Full analysis note </a>
 
 <br/>
 
