@@ -38,6 +38,7 @@ ___
 - [Electron Identification](electron_id)
 - [Proton Identification](proton_id)
 - [Vertex Correction and Cut](vertex)
+- [Electron Fiducial Cut](electron_fid)
 
 
 <br/>
