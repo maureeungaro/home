@@ -32,6 +32,8 @@ url: "https://maureeungaro.github.io" # the base hostname & protocol for your si
 twitter_username: maurizio_ungaro
 github_username:  maureeungaro
 
+asd: "https://maureeungaro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 # Build settings
 theme: minima
 plugins:
@@ -45,7 +47,7 @@ exclude:
    - README.md
    - todo
 
-# this add content to the website from the local dirs starting with _
+# this adds content to the website from the local dirs starting with _
 collections:
   meson:
     output: true

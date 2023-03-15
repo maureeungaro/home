@@ -18,8 +18,9 @@ layout: default
 |  :--------------------------------------:   | :----------------------------------------------------------------------------------: |
 |                                             |                                                                                      |                                           
 |      [![pi0][pi0FFImg]](geant4/geant4)      |                            [![pi0][gemc2Img]](ltcc/ltcc)                             |
-|          **Geant4 Physics Validation**      |                           **Low Threshold Cerenkov Detector**                    |
+|          **Geant4 Physics Validation**      |                           **Low Threshold Cerenkov Detector**                        |
 | :-----------------------------------------: |:------------------------------------------------------------------------------------:|
+
 
 
 [pi0FFImg]: assets/images/home/formFactor.png
