@@ -29,58 +29,53 @@ ___
 *click on a table cell to show the plot on a larger window*
 
 
-<div style="margin-top:10px;">
-     <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/phi_theta.html" frameborder="0" ></iframe>
-</div>
 
-<br/>
-
-___
-
-<br/>
-
-<div style="margin-top:10px;">
-     <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/phi_theta_ba.html" frameborder="0" ></iframe>
-</div>
-
-<br/>
-
-___
-
-<br/>
 
 <div style="margin-top:10px;">
      <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/xvsy_mom.html" frameborder="0" ></iframe>
 </div>
-
 <br/>
 
 ___
 
 <br/>
-
 <div style="margin-top:10px;">
      <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/xvsy_allmom.html" frameborder="0" ></iframe>
 </div>
-
 <br/>
 
 ___
 
 <br/>
-
 <div style="margin-top:10px;">
      <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/xvsy_intmom.html" frameborder="0" ></iframe>
 </div>
-
 <br/>
 
 ___
 
 <br/>
-
 <div style="margin-top:10px;">
      <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/slices.html" frameborder="0" ></iframe>
 </div>
+<br/>
+
+___
+
+<br/>
+<div style="margin-top:10px;">
+     <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/phi_theta.html" frameborder="0" ></iframe>
+</div>
+<br/>
+
+___
+
+<br/>
+<div style="margin-top:10px;">
+     <iframe width="130%" height="850" src="https://userweb.jlab.org/~ungaro/plots/efid/phi_theta_ba.html" frameborder="0" ></iframe>
+</div>
+<br/>
+
+___
 
 <br/>
