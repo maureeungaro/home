@@ -22,9 +22,7 @@ The track is also required to have hit matches in CC, DC, EC and SC and to be ti
 
 
 
-## PDFs:
-
-- <a href= "{{ "/electron_pid.pdf"  | prepend: site.mauriPubs }}"> Electron Identification </a>
+- <a href= "{{ "/electron_pid.pdf"  | prepend: site.mauriPubs }}"> Electron Identification PDF chapter</a>
 
 <br/>
 
@@ -38,7 +36,7 @@ ___
 
 
 <div style="margin-top:10px;">
-     <iframe width="130%" height="750" src="https://userweb.jlab.org/~ungaro/plots/epid/cuts.html" frameborder="0" ></iframe>
+     <iframe width="130%" height="750" src="{{ "/epid"  | prepend: site.mauriPlotsUrl }}/cuts.html" frameborder="0" ></iframe>
 </div>
 
 <br/>
@@ -49,6 +47,6 @@ ___
 
 
 <div style="margin-top:10px;">
-     <iframe width="130%" height="1350" src="https://userweb.jlab.org/~ungaro/plots/epid/slices.html"  frameborder="0" ></iframe>
+     <iframe width="130%" height="1350" src="{{ "/epid"  | prepend: site.mauriPlotsUrl }}/slices.html"  frameborder="0" ></iframe>
 </div>
 

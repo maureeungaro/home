@@ -2,31 +2,26 @@
 layout: default
 ---
 
-## Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region
+# Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region
+
+<br/>
+
+---
+
+<br/>
 
 We report the analysis of exclusive single {{ site.pi0 }} electro-production 
 in the first and second resonance regions at Jefferson Lab in the 
-{{ site.q2 }} range {{ site.rarr }} 6 {{ site.gev2 }}. 
-
-
-
+{{ site.q2 }} range {{ site.rarr }} 6 {{ site.gev2 }}. <br/>
 {{ site.pi0 }} angular distributions are obtained over the entire 
 4{{ site.pi }} center of mass solid angle. 
-
-The c.m. differential cross sections and beam spin asymmetries are measured.
-
+The c.m. differential cross sections and beam spin asymmetries are measured.<br/>
 This measurement is an extension of the
 [ {{ site.pi0 }} electro-production at high {{ site.q2 }} in the Delta resonance region analysis](../pi0_delta)
 
 <br/>
 
-___
-
-<br/>
-
-## PDFs:
-
-- <a href= "{{ "/pi0.pdf"  | prepend: site.mauriPubs }}"> Full analysis note </a>
+- <a href= "{{ "/pi0.pdf"  | prepend: site.mauriPubsPDFUrl }}"> Latest Analysis Note </a>
 
 <br/>
 
@@ -35,7 +30,7 @@ ___
 <br/>
 
 
-## Individual sections pages:
+## Individual studies:
 
 
 - [Electron Identification](electron_id)
@@ -51,4 +46,28 @@ ___
 <br/>
 
 
-[//]: # (## Related pages)
+## Related theoretical models
+
+
+<br/>
+
+___
+
+<br/>
+
+
+## Related publications
+
+<table>
+	{% for paper in site.data.pi0_resonance_related_publications %}
+		<tr>
+            <td> {{ paper.author }} </td>
+            <td> <a href="{{ paper.link }}"> {{ paper.title }}</a> </td>
+        </tr>
+	{% endfor %}
+</table>
+
+
+
+
+<br /><br /><br />

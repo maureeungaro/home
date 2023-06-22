@@ -12,7 +12,6 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 Selected Papers:
 
 <table>
- 
 	{% for paper in site.data.selected_papers %}
 		<tr>
             <td> <a href="{{ paper.inspire }}"> {{ paper.title }}</a> </td>

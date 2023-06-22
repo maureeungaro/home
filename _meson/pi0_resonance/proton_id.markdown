@@ -19,12 +19,7 @@ The cuts are sector-dependent.
 
 
 
-
-
-
-## PDFs:
-
-- <a href= "{{ "/proton_pid.pdf"  | prepend: site.mauriPubs }}"> Proton Identification </a>
+- <a href= "{{ "/proton_pid.pdf"  | prepend: site.mauriPubs }}"> Proton Identification PDF chapter</a>
 
 <br/>
 
@@ -38,7 +33,7 @@ ___
 
 
 <div style="margin-top:10px;">
-     <iframe width="130%" height="700" src="https://userweb.jlab.org/~ungaro/plots/ppid/cuts.html"   frameborder="0" ></iframe>
+     <iframe width="130%" height="700" src="{{ "/ppid"  | prepend: site.mauriPlotsUrl }}/cuts.html"   frameborder="0" ></iframe>
 </div>
 
 <br/>
@@ -48,6 +43,6 @@ ___
 <br/>
 
 <div style="margin-top:10px;">
-     <iframe width="130%" height="700" src="https://userweb.jlab.org/~ungaro/plots/ppid/slices.html"  frameborder="0" ></iframe>
+     <iframe width="130%" height="700" src="{{ "/ppid"  | prepend: site.mauriPlotsUrl }}/slices.html"  frameborder="0" ></iframe>
 </div>
 

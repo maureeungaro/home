@@ -22,9 +22,8 @@ A selection on the electron and proton z-vertexes and their differences is appli
 
 
 
-## PDFs:
 
-- <a href= "{{ "/vertex.pdf"  | prepend: site.mauriPubs }}"> Vertex Correction and Cut </a>
+- <a href= "{{ "/vertex.pdf"  | prepend: site.mauriPubsPDFUrl }}"> Vertex Correction and Cut PDF chapter</a>
 
 <br/>
 
@@ -35,8 +34,8 @@ ___
 
 ### Vertex Plots:
 
-<img src="{{ "/vertex"  | prepend: site.mauriPlotsUrl }}/main/vtx_all_sector.png" />
+<img src="{{ "/vertex"  | prepend: site.mauriPlotsUrl }}/vtx_all_sector.png" />
 
 <br/>
 
-<img src="{{ "/vertex"  | prepend: site.mauriPlotsUrl }}/main/vtx_2D_all_sector.png" />
+<img src="{{ "/vertex"  | prepend: site.mauriPlotsUrl }}/vtx_2D_all_sector.png" />

@@ -17,9 +17,34 @@ The {{ site.gms }} form factor and multipoles ratios {{ site.rem }} = {{ site.e1
 resonance production are extracted using both a truncated multipoles analysis and the JANR unitary isobar model. 
 
 
+--- 
 
 
 
+
+<br/>
+
+
+## Related theoretical models
+
+
+<br/>
+
+___
+
+<br/>
+
+
+## Related publications
+
+<table>
+	{% for paper in site.data.pi0_delta_related_publications %}
+		<tr>
+            <td> {{ paper.author }} </td>
+            <td> <a href="{{ paper.link }}"> {{ paper.title }}</a> </td>
+        </tr>
+	{% endfor %}
+</table>
 
 
 

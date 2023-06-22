@@ -14,9 +14,7 @@ The purpose of this study is to select a fiducial region for electrons.
 
 
 
-## PDFs:
-
-- <a href= "{{ "/electron_pid.pdf"  | prepend: site.mauriPubs }}"> Electron Identification </a>
+- <a href= "{{ "/electron_fiducial.pdf"  | prepend: site.mauriPubsPDFUrl }}"> Electron Fiducial Cut PDF section </a>
 
 <br/>
 

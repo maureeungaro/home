@@ -84,8 +84,9 @@ s1p: "S<sub>1+</sub>"
 rsm: "R<sub>SM</sub>"
 gms: "G<sub>M</sub><sup>*</sup>"
 
-
-mauriPlotsUrl: 'https://raw.githubusercontent.com/MauriPlots'
-mauriPubs: 'https://raw.githubusercontent.com/maureeungaro/pubs/585b32bd516546e14de489a8b4178a2e24b6764f/pdfs'
+# synced by crontab on jlabl4 every 30 minutes
+mauriPlotsUrl: 'https://userweb.jlab.org/~ungaro/plots'
+mauriPubsPDFUrl: 'https://userweb.jlab.org/~ungaro/pubs/pdfs'
+mauriSlicesUrl: 'https://userweb.jlab.org/~ungaro/slices'
 
 
