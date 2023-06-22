@@ -23,7 +23,7 @@ title: Home
 author: Maurizio Ungaro
 email: ungaro@jlab.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Maurizio Ungaro is a researcher at Jefferson Lab
+  Maurizio Ungaro is a researcher at Jefferson Lab 
 
 baseurl: /home # the subpath of your site, e.g. /blog - this is important cause of the file feed.xml
 domain: maureeungaro.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
@@ -32,7 +32,6 @@ url: "https://maureeungaro.github.io" # the base hostname & protocol for your si
 twitter_username: maurizio_ungaro
 github_username:  maureeungaro
 
-asd: "https://maureeungaro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
@@ -68,7 +67,6 @@ collections:
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
 
-
 pi: "&pi;"
 pi0: "&pi;<sup>0</sup>"
 pim: "&pi;<sup>-</sup>"
@@ -79,6 +77,13 @@ gev2: "GeV<sup>2</sup>"
 rarr: "&rarr;"
 delta: "&Delta;"
 deltaM: "&Delta;(1232)"
+rem: "R<sub>EM</sub>"
+e1p: "E<sub>1+</sub>"
+m1p: "M<sub>1+</sub>"
+s1p: "S<sub>1+</sub>"
+rsm: "R<sub>SM</sub>"
+gms: "G<sub>M</sub><sup>*</sup>"
+
 
 mauriPlotsUrl: 'https://raw.githubusercontent.com/MauriPlots'
 mauriPubs: 'https://raw.githubusercontent.com/maureeungaro/pubs/585b32bd516546e14de489a8b4178a2e24b6764f/pdfs'

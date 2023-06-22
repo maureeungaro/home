@@ -15,6 +15,9 @@ in the first and second resonance regions at Jefferson Lab in the
 
 The c.m. differential cross sections and beam spin asymmetries are measured.
 
+This measurement is an extension of the
+[ {{ site.pi0 }} electro-production at high {{ site.q2 }} in the Delta resonance region analysis](../pi0_delta)
+
 <br/>
 
 ___

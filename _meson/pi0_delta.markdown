@@ -6,11 +6,20 @@ layout: default
 
 
 We report the analysis of exclusive single {{ site.pi0 }} electro-production in the 
-{{site.deltaM}} resonance region at Jefferson Lab in the {{ site.q2 }} 
+{{ site.deltaM }} resonance region at Jefferson Lab in the {{ site.q2 }} 
 range {{ site.rarr }} 6 {{ site.gev2 }}. 
 
 {{ site.pi0 }} c.m. angular distributions are obtained over the entire 4{{site.pi}} 
 c.m. solid angle. 
 The c.m. differential cross section is measured.
-The GM*, REM = E1+/ M1+ and RSM = S1+/ M1+ multipoles for the Δ 
-resonance production are extracted using both a truncated multipoles analysis and
+The {{ site.gms }} form factor and multipoles ratios {{ site.rem }} = {{ site.e1p }} / {{ site.m1p }} and {{ site.rsm }} = {{ site.s1p }} / {{ site.m1p }} 
+ for the {{ site.deltaM }}
+resonance production are extracted using both a truncated multipoles analysis and the JANR unitary isobar model. 
+
+
+
+
+
+
+
+

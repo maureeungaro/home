@@ -4,7 +4,6 @@
 
 #### plots and slides are updated on jlabl4 by the cronjob `update_mauriplots_jlabl4`
 
-`/home/ungaro/bin/update_www.sh`
 
 ## To install [jekyll](https://jekyllrb.com):
 
