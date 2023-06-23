@@ -39,8 +39,9 @@ Check the [quickstart](https://jekyllrb.com).
 
 ## ICONS
 
-https://feathericons.com
-https://realfavicongenerator.net
+https://feathericons.com (need download to use)<br/>
+
+https://www.w3schools.com/charsets/ref_utf_arrows.asp
 
 
 ## GH-PAGES

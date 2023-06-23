@@ -50,8 +50,6 @@ exclude:
 collections:
   meson:
     output: true
-  meson/pi0_resonance:
-    output: true
   showcase:
     output: true
   gemc:

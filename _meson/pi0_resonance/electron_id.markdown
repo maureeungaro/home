@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance)
+## [ &#8672;  Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region ](pi0_resonance)
 
 # Electron Identification
 
@@ -22,7 +22,7 @@ The track is also required to have hit matches in CC, DC, EC and SC and to be ti
 
 
 
-- <a href= "{{ "/electron_pid.pdf"  | prepend: site.mauriPubs }}"> Electron Identification PDF chapter</a>
+- <a href= "{{ "/electron_pid.pdf"  | prepend: site.mauriPubsPDFUrl }}"> Electron Identification PDF chapter</a>
 
 <br/>
 

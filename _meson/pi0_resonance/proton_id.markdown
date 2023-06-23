@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance)
+## [ &#8672;  Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region ](pi0_resonance)
 
 # Proton Identification
 
@@ -19,7 +19,7 @@ The cuts are sector-dependent.
 
 
 
-- <a href= "{{ "/proton_pid.pdf"  | prepend: site.mauriPubs }}"> Proton Identification PDF chapter</a>
+- <a href= "{{ "/proton_pid.pdf"  | prepend: site.mauriPubsPDFUrl }}"> Proton Identification PDF chapter</a>
 
 <br/>
 
