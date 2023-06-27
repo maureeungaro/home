@@ -35,7 +35,7 @@ pi0_resonance_note:        "https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0.pdf"
 <br/>
 
 
-## [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance/pi0_resonance)
+# [{{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region](pi0_resonance/pi0_resonance)
 
 We report the analysis of exclusive single {{ site.pi0 }} electro-production in the first and second resonance regions at Jefferson Lab in the {{ site.q2 }} range 2.15 {{ site.rarr }} 6 {{ site.gev2 }}. <br/>
 {{ site.pi0 }} angular distributions are obtained over the entire 4{{ site.pi }} center of mass solid angle. 
@@ -54,7 +54,7 @@ The c.m. differential cross sections are measured.<br/>
 
 <br/>
 
-##  [ {{ site.pi0 }} electro-production at high {{ site.q2 }} in the {{ site.deltaM }} resonance region](pi0_delta/pi0_delta)
+#  [ {{ site.pi0 }} electro-production at high {{ site.q2 }} in the {{ site.deltaM }} resonance region](pi0_delta/pi0_delta)
 
 We report the analysis of exclusive single {{ site.pi0 }} electro-production in the {{ site.deltaM }} resonance region at Jefferson Lab in the {{ site.q2 }} range 2.4 {{ site.rarr }} 6 {{ site.gev2 }}.<br/>
 {{ site.pi0 }} c.m. angular distributions are obtained over the entire 4{{site.pi}} c.m. solid angle and the c.m. differential cross section is measured.<br/>
