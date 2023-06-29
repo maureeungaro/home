@@ -4,7 +4,7 @@ pi0_resonance_note:  "https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0.pdf"
 
 ---
 
-### [ &#8673; Single meson electro-production at high {{ site.q2 }} with CLAS ](../meson)
+## [ &#8673; Single meson electro-production at high {{ site.q2 }} with CLAS ](../meson)
 
 
 

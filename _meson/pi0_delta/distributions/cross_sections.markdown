@@ -4,7 +4,7 @@ layout: default
 
 
 
-## [ &#8672; Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the {{ site.deltaM }} resonance region ](../../pi0_delta)
+## [ &#8673; Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the {{ site.deltaM }} resonance region ](../pi0_delta)
 
 
 ## Cross Sections Angular distributions, ϕ* fits

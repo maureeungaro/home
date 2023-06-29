@@ -21,7 +21,7 @@ archiveLink:          "http://arxiv.org/pdf/hep-ex/0606042"
 anoteLink:            "https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0_delta.pdf"
 ---
 
-### [ &#8673; Single meson electro-production at high {{ site.q2 }} with CLAS ](../meson)
+## [ &#8673; Single meson electro-production at high {{ site.q2 }} with CLAS ](../meson)
 
 # Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the Delta resonance region
 

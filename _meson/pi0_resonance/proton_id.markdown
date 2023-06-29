@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## [ &#8672;  Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region ](pi0_resonance)
+## [ &#8673;  Single {{ site.pi0 }} electro-production at high {{ site.q2 }} in the first and second resonance region ](pi0_resonance)
 
 # Proton Identification
 
