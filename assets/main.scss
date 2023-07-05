@@ -4,13 +4,14 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-  min-width: 70%;
+  min-width: 80%;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   font-size: 1.35rem;
   text-rendering: optimizeLegibility;
+  min-width: 800px;
 }
 
 table th {

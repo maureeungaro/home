@@ -145,7 +145,6 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 <td>
 <p style="color:#333;font-weight:400;font-size:16px"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp </p>
 </td>
-
 <td>
 <p style="color:#333;font-weight:400;font-size:16px">English, Italian</p>
 </td>
@@ -153,19 +152,25 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 </tr>
 </table>
 
+<br/><br/>
+
+<div class="colored_band">
+
+<br/><br/><br/>
+
+<img src="assets/images/home/quote1.png"/> 
+
+
+<br/><br/><br/>
+</div>
 
 
 [mauri]: assets/images/home/mauri.png
-
 [gscholar]: assets/images/home/google-scholar.png
-
 [github]: assets/images/home/github.png
-
 [inspire]: assets/images/home/inspire.png
-
 [degree]: assets/images/home/degree.png
-
-
 [code]: assets/images/home/code.png
 [software]: assets/images/home/software.png
 [languages]: assets/images/home/languages.png
+[quote1]: assets/images/home/quote1.png
