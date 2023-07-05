@@ -11,7 +11,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 Selected Papers:
 
-<table>
+<table class="alternate">
 	{% for paper in site.data.selected_papers %}
 		<tr>
             <td> <a href="{{ paper.inspire }}"> {{ paper.title }}</a> </td>
@@ -31,7 +31,7 @@ A list of all Mauri's research papers can be found at [Mauri's profile on Inspir
 
 Selected Presentations:
 
-<table>
+<table class="alternate">
 	{% for presentation in site.data.meson_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -75,7 +75,7 @@ A list of all meson electro-production presentations can be found at [mauri's me
 
 # Low Threshold Cherenkov Counter (LTCC)
 
-<table>
+<table class="alternate">
 	{% for presentation in site.data.ltcc_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -118,7 +118,7 @@ A list of all the ltcc presentations can be found at [mauri's ltcc presentations
 
 # GEMC
 
-<table>
+<table class="alternate">
 	{% for presentation in site.data.gemc_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -162,7 +162,7 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 
 # Open Science Grid
 
-<table>
+<table class="alternate">
 	{% for presentation in site.data.osg_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>

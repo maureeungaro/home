@@ -50,10 +50,11 @@ The {{ site.gms }} form factor and multipoles ratios {{ site.rem }} = {{ site.e1
 
 
 
-| Distributions                                                                 | 
-|-------------------------------------------------------------------------------|
-| [Experimental Cross Sections](distributions/cross_sections)                   | 
-| ----------------------------------------------------------------------        | 
+| Distributions                                                          | 
+|------------------------------------------------------------------------|
+| [Experimental Cross Sections](distributions/cross_sections)            | 
+| [Theoretical Cross Sections](distributions/theo_cross_sections)        | 
+| ---------------------------------------------------------------------- | 
 
 
 
@@ -92,7 +93,7 @@ ___
 
 ## Related publications
 
-<table>
+<table class="alternate">
 	{% for paper in site.data.pi0_delta_related_publications %}
 		<tr>
             <td> {{ paper.author }} </td>

@@ -5,7 +5,7 @@ permalink: /showcase/ltcc
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---
 
-<table>
+<table class="alternate">
 	{% for presentation in site.data.ltcc_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>

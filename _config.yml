@@ -23,10 +23,10 @@ title: Home
 author: Maurizio Ungaro
 email: ungaro@jlab.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Maurizio Ungaro is a researcher at Jefferson Lab 
+    Mauri
 
-baseurl: /home # the subpath of your site, e.g. /blog - this is important cause of the file feed.xml
-domain: maureeungaro.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+baseurl: /home                        # the subpath of your site, e.g. /blog - this is important cause of the file feed.xml
+domain: maureeungaro.github.io        # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: "https://maureeungaro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: maurizio_ungaro
@@ -35,6 +35,7 @@ github_username:  maureeungaro
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
 

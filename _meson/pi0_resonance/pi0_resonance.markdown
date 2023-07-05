@@ -74,7 +74,7 @@ ___
 
 ## Related publications
 
-<table>
+<table class="alternate">
 	{% for paper in site.data.pi0_resonance_related_publications %}
 		<tr>
             <td> {{ paper.author }} </td>

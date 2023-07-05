@@ -2,6 +2,17 @@
 
 `bundle exec jekyll serve`
 
+If the gemfile is changed, need to run bundle:
+`bundle`
+
+
+If the config yaml is changed, (for example update theme), need to update the bundle:
+
+`bundle update`
+
+
+
+
 #### plots and slides are updated on jlabl4 by the cronjob `update_mauriplots_jlabl4`
 
 
@@ -30,16 +41,18 @@ brew install chruby ruby-install
 Check the [quickstart](https://jekyllrb.com).
 
 
-## [Minima](https://github.com/jekyll/minima#readme) Motes
+## Theme [Minima](https://github.com/jekyll/minima#readme) notes
 
 - The tab order is given by the filename, so you can prepend `a_` etc.
-- See 'layouts' for the 4 choices
+- Fonts: https://fonts.google.com
 
 
 
-## ICONS
+## ICONS and html symbols
 
 https://feathericons.com (need download to use)<br/>
+
+https://icons8.com
 
 https://www.w3schools.com/charsets/ref_utf_arrows.asp
 

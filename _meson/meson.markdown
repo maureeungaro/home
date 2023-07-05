@@ -1,6 +1,7 @@
 ---
 # Table: add first row (3 |) for autoformatting
 layout: default
+title: "Meson Physics"
 
 c1:  "The Form Factor G<sub>M</sub><sup>*</sup>/3G<sub>D</sub>."
 c2:  "The filled red squares are from the current CLAS experiment utilizing the Unitary Isobar Model (UIM). "
