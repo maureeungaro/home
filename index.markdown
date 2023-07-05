@@ -25,9 +25,8 @@ form factors and dressed quark mass (see for example the [N → Δ(1232) transit
 and the [meson electro-production at high Q<sup>2</sup>](meson/meson) analyses). <br/><br/>
 I worked on the Refurbishment, Operation / Maintenance / Calibration of the<br/> 
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
-I also work on the [GEMC](https://gemc.github.io/home/)  simulation framework and the<br/>
-[CLAS12 Geant4 simulations](https://github.com/gemc/clas12Tags), including large [submissions](https://gemc.jlab.org/web_interface/index.php) to the<br/>
-[Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
+I also work on the [GEMC](https://gemc.github.io/home/)  simulation framework and the [CLAS12 Geant4 simulations](https://github.com/gemc/clas12Tags), <br/> 
+including [web submissions](https://gemc.jlab.org/web_interface/index.php) to the [Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of supporting <br/>
 its development.<br/><br/>"
 
@@ -59,7 +58,7 @@ interest: "{::nomarkdown}
 <img src=\"assets/images/home/degree.png\" width=30px/> PhD in Nuclear Physics     <br/>
 <span style=\"color:#888888;font-weight:300;font-size:18px\">Rensselaer Polytechnic Institute, Troy, NY, USA, 2003</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> Laurea in Fisica <br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\">Università degli studi di Genova, Italy, 1999</span><br/>
+<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#88bb88;\" href=\"https://www.difi.unige.it/it\">Università degli studi di Genova</a>, Italy, 1999</span><br/>
 </td>
 </tr>
 </table>{:/}
@@ -140,10 +139,10 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 </tr>
 <tr>
 <td>
-<p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github CI, Docker, environment-modules, HTCondor, cmake, scons, Fortran, excel, PHP, javascript, html, markdown</p>
+<p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github CI, Docker, environment-modules, HTCondor, cmake, scons, Fortran, PHP, javascript, html, markdown</p>
 </td>
 <td>
-<p style="color:#333;font-weight:400;font-size:16px"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp </p>
+<p style="color:#333;font-weight:400;font-size:16px"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp, Excel, Powerpoint, Keynote, Numbers  </p>
 </td>
 <td>
 <p style="color:#333;font-weight:400;font-size:16px">English, Italian</p>
