@@ -65,6 +65,8 @@ interest: "{::nomarkdown}
 </table>{:/}
 "
 
+p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
+
 ---
 
 |                                                      |                                                       |
@@ -76,7 +78,9 @@ interest: "{::nomarkdown}
 
 <br/><br/><br/>
 
-<span style="color:#444;font-weight:400;font-size:38px">Recent and Upcoming talks</span>
+<p style="text-align:center">
+<span style="color:#444;font-weight:300;font-size:54px">Recent and Upcoming talks</span>
+</p>
 <br/><br/><br/>
 <table class="alternate">
 	{% for presentation in site.data.recent_and_upcoming_presentations %}
@@ -113,10 +117,42 @@ interest: "{::nomarkdown}
 
         </tr>
 	{% endfor %}
+
 </table>
 <br/><br/><br/>
 
 </div>
+
+
+<br/><br/><br/>
+
+<p style="text-align:center">
+<span style="color:#444;font-weight:300;font-size:54px;">Skills</span>
+</p>    
+<br/><br/>
+
+
+<table style="text-align:center;">
+<tr>
+<th style="width: 30%"><img src="assets/images/home/code.png">      <br/>Programming</th>
+<th style="width: 30%"><img src="assets/images/home/software.png">  <br/>Software</th>
+<th style="width: 30%"><img src="assets/images/home/languages.png"> <br/>Languages</th>
+</tr>
+<tr>
+<td>
+<p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github CI, Docker, environment-modules, HTCondor, cmake, scons, Fortran, excel, PHP, javascript, html, markdown</p>
+</td>
+<td>
+<p style="color:#333;font-weight:400;font-size:16px"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp </p>
+</td>
+
+<td>
+<p style="color:#333;font-weight:400;font-size:16px">English, Italian</p>
+</td>
+
+</tr>
+</table>
+
 
 
 [mauri]: assets/images/home/mauri.png
@@ -128,3 +164,8 @@ interest: "{::nomarkdown}
 [inspire]: assets/images/home/inspire.png
 
 [degree]: assets/images/home/degree.png
+
+
+[code]: assets/images/home/code.png
+[software]: assets/images/home/software.png
+[languages]: assets/images/home/languages.png
