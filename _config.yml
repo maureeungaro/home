@@ -63,6 +63,10 @@ collections:
     output: true
   clas12Tags:
     output: true
+  posts:
+    output: true
+  blog_cats:
+    output: true
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
 

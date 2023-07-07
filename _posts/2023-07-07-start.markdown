@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Mauri's Blog Launch"
+date:   2023-07-07
+categories: personal
+---
+
+Managed with some tricks to have a blog in my github.io page with a button group to select the category of the posts.
+
+Added my twitter feed:
+
+<a class="twitter-timeline" href="https://twitter.com/maurizio_ungaro">Tweets by Mauri</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## General posts hints:
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.

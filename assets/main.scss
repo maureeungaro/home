@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
-  font-size: 1.35rem;
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-size: 1.3rem;
   text-rendering: optimizeLegibility;
   min-width: 800px;
 }
@@ -105,4 +105,10 @@ a.page-link:hover {
 
 .zoomIcon:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+button:focus {
+  color: #00419b;
+  outline: 2px solid #2a7ae2;
 }

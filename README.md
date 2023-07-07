@@ -12,7 +12,6 @@ If the config yaml is changed, (for example update theme), need to update the bu
 
 
 
-
 #### plots and slides are updated on jlabl4 by the cronjob `update_mauriplots_jlabl4`
 
 
