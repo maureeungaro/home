@@ -13,7 +13,8 @@ mauri: "
 [Jefferson Laboratory](https://www.jlab.org) <br/>[Experimental Hall-B](https://www.jlab.org/physics/hall-b)<br/><br/>
 <a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> &nbsp;
 <a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"/>   </a> &nbsp;
-<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\"/>  </a>
+<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\"/>  </a> &nbsp;
+<a href=\"https://twitter.com/maurizio_ungaro\"                          target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/twitter.png\"/>  </a>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>"
 
 abtme: "<span style=\"color:#222222;font-weight:500;font-size:2.5rem; font-family: Montserrat,sans-serif; \">About Me</span> <br/>"
@@ -52,13 +53,13 @@ interest: "{::nomarkdown}
 </td>
 <td>
 <img src=\"assets/images/home/physics.png\" width=30px/> Staff Scientist<br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\">Jefferson Laboratory, VA, USA, 2011-present</span><br/><br/>
+<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.jlab.org\">Jefferson Laboratory</a>, VA, USA, 2011-present</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> <img src=\"assets/images/home/physics.png\" width=30px/> Post-Doc and Research Associate<br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\">University of Connecticut, USA, 2004-2011</span><br/><br/>
+<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.uconn.edu\">University of Connecticut</a>, USA, 2004-2011</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> PhD in Nuclear Physics     <br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\">Rensselaer Polytechnic Institute, Troy, NY, USA, 2003</span><br/><br/>
+<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.rpi.edu\">Rensselaer Polytechnic Institute</a>, Troy, NY, USA, 2003</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> Laurea in Fisica <br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#88bb88;\" href=\"https://www.difi.unige.it/it\">Università degli studi di Genova</a>, Italy, 1999</span><br/>
+<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.difi.unige.it/it\">Università degli studi di Genova</a>, Italy, 1999</span><br/>
 </td>
 </tr>
 </table>{:/}
