@@ -30,7 +30,7 @@ table td {
 }
 
 .alternate tr:nth-child(odd) td {
-  background: #fafafa;
+  background: #f8fafa;
 }
 
 // remove footer altogether
@@ -86,11 +86,10 @@ a.page-link:hover {
 .colored_band {
   box-shadow: inset 0 0 0 1000px rgba(240, 240, 240, 0.65);
   //border: 2px solid #777;
-  padding-left: 100%;
-  padding-right: 100%;
-  margin-left: -100%;
-  margin-right: -100%;
-
+  padding-left: 30%;
+  padding-right: 12%;
+  margin-left: -30%;
+  margin-right: -12%;
 }
 
 // icon should be 60px
@@ -107,6 +106,11 @@ a.page-link:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+
+img:hover {
+  background-color: #ececec;
+  outline: 1px solid #41a4ea;
+}
 
 button:focus {
   color: #00419b;

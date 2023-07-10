@@ -3,25 +3,38 @@
 layout: default
 title: "Meson Physics"
 
-c1:  "The Form Factor G<sub>M</sub><sup>*</sup>/3G<sub>D</sub>."
-c2:  "The filled red squares are from the current CLAS experiment utilizing the Unitary Isobar Model (UIM). "
-c3:  "The errors shown are statistical, while estimated systematic errors are shown as gray bars at "
-c4:  "the bottom of the graph. Also shown are selected earlier published results. "
-c5:  "The filled triangles correspond to a recent analysis of previous CLAS data and the filled circles arefrom an earlier JLab Hall C experiment."
+c1:  "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"../assets/images/pi0/gmstar.png\"
+border=\"0px\" width=\"650px\" height=\"650px\"/></a><br/> 
+The Form Factor G<sub>M</sub><sup>*</sup>/3G<sub>D</sub>.<br/>
+The filled red squares are from the current CLAS experiment utilizing the Unitary <br/>
+Isobar Model (UIM).  The errors shown are statistical, while estimated systematic <br/>
+errors are shown as gray bars at  the bottom of the graph. Also shown are selected <br/> 
+earlier published results. The filled triangles correspond to a recent analysis of <br/>
+previous CLAS data and the filled circles arefrom an earlier JLab Hall C experiment."
 
 
-d1: "The ratios R<sub>EM</sub> (upper panel) and R<sub>SM</sub> (lower panel). The filled red squares are from the current CLAS experiment"
-d2: "utilizing the UIM. The errors shown are statistical, while estimated systematic"
-d3: "errors are shown as gray bars at the bottom of the graph. Also shown are selected earlier published results. "
-d4: "The filled triangles correspond to a recent analysis of previous CLAS data and the filled circles are from an earlier ]Lab Hall C experiment."
 
-a1: "We report the analysis of exclusive single &pi;<sup>0</sup> electro-production in the  &Delta;(1232) resonance region at Jefferson Lab in the Q<sup>2</sup> range 2 &rarr; 6 GeV<sup>2</sup>.<br/>"
+d1: "<h1> Main Results</h1> <br/>
+The ratios R<sub>EM</sub> (upper panel) and R<sub>SM</sub> (lower panel). <br/>
+The filled red squares are from the current CLAS <br/>
+experiment utilizing the UIM.  <br/>
+The errors shown are statistical, while  estimated  <br/>
+systematic errors are shown as gray bars at the <br/>
+bottom of the graph. <br/>
+Also shown are selected earlier published results. <br/>
+The filled triangles correspond to a recent analysis  <br/>
+of previous CLAS data and the filled circles are   <br/>
+from an earlier ]Lab Hall C experiment."
+
+
 
 
 multipoles_ratiosImg:      "../assets/images/pi0/multipoles_ratios.png"
-multipoles_ratiosImgf:      "../assets/images/pi0/multipoles_ratios_fixedw.png"
 lpt_structure_functionImg: "../assets/images/pi0/q2-3.00_sf-LPT_runningvar-ctheta.png"
-pi0_resonance_note:        "https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0.pdf"
+
+
+ratios: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"../assets/images/pi0/multipoles_ratios.png\"
+border=\"0px\" width=\"750px\" height=\"950px\"/></a><br/> "
 
 ---
 
@@ -42,40 +55,69 @@ We report the analysis of exclusive single {{ site.pi0 }} electro-production in 
 {{ site.pi0 }} angular distributions are obtained over the entire 4{{ site.pi }} center of mass solid angle. 
 The c.m. differential cross sections are measured.<br/>
 
-|:--------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-|     [Current analysis note]( {{page.pi0_resonance_note}} )     |                                      Main Result                                      |
-| :------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
-|                   The LPT structure function                   |          [![gemc][lpt_structure_functionImg]]( pi0_resonance/pi0_resonance )          |
-| :------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
 
+<table class="alternate">
+<tr> 
+<td> <a href="https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0.pdf">Current Analysis Note</a> </td>
+</tr>
+</table>
+
+|                                  |                                                                                       |
+|:--------------------------------:|:-------------------------------------------------------------------------------------:|
+|    The LPT structure function    |          [![gemc][lpt_structure_functionImg]]( pi0_resonance/pi0_resonance )          |
+| :------------------------------: | :-----------------------------------------------------------------------------------: |
+
+
+<br/><br/>
+
+---
+
+<br/>
+
+<div class="colored_band">
+
+<br/><br/>
+
+<h1><a href="pi0_delta/pi0_delta">{{ site.pi0 }} electro-production at high {{ site.q2 }} in the {{ site.deltaM }} resonance region</a></h1>
+
+
+We report the analysis of exclusive single {{ site.pi0 }} electro-production in the {{ site.deltaM }} 
+resonance region at Jefferson Lab in the {{ site.q2 }} range 2.4 {{ site.rarr }} 6 {{ site.gev2 }}.<br/>
+{{ site.pi0 }} c.m. angular distributions are obtained over the entire 4{{site.pi}} c.m. 
+solid angle and the c.m. differential cross section is measured.<br/>
+The {{ site.gms }} form factor and multipoles ratios 
+{{ site.rem }} = {{ site.e1p }} / {{ site.m1p }} and {{ site.rsm }} = {{ site.s1p }} / {{ site.m1p }}  
+for the {{ site.deltaM }} resonance production are extracted using both a truncated multipoles 
+analysis and the JANR unitary isobar model. 
+
+<br/><br/>
+
+<table class="alternate">
+<tr> 
+<td> PRL Paper <a href="https://inspirehep.net/literature/719584">(inSPIRE)</a>  <a href="https://arxiv.org/pdf/hep-ex/0606042.pdf">(arxiv pdf)</a></td>
+<td> <a href="https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0_delta.pdf">Analysis Note</a> </td>
+</tr>
+</table>
+
+<br/><br/>
+<table class="alternate">
+		<tr>
+            <td> {{ page.d1 }} </td>
+            <td> {{ page.ratios }} </td>
+        </tr>
+
+</table>
+<br/><br/><br/>
+
+</div>
 
 <br/>
 
 ---
 
-<br/>
-
-#  [ {{ site.pi0 }} electro-production at high {{ site.q2 }} in the {{ site.deltaM }} resonance region](pi0_delta/pi0_delta)
-
-We report the analysis of exclusive single {{ site.pi0 }} electro-production in the {{ site.deltaM }} resonance region at Jefferson Lab in the {{ site.q2 }} range 2.4 {{ site.rarr }} 6 {{ site.gev2 }}.<br/>
-{{ site.pi0 }} c.m. angular distributions are obtained over the entire 4{{site.pi}} c.m. solid angle and the c.m. differential cross section is measured.<br/>
-The {{ site.gms }} form factor and multipoles ratios {{ site.rem }} = {{ site.e1p }} / {{ site.m1p }} and {{ site.rsm }} = {{ site.s1p }} / {{ site.m1p }}  for the {{ site.deltaM }} resonance production are extracted using both a truncated multipoles analysis and the JANR unitary isobar model. 
-
-|:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-|           [PRL Paper](https://inspirehep.net/literature/719584)           |                          Main Result                                                  |
-|      :------------------------------------------------------------:       | :-----------------------------------------------------------------------------------: |
-|    {{ page.d1 }} {{ page.d2 }} {{ page.d3 }} {{ page.d4 }}                |                 [![gemc][multipoles_ratiosImg]](pi0_delta/pi0_delta)                  |
-|      :------------------------------------------------------------:       | :-----------------------------------------------------------------------------------: |
 
 
 
-
-
-<br/>
-
----
-
-<br/>
 
 
 [lpt_structure_functionImg]: {{ page.lpt_structure_functionImg }}

@@ -16,7 +16,7 @@ d4: "The filled triangles correspond to a recent analysis of previous CLAS data 
 
 gmstarImg:            "../../assets/images/pi0/gmstar.png"
 multipoles_ratiosImg: "../../assets/images/pi0/multipoles_ratios.png"
-pdfPaperLink:         "https://userweb.jlab.org/~ungaro/pubs/pdfs/e1_prl.pdf"
+inspireLink:         "https://inspirehep.net/literature/719584"
 archiveLink:          "http://arxiv.org/pdf/hep-ex/0606042"
 anoteLink:            "https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0_delta.pdf"
 ---
@@ -42,11 +42,11 @@ The {{ site.gms }} form factor and multipoles ratios {{ site.rem }} = {{ site.e1
 <br/>
 
 
-| Documents                                                                     |
-|-------------------------------------------------------------------------------|
-| PRL Paper [(pdf)]({{page.pdfPaperLink}}) [(arxiv)]({{page.archiveLink}})      |
-| [Analysis Note]({{page.anoteLink}})                                           |
-| ----------------------------------------------------------------------------- |
+| Documents                                                                        |
+|----------------------------------------------------------------------------------|
+| PRL Paper [(inSPIRE)]({{page.inspireLink}}) [(arxiv pdf)]({{page.archiveLink}}) |
+| [Analysis Note]({{page.anoteLink}})                                              |
+| -----------------------------------------------------------------------------    |
 
 
 

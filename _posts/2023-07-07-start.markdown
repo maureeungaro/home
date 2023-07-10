@@ -9,7 +9,7 @@ Managed with some tricks to have a blog in my github.io page with a button group
 
 Added my twitter feed - just for fun. 
 
-<a class="twitter-timeline" href="https://twitter.com/maurizio_ungaro">Tweets by Mauri</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/maurizio_ungaro?ref_src=twsrc%5Etfw">Tweets by maurizio_ungaro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## General posts hints:
 
