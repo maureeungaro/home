@@ -9,15 +9,16 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 # GEMC Simulation Framework
 
-GEMC is a turn-key database-driven Monte Carlo simulation program  based on C++ and Geant4.<br/>
+GEMC (**GE**ant **M**onte-**C**arlo) is a database-driven Monte Carlo simulation program based on Geant4.<br/>
 
-The goal is to create and run realistic setups w/o programming knowledge, in particular:
-- no need to write/compile the code
-- no need to know C++ or Geant4
-- Turnkey executable provides out of  the box:
-    - Multi-threads handling
-    - Pre-defined digitizations such as flux and dosimeter
-    - Built-in text and ROOT output
+The goal is have a turn-key program that allows
+to create and run realistic setups w/o programming knowledge, in particular:
+- No need to write/compile the code
+- No need to know C++ or Geant4
+- Automatic handling of multi-threads handling of events and hit collection
+- Pre-defined digitization such as `flux` and `dosimeter`
+- Built-in `text` and `ROOT` output
+
 
 ## [Homepage](https://gemc.github.io/home/)
 

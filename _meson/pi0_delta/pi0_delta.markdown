@@ -31,46 +31,63 @@ anoteLink:            "https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0_delta.pdf"
 
 <br/>
 
-We report the analysis of exclusive single {{ site.pi0 }} electro-production in the {{ site.deltaM }} resonance region at Jefferson Lab in the {{ site.q2 }} range 2.4 {{ site.rarr }} 6 {{ site.gev2 }}.<br/>
-{{ site.pi0 }} c.m. angular distributions are obtained over the entire 4{{site.pi}} c.m. solid angle and the c.m. differential cross section is measured.<br/>
-The {{ site.gms }} form factor and multipoles ratios {{ site.rem }} = {{ site.e1p }} / {{ site.m1p }} and {{ site.rsm }} = {{ site.s1p }} / {{ site.m1p }}  for the {{ site.deltaM }} resonance production are extracted using both a truncated multipoles analysis and the JANR unitary isobar model. 
+
+We report the analysis of exclusive single {{ site.pi0 }} electro-production in the {{ site.deltaM }} 
+resonance region at Jefferson Lab in the {{ site.q2 }} range 2.4 {{ site.rarr }} 6 {{ site.gev2 }}.
+{{ site.pi0 }} c.m. angular distributions are obtained over the entire 4{{site.pi}} c.m. 
+solid angle and the c.m. differential cross section is measured.<br/>
+The {{ site.gms }} form factor and multipoles ratios 
+{{ site.rem }} = {{ site.e1p }} / {{ site.m1p }} and {{ site.rsm }} = {{ site.s1p }} / {{ site.m1p }}  
+for the {{ site.deltaM }} resonance production are extracted using both a truncated multipoles 
+analysis and the JANR unitary isobar model. 
 
 <br/>
 
----
+<table class="alternate">
+<tr> 
+<td> PRL Paper <a href="https://inspirehep.net/literature/719584">(inSPIRE)</a>  <a href="https://arxiv.org/pdf/hep-ex/0606042.pdf">(arxiv pdf)</a></td>
+<td> <a href="https://userweb.jlab.org/~ungaro/pubs/pdfs/pi0_delta.pdf">Analysis Note</a> </td>
+</tr>
+</table>
 
 <br/>
 
 
-| Documents                                                                        |
-|----------------------------------------------------------------------------------|
-| PRL Paper [(inSPIRE)]({{page.inspireLink}}) [(arxiv pdf)]({{page.archiveLink}}) |
-| [Analysis Note]({{page.anoteLink}})                                              |
-| -----------------------------------------------------------------------------    |
+
+<div class="colored_band">
+
+<br/><br/>
+
+<h2> Distributions </h2>
+
+<table class="alternate">
+<tr> 
+<td> <a href="distributions/cross_sections">Experimental Cross Sections</a> </td>
+<td> <a href="distributions/theo_cross_sections">Theoretical Cross Sections</a> </td>
+</tr>
+<tr> 
+<td> <a href="distributions/structure_functions">Structure Functions</a> </td>
+<td> <a href="distributions/legendre_coefficients">Legendre Coefficients</a> </td>
+</tr>
+</table>
 
 
+<br/><br/><br/>
 
-| Distributions                                                          | 
-|------------------------------------------------------------------------|
-| [Experimental Cross Sections](distributions/cross_sections)            | 
-| [Theoretical Cross Sections](distributions/theo_cross_sections)        | 
-| ---------------------------------------------------------------------- | 
-
-
+</div>
 
 <br/>
-
 ---
 
 <br/>
 
 ### Main Results:
 
-|                                                                        |                                                                                 |
-|------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [![pi0][gmstarImg]]({{page.gmstarImg}})                                | [![gemc][multipoles_ratiosImg]]({{page.multipoles_ratiosImg}})                  |
-| {{ page.c1 }} {{ page.c2 }} {{ page.c3 }} {{ page.c4 }} {{ page.c5 }}  | {{ page.d1 }} {{ page.d2 }} {{ page.d3 }} {{ page.d4 }}                         |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+|                                                                         |     |                                                                                |
+|:------------------------------------------------------------------------|-----| ---------------------------------------------------------------------------------|
+| [![pi0][gmstarImg]]({{page.gmstarImg}})                                 |     | [![gemc][multipoles_ratiosImg]]({{page.multipoles_ratiosImg}})                  |
+| {{ page.c1 }} {{ page.c2 }} {{ page.c3 }} {{ page.c4 }} {{ page.c5 }}   |     | {{ page.d1 }} {{ page.d2 }} {{ page.d3 }} {{ page.d4 }}                         |
+| ----------------------------------------------------------------------  | --- | ------------------------------------------------------------------------------- |
 
 
 <br/>
