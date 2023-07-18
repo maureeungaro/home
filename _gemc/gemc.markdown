@@ -2,7 +2,6 @@
 layout: default
 title: "GEMC"
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
-
 ---
 
 <br/>

@@ -1,18 +1,19 @@
-_---
+---
 layout: default
 title: Software
 permalink: /Software/
 ---
 
-gemc
-gemc3
-docker
-osg
-geant4
-ceInstall
-scons
-dc_eff
-c++ cherenkov calib
-V4
-muevent
-htmlBrowserCreator
+A collection of 
+ 
+<table class="alternate">
+	{% for code in site.data.software %}
+		<tr>
+            <td> <a href="{{ code.name }}" > {{ code.name }} </a> </td>
+            <td> <img src="{{ code.image }}"> </td>
+            <td> {{ code.description }} </td>
+        </tr>
+	{% endfor %}
+
+</table>
+<br/><br/><br/>

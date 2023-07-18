@@ -1,0 +1,48 @@
+- name: "gemc2"
+  image: "assets/images/software/gemc2.png"
+  description: "The original GEMC, written in C++"
+
+- name: "gemc3"
+  image: "assets/images/software/gemc3.png"
+  description: "The new GEMC, written in C++"
+
+- name: "osg_web_interface"
+  image: "assets/images/software/osg_web_interface.png"
+  description: "The OSG web interface"
+
+- name: "geant4"
+  image: "assets/images/software/geant4.png"
+  description: "The Geant4 Monte Carlo"
+
+- name: "clas12Tags"
+  image: "assets/images/software/clas12Tags.png"
+  description: "The CLAS12 Tags"
+
+- name: "scons"
+  image: "assets/images/software/scons.png"
+  description: "The SCons build system"
+
+- name: "dc_eff"
+  image: "dc_eff"
+  description: "The DC Efficiency"
+
+- name: "V4"
+  image: "assets/images/software/V4.png"
+  description: "The V4 Detector"
+
+- name: "muevent"
+  image: "assets/images/software/muevent.png"
+  description: "The MUEVENT Generator"
+
+- name: "htmlBrowserCreator"
+  image: "assets/images/software/htmlBrowserCreator.png"
+  description: "The HTML Browser Creator"
+
+- name: "ceInstall"
+  image: "assets/images/software/ceInstall.png"
+  description: "The CE Install"
+
+- name: "docker"
+  image: "assets/images/software/docker.png"
+  description: "The Docker Container"
+
