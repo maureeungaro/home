@@ -3,7 +3,7 @@
 layout: default
 title: "Meson Physics"
 
-d1: "<h1> Main Results</h1> <br/>
+d1: "<h1> Main Result</h1> <br/>
 The ratios R<sub>EM</sub> (upper panel) and R<sub>SM</sub> (lower panel). <br/>
 The filled red squares are from the current CLAS <br/>
 experiment utilizing the UIM.  <br/>
@@ -13,11 +13,25 @@ bottom of the graph. <br/>
 Also shown are selected earlier published results. <br/>
 The filled triangles correspond to a recent analysis  <br/>
 of previous CLAS data and the filled circles are   <br/>
-from an earlier ]Lab Hall C experiment."
+from an earlier ]Lab Hall C experiment.
+
+<br/><br/>
+
+<h2> Bottom Line</h2> 
+R<sub>EM</sub>  is small and negative, while  R<sub>SM</sub> remains negative and increases in magnitude.
+These results confirm the absence of pQCD scaling at these kinematics and suggest large helicity non-conservation.
+
+<br/><br/>
+
+<h2> ELI5</h2> 
+
+At these energies, we cannot use pQCD to describe the &Delta;(1232) resonance: the contributions
+from quark and gluons interactions is just too strong, and unknown!<br/>
+"
 
 
-ratios: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"../assets/images/pi0/multipoles_ratios.png\"
-border=\"0px\" width=\"650px\" /></a><br/> "
+ratios: "<br/><a href=\"pi0_delta/pi0_delta\"><img src=\"../assets/images/pi0/multipoles_ratios.png\"
+border=\"0px\" /></a><br/> "
 
 pi0_resonance_current_status: "
 This analysis was resumed in 2022.  <br/>
@@ -52,7 +66,7 @@ Upcoming:<br/>
 "
 
 status_image: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"https://userweb.jlab.org/~ungaro/plots/efid/img/plane-DC2_intsector-2.png\"
-border=\"0px\" width=\"750px\" /></a><br/> "
+border=\"0px\"  /></a><br/> "
 
 
 ---
@@ -75,7 +89,7 @@ border=\"0px\" width=\"750px\" /></a><br/> "
 <br/>
 <table class="alternate">
 		<tr>
-            <td> {{ page.pi0_resonance_current_status }} </td>
+            <td style="width: 50%"> {{ page.pi0_resonance_current_status }} </td>
             <td> {{ page.status_image }} </td>
         </tr>
 
@@ -99,7 +113,7 @@ border=\"0px\" width=\"750px\" /></a><br/> "
 <br/><br/>
 <table class="alternate">
 		<tr>
-            <td> {{ page.d1 }} </td>
+            <td  style="width: 50%; padding: 8%;"> {{ page.d1 }} </td>
             <td> {{ page.ratios }} </td>
         </tr>
 

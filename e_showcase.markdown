@@ -5,11 +5,52 @@ permalink: /Showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---
 
-# Papers
+<br/>
+
+# Recent and Upcoming talks
+
+<table class="alternate">
+	{% for presentation in site.data.recent_and_upcoming_presentations %}
+		<tr>
+            <td> {{ presentation.title }} </td>
+
+                {% if presentation.pdf == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                {% elsif presentation.pdf == "no_animation" %}
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                 {% else %}
+                    <td> na </td>
+                {% endif %}
+
+                {% if presentation.key == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"  target="_blank"> key </a> </td>
+                {% else %}
+                    <td> na </td>
+                {% endif %}
+
+                {% if presentation.pptx == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
+                {% else %}
+                    <td> na </td>
+                {% endif %}
+
+                 {% if presentation.occasion_url == "NA" %}
+                    <td>{{presentation.occasion}} </td>
+                {% else %}
+                     <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
+                {% endif %}
+
+            <td> {{presentation.date}} </td>
+
+        </tr>
+	{% endfor %}
+
+</table>
+<br/><br/>
 
 
 
-Selected Papers:
+# Selected Papers
 
 <table class="alternate">
 	{% for paper in site.data.selected_papers %}
@@ -24,7 +65,7 @@ Selected Papers:
 
 A list of all Mauri's research papers can be found at [Mauri's profile on Inspire](https://inspirehep.net/authors/1322331){:target="_blank"}
 
-<br/>
+<br/><br/>
 
 
 # Meson Electro-production Presentations
@@ -71,7 +112,7 @@ Selected Presentations:
 A list of all meson electro-production presentations can be found at [mauri's meson electro-production presentations](/home/showcase/meson).
 
 
-<br/>
+<br/><br/>
 
 # Low Threshold Cherenkov Counter (LTCC)
 
@@ -114,7 +155,7 @@ A list of all meson electro-production presentations can be found at [mauri's me
 
 A list of all the ltcc presentations can be found at [mauri's ltcc presentations](/home/showcase/ltcc).
 
-<br/>
+<br/><br/>
 
 # GEMC
 
@@ -157,7 +198,7 @@ A list of all the ltcc presentations can be found at [mauri's ltcc presentations
 
 A list of all the gemc presentations can be found at [mauri's gemc presentations](/home/showcase/gemc).
 
-<br/>
+<br/><br/>
 
 
 # Open Science Grid
@@ -200,7 +241,7 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 </table>
 
 
-<br/>
+<br/><br/>
 
 # CLAS/CLAS12 Technical Notes
 
