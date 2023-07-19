@@ -1,48 +1,73 @@
 - name: "gemc2"
+  link: "gemc2"
   image: "assets/images/software/gemc2.png"
-  description: "The original GEMC, written in C++"
+  description: "The original GEMC, a c++ framework that uses geant4 to simulate 
+  the passage of particles through matter. "
 
 - name: "gemc3"
+  link: "gemc3"
   image: "assets/images/software/gemc3.png"
-  description: "The new GEMC, written in C++"
+  description: "The new GEMC, entirely database-driven, 
+  with a python API to build detectors and plugin mechanism for 
+  custom user digitization."
 
-- name: "osg_web_interface"
+- name: "Open Science Grid Simulation Portal"
+  link: "osg"
   image: "assets/images/software/osg_web_interface.png"
-  description: "The OSG web interface"
+  description: "The Open Science Grid (OSG) portal includes the web 
+  interface and back-end software to store jobs on a mysql database
+  and submit them to OSG using HTCondor."
 
-- name: "geant4"
+- name: "Geant4 Validation at JLAB's regime"
+  link: "geant4"
   image: "assets/images/software/geant4.png"
-  description: "The Geant4 Monte Carlo"
+  description: "The Geant4 Monte Carlo validation suite at JLAB's energies"
 
-- name: "clas12Tags"
+- name: "Clas12Tags"
+  link: "clas12Tags"
   image: "assets/images/software/clas12Tags.png"
-  description: "The CLAS12 Tags"
+  description: "The CLAS12 Tags is a version of gemc 
+  dedicated to the JLab CLAS12 experiments that includes derived code 
+  and CLAS12 geometry. The repository is tagged with the CLAS12 version"
 
-- name: "scons"
+- name: "scons build system"
+  link: "scons"
   image: "assets/images/software/scons.png"
-  description: "The SCons build system"
+  description: "The SCons build system provide supports for building 
+  applications using clhep, geant4, xercesc, mysql, root, etc."
 
-- name: "dc_eff"
-  image: "dc_eff"
-  description: "The DC Efficiency"
+- name: "dc eff efficiency"
+  link: "dc_eff"
+  image: "assets/images/software/dc_eff.png"
+  description: "The DC Efficiency is a  algorithm to account for 
+  CLAS Drift Chambers inefficiencies to provide a realistic GSIM simulation. "
 
-- name: "V4"
+- name: "V4 library"
+  link: "v4"
   image: "assets/images/software/V4.png"
-  description: "The V4 Detector"
+  description: "A c++ class for three- and four-vectors operations. 
+  It uses the CHEP library and add some functionality."
 
-- name: "muevent"
+- name: "muevent library"
+  link: "muevent"
   image: "assets/images/software/muevent.png"
-  description: "The MUEVENT Generator"
+  description: "The MUEVENT  Library provides binary I/O to CLAS data.
+  I used this for my CLAS analysis."
 
-- name: "htmlBrowserCreator"
+- name: "htmlBrowserCreator program"
+  link: "htmlBrowserCreator"
   image: "assets/images/software/htmlBrowserCreator.png"
-  description: "The HTML Browser Creator"
+  description: "The HTML Browser Creator creates a web page with
+  an hoverable tables aimed at displaying multiple images."
 
 - name: "ceInstall"
+  link: "ceInstall"
   image: "assets/images/software/ceInstall.png"
-  description: "The CE Install"
+  description: "Modules environment and installation of geant4 simulation software,
+  gemc2, gemc3, clas12Tags."
 
-- name: "docker"
+- name: "docker images"
+  link: "docker"
   image: "assets/images/software/docker.png"
-  description: "The Docker Container"
+  description: "The Docker Container images I maintain for geant4, gemc, clas12 geometry, latex"
 

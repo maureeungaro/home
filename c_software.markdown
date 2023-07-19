@@ -4,14 +4,13 @@ title: Software
 permalink: /Software/
 ---
 
-A collection of 
+
  
 <table class="alternate">
 	{% for code in site.data.software %}
-		<tr>
-            <td> <a href="{{ code.name }}" > {{ code.name }} </a> </td>
-            <td> <img src="{{ code.image }}"> </td>
-            <td> {{ code.description }} </td>
+		<tr >
+            <td style="width: 200px" > <a href="{{ code.link }}"><img src="../{{ code.image }}" > </a></td>
+            <td> <a href="{{ code.link }}" > {{ code.name }} </a> <br/><br/>  {{ code.description }} </td>
         </tr>
 	{% endfor %}
 
