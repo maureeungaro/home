@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "docker"
+permalink: /software/docker
 ---
 
 A collection of docker image I'm using for my research.

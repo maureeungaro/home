@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Showcase
-permalink: /Showcase/
+permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---
 

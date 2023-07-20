@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-permalink: /Projects/
+permalink: /projects/
 
 pi0: "<br/><a href=\"../meson/meson\"><img src=\"../assets/images/home/formFactor.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>

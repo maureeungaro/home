@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: /Blog/
+permalink: /blog/
 ---
 
 # Mauri's Blog
