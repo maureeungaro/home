@@ -69,6 +69,7 @@ collections:
     output: true
   software:
     output: true
+
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
 
 pi: "&pi;"

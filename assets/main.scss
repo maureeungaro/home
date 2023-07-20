@@ -9,10 +9,15 @@
 
 body {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-rendering: optimizeLegibility;
-  min-width: 800px;
+  //min-width: 800px;
+  margin:0px;
+  width:100vw;
+  height:100vh;
+  overflow:auto;
 }
+
 
 table th {
   background-color: #fdfdfd;

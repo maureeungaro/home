@@ -8,12 +8,12 @@
 layout: default
 
 mauri: "
-<img src=\"assets/images/home/mauri.png\"/><br/><br/>
-<span style=\"color:#222222;font-weight:200;font-size:32px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:26px\">Staff Scientist</span><br/>
+<img src=\"assets/images/home/mauri.png\" style=\"width: 50%\"/><br/><br/>
+<span style=\"color:#222222;font-weight:200;font-size:30px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:26px\">Staff Scientist</span><br/>
 [Jefferson Laboratory](https://www.jlab.org) <br/>[Experimental Hall-B](https://www.jlab.org/physics/hall-b)<br/><br/>
-<a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> &nbsp;
-<a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"/>   </a> &nbsp;
-<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\"/>  </a> &nbsp;
+<a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> 
+<a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"/>   </a> 
+<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\"/>  </a> 
 <a href=\"https://twitter.com/maurizio_ungaro\"                          target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/twitter.png\"/>  </a>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>"
 
