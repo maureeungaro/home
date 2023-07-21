@@ -41,7 +41,7 @@ to the latest version of ROOT, and write <br/>
 the analysis note. <br/><br/>
 
 Completed parts, included in the analysis note: <br/>
-<i>(u=updated, p=done previously, processing update)</i><br/><br/>
+<i>(u=updated, p=done previously and processing update)</i><br/><br/>
 
 <ul>
 <li> [u] electron, proton identification</li>

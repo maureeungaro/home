@@ -4,16 +4,25 @@ title: "docker"
 permalink: /software/docker
 ---
 
-A collection of docker image I'm using for my research.
+<br/> <br/> 
+
+A collection of docker images used in my research.
+
+<br/> <br/> 
 
 ## Usage:
+
+<br/> 
 
 batch mode: `docker run -it --rm container_name bash`
 
 interactive (browser): `docker run -it --rm -p 8080:8080 container_name`
 
+<br/> 
+
 - If running on MacOs, use the additional flag: `--platform linux/amd64`
-- To mount a local directory: `-v /local/path:/container/path`
+- To mount a local directors, use the additional flag: `-v /local/path:/container/path`
+
 
 {% assign groups = "" | split: ' ' %}
 {% for container in site.data.docker_containers %}

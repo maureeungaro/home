@@ -8,8 +8,8 @@
 layout: default
 
 mauri: "
-<img src=\"assets/images/home/mauri.png\" style=\"width: 50%\"/><br/><br/>
-<span style=\"color:#222222;font-weight:200;font-size:30px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:26px\">Staff Scientist</span><br/>
+<img src=\"assets/images/home/mauri.png\" style=\"width: 60%\"/><br/><br/>
+<span style=\"color:#222222;font-weight:200;font-size:30px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:24px\">Staff Scientist</span><br/><br/>
 [Jefferson Laboratory](https://www.jlab.org) <br/>[Experimental Hall-B](https://www.jlab.org/physics/hall-b)<br/><br/>
 <a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> 
 <a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"/>   </a> 
