@@ -1,13 +1,18 @@
 - name: "jeffersonlab/base:fedora36"
   group: "Base"
   hub_link: "https://hub.docker.com/repository/docker/jeffersonlab/base/general"
-  description: "Fedora 36 base image for simulations. Includes gcc, cmake, git, python3, etc."
+  description: "Fedora 36 base image for simulations. Includes root, gcc, cmake, git, python3, etc"
+
+- name: "jeffersonlab/base:ubuntu22"
+  group: "Base"
+  hub_link: "https://hub.docker.com/repository/docker/jeffersonlab/base/general"
+  description: "Ubuntu 22 base image for simulations. Includes root, gcc, cmake, git, python3, etc"
 
 - name: "maureeungaro/base:fedora36-latex"
   group: "Base"
   hub_link: "https://hub.docker.com/repository/docker/maureeungaro/base/general"
   description: "Fedora 36 base image used for latex. Include modern fonts and styles. 
-  Used in github actions to build pdfs."
+  Used in github actions to build pdfs"
 
 
 - name: "jeffersonlab/cvmfs:fedora36"
@@ -47,7 +52,17 @@
 - name: "jeffersonlab/gemc:2.11-fedora36"
   group: "Gemc"
   hub_link: "https://hub.docker.com/repository/docker/jeffersonlab/gemc/general"
-  description: "Fedora 36 base image containing gemc version 2.11. Includes geant4 version 10.7.4."
+  description: "Fedora 36 base image containing gemc version 2.11. Includes geant4 version 10.7.4"
+
+- name: "jeffersonlab/gemc:4.4.2-5.1-5.2-5.3-fedora36-cvmfs"
+  group: "Gemc"
+  hub_link: "https://hub.docker.com/repository/docker/jeffersonlab/gemc/general"
+  description: "Fedora 36 base image containing clas12Tags versions 5.5.2, 5.1, 5.2, 5.3. 
+  Includes geant4 version 10.6.2. Install directory is /cvmfs/oasis.opensciencegrid.org/jlab/hallb/clas12/soft"
+
+
+
+
 
 - name: "jeffersonlab/gemc3:1.1-fedora36"
   group: "Gemc3"
