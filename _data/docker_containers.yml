@@ -49,6 +49,13 @@
   xercesc and qt libraries"
 
 
+- name: "jeffersonlab/sim:10.6.2-ubuntu22"
+  group: "Sim"
+  hub_link: "https://hub.docker.com/repository/docker/jeffersonlab/sim/general"
+  description: "Ubuntu 22 base image containing geant4 version 10.6.2. Includes CLHEP, 
+  xercesc and qt libraries"
+
+
 - name: "jeffersonlab/gemc:2.11-fedora36"
   group: "Gemc"
   hub_link: "https://hub.docker.com/repository/docker/jeffersonlab/gemc/general"
