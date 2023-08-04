@@ -15,7 +15,7 @@ This page load the csv and plot all the data in the chart on top, and the indivi
 <script src="/home/assets/hchart.js"></script>
 
 <div>
-    <input type="file" accept=".csv" onchange="readCSVFile()" value="test.csv" onload="readCSVFile()"/>
+    <input type="file" accept=".csv" onchange="readCSVFile()"  onload="readCSVFile()"/>
     <p class="content"></p>
 </div>
 
@@ -104,20 +104,22 @@ function plot_data_for_column(column, data) {
 	if (data == null) {
 		return "No data";
 	}
-	// return the column data
+	// remove dollar sign from data
+	data = data.replace(/\$/g, '');
+	
 	
 	var lines = data.split('\n');
 	var column_data = [];
 	for (var i = 0; i < lines.length; i++) {
 		var line = lines[i].split(',');
+		
+
 		column_data.push(line[column]);
 	}
 	return column_data.slice(1);
 }
 
 function addDataToChart(cid, title, xdata, ydata) {
-
-
 	
 	container = "#container" + cid;
  	
@@ -165,6 +167,7 @@ function update(title, data) {
 
 	chart.setTitle({text: 'All Data in one plots'});
 	chart.setSubtitle({text: ''});
+    chart.yAxis[0].setTitle({text: ''});
 
 	numbers_of_plots = countPlots(data);
 

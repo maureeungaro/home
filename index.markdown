@@ -141,7 +141,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
     <th style="width: 25%"><img src="assets/images/home/languages.png"/> <br/>Languages</th>
 </tr>
 <tr>
-    <td><p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github CI, Docker, Environment-modules, HTCondor, CMake, SCons, Fortran, PHP, Javascript, Html, CSS, Markdown</p></td>
+    <td><p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github CI, Docker, Environment-modules, HTCondor, CMake, SCons, Fortran, PHP, Javascript, Highchart, Html, CSS, Markdown</p></td>
     <td></td>
     <td><p style="color:#333;font-weight:400;font-size:18px; font-family: Avenir"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp, Excel, Powerpoint, Keynote, Numbers  </p></td>
     <td></td>
