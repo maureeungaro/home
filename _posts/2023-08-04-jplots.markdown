@@ -11,7 +11,7 @@ This page load the csv and plot all the data in the chart on top, and the indivi
 
 <br/>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="/home/assets/jq.js"></script>
 <script src="/home/assets/hchart.js"></script>
 
 <div>
