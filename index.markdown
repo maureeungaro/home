@@ -14,7 +14,6 @@ mauri: "
 <a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> 
 <a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"/>   </a> 
 <a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\"/>  </a> 
-<a href=\"https://twitter.com/maurizio_ungaro\"                          target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/twitter.png\"/>  </a>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>"
 
 abtme: "<span style=\"color:#222222;font-weight:500;font-size:2.5rem; font-family: Montserrat,sans-serif; \">About Me</span> <br/>"
