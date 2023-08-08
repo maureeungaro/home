@@ -160,11 +160,14 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 	<br/><br/><br/>
 
 	<ul id="light-slider">
-    	<li data-thumb="assets/images/controls_forward.png">
+    	<li data-thumb="assets/images/empty.png">
 			<img src="assets/images/home/quote1.png"/> 
     	</li>
-    	<li data-thumb="assets/images/controls_backward.png">
-			<a href="/home/software/charts">Chart CSV displayer<br/><img src="assets/images/software/charts_big.png"/> </a>
+    	<li data-thumb="assets/images/empty.png">
+			<a href="/home/software/charts">Chart CSV displayer<br/><img src="assets/images/software/charts_big.png" height="550px" width="100%"/> </a>
+    	</li>
+    	<li data-thumb="assets/images/empty.png">
+			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" height="550px" width="100%"/> </a>
     	</li>
 	</ul>
 
