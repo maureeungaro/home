@@ -151,14 +151,45 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 <br/>
 
 
+<link type="text/css" rel="stylesheet" href="/home/assets/lightslider.css" />
+<script src="/home/assets/jq.js"></script>
+<script src="/home/assets/lightslider.js"></script>
 
 
 <div class="colored_band">
-<br/><br/><br/>
-<img src="assets/images/home/quote1.png"/> 
-<br/><br/><br/>
+	<br/><br/><br/>
+
+	<ul id="light-slider">
+    	<li data-thumb="assets/images/controls_forward.png">
+			<img src="assets/images/home/quote1.png"/> 
+    	</li>
+    	<li data-thumb="assets/images/controls_backward.png">
+			<a href="/home/software/charts">Chart CSV displayer<br/><img src="assets/images/software/charts_big.png"/> </a>
+    	</li>
+	</ul>
+
 </div>
 
+<script type="text/javascript">
+    $(document).ready(function() {
+            $('#light-slider').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:2,
+                slideMargin: 1,
+                speed:500,
+		        pause: 5000,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#light-slider').removeClass('cS-hidden');
+                }  
+		});
+});
+</script>
+
+<br/><br/><br/>
+<br/><br/><br/>
 
 [mauri]: assets/images/home/mauri.png
 [gscholar]: assets/images/home/google-scholar.png
