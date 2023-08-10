@@ -23,9 +23,9 @@ My research is focused on the internal structure and dynamics of the nucleon, <b
 in particular the physics beyond the constituent quark model and the link between <br/>
 form factors and dressed quark mass (see for example the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta)<br/>
 and the [meson electro-production at high Q<sup>2</sup>](meson/meson) analyses). <br/><br/>
-I worked on the Refurbishment, Operation / Maintenance / Calibration of the<br/> 
+I work on the Refurbishment, Operation / Maintenance / Calibration of the<br/> 
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
-I also work on the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simulations](clas12Tags/clas12Tags),  <br/>
+I am developing the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simulations](clas12Tags/clas12Tags),  <br/>
 including [web submissions](osg/osg) to the [Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of supporting <br/>
 its development.<br/><br/>"
