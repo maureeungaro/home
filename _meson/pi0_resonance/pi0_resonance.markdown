@@ -51,7 +51,7 @@ This measurement is the extension to higher W of the
 </tr>
 <tr> 
 <td> <a href="electron_fid">Electron Fiducial Cut</a> </td>
-<td> <a href="">Proton Fiducial Cut</a> </td>
+<td> <a href="proton_fid">Proton Fiducial Cut</a> </td>
 </tr></table>
 
 

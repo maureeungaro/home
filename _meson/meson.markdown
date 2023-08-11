@@ -50,7 +50,7 @@ Completed parts, included in the analysis note: <br/>
 <li> [p] proton fiducial cuts</li>
 </ul>
 
-On the right is a picture of the electron fiducial cuts in the DC2 plane. <br/><br/>
+On the right is a picture of the proton fiducial cuts in the DC2 plane. <br/><br/>
 
 Upcoming:<br/> 
 <i>(y=done previously, n=not done)</i><br/><br/>
@@ -65,7 +65,7 @@ Upcoming:<br/>
  
 "
 
-status_image: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"https://userweb.jlab.org/~ungaro/plots/efid/img/plane-DC2_intsector-2.png\"
+status_image: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"https://userweb.jlab.org/~ungaro/plots/pfid/img/plane-DC2_intsector-2.png\"
 border=\"0px\"  /></a><br/> "
 
 
