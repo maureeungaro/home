@@ -84,6 +84,10 @@ analysis and the JANR unitary isobar model.
 <td> <a href="distributions/structure_functions">Structure Functions</a> </td>
 <td> <a href="distributions/legendre_coefficients">Legendre Coefficients</a> </td>
 </tr>
+<tr> 
+<td> <a href="distributions/multipoles">Multipoles</a> </td>
+<td> </td>
+</tr>
 </table>
 
 
