@@ -172,7 +172,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 <div>
 	<br/><br/><br/>
-	<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Merry-go-round</span></p>    
+	<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Galleria</span></p>    
 
 	<br/>
 	<ul id="light-slider">
