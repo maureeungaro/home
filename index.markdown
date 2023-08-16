@@ -12,9 +12,10 @@ mauri: "
 <span style=\"color:#222222;font-weight:200;font-size:30px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:24px\">Staff Scientist</span><br/><br/>
 [Jefferson Laboratory](https://www.jlab.org) <br/>[Experimental Hall-B](https://www.jlab.org/physics/hall-b)<br/><br/>
 <a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> 
-<a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"/>   </a> 
-<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\"/>  </a> 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>"
+<a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"  /> </a> 
+<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\" /> </a> 
+<a href=\"mailto:ungaro@jlab.org\"                                                    ><img class=\"zoomIcon\" src=\"assets/images/home/email.png\"   /> </a>
+<br/><br/><br/><br/><br/>"
 
 abtme: "<span style=\"color:#222222;font-weight:500;font-size:2.5rem; font-family: Montserrat,sans-serif; \">About Me</span> <br/>"
 
@@ -125,15 +126,13 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 <br/><br/>
 
-<p style="text-align:center">
-<span style="color:#444;font-weight:300;font-size:54px;">Skills</span>
-</p>    
+<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Skills</span></p>    
 <br/>
 
 
 <table style="text-align:center;">
 <tr>
-    <th style="width: 25%"><img src="assets/images/home/code.png"/>      <br/>Programming</th>
+    <th style="width: 25%"><img src="assets/images/home/code.png" alt="code"/>      <br/>Programming</th>
     <th></th>
     <th style="width: 25%"><img src="assets/images/home/software.png"/>  <br/>Software</th>
     <th></th>
@@ -150,14 +149,32 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 <br/>
 
 
+<div class="colored_band">
+	<br/>
+	<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Latest News</span></p>    
+	<br/><br/>
+	<table class="alternate">
+	{% for news in site.data.news %}
+		<tr>
+			<td> <a href="{{news.link}}"><img src="{{news.image}}" width="100px">&nbsp;&nbsp;&nbsp;{{news.title}}</a> </td>
+			<td> {{news.date}} </td>
+		</tr>
+	{% endfor %}
+	</table>
+	<br/><br/>
+</div>
+
+
+
 <link type="text/css" rel="stylesheet" href="/home/assets/lightslider.css" />
 <script src="/home/assets/jq.js"></script>
 <script src="/home/assets/lightslider.js"></script>
 
-
-<div class="colored_band">
+<div>
 	<br/><br/><br/>
+	<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Merry-go-round</span></p>    
 
+	<br/>
 	<ul id="light-slider">
     	<li data-thumb="assets/images/empty.png">
 			<img src="assets/images/home/quote1.png"/> 
@@ -169,7 +186,6 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" height="550px" width="100%"/> </a>
     	</li>
 	</ul>
-
 </div>
 
 <script type="text/javascript">
@@ -192,6 +208,8 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 <br/><br/><br/>
 <br/><br/><br/>
+
+
 
 [mauri]: assets/images/home/mauri.png
 [gscholar]: assets/images/home/google-scholar.png

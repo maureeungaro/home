@@ -44,14 +44,15 @@ This measurement is the extension to higher W of the
 <table class="alternate">
 <tr> 
 <td> <a href="electron_id">Electron Identification</a> </td>
-<td> <a href="proton_id">Proton Identification</a> </td>
+<td> <a href="proton_id">Proton Identification</a>     </td>
 </tr>
 <tr> 
-<td colspan="2"> <a href="vertex">Vertex Correction and Cut</a> </td>
+<td> <a href="vertex">Vertex Correction and Cut</a>    </td>
+<td> <a href="electron_fid">Electron Fiducial Cut</a>  </td>
 </tr>
 <tr> 
-<td> <a href="electron_fid">Electron Fiducial Cut</a> </td>
 <td> <a href="proton_fid">Proton Fiducial Cut</a> </td>
+<td/>
 </tr></table>
 
 

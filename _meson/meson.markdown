@@ -41,13 +41,14 @@ to the latest version of ROOT, and write <br/>
 the analysis note. <br/><br/>
 
 Completed parts, included in the analysis note: <br/>
-<i>(u=updated, p=done previously and processing update)</i><br/><br/>
+<i>(d=done updating, p=done previously and processing update)</i><br/><br/>
 
 <ul>
-<li> [u] electron, proton identification</li>
-<li> [u] vertex corrections</li>
-<li> [u] electron fiducial cuts</li>
-<li> [p] proton fiducial cuts</li>
+<li> [d] electron, proton identification</li>
+<li> [d] vertex corrections</li>
+<li> [d] electron fiducial cuts</li>
+<li> [d] proton fiducial cuts</li>
+<li> [p] Kinematic corrections</li>
 </ul>
 
 On the right is a picture of the proton fiducial cuts in the DC2 plane. <br/><br/>
@@ -56,7 +57,6 @@ Upcoming:<br/>
 <i>(y=done previously, n=not done)</i><br/><br/>
 
 <ul>
-<li> [y] Kinematic corrections</li>
 <li> [y] Pi0 identification</li>
 <li> [y] Acceptance correction</li>
 <li> [y] Phi fits</li>
