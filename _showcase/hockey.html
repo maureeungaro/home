@@ -44,11 +44,13 @@
 
         button {
             margin: 5px;
-            padding: 5px 10px;
+            padding: 10px 10px;
+            font-size: 36px; /* Adjust the font size as needed */
+
         }
 
         .thin-column {
-            width: 200px; /* Adjust the width as needed */
+            width: 140px; /* Adjust the width as needed */
         }
 
         .bar-container {
@@ -86,6 +88,8 @@
         h3 {
             text-align: center;
             font-size: 26px; /* Adjust the font size as needed */
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
+
         }
 
         #dateField {
@@ -93,10 +97,10 @@
             margin: 0 auto;
             text-align: center;
             font-size: 18px; /* Adjust the font size as needed */
-            background-color: rgba(181, 212, 191, 0.8); /* Adjust the color and transparency as needed */
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
             padding: 10px; /* Add padding to create some space around the input */
             border: 2px solid black;
-			
+
         }
 	
 	</style>
@@ -121,7 +125,7 @@
 <table>
 	<thead>
 	<tr>
-		<th>Player Name</th>
+		<th>Player</th>
 		<th class="thin-column"></th>
 		<th>Number of Shifts</th>
 	</tr>
@@ -130,8 +134,8 @@
 	<tr>
 		<td class="thin-column" contenteditable="true">Max Ungaro</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(1)">Add Shift</button>
-			<button onclick="decrementCounter(1)">Remove Shift</button>
+			<button onclick="incrementCounter(1)">+</button>
+			<button onclick="decrementCounter(1)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -143,8 +147,8 @@
 	<tr>
 		<td class="thin-column" contenteditable="true">Jaxon Fiammetta</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(2)">Add Shift</button>
-			<button onclick="decrementCounter(2)">Remove Shift</button>
+			<button onclick="incrementCounter(2)">+</button>
+			<button onclick="decrementCounter(2)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -156,8 +160,8 @@
 	<tr>
 		<td class="thin-column" contenteditable="true">Walker Teague</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(3)">Add Shift</button>
-			<button onclick="decrementCounter(3)">Remove Shift</button>
+			<button onclick="incrementCounter(3)">+</button>
+			<button onclick="decrementCounter(3)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -169,8 +173,8 @@
 	<tr>
 		<td contenteditable="true">Armand Teague</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(4)">Add Shift</button>
-			<button onclick="decrementCounter(4)">Remove Shift</button>
+			<button onclick="incrementCounter(4)">+</button>
+			<button onclick="decrementCounter(4)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -182,8 +186,8 @@
 	<tr>
 		<td contenteditable="true">Noah Pringle</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(5)">Add Shift</button>
-			<button onclick="decrementCounter(5)">Remove Shift</button>
+			<button onclick="incrementCounter(5)">+</button>
+			<button onclick="decrementCounter(5)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -195,8 +199,8 @@
 	<tr>
 		<td contenteditable="true">Samuel Wolverton</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(6)">Add Shift</button>
-			<button onclick="decrementCounter(6)">Remove Shift</button>
+			<button onclick="incrementCounter(6)">+</button>
+			<button onclick="decrementCounter(6)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -208,8 +212,8 @@
 	<tr>
 		<td contenteditable="true">Connor Hunter</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(7)">Add Shift</button>
-			<button onclick="decrementCounter(7)">Remove Shift</button>
+			<button onclick="incrementCounter(7)">+</button>
+			<button onclick="decrementCounter(7)">-</button>
 		</td>
 		<td>
 			<div class="bar-wrapper">
@@ -221,8 +225,8 @@
 	<tr>
 		<td contenteditable="true">Tanner Bowen</td>
 		<td class="thin-column">
-			<button onclick="incrementCounter(8)">Add Shift</button>
-			<button onclick="decrementCounter(8)">Remove Shift</button>
+			<button onclick="incrementCounter(8)">+</button>
+			<button onclick="decrementCounter(8)">-</button>
 		</td>
 		
 		<td>
