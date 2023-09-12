@@ -1,0 +1,267 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Counter Bars</title>
+	<style>
+
+        body {
+            background-image: url('../assets/images/hockey/whaler.png'); /* Replace with the URL of your semi-transparent image */
+            background-repeat: no-repeat;
+        / / background-size: cover;
+            background-position: top center;
+            font-family: sans-serif;
+            color: #333;
+            opacity: 0.9;
+            background-color: rgba(181, 212, 191, 0.5); /* Adjust the color and transparency as needed */
+
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 10px auto;
+            background-color: rgba(255, 255, 255, 0.5); /* Table background color with transparency */
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+
+        .thin-column {
+            width: 200px; /* Adjust the width as needed */
+        }
+
+        .bar-container {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        .bar-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .bar-label {
+            min-width: 100px;
+        }
+
+        .bar {
+            height: 40px;
+            background-color: #bbd4bc;
+            margin-right: 10px;
+            transition: width 0.5s;
+        }
+
+        .counter-number {
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 46px; /* Adjust the font size as needed */
+
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 26px; /* Adjust the font size as needed */
+        }
+
+        #dateField {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 18px; /* Adjust the font size as needed */
+            background-color: rgba(181, 212, 191, 0.8); /* Adjust the color and transparency as needed */
+            padding: 10px; /* Add padding to create some space around the input */
+            border: 2px solid black;
+			
+        }
+	
+	</style>
+</head>
+<body>
+
+
+<h1>MITES B1</h1> <!-- Add the title here -->
+
+<h3>Hockey Rec League<br/>Shifts Counter</h3>
+
+<input type="text" id="dateField" name="dateField" value="" readonly>
+
+<script>
+    // Set the default value to today's date
+    const dateField = document.getElementById("dateField");
+    const today = new Date();
+    const formattedDate = today.toISOString().slice(0, 10); // Get YYYY-MM-DD format
+    dateField.value = formattedDate;
+</script>
+
+<table>
+	<thead>
+	<tr>
+		<th>Player Name</th>
+		<th class="thin-column"></th>
+		<th>Number of Shifts</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="thin-column" contenteditable="true">Max Ungaro</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(1)">Add Shift</button>
+			<button onclick="decrementCounter(1)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar1"></div>
+				<div class="counter-number" id="counter1">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="thin-column" contenteditable="true">Jaxon Fiammetta</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(2)">Add Shift</button>
+			<button onclick="decrementCounter(2)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar2"></div>
+				<div class="counter-number" id="counter2">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="thin-column" contenteditable="true">Walker Teague</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(3)">Add Shift</button>
+			<button onclick="decrementCounter(3)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar3"></div>
+				<div class="counter-number" id="counter3">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td contenteditable="true">Armand Teague</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(4)">Add Shift</button>
+			<button onclick="decrementCounter(4)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar4"></div>
+				<div class="counter-number" id="counter4">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td contenteditable="true">Noah Pringle</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(5)">Add Shift</button>
+			<button onclick="decrementCounter(5)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar5"></div>
+				<div class="counter-number" id="counter5">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td contenteditable="true">Samuel Wolverton</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(6)">Add Shift</button>
+			<button onclick="decrementCounter(6)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar6"></div>
+				<div class="counter-number" id="counter6">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td contenteditable="true">Connor Hunter</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(7)">Add Shift</button>
+			<button onclick="decrementCounter(7)">Remove Shift</button>
+		</td>
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar7"></div>
+				<div class="counter-number" id="counter7">0</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td contenteditable="true">Tanner Bowen</td>
+		<td class="thin-column">
+			<button onclick="incrementCounter(8)">Add Shift</button>
+			<button onclick="decrementCounter(8)">Remove Shift</button>
+		</td>
+		
+		<td>
+			<div class="bar-wrapper">
+				<div class="bar" id="bar8"></div>
+				<div class="counter-number" id="counter8">0</div>
+			</div>
+		</td>
+	</tr>
+	
+	
+	<!-- Add similar rows for Name 3 to Name 8 -->
+	</tbody>
+</table>
+
+<script>
+    function incrementCounter(index) {
+        const barElement = document.getElementById(`bar${index}`);
+        const counterElement = document.getElementById(`counter${index}`);
+        let counterValue = parseInt(counterElement.textContent) || 0;
+
+        if (counterValue < 100) {
+            counterValue++;
+            counterElement.textContent = counterValue;
+            barElement.style.width = `${counterValue * 5}%`;
+        }
+    }
+
+    function decrementCounter(index) {
+        const barElement = document.getElementById(`bar${index}`);
+        const counterElement = document.getElementById(`counter${index}`);
+        let counterValue = parseInt(counterElement.textContent) || 0;
+
+        if (counterValue > 0) {
+            counterValue--;
+            counterElement.textContent = counterValue;
+            barElement.style.width = `${counterValue * 5}%`;
+        }
+    }
+</script>
+</body>
+</html>

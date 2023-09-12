@@ -29,7 +29,10 @@ I work on the Refurbishment, Operation / Maintenance / Calibration of the<br/>
 I am developing the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simulations](clas12Tags/clas12Tags),  <br/>
 including [web submissions](osg/osg) to the [Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of supporting <br/>
-its development.<br/><br/>"
+its development.<br/><br/>
+In my free time I am learning to play [hockey](https://www.chilledponds.com), while watching and 
+[assisting](showcase/hockey) my son learning it much faster than me.
+<br/><br/>"
 
 
 
