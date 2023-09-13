@@ -15,3 +15,12 @@
   occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/724/"
   date: "July 2023"
+
+- title: "CLAS12 Open Science Grid portal upgrade"
+  filename: "/osg/full/osg_upgrade_sept_13"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "CLAS12 Software Meeting, Newport News, Virginia"
+  occasion_url: "https://clasweb.jlab.org/wiki/index.php/Agendas,_minutes,_notes_and_related_documents"
+  date: "Sept 2023"
