@@ -52,7 +52,7 @@ This measurement is the extension to higher W of the
 </tr>
 <tr> 
 <td> <a href="proton_fid">Proton Fiducial Cut</a> </td>
-<td/>
+<td> <a href="e_kin_corr">Electron Momentum Correction</a> </td>
 </tr></table>
 
 

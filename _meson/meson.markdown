@@ -48,16 +48,16 @@ Completed parts, included in the analysis note: <br/>
 <li> [d] vertex corrections</li>
 <li> [d] electron fiducial cuts</li>
 <li> [d] proton fiducial cuts</li>
-<li> [p] Kinematic corrections</li>
+<li> [d] Kinematic corrections</li>
+<li> [p] Pi0 identification</li>
 </ul>
 
-On the right is a picture of the proton fiducial cuts in the DC2 plane. <br/><br/>
+On the right is a picture of the π0 missing mass versus ϕ distribution before and after the kinematic corrections for sector 1 . <br/><br/>
 
 Upcoming:<br/> 
 <i>(y=done previously, n=not done)</i><br/><br/>
 
 <ul>
-<li> [y] Pi0 identification</li>
 <li> [y] Acceptance correction</li>
 <li> [y] Phi fits</li>
 <li> [y] Structure Functions Extraction</li>
@@ -65,7 +65,7 @@ Upcoming:<br/>
  
 "
 
-status_image: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"https://userweb.jlab.org/~ungaro/plots/pfid/img/plane-DC2_intsector-2.png\"
+status_image: "<br/><a href=\"pi0_resonance/pi0_resonance\"><img src=\"https://userweb.jlab.org/~ungaro/plots/e_kin_cor/img/dist-pi0vsPhi_sector-1.png\"
 border=\"0px\"  /></a><br/> "
 
 
