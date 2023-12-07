@@ -24,3 +24,12 @@
   occasion: "CLAS12 Software Meeting, Newport News, Virginia"
   occasion_url: "https://clasweb.jlab.org/wiki/index.php/Agendas,_minutes,_notes_and_related_documents"
   date: "Sept 2023"
+
+- title: "Geant4 Hadronic Physics Updates"
+  filename: "geant4/full/hadronic_physics_updates_space_workshop_dec_2023"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "Geant4 Space Users Workshop, Pasadena, California"
+  occasion_url: "https://indico.esa.int/event/477/"
+  date: "Dec 2023"
