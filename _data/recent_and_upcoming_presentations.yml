@@ -33,3 +33,12 @@
   occasion: "Geant4 Space Users Workshop, Pasadena, California"
   occasion_url: "https://indico.esa.int/event/477/"
   date: "Dec 2023"
+
+- title: "Run Dependent Simulations"
+  filename: "gemc/byContent/sqlite_db"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
+  occasion_url: "https://indico.jlab.org/event/829/"
+  date: "March 2024"
