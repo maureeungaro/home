@@ -189,6 +189,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" height="500px" width="90%"/></a>
     	</li>
 	</ul>
+
 </div>
 
 <script type="text/javascript">
@@ -213,13 +214,20 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 <br/><br/><br/>
 
 
-
 [mauri]: assets/images/home/mauri.png
+
 [gscholar]: assets/images/home/google-scholar.png
+
 [github]: assets/images/home/github.png
+
 [inspire]: assets/images/home/inspire.png
+
 [degree]: assets/images/home/degree.png
+
 [code]: assets/images/home/code.png
+
 [software]: assets/images/home/software.png
+
 [languages]: assets/images/home/languages.png
+
 [quote1]: assets/images/home/quote1.png
