@@ -32,13 +32,16 @@ url: "https://maureeungaro.github.io" # the base hostname & protocol for your si
 twitter_username: maurizio_ungaro
 github_username:  maureeungaro
 
-
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# the vendor directory is added to allow github pages build
 exclude:
    - .jekyll-cache/
    - .idea/
@@ -46,6 +49,11 @@ exclude:
    - Gemfile.lock
    - README.md
    - todo
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
 
 # this adds content to the website from the local dirs starting with _
 collections:
