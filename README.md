@@ -65,6 +65,15 @@ https://www.w3schools.com/charsets/ref_utf_arrows.asp
 
 ## GH-PAGES
 
+From repository:
+
+### Recommended: Settings > Pages 
+
+- Source: Github Actions. If new, accept standard yaml.
+This will create a  .github/workflows/jekyll.yml file.
+
+### In general (not recommended)
+
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 
 Remember to use the exact dependencies that are used on GitHub:
