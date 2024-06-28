@@ -2,17 +2,12 @@
 
 `bundle exec jekyll serve`
 
-If the gemfile is changed, need to run bundle:
-`bundle`
-
-
-If the config yaml is changed, (for example update theme), need to update the bundle:
-
-`bundle update`
+- If the gemfile is changed, need to run `bundle`
+- If the config yaml is changed, (for example update theme), need to update `bundle update`
 
 
 
-#### plots and slides are updated on jlabl4 by the cronjob `update_mauriplots_jlabl4` 
+#### Plots and slides are updated on jlabl4 by the cronjob `update_mauriplots_jlabl4` 
 in the `[pubs]` repo. to copy:
 
 ```
@@ -54,7 +49,7 @@ Check the [quickstart](https://jekyllrb.com).
 
 
 
-## ICONS and html symbols
+## Icons and html symbols
 
 https://feathericons.com (need download to use)<br/>
 
@@ -63,12 +58,11 @@ https://icons8.com
 https://www.w3schools.com/charsets/ref_utf_arrows.asp
 
 
-## GH-PAGES
+## GH-Pages
 
-From repository:
+### From repository:
 
-### Recommended: Settings > Pages 
-
+- Recommended: Settings > Pages
 - Source: Github Actions. If new, accept standard yaml.
 This will create a  .github/workflows/jekyll.yml file.
 
@@ -81,9 +75,6 @@ Remember to use the exact dependencies that are used on GitHub:
 https://pages.github.com/versions/
 
 
-## Modifying default Style
-
-Use a file assets/main.scss with the following content:
 
 
 # Twitter links:
@@ -91,15 +82,7 @@ Use a file assets/main.scss with the following content:
 Use https://publish.twitter.com/#
 
 
-```
----
----
 
-@import "{{ site.theme }}";
-
-<your settings here>
-
-```
 
 ## Adding Content
 
