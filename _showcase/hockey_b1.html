@@ -43,27 +43,27 @@
         }
 
         button {
-            margin: 0px;
+            margin: 0;
             padding: 5px;
-            font-size: 20px; /* Adjust the font size as needed */
-            width: 50px; /* Adjust the width as needed */
+            font-size: 18px; /* Adjust the font size as needed */
+            width: 100%; /* Make buttons full width of container */
             border: 1px solid black;
             text-align: center;
             border-radius: 2px;
         }
 
-        .thin-column {
-            width: 150px; /* Adjust the width as needed */
+        .player-column {
+            width: 40%; /* Set a fixed width for the player column */
         }
 
-        .thin-column button {
-            width: 70px; /* Adjust the width as needed */
-            font-size: 15px; /* Adjust the font size to match the new width */
+        .buttons-column {
+            width: 100px; /* Set a fixed width for the buttons column */
+            display: flex;
+            justify-content: space-around;
         }
 
-        .fixed-width {
-            width: 100%; /* Set to 100% for responsive width */
-            font-size: 16px; /* Adjust the font size as needed */
+        .counter-column {
+            width: 50%; /* Set a fixed width for the counter column */
         }
 
         .bar-container {
@@ -75,6 +75,7 @@
             display: flex;
             align-items: center;
             margin-bottom: 10px;
+            width: 100%;
         }
 
         .bar-label {
@@ -86,10 +87,13 @@
             background-color: #bbd4bc;
             margin-right: 10px;
             transition: width 0.5s;
+            flex-grow: 1; /* Allow bar to grow */
         }
 
         .counter-number {
             font-weight: bold;
+            width: 50px; /* Ensure consistent width */
+            text-align: center;
         }
 
         h1 {
@@ -136,17 +140,8 @@
             }
 
             button {
-                font-size: 16px;
-                width: 40px;
-            }
-
-            .thin-column {
-                width: 100px;
-            }
-
-            .thin-column button {
-                width: 50px;
                 font-size: 12px;
+                width: 100%;
             }
 
             h1 {
@@ -191,7 +186,7 @@
     const formattedDate = today.toISOString().slice(0, 10); // Get YYYY-MM-DD format
     dateField.value = formattedDate;
 
-	// List of players
+    // List of players
 	const players = [
 		"Tucker Brittain",
 		"Ethan Davidson",
@@ -215,14 +210,14 @@
         row.id = rowId;
 
         row.innerHTML = `
-            <td class="fixed-width">
+            <td class="player-column">
                 <button class="fixed-width" onclick="toggle_row(${index + 1})">${player}</button>
             </td>
-            <td class="thin-column">
+            <td class="buttons-column">
                 <button onclick="incrementCounter(${index + 1})">+</button>
                 <button onclick="decrementCounter(${index + 1})">-</button>
             </td>
-            <td>
+            <td class="counter-column">
                 <div class="bar-wrapper">
                     <div class="bar" id="${barId}"></div>
                     <div class="counter-number" id="${counterId}">0</div>

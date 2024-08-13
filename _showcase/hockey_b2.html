@@ -1,129 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Counter Bars</title>
-	<style>
-		body {
-			background-image: url('../assets/images/hockey/whaler.png'); /* Replace with the URL of your semi-transparent image */
-			background-repeat: no-repeat;
-			background-position: top center;
-			font-family: sans-serif;
-			color: #333;
-			opacity: 0.9;
-			background-color: rgba(181, 212, 191, 0.5); /* Adjust the color and transparency as needed */
-		}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Bars</title>
+    <style>
+        body {
+            background-image: url('../assets/images/hockey/whaler.png'); /* Replace with the URL of your semi-transparent image */
+            background-repeat: no-repeat;
+            background-position: top center;
+            font-family: sans-serif;
+            color: #333;
+            opacity: 0.9;
+            background-color: rgba(181, 212, 191, 0.5); /* Adjust the color and transparency as needed */
+            margin: 0;
+            padding: 0;
+        }
 
-		table {
-			border-collapse: collapse;
-			width: 90%;
-			margin: 5px auto;
-			background-color: rgba(255, 255, 255, 0.5); /* Table background color with transparency */
-		}
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 10px 0;
+            background-color: rgba(255, 255, 255, 0.5); /* Table background color with transparency */
+        }
 
-		th, td {
-			border: 1px solid #ccc;
-			padding: 5px;
-			text-align: left;
-			background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
-		}
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
+        }
 
-		th {
-			background-color: #f2f2f2;
-		}
+        th {
+            background-color: #f2f2f2;
+        }
 
-		.buttons {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin-top: 10px;
-		}
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
 
-		button {
-			margin: 0px;
-			padding: 3px 3px;
-			font-size: 40px; /* Adjust the font size as needed */
-			width: 25px; /* Adjust the width as needed */
-			border: 1px solid black;
-			text-align: center;
-			border-radius: 2px;
-		}
+        button {
+            margin: 0;
+            padding: 5px;
+            font-size: 18px; /* Adjust the font size as needed */
+            width: 100%; /* Make buttons full width of container */
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 2px;
+        }
 
-		.thin-column {
-			width: 300px; /* Adjust the width as needed */
-		}
+        .player-column {
+            width: 40%; /* Set a fixed width for the player column */
+        }
 
-		.thin-column button {
-			width: 140px; /* Adjust the width as needed */
-			font-size: 30px; /* Adjust the font size to match the new width */
-		}
+        .buttons-column {
+            width: 100px; /* Set a fixed width for the buttons column */
+            display: flex;
+            justify-content: space-around;
+        }
 
-		.fixed-width {
-			width: 280px; /* Adjust the width as needed */
-			font-size: 20px; /* Adjust the font size as needed */
-		}
+        .counter-column {
+            width: 50%; /* Set a fixed width for the counter column */
+        }
 
-		.bar-container {
-			margin-top: 20px;
-			padding-left: 20px;
-		}
+        .bar-container {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
 
-		.bar-wrapper {
-			display: flex;
-			align-items: center;
-			margin-bottom: 10px;
-		}
+        .bar-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 100%;
+        }
 
-		.bar-label {
-			min-width: 100px;
-		}
+        .bar-label {
+            min-width: 60px;
+        }
 
-		.bar {
-			height: 40px;
-			background-color: #bbd4bc;
-			margin-right: 10px;
-			transition: width 0.5s;
-		}
+        .bar {
+            height: 30px;
+            background-color: #bbd4bc;
+            margin-right: 10px;
+            transition: width 0.5s;
+            flex-grow: 1; /* Allow bar to grow */
+        }
 
-		.counter-number {
-			font-weight: bold;
-		}
+        .counter-number {
+            font-weight: bold;
+            width: 50px; /* Ensure consistent width */
+            text-align: center;
+        }
 
-		h1 {
-			text-align: center;
-			font-size: 40px; /* Adjust the font size as needed */
-		}
+        h1 {
+            text-align: center;
+            font-size: 32px; /* Adjust the font size as needed */
+        }
 
-		h3 {
-			text-align: center;
-			font-size: 26px; /* Adjust the font size as needed */
-			background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
-		}
+        h3 {
+            text-align: center;
+            font-size: 24px; /* Adjust the font size as needed */
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
+            margin: 0;
+            padding: 10px 0;
+        }
 
-		p {
-			text-align: center;
-			font-size: 20px; /* Adjust the font size as needed */
-			background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
-		}
+        p {
+            text-align: center;
+            font-size: 16px; /* Adjust the font size as needed */
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
+            margin: 0;
+            padding: 10px 0;
+        }
 
+        #dateField {
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+            font-size: 16px; /* Adjust the font size as needed */
+            background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
+            padding: 8px; /* Add padding to create some space around the input */
+            border: 2px solid black;
+        }
 
-		#dateField {
-			display: block;
-			margin: 0 auto;
-			text-align: center;
-			font-size: 18px; /* Adjust the font size as needed */
-			background-color: rgba(255, 255, 255, 0.7); /* Table cell background color with transparency */
-			padding: 10px; /* Add padding to create some space around the input */
-			border: 2px solid black;
+        .row-hidden {
+            opacity: 0.4;
+            background-color: #f2f2f2;
+        }
 
-		}
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 14px;
+                padding: 5px;
+            }
 
-		.row-hidden {
-			opacity: 0.4;
-			background-color: #f2f2f2;
-		}
-	</style>
+            button {
+                font-size: 12px;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h3, p {
+                font-size: 18px;
+            }
+
+            #dateField {
+                font-size: 14px;
+                padding: 6px;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -133,25 +167,26 @@
 <input type="text" id="dateField" name="dateField" value="" readonly>
 
 <table>
-	<thead>
-	<tr>
-		<th>Player</th>
-		<th></th>
-		<th>Counter</th>
-	</tr>
-	</thead>
-	<tbody id="playersTableBody">
-	<!-- Dynamic rows will be inserted here -->
-	</tbody>
+    <thead>
+    <tr>
+        <th>Player</th>
+        <th></th>
+        <th>Counter</th>
+    </tr>
+    </thead>
+    <tbody id="playersTableBody">
+    <!-- Dynamic rows will be inserted here -->
+    </tbody>
 </table>
 
 <script>
-	// Set the default value to today's date
-	const dateField = document.getElementById("dateField");
-	const today = new Date();
-	const formattedDate = today.toISOString().slice(0, 10); // Get YYYY-MM-DD format
-	dateField.value = formattedDate;
+    // Set the default value to today's date
+    const dateField = document.getElementById("dateField");
+    const today = new Date();
+    const formattedDate = today.toISOString().slice(0, 10); // Get YYYY-MM-DD format
+    dateField.value = formattedDate;
 
+    // List of players
 	const players = [
 		"Noah Clevenger",
 		"Chase Donnely",
@@ -165,97 +200,96 @@
 		"Thomas Wix"
 	];
 
+    // Generate table rows based on the players list
+    const tableBody = document.getElementById("playersTableBody");
+    players.forEach((player, index) => {
+        const rowId = `row${index + 1}`;
+        const barId = `bar${index + 1}`;
+        const counterId = `counter${index + 1}`;
+        const row = document.createElement("tr");
+        row.id = rowId;
 
-	// Generate table rows based on the players list
-	const tableBody = document.getElementById("playersTableBody");
-	players.forEach((player, index) => {
-		const rowId = `row${index + 1}`;
-		const barId = `bar${index + 1}`;
-		const counterId = `counter${index + 1}`;
-		const row = document.createElement("tr");
-		row.id = rowId;
+        row.innerHTML = `
+            <td class="player-column">
+                <button class="fixed-width" onclick="toggle_row(${index + 1})">${player}</button>
+            </td>
+            <td class="buttons-column">
+                <button onclick="incrementCounter(${index + 1})">+</button>
+                <button onclick="decrementCounter(${index + 1})">-</button>
+            </td>
+            <td class="counter-column">
+                <div class="bar-wrapper">
+                    <div class="bar" id="${barId}"></div>
+                    <div class="counter-number" id="${counterId}">0</div>
+                </div>
+            </td>
+        `;
 
-		row.innerHTML = `
-			<td class="fixed-width">
-				<button class="fixed-width" onclick="toggle_row(${index + 1})">${player}</button>
-			</td>
-			<td class="thin-column">
-				<button onclick="incrementCounter(${index + 1})">+</button>
-				<button onclick="decrementCounter(${index + 1})">-</button>
-			</td>
-			<td>
-				<div class="bar-wrapper">
-					<div class="bar" id="${barId}"></div>
-					<div class="counter-number" id="${counterId}">0</div>
-				</div>
-			</td>
-		`;
+        tableBody.appendChild(row);
+    });
 
-		tableBody.appendChild(row);
-	});
+    function incrementCounter(index) {
+        const barElement = document.getElementById(`bar${index}`);
+        const counterElement = document.getElementById(`counter${index}`);
+        let counterValue = parseInt(counterElement.textContent) || 0;
 
-	function incrementCounter(index) {
-		const barElement = document.getElementById(`bar${index}`);
-		const counterElement = document.getElementById(`counter${index}`);
-		let counterValue = parseInt(counterElement.textContent) || 0;
+        if (counterValue < 100) {
+            counterValue++;
+            counterElement.textContent = counterValue;
+            barElement.style.width = `${counterValue * 5}%`;
+        }
+    }
 
-		if (counterValue < 100) {
-			counterValue++;
-			counterElement.textContent = counterValue;
-			barElement.style.width = `${counterValue * 5}%`;
-		}
-	}
+    function decrementCounter(index) {
+        const barElement = document.getElementById(`bar${index}`);
+        const counterElement = document.getElementById(`counter${index}`);
+        let counterValue = parseInt(counterElement.textContent) || 0;
 
-	function decrementCounter(index) {
-		const barElement = document.getElementById(`bar${index}`);
-		const counterElement = document.getElementById(`counter${index}`);
-		let counterValue = parseInt(counterElement.textContent) || 0;
+        if (counterValue > 0) {
+            counterValue--;
+            counterElement.textContent = counterValue;
+            barElement.style.width = `${counterValue * 5}%`;
+        }
+    }
 
-		if (counterValue > 0) {
-			counterValue--;
-			counterElement.textContent = counterValue;
-			barElement.style.width = `${counterValue * 5}%`;
-		}
-	}
+    function toggle_row(index) {
+        const row = document.getElementById(`row${index}`);
+        row.classList.toggle("row-hidden");
+        reorganizeTable();
+    }
 
-	function toggle_row(index) {
-		const row = document.getElementById(`row${index}`);
-		row.classList.toggle("row-hidden");
-		reorganizeTable();
-	}
+    function reorganizeTable() {
+        const table = document.querySelector("table");
+        const tbody = table.querySelector("tbody");
+        const rows = tbody.querySelectorAll("tr");
 
-	function reorganizeTable() {
-		const table = document.querySelector("table");
-		const tbody = table.querySelector("tbody");
-		const rows = tbody.querySelectorAll("tr");
+        // Separate hidden and visible rows
+        const visibleRows = [];
+        const hiddenRows = [];
 
-		// Separate hidden and visible rows
-		const visibleRows = [];
-		const hiddenRows = [];
+        rows.forEach((row) => {
+            if (row.classList.contains("row-hidden")) {
+                hiddenRows.push(row);
+            } else {
+                visibleRows.push(row);
+            }
+        });
 
-		rows.forEach((row) => {
-			if (row.classList.contains("row-hidden")) {
-				hiddenRows.push(row);
-			} else {
-				visibleRows.push(row);
-			}
-		});
+        // Remove all rows from the table
+        rows.forEach((row) => {
+            row.remove();
+        });
 
-		// Remove all rows from the table
-		rows.forEach((row) => {
-			row.remove();
-		});
+        // Append visible rows first
+        visibleRows.forEach((row) => {
+            tbody.appendChild(row);
+        });
 
-		// Append visible rows first
-		visibleRows.forEach((row) => {
-			tbody.appendChild(row);
-		});
-
-		// Append hidden rows at the end
-		hiddenRows.forEach((row) => {
-			tbody.appendChild(row);
-		});
-	}
+        // Append hidden rows at the end
+        hiddenRows.forEach((row) => {
+            tbody.appendChild(row);
+        });
+    }
 </script>
 </body>
 </html>

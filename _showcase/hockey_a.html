@@ -45,20 +45,25 @@
         button {
             margin: 0;
             padding: 5px;
-            font-size: 20px; /* Adjust the font size as needed */
+            font-size: 18px; /* Adjust the font size as needed */
             width: 100%; /* Make buttons full width of container */
             border: 1px solid black;
             text-align: center;
             border-radius: 2px;
         }
 
-        .thin-column {
-            width: 100%; /* Ensure consistent width */
+        .player-column {
+            width: 40%; /* Set a fixed width for the player column */
         }
 
-        .fixed-width {
-            width: 100%; /* Set to 100% for responsive width */
-            font-size: 16px; /* Adjust the font size as needed */
+        .buttons-column {
+            width: 100px; /* Set a fixed width for the buttons column */
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .counter-column {
+            width: 50%; /* Set a fixed width for the counter column */
         }
 
         .bar-container {
@@ -135,7 +140,7 @@
             }
 
             button {
-                font-size: 16px;
+                font-size: 12px;
                 width: 100%;
             }
 
@@ -204,14 +209,14 @@
         row.id = rowId;
 
         row.innerHTML = `
-            <td class="fixed-width">
+            <td class="player-column">
                 <button class="fixed-width" onclick="toggle_row(${index + 1})">${player}</button>
             </td>
-            <td class="thin-column">
+            <td class="buttons-column">
                 <button onclick="incrementCounter(${index + 1})">+</button>
                 <button onclick="decrementCounter(${index + 1})">-</button>
             </td>
-            <td>
+            <td class="counter-column">
                 <div class="bar-wrapper">
                     <div class="bar" id="${barId}"></div>
                     <div class="counter-number" id="${counterId}">0</div>
