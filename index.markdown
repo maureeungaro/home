@@ -28,9 +28,9 @@ I work on the Refurbishment, Operation / Maintenance / Calibration of the<br/>
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
 I am developing the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simulations](clas12Tags/clas12Tags),  <br/>
 including [web submissions](osg/osg) to the [Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
-Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of supporting <br/>
-its development.<br/><br/>
-In my free time I am learning to play hockey, while watching and [assisting](showcase/hockey)<br/>
+Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
+[supporting it at JLab](https://jeffersonlab.github.io/g4home/).<br/><br/>
+In my free time I am learning to play hockey, while watching and [assisting](showcase/hockey_a)<br/>
  my kid learning it much faster than me.
 <br/><br/>"
 
