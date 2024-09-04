@@ -28,3 +28,9 @@
   collaboration: "CLAS"
   journal: "Nucl.Instrum.Meth.A 959 (2020)"
 
+- title: "Geant4 Monte-Carlo (GEMC) A database-driven simulation program"
+  inspire: "https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_05005/epjconf_chep2024_05005.html"
+  pdf: "https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_05005.pdf"
+  collaboration: "CLAS"
+  journal: "EPJ Web of Conferences 295, 05005 (2024)"
+
