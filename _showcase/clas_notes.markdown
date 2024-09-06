@@ -1,36 +1,44 @@
 ---
 layout: default
-title: Mauri's CLAS Technical Notes
+title: Mauri's Technical Notes
+permalink: /showcase/clas_notes
+pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 ---
 
-## [CLAS Technical Notes](https://misportal.jlab.org/ul/Physics/Hall-B/clas/index.cfm){:target="_blank"}
+<br/>
 
-### 2011
+<table class="alternate">
+	{% for note in site.data.all_notes %}
+		<tr>
+            <td> {{ note.title }} </td>
 
-- [Simulation of the Electromagnetic Calorimeter in CLAS12](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2011-019.pdf?documentId=655){:target="_blank"}
-- [Simulated CLAS12 Neutron Detection Efficiency in the Forward Time-of-Flight System](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2011-015.pdf?documentId=649){:target="_blank"}
+			<td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
+				
+			<td> {{ note.year }} </td>
 
-### 2010
+            {% if note.source == "na" %}
+                <td> na </td>
+            {% else %}
+                <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}"           target="_blank"> source </a> </td>
+            {% endif %}
 
-- [Meson electro-production Radiative Corrections based on Exclurad](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2010-006.pdf?documentId=591){:target="_blank"}
+        </tr>
+	{% endfor %}
+</table>
 
+<br/>
 
+---
 
-### 2009
+<br/>
 
-- [Program to Add Helicity Information to Cooked BOS Files](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2009-005.pdf?documentId=525){:target="_blank"}
-- [Banks: a library to handle the CLAS12 EVIO format](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2009-012.pdf?documentId=534){:target="_blank"}
+## CLAS Notes Databases:
 
-### 2005
+- [CLAS12 Technical Notes](https://misportal.jlab.org/mis/physics/clas12/index.cfm){:target="_blank"}
+- [CLAS Technical Notes](https://misportal.jlab.org/ul/Physics/Hall-B/clas/index.cfm){:target="_blank"}
 
-- [g11 data processing](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2005-014.pdf?documentId=188){:target="_blank"}
+<br/>
 
-### 2004
+---
 
-- [Interactive Monitoring Histograms Generator](https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2004-028.pdf?documentId=99){:target="_blank"}
-
-### 2003
-
-- [Procedure for Drift Chamber Inefficiencies](https://www.jlab.org/Hall-B/notes/clas_notes03/03-006.pdf){:target="_blank"}
-
-
+<br/>

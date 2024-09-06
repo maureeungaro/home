@@ -49,6 +49,7 @@ exclude:
    - Gemfile.lock
    - README.md
    - todo
+   - assets/quotes.txt
    - node_modules
    - vendor/bundle/
    - vendor/cache/

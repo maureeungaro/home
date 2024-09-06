@@ -1,0 +1,133 @@
+- title: "Nuclear target test report"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2021-001.pdf?documentId=72"
+  year: "2021"
+
+- title: "Improving GEMC model of CLAS12 using electron radiation"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2021-004.pdf?documentId=76"
+  year: "2021"
+
+- title: "LTCC pion efficiency analysis"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2021-006.pdf?documentId=77"
+  year: "2021"
+
+- title: "Tungsten shielding around the target to limit rates in the CLAS12 BST"
+  source: "notes/clas12_notes/target_tungsten_shield_study.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2019-002.pdf?documentId=63"
+  year: "2019"
+
+- title: "Background Merging Mechanism in GEMC"
+  source: "notes/clas12_notes/background_merging_in_gemc.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-002.pdf?documentId=56"
+  year: "2018"
+
+- title: "Study of tungsten shielding around the target (duplicate)"
+  source: "notes/clas12_notes/target_tungsten_shield_study.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-005.pdf?documentId=59"
+  year: "2018"
+
+- title: "Study of Tungsten Shielding Before CTOF to Limit its PMT Currents"
+  source: "notes/clas12_notes/ctof_tungsten_shield_study.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-006.pdf?documentId=60"
+  year: "2018"
+
+- title: "CALCOM Calibration Challenge Report"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-002.pdf?documentId=37"
+  year: "2017"
+
+- title: "Geometry and Alignment Software for the CLAS12 Silicon Vertex Tracker"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-008.pdf?documentId=43"
+  year: "2017"
+
+- title: "CALCOM Calibration Challenge Report - Second Challenge Exercise"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-010.pdf?documentId=45"
+  year: "2017"
+
+- title: "Corrections to CLAS12 vacuum beamline"
+  source: "notes/clas12_notes/corrections_to_clas12_vacuum_beamline.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-012.pdf?documentId=47"
+  year: "2017"
+
+- title: "Corrections to CLAS12 target design"
+  source: "notes/clas12_notes/corrections_to_clas12_target.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-013.pdf?documentId=48"
+  year: "2017"
+
+- title: "Study of the electromagnetic background rates in CLAS12"
+  source: "notes/clas12_notes/em_rates_in_clas12"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-016.pdf?documentId=52"
+  year: "2017"
+
+- title: "Importing CLAS12 CAD models of target and beamline in the GEMC simulation."
+  source: "notes/clas12_notes/importing_clas12_cad_volumes_in_gemc.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-017.pdf?documentId=53"
+  year: "2017"
+
+- title: "Beam position study on a 3.5 mm shifted target cell"
+  source: "notes/clas12_notes/beam_position_study_target_shift.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-018.pdf?documentId=54"
+  year: "2017"
+
+- title: "Moller shield simulations: comparison of the GEMC-optimized layout and engineering design"
+  source: "notes/clas12_notes/rates_comparison_gemc_engineering_run.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2016-006.pdf?documentId=32"
+  year: "2016"
+
+- title: "Study of the electromagnetic background with varying solenoid field"
+  source: "notes/clas12_notes/em_rates_with_varying_solenoid_strength.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2016-008.pdf?documentId=34"
+  year: "2016"
+
+- title: "Common Environment for Software Packages"
+  source: "na"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2014-002.pdf?documentId=10"
+  year: "2014"
+
+- title: "Simulation of the Electromagnetic Calorimeter in CLAS12"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2011-019.pdf?documentId=655"
+  year: "2011"
+
+- title: "Simulated CLAS12 Neutron Detection Efficiency in the Forward Time-of-Flight System"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2011-015.pdf?documentId=649"
+  year: "2011"
+
+- title: "Meson electro-production Radiative Corrections based on Exclurad"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2010-006.pdf?documentId=591"
+  year: "2010"
+
+- title: "Program to Add Helicity Information to Cooked BOS Files"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2009-005.pdf?documentId=525"
+  year: "2009"
+
+- title: "Banks: a library to handle the CLAS12 EVIO format"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2009-012.pdf?documentId=534"
+  year: "2009"
+
+- title: "g11 data processing"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2005-014.pdf?documentId=188"
+  year: "2005"
+
+- title: "Interactive Monitoring Histograms Generator"
+  source: "na"
+  pdf: "https://misportal.jlab.org/ul/Physics/Hall-B/clas/viewFile.cfm/2004-028.pdf?documentId=99"
+  year: "2004"
+
+- title: "Procedure for Drift Chamber Inefficiencies"
+  source: "na"
+  pdf: "https://www.jlab.org/Hall-B/notes/clas_notes03/03-006.pdf"
+  year: "2003"
+
+
+
+
