@@ -309,6 +309,6 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 </table>
 
 
-A list of all tecnhical CLAS and CLAS12 notes can be found at [mauri' techical notes](/home/showcase/clas_notes).
+A list of all tecnhical CLAS and CLAS12 notes can be found at [mauri's techical notes](/home/showcase/clas_notes).
 
 
