@@ -1,3 +1,8 @@
+- title: "Nuclear target test report"
+  source: "notes/clas12_notes/downstream_beamline_import_from_engineering.docx "
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-006.pdf?documentId=171"
+  year: "2024"
+
 - title: "Background Merging Mechanism in GEMC"
   source: "notes/clas12_notes/background_merging_in_gemc.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-002.pdf?documentId=56"
@@ -6,11 +11,6 @@
 - title: "Study of the electromagnetic background rates in CLAS12"
   source: "na"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-016.pdf?documentId=52"
-  year: "2017"
-
-- title: "Importing CLAS12 CAD models of target and beamline in the GEMC simulation."
-  source: "na"
-  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-017.pdf?documentId=53"
   year: "2017"
 
 - title: "Meson electro-production Radiative Corrections based on Exclurad"

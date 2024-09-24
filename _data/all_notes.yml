@@ -1,4 +1,9 @@
 - title: "Nuclear target test report"
+  source: "notes/clas12_notes/downstream_beamline_import_from_engineering.docx "
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-006.pdf?documentId=171"
+  year: "2024"
+
+- title: "Nuclear target test report"
   source: "na"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2021-001.pdf?documentId=72"
   year: "2021"
