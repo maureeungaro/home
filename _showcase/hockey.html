@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Team Selector</title>
+	<style>
+		body {
+			background-image: url('../assets/images/hockey/whaler.png');
+			background-repeat: no-repeat;
+			background-position: top center;
+			font-family: sans-serif;
+			color: #333;
+			opacity: 1.0;
+			background-color: rgba(181, 212, 191, 0.3);
+			margin: 0;
+			padding: 20px;
+		}
+
+		h3, p, input, table {
+			background-color: rgba(255, 255, 255, 0.7);
+			text-align: center;
+			margin: 0 auto 10px auto;
+			padding: 10px;
+		}
+
+		select, input, button {
+			margin: 10px 0;
+			font-size: 18px;
+			padding: 10px;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin: 20px 0;
+		}
+
+		th, td {
+			border: 1px solid #ccc;
+			padding: 8px;
+			text-align: center;
+			background-color: rgba(255, 255, 255, 0.7);
+		}
+
+		th {
+			background-color: #f2f2f2;
+		}
+
+		/*.buttons {*/
+		/*	display: flex;*/
+		/*	justify-content: space-around;*/
+		/*}*/
+
+		.row-hidden {
+			opacity: 0.4;
+		}
+
+		/* Responsive design for smaller screens */
+		@media (max-width: 600px) {
+			th, td {
+				font-size: 14px;
+				padding: 5px;
+			}
+
+			button {
+				font-size: 18px;
+				width: 100%;
+			}
+		}
+
+
+		.player-button {
+			width: 250px; /* Set the desired fixed width */
+			white-space: nowrap; /* Prevents the text from breaking onto a new line */
+			overflow: hidden;
+			text-overflow: ellipsis; /* Adds "..." when text is too long */
+		}
+
+		.player-column {
+			width: 250px;
+		}
+
+		.buttons-column {
+			width: 200px;
+			font-size: 40px;
+		}
+
+
+		.counter-column {
+			width: 100px;
+		}
+
+		.counter-number {
+			font-weight: bold;
+			font-size: 24px;
+		}
+
+
+		.stat-buttons {
+			display: flex;
+			justify-content: center;
+			margin: 10px;
+		}
+
+		.stat-buttons button {
+			margin: 0 10px;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+
+		.active {
+			background-color: #007BFF; /* Highlight color */
+			color: white; /* Text color when highlighted */
+		}
+
+		.row-greyed {
+			background-color: rgba(211, 211, 211, 0.5); /* Light grey background */
+			color: #888; /* Darker text color for contrast */
+		}
+
+	</style>
+</head>
+<body>
+
+<h3>Team Selector</h3>
+
+<select id="teamDropdown">
+	<!-- Teams will be populated dynamically -->
+</select>
+
+<div class="stat-buttons">
+	<button onclick="setActiveStat('counter')">Counter</button>
+	<button onclick="setActiveStat('goals')">Goals</button>
+	<button onclick="setActiveStat('assists')">Assists</button>
+</div>
+
+<input type="text" id="dateField" name="dateField" value="" readonly>
+
+<table>
+	<thead>
+	<tr>
+		<th>Player</th>
+		<th></th>
+		<th>Counter</th>
+		<th>Goals</th>
+		<th>Assists</th>
+	</tr>
+	</thead>
+	<tbody id="playersTableBody">
+	<!-- Dynamic rows will be inserted here -->
+	</tbody>
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script>
+	// Set the default value to today's date
+	const dateField = document.getElementById("dateField");
+	const today = new Date();
+	const formattedDate = today.toISOString().slice(0, 10);
+	dateField.value = formattedDate;
+
+	let activeStat = 'counter'; // Default active stat is 'counter'
+
+	// Function to set the active stat
+	function setActiveStat(stat) {
+		activeStat = stat; // Update the active stat
+		console.log("Active stat set to: " + stat);
+	}
+
+
+	// Fetch YAML file and parse it
+	function loadYamlFile() {
+		fetch('teams.yaml')
+			.then(response => response.text())
+			.then(yamlText => {
+				const teams = jsyaml.load(yamlText);
+				populateDropdown(teams);
+				displayTeam(teams);  // Display the first team on load
+			})
+			.catch(error => console.error('Error loading YAML file:', error));
+	}
+
+	// Populate dropdown with team names
+	function populateDropdown(teams) {
+		const teamDropdown = document.getElementById("teamDropdown");
+
+		for (const team in teams) {
+			const option = document.createElement("option");
+			option.value = team;
+			option.textContent = team;
+			teamDropdown.appendChild(option);
+		}
+
+		teamDropdown.addEventListener('change', () => displayTeam(teams));
+	}
+
+	// Display the selected team and player list
+	function displayTeam(teams) {
+		const selectedTeam = document.getElementById("teamDropdown").value;
+		const playersTableBody = document.getElementById("playersTableBody");
+
+		playersTableBody.innerHTML = '';  // Clear the previous list
+
+
+		if (teams[selectedTeam]) {
+			// Populate the table with players from the selected team
+			teams[selectedTeam].forEach((player, index) => {
+				const rowId = `row${index + 1}`;
+				const counterId = `counter${index + 1}`;
+				const row = document.createElement("tr");
+				row.id = rowId;
+
+				// Ensure default values for counter, goals, and assists are 0
+				const playerCounter = player.counter || 0;
+				const playerGoals = player.goals || 0;
+				const playerAssists = player.assists || 0;
+
+				row.innerHTML = `
+			<td class="player-column">
+				<button class="player-button" onclick="toggle_row(${index + 1})">
+					#${player.number} ${player.name}
+				</button>
+			</td>
+			<td class="buttons-column">
+				<button onclick="incrementStat(${index + 1})">+</button>
+				<button onclick="decrementStat(${index + 1})">-</button>
+			</td>
+			<td class="counter-column">
+				<div class="counter-number" id="counter${index + 1}">${playerCounter}</div>
+			</td>
+			<td class="counter-column">
+				<div class="counter-number" id="goals${index + 1}">${playerGoals}</div>
+			</td>
+			<td class="counter-column">
+				<div class="counter-number" id="assists${index + 1}">${playerAssists}</div>
+			</td>
+		`;
+
+				playersTableBody.appendChild(row);
+			});
+		}
+	}
+
+	// Increment the currently selected stat (counter, goals, or assists)
+	function incrementStat(index) {
+		const statElement = document.getElementById(`${activeStat}${index}`);
+		let statValue = parseInt(statElement.textContent) || 0;
+
+		if (statValue < 100) {
+			statValue++;
+			statElement.textContent = statValue;
+			players[index - 1][activeStat] = statValue; // Update the player object
+		}
+	}
+
+	// Decrement the currently selected stat (counter, goals, or assists)
+	function decrementStat(index) {
+		const statElement = document.getElementById(`${activeStat}${index}`);
+		let statValue = parseInt(statElement.textContent) || 0;
+
+		if (statValue > 0) {
+			statValue--;
+			statElement.textContent = statValue;
+			players[index - 1][activeStat] = statValue; // Update the player object
+		}
+	}
+
+	function toggle_row(index) {
+		const row = document.getElementById(`row${index}`);
+		row.classList.toggle("row-hidden");
+		reorganizeTable();
+
+		// Update the players array based on active players
+		updateActivePlayers();
+
+		// Regenerate shifts based on active players
+		generateShifts();
+	}
+
+	// Function to update active players
+	function updateActivePlayers() {
+		players = []; // Reset players array
+
+		const rows = document.querySelectorAll("#playersTableBody tr");
+		rows.forEach(row => {
+			if (!row.classList.contains("row-hidden")) {
+				const playerName = row.querySelector(".player-button").textContent.trim();
+				const playerNumber = playerName.split(' ')[0].substring(1); // Extract number
+				players.push({name: playerName, number: playerNumber}); // Add active player to the players array
+			}
+		});
+	}
+
+	function reorganizeTable() {
+		const table = document.querySelector("table");
+		const tbody = table.querySelector("tbody");
+		const rows = tbody.querySelectorAll("tr");
+
+		// Separate hidden and visible rows
+		const visibleRows = [];
+		const hiddenRows = [];
+
+		rows.forEach((row) => {
+			if (row.classList.contains("row-hidden")) {
+				hiddenRows.push(row);
+			} else {
+				visibleRows.push(row);
+			}
+		});
+
+		// Remove all rows from the table
+		rows.forEach((row) => {
+			row.remove();
+		});
+
+		// Append visible rows first
+		visibleRows.forEach((row) => {
+			tbody.appendChild(row);
+		});
+
+		// Append hidden rows at the end
+		hiddenRows.forEach((row) => {
+			tbody.appendChild(row);
+		});
+	}
+
+	// Update the setActiveStat function
+	function setActiveStat(stat) {
+		activeStat = stat; // Update the active stat
+		console.log("Active stat set to: " + stat);
+
+		// Remove active class from all buttons
+		const buttons = document.querySelectorAll('.stat-buttons button');
+		buttons.forEach(button => {
+			button.classList.remove('active');
+		});
+
+		// Add active class to the clicked button
+		const activeButton = Array.from(buttons).find(button => button.innerText.toLowerCase() === stat.toLowerCase());
+		if (activeButton) {
+			activeButton.classList.add('active');
+		}
+		generateShifts();
+	}
+
+	// Initialize on page load
+	window.onload = loadYamlFile;
+</script>
+<h3>Shifts</h3>
+
+<!-- Shift Tables -->
+<div id="shiftsContainer">
+	<table id="shiftsTable1">
+		<thead>
+		<tr>
+			<th>Shift #</th>
+			<th>Players</th>
+		</tr>
+		</thead>
+		<tbody id="shiftsTableBody1"></tbody>
+	</table>
+
+	<table id="shiftsTable2">
+		<thead>
+		<tr>
+			<th>Shift #</th>
+			<th>Players</th>
+		</tr>
+		</thead>
+		<tbody id="shiftsTableBody2"></tbody>
+	</table>
+</div>
+
+<script>
+	let players = []; // Declare players globally to hold active players
+
+// Function to toggle the style of the row when the button is clicked
+function toggleRow(shiftIndex) {
+    const row = document.getElementById(`shiftRow${shiftIndex}`);
+    const playerNames = row.cells[1].innerHTML.split(', '); // Get player names from the row
+
+    // Toggle greyed style
+    row.classList.toggle("row-greyed");
+
+    // Update counters for each player in this shift
+    playerNames.forEach(playerName => {
+        // Find the player in the players array and increment their counter
+        const player = players.find(p => p.name === playerName);
+        if (player) {
+            // Increment the counter for the player
+            player.counter = (player.counter || 0) + 1; // Increment counter (default to 0)
+            document.getElementById(`counter${player.number}`).textContent = player.counter; // Update display
+        }
+    });
+}
+
+// Ensure the generateShifts function initializes player counters
+function generateShifts() {
+    const shiftsPerTable = 12; // 24 shifts total, 12 per table
+    const shiftsTableBody1 = document.getElementById("shiftsTableBody1");
+    const shiftsTableBody2 = document.getElementById("shiftsTableBody2");
+
+    // Clear existing shift tables
+    shiftsTableBody1.innerHTML = '';
+    shiftsTableBody2.innerHTML = '';
+
+    let lastShiftPlayers = []; // Array to track players from the last shift
+
+    for (let i = 0; i < 24; i++) {
+        const startIndex = (i * 4) % players.length; // Start index for the current shift
+        const currentPlayers = [];
+
+        for (let j = 0; j < 4; j++) {
+            const player = players[(startIndex + j) % players.length];
+            currentPlayers.push(player.name); // Only keep the player name
+        }
+
+        // Create a button for the shift number
+        const shiftButton = `<button onclick="toggleRow(${i})">${i + 1}</button>`;
+
+        // Create a row for the shift with the shift number button and player names only
+        const row = `<tr id="shiftRow${i}">
+            <td>${shiftButton}</td> <!-- Shift number button -->
+            <td>${currentPlayers.map(playerName => {
+                // Check if the player was in the last shift
+                const isConsecutive = lastShiftPlayers.includes(playerName);
+                return isConsecutive ? `<strong>${playerName}</strong>` : playerName;
+            }).join(', ')}</td>
+        </tr>`;
+
+        // Append to the appropriate table
+        if (i < shiftsPerTable) {
+            shiftsTableBody1.innerHTML += row; // First table
+        } else {
+            shiftsTableBody2.innerHTML += row; // Second table
+        }
+
+        // Update lastShiftPlayers to currentPlayers for the next iteration
+        lastShiftPlayers = currentPlayers;
+    }
+}
+
+	// Function to display the selected team and player list
+	function displayTeam(teams) {
+		const selectedTeam = document.getElementById("teamDropdown").value;
+		const playersTableBody = document.getElementById("playersTableBody");
+
+		playersTableBody.innerHTML = '';  // Clear the previous list
+		players = []; // Reset players array
+
+		if (teams[selectedTeam]) {
+			// Populate the table with players from the selected team
+			teams[selectedTeam].forEach((player, index) => {
+				const rowId = `row${index + 1}`;
+				const counterId = `counter${index + 1}`;
+				const row = document.createElement("tr");
+				row.id = rowId;
+
+				// Ensure default values for counter, goals, and assists are 0
+				const playerCounter = player.counter || 0;
+				const playerGoals = player.goals || 0;
+				const playerAssists = player.assists || 0;
+
+				row.innerHTML = `
+			<td class="player-column">
+				<button class="player-button" onclick="toggle_row(${index + 1})">
+					#${player.number} ${player.name}
+				</button>
+			</td>
+			<td class="buttons-column">
+				<button onclick="incrementStat(${index + 1})">+</button>
+				<button onclick="decrementStat(${index + 1})">-</button>
+			</td>
+			<td class="counter-column">
+				<div class="counter-number" id="counter${index + 1}">${playerCounter}</div>
+			</td>
+			<td class="counter-column">
+				<div class="counter-number" id="goals${index + 1}">${playerGoals}</div>
+			</td>
+			<td class="counter-column">
+				<div class="counter-number" id="assists${index + 1}">${playerAssists}</div>
+			</td>
+		`;
+
+				players.push(player); // Add active player to the players array
+				playersTableBody.appendChild(row);
+			});
+		}
+
+		// Generate shifts for the selected team
+		generateShifts();
+	}
+
+	// Initialize on page load
+	window.onload = loadYamlFile;
+</script>
+
+</body>
+</html>
