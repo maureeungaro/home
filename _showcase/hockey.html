@@ -162,12 +162,6 @@
 
 	let activeStat = 'counter'; // Default active stat is 'counter'
 
-	// Function to set the active stat
-	function setActiveStat(stat) {
-		activeStat = stat; // Update the active stat
-		console.log("Active stat set to: " + stat);
-	}
-
 
 	// Fetch YAML file and parse it
 	function loadYamlFile() {
@@ -195,13 +189,15 @@
 		teamDropdown.addEventListener('change', () => displayTeam(teams));
 	}
 
-	// Display the selected team and player list
+	let players = []; // Declare players globally to hold active players
+
+	// Function to display the selected team and player list
 	function displayTeam(teams) {
 		const selectedTeam = document.getElementById("teamDropdown").value;
 		const playersTableBody = document.getElementById("playersTableBody");
 
 		playersTableBody.innerHTML = '';  // Clear the previous list
-
+		players = []; // Reset players array
 
 		if (teams[selectedTeam]) {
 			// Populate the table with players from the selected team
@@ -219,7 +215,7 @@
 				row.innerHTML = `
 			<td class="player-column">
 				<button class="player-button" onclick="toggle_row(${index + 1})">
-					#${player.number} ${player.name}
+					${player.name} #${player.number}
 				</button>
 			</td>
 			<td class="buttons-column">
@@ -237,9 +233,84 @@
 			</td>
 		`;
 
+				players.push(player); // Add active player to the players array
 				playersTableBody.appendChild(row);
 			});
 		}
+
+		// Generate shifts for the selected team after loading players
+		generateShifts(); // Ensure shifts are generated after players are displayed
+	}
+
+	// Function to generate shifts based on active players
+	function generateShifts() {
+		const shiftsPerTable = 12; // 24 shifts total, 12 per table
+		const shiftsTableBody1 = document.getElementById("shiftsTableBody1");
+		const shiftsTableBody2 = document.getElementById("shiftsTableBody2");
+
+		// Clear existing shift tables
+		shiftsTableBody1.innerHTML = '';
+		shiftsTableBody2.innerHTML = '';
+
+		let lastShiftPlayers = []; // Array to track players from the last shift
+
+		for (let i = 0; i < 24; i++) {
+			const startIndex = (i * 4) % players.length; // Start index for the current shift
+			const currentPlayers = [];
+
+			for (let j = 0; j < 4; j++) {
+				const player = players[(startIndex + j) % players.length];
+				currentPlayers.push(player.name); // Only keep the player name
+			}
+
+			// Create a button for the shift number
+			const shiftButton = `<button onclick="toggleRow(${i})">${i + 1}</button>`;
+
+			// Create a row for the shift with the shift number button and player names only
+			const row = `<tr id="shiftRow${i}">
+            <td>${shiftButton}</td> <!-- Shift number button -->
+            <td>${currentPlayers.map(playerName => {
+				// Check if the player was in the last shift
+				const isConsecutive = lastShiftPlayers.includes(playerName);
+				return isConsecutive ? `<strong>${playerName}</strong>` : playerName;
+			}).join(', ')}</td>
+        </tr>`;
+
+			// Append to the appropriate table
+			if (i < shiftsPerTable) {
+				shiftsTableBody1.innerHTML += row; // First table
+			} else {
+				shiftsTableBody2.innerHTML += row; // Second table
+			}
+
+			// Update lastShiftPlayers to currentPlayers for the next iteration
+			lastShiftPlayers = currentPlayers;
+		}
+
+		// Update all player counters based on the current shifts in both tables
+		players.forEach(player => {
+			player.counter = 0; // Reset counter for all players
+			// Count occurrences in greyed rows
+			const greyedRows = document.querySelectorAll(".row-greyed");
+			greyedRows.forEach(greyedRow => {
+				const playerNames = greyedRow.cells[1].innerHTML.split(', '); // Get player names
+				console.log("Player names:", playerNames);
+
+
+				playerNames.forEach(name => {
+					name = name.replace(/\s/g, ''); // Remove all spaces
+
+					name = name.split('#')[0].trim(); // Remove everything after and including '#'
+				});
+
+				playerNames.forEach(name => {
+					//if (name === player.name) {
+						player.counter++; // Increment for each occurrence
+					//}
+				});
+			});
+			document.getElementById(`counter${player.number}`).textContent = player.counter; // Update display
+		});
 	}
 
 	// Increment the currently selected stat (counter, goals, or assists)
@@ -344,6 +415,30 @@
 		generateShifts();
 	}
 
+	function toggleRow(shiftIndex) {
+		const row = document.getElementById(`shiftRow${shiftIndex}`);
+		const playerNames = row.cells[1].innerHTML.split(', '); // Get player names from the row
+
+		// Toggle greyed style
+		row.classList.toggle("row-greyed");
+
+		// Update counters for each player in this shift
+		playerNames.forEach(playerName => {
+			// Find the player in the players array
+			const player = players.find(p => p.name === playerName);
+			if (player) {
+				// Increment the counter for the player if the row is greyed out
+				if (row.classList.contains("row-greyed")) {
+					player.counter = (player.counter || 0) + 1; // Increment counter (default to 0)
+				} else {
+					player.counter--; // Decrement if un-greyed
+					player.counter = Math.max(0, player.counter); // Ensure counter does not go below 0
+				}
+				document.getElementById(`counter${player.number}`).textContent = player.counter; // Update display
+			}
+		});
+	}
+
 	// Initialize on page load
 	window.onload = loadYamlFile;
 </script>
@@ -372,129 +467,6 @@
 	</table>
 </div>
 
-<script>
-	let players = []; // Declare players globally to hold active players
-
-// Function to toggle the style of the row when the button is clicked
-function toggleRow(shiftIndex) {
-    const row = document.getElementById(`shiftRow${shiftIndex}`);
-    const playerNames = row.cells[1].innerHTML.split(', '); // Get player names from the row
-
-    // Toggle greyed style
-    row.classList.toggle("row-greyed");
-
-    // Update counters for each player in this shift
-    playerNames.forEach(playerName => {
-        // Find the player in the players array and increment their counter
-        const player = players.find(p => p.name === playerName);
-        if (player) {
-            // Increment the counter for the player
-            player.counter = (player.counter || 0) + 1; // Increment counter (default to 0)
-            document.getElementById(`counter${player.number}`).textContent = player.counter; // Update display
-        }
-    });
-}
-
-// Ensure the generateShifts function initializes player counters
-function generateShifts() {
-    const shiftsPerTable = 12; // 24 shifts total, 12 per table
-    const shiftsTableBody1 = document.getElementById("shiftsTableBody1");
-    const shiftsTableBody2 = document.getElementById("shiftsTableBody2");
-
-    // Clear existing shift tables
-    shiftsTableBody1.innerHTML = '';
-    shiftsTableBody2.innerHTML = '';
-
-    let lastShiftPlayers = []; // Array to track players from the last shift
-
-    for (let i = 0; i < 24; i++) {
-        const startIndex = (i * 4) % players.length; // Start index for the current shift
-        const currentPlayers = [];
-
-        for (let j = 0; j < 4; j++) {
-            const player = players[(startIndex + j) % players.length];
-            currentPlayers.push(player.name); // Only keep the player name
-        }
-
-        // Create a button for the shift number
-        const shiftButton = `<button onclick="toggleRow(${i})">${i + 1}</button>`;
-
-        // Create a row for the shift with the shift number button and player names only
-        const row = `<tr id="shiftRow${i}">
-            <td>${shiftButton}</td> <!-- Shift number button -->
-            <td>${currentPlayers.map(playerName => {
-                // Check if the player was in the last shift
-                const isConsecutive = lastShiftPlayers.includes(playerName);
-                return isConsecutive ? `<strong>${playerName}</strong>` : playerName;
-            }).join(', ')}</td>
-        </tr>`;
-
-        // Append to the appropriate table
-        if (i < shiftsPerTable) {
-            shiftsTableBody1.innerHTML += row; // First table
-        } else {
-            shiftsTableBody2.innerHTML += row; // Second table
-        }
-
-        // Update lastShiftPlayers to currentPlayers for the next iteration
-        lastShiftPlayers = currentPlayers;
-    }
-}
-
-	// Function to display the selected team and player list
-	function displayTeam(teams) {
-		const selectedTeam = document.getElementById("teamDropdown").value;
-		const playersTableBody = document.getElementById("playersTableBody");
-
-		playersTableBody.innerHTML = '';  // Clear the previous list
-		players = []; // Reset players array
-
-		if (teams[selectedTeam]) {
-			// Populate the table with players from the selected team
-			teams[selectedTeam].forEach((player, index) => {
-				const rowId = `row${index + 1}`;
-				const counterId = `counter${index + 1}`;
-				const row = document.createElement("tr");
-				row.id = rowId;
-
-				// Ensure default values for counter, goals, and assists are 0
-				const playerCounter = player.counter || 0;
-				const playerGoals = player.goals || 0;
-				const playerAssists = player.assists || 0;
-
-				row.innerHTML = `
-			<td class="player-column">
-				<button class="player-button" onclick="toggle_row(${index + 1})">
-					#${player.number} ${player.name}
-				</button>
-			</td>
-			<td class="buttons-column">
-				<button onclick="incrementStat(${index + 1})">+</button>
-				<button onclick="decrementStat(${index + 1})">-</button>
-			</td>
-			<td class="counter-column">
-				<div class="counter-number" id="counter${index + 1}">${playerCounter}</div>
-			</td>
-			<td class="counter-column">
-				<div class="counter-number" id="goals${index + 1}">${playerGoals}</div>
-			</td>
-			<td class="counter-column">
-				<div class="counter-number" id="assists${index + 1}">${playerAssists}</div>
-			</td>
-		`;
-
-				players.push(player); // Add active player to the players array
-				playersTableBody.appendChild(row);
-			});
-		}
-
-		// Generate shifts for the selected team
-		generateShifts();
-	}
-
-	// Initialize on page load
-	window.onload = loadYamlFile;
-</script>
 
 </body>
 </html>
