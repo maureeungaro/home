@@ -30,7 +30,7 @@ I am developing the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simu
 including [web submissions](osg/osg) to the [Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
 [supporting it at JLab](https://jeffersonlab.github.io/g4home/).<br/><br/>
-In my free time I am learning to play hockey, while watching and [assisting](showcase/hockey_a)<br/>
+In my free time I am learning to play hockey, while watching and [assisting](showcase/hockey)<br/>
  my kid learning it much faster than me.
 <br/><br/>"
 
