@@ -162,7 +162,6 @@
 
 	let activeStat = 'counter'; // Default active stat is 'counter'
 
-
 	// Fetch YAML file and parse it
 	function loadYamlFile() {
 		fetch('teams.yaml')
@@ -213,25 +212,25 @@
 				const playerAssists = player.assists || 0;
 
 				row.innerHTML = `
-			<td class="player-column">
-				<button class="player-button" onclick="toggle_row(${index + 1})">
-					${player.name} #${player.number}
-				</button>
-			</td>
-			<td class="buttons-column">
-				<button onclick="incrementStat(${index + 1})">+</button>
-				<button onclick="decrementStat(${index + 1})">-</button>
-			</td>
-			<td class="counter-column">
-				<div class="counter-number" id="counter${index + 1}">${playerCounter}</div>
-			</td>
-			<td class="counter-column">
-				<div class="counter-number" id="goals${index + 1}">${playerGoals}</div>
-			</td>
-			<td class="counter-column">
-				<div class="counter-number" id="assists${index + 1}">${playerAssists}</div>
-			</td>
-		`;
+					<td class="player-column">
+					<button class="player-button" onclick="toggle_row(${index + 1})">
+						${player.name} #${player.number}
+					</button>
+					</td>
+					<td class="buttons-column">
+						<button onclick="incrementStat(${index + 1})">+</button>
+						<button onclick="decrementStat(${index + 1})">-</button>
+					</td>
+					<td class="counter-column">
+						<div class="counter-number" id="counter${player.number}">${playerCounter}</div>
+					</td>
+					<td class="counter-column">
+						<div class="counter-number" id="goals${player.number}">${playerGoals}</div>
+					</td>
+					<td class="counter-column">
+						<div class="counter-number" id="assists${player.number}">${playerAssists}</div>
+					</td>
+				`;
 
 				players.push(player); // Add active player to the players array
 				playersTableBody.appendChild(row);
@@ -268,13 +267,13 @@
 
 			// Create a row for the shift with the shift number button and player names only
 			const row = `<tr id="shiftRow${i}">
-            <td>${shiftButton}</td> <!-- Shift number button -->
-            <td>${currentPlayers.map(playerName => {
+            	<td>${shiftButton}</td> <!-- Shift number button -->
+            	<td>${currentPlayers.map(playerName => {
 				// Check if the player was in the last shift
 				const isConsecutive = lastShiftPlayers.includes(playerName);
 				return isConsecutive ? `<strong>${playerName}</strong>` : playerName;
 			}).join(', ')}</td>
-        </tr>`;
+        	</tr>`;
 
 			// Append to the appropriate table
 			if (i < shiftsPerTable) {
@@ -288,52 +287,114 @@
 		}
 
 		// Update all player counters based on the current shifts in both tables
-		players.forEach(player => {
+		players.forEach((player, index) => { // Ensure 'index' is defined here
 			player.counter = 0; // Reset counter for all players
 			// Count occurrences in greyed rows
 			const greyedRows = document.querySelectorAll(".row-greyed");
 			greyedRows.forEach(greyedRow => {
 				const playerNames = greyedRow.cells[1].innerHTML.split(', '); // Get player names
-				console.log("Player names:", playerNames);
-
-
 				playerNames.forEach(name => {
-					name = name.replace(/\s/g, ''); // Remove all spaces
-
-					name = name.split('#')[0].trim(); // Remove everything after and including '#'
-				});
-
-				playerNames.forEach(name => {
-					//if (name === player.name) {
+					if (name === player.name) {
 						player.counter++; // Increment for each occurrence
-					//}
+					}
 				});
 			});
-			document.getElementById(`counter${player.number}`).textContent = player.counter; // Update display
+
+			// Update the counter display
+			const counterElement = document.getElementById(`counter${player.number}`); // Get the counter element
+			if (counterElement) { // Check if the element exists
+				counterElement.textContent = player.counter; // Update display using the index
+			}
 		});
 	}
 
-	// Increment the currently selected stat (counter, goals, or assists)
-	function incrementStat(index) {
-		const statElement = document.getElementById(`${activeStat}${index}`);
+	function incrementStat(rowIndex) {
+		// Get the player number from the clicked row
+		const row = document.getElementById(`row${rowIndex}`);
+		if (!row) {
+			console.error(`Row with index ${rowIndex} not found!`);
+			return;
+		}
+
+		const playerButton = row.querySelector('.player-button').textContent;
+		console.log("playerButton " + playerButton)
+		const playerNumber = playerButton.split('#')[1]?.trim(); // Extract the player number from button text
+
+		players.forEach(p => {
+			console.log("hello >" + p.name + "< with number >" + p.number + "<")
+			if (p.number == playerNumber) {
+				console.log("found" + p.name)
+
+			}
+		});
+		console.log('Players array:', players);
+
+		if (!playerNumber) {
+			console.error(`Player number not found in button text: ${playerButton}`);
+			return;
+		}
+
+		// Get the player from the players array by their number
+		const player = players.find(p => p.number == playerNumber);
+		if (!player) {
+			console.error(`Player with number ${playerNumber} not found in players array!`);
+			return;
+		}
+
+		// Get the stat element based on the current active stat (counter, goals, assists)
+		const statElement = document.getElementById(`${activeStat}${playerNumber}`);
+		if (!statElement) {
+			console.error(`Stat element with id ${activeStat}${playerNumber} not found!`);
+			return;
+		}
+
 		let statValue = parseInt(statElement.textContent) || 0;
 
+		// Increment the stat value if it's below 100
 		if (statValue < 100) {
 			statValue++;
 			statElement.textContent = statValue;
-			players[index - 1][activeStat] = statValue; // Update the player object
+			player[activeStat] = statValue; // Update the player object
 		}
 	}
 
-	// Decrement the currently selected stat (counter, goals, or assists)
-	function decrementStat(index) {
-		const statElement = document.getElementById(`${activeStat}${index}`);
+	function decrementStat(rowIndex) {
+		// Get the player number from the clicked row
+		const row = document.getElementById(`row${rowIndex}`);
+		if (!row) {
+			console.error(`Row with index ${rowIndex} not found!`);
+			return;
+		}
+
+		const playerButton = row.querySelector('.player-button').textContent;
+		const playerNumber = playerButton.split('#')[1]?.trim(); // Extract the player number from button text
+
+		if (!playerNumber) {
+			console.error(`Player number not found in button text: ${playerButton}`);
+			return;
+		}
+
+		// Get the player from the players array by their number
+		const player = players.find(p => p.number == playerNumber);
+		if (!player) {
+			console.error(`Player with number ${playerNumber} not found in players array!`);
+			return;
+		}
+
+		// Get the stat element based on the current active stat (counter, goals, assists)
+		const statElement = document.getElementById(`${activeStat}${playerNumber}`);
+		if (!statElement) {
+			console.error(`Stat element with id ${activeStat}${playerNumber} not found!`);
+			return;
+		}
+
 		let statValue = parseInt(statElement.textContent) || 0;
 
+		// Decrement the stat value if it's above 0
 		if (statValue > 0) {
 			statValue--;
 			statElement.textContent = statValue;
-			players[index - 1][activeStat] = statValue; // Update the player object
+			player[activeStat] = statValue; // Update the player object
 		}
 	}
 
@@ -356,9 +417,17 @@
 		const rows = document.querySelectorAll("#playersTableBody tr");
 		rows.forEach(row => {
 			if (!row.classList.contains("row-hidden")) {
-				const playerName = row.querySelector(".player-button").textContent.trim();
-				const playerNumber = playerName.split(' ')[0].substring(1); // Extract number
-				players.push({name: playerName, number: playerNumber}); // Add active player to the players array
+				const playerButton = row.querySelector(".player-button").textContent.trim();
+
+				// Extract player name and number correctly
+				const [playerName, playerNumber] = playerButton.split(" #");
+
+				// Push a new player object with the correct structure to players array
+				players.push({
+					name: playerName,
+					number: parseInt(playerNumber, 10),  // Ensure player number is an integer
+					counter: 0  // Initialize other stats (goals, assists, etc.)
+				});
 			}
 		});
 	}
@@ -417,27 +486,49 @@
 
 	function toggleRow(shiftIndex) {
 		const row = document.getElementById(`shiftRow${shiftIndex}`);
-		const playerNames = row.cells[1].innerHTML.split(', '); // Get player names from the row
+		const playerNames = row.cells[1].innerHTML.split(','); // Get player names from the row
 
 		// Toggle greyed style
 		row.classList.toggle("row-greyed");
 
 		// Update counters for each player in this shift
 		playerNames.forEach(playerName => {
+
+			// let pnumber = playerName.split('#')[1]; // Extract number before '#'
+			// pnumber = pnumber.replace('</strong>', ''); // Remove any </strong> tags if present
+
+			let pname = playerName.split('#')[0]; // Extract number before '#'
+			pname = pname.replace('<strong>', ''); // Remove any </strong> tags if present
+			console.log(" searching for: >" + pname + "<")
+
+			// players.forEach(p => {
+			// 	console.log("hello >" + p.name + "<")
+			// 	if (p.name.includes(pname) ) {
+			// 						console.log("found" + p.name)
+			//
+			// 	}
+			// });
+
 			// Find the player in the players array
-			const player = players.find(p => p.name === playerName);
+			const player = players.find(p => p.name.replace(/\s+/g, '').includes(pname.replace(/\s+/g, '')));
+
 			if (player) {
+			let pnumber = player.number
 				// Increment the counter for the player if the row is greyed out
 				if (row.classList.contains("row-greyed")) {
 					player.counter = (player.counter || 0) + 1; // Increment counter (default to 0)
-				} else {
-					player.counter--; // Decrement if un-greyed
-					player.counter = Math.max(0, player.counter); // Ensure counter does not go below 0
 				}
-				document.getElementById(`counter${player.number}`).textContent = player.counter; // Update display
+				console.log("found name: " + player.name + ", counter " + player.counter + ", number: " + pnumber);
+
+				// Update the counter display
+				const counterElement = document.getElementById(`counter${pnumber}`); // Get the counter element
+				if (counterElement) { // Check if the element exists
+					counterElement.textContent = player.counter; // Update display using the index
+				}
 			}
 		});
 	}
+
 
 	// Initialize on page load
 	window.onload = loadYamlFile;
