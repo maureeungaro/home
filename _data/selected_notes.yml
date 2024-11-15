@@ -1,10 +1,10 @@
 - title: "Importing the downstream beamline from engineering models"
-  source: "notes/clas12_notes/downstream_beamline_import_from_engineering.docx "
+  source: "notes/clas12_notes/2024/downstream_beamline_import_from_engineering.docx "
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-006.pdf?documentId=171"
   year: "2024"
 
 - title: "Background Merging Mechanism in GEMC"
-  source: "notes/clas12_notes/background_merging_in_gemc.docx"
+  source: "notes/clas12_notes/2018/background_merging_in_gemc.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-002.pdf?documentId=56"
   year: "2018"
 

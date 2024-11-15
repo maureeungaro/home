@@ -1,5 +1,5 @@
 - title: "Importing the downstream beamline from engineering models"
-  source: "notes/clas12_notes/downstream_beamline_import_from_engineering.docx "
+  source: "notes/clas12_notes/2024/downstream_beamline_import_from_engineering.docx "
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-006.pdf?documentId=171"
   year: "2024"
 
@@ -19,22 +19,22 @@
   year: "2021"
 
 - title: "Tungsten shielding around the target to limit rates in the CLAS12 BST"
-  source: "notes/clas12_notes/target_tungsten_shield_study.docx"
+  source: "notes/clas12_notes/2019/target_tungsten_shield_study.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2019-002.pdf?documentId=63"
   year: "2019"
 
 - title: "Background Merging Mechanism in GEMC"
-  source: "notes/clas12_notes/background_merging_in_gemc.docx"
+  source: "notes/clas12_notes/2018/background_merging_in_gemc.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-002.pdf?documentId=56"
   year: "2018"
 
-- title: "Study of tungsten shielding around the target (duplicate)"
-  source: "notes/clas12_notes/target_tungsten_shield_study.docx"
-  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-005.pdf?documentId=59"
-  year: "2018"
+#- title: "Study of tungsten shielding around the target (duplicate)"
+#  source: "notes/clas12_notes/2018/target_tungsten_shield_study.docx"
+#  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-005.pdf?documentId=59"
+#  year: "2018"
 
 - title: "Study of Tungsten Shielding Before CTOF to Limit its PMT Currents"
-  source: "notes/clas12_notes/ctof_tungsten_shield_study.docx"
+  source: "notes/clas12_notes/2018/ctof_tungsten_shield_study.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2018-006.pdf?documentId=60"
   year: "2018"
 
@@ -54,37 +54,37 @@
   year: "2017"
 
 - title: "Corrections to CLAS12 vacuum beamline"
-  source: "notes/clas12_notes/corrections_to_clas12_vacuum_beamline.docx"
+  source: "notes/clas12_notes/2017/corrections_to_clas12_vacuum_beamline.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-012.pdf?documentId=47"
   year: "2017"
 
 - title: "Corrections to CLAS12 target design"
-  source: "notes/clas12_notes/corrections_to_clas12_target.docx"
+  source: "notes/clas12_notes/2017/corrections_to_clas12_target.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-013.pdf?documentId=48"
   year: "2017"
 
 - title: "Study of the electromagnetic background rates in CLAS12"
-  source: "notes/clas12_notes/em_rates_in_clas12"
+  source: "notes/clas12_notes/2017/em_rates_in_clas12.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-016.pdf?documentId=52"
   year: "2017"
 
 - title: "Importing CLAS12 CAD models of target and beamline in the GEMC simulation."
-  source: "notes/clas12_notes/importing_clas12_cad_volumes_in_gemc.docx"
+  source: "notes/clas12_notes/2017/importing_clas12_cad_volumes_in_gemc.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-017.pdf?documentId=53"
   year: "2017"
 
 - title: "Beam position study on a 3.5 mm shifted target cell"
-  source: "notes/clas12_notes/beam_position_study_target_shift.docx"
+  source: "notes/clas12_notes/2017/beam_position_study_target_shift.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2017-018.pdf?documentId=54"
   year: "2017"
 
 - title: "Moller shield simulations: comparison of the GEMC-optimized layout and engineering design"
-  source: "notes/clas12_notes/rates_comparison_gemc_engineering_run.docx"
+  source: "notes/clas12_notes/2016/rates_comparison_gemc_engineering_run.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2016-006.pdf?documentId=32"
   year: "2016"
 
 - title: "Study of the electromagnetic background with varying solenoid field"
-  source: "notes/clas12_notes/em_rates_with_varying_solenoid_strength.docx"
+  source: "notes/clas12_notes/2016/em_rates_with_varying_solenoid_strength.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2016-008.pdf?documentId=34"
   year: "2016"
 
