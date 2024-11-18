@@ -1,5 +1,10 @@
+- title: "Study of Lead Shielding Before FTOF Panel 1b to Limit its PMT Currents"
+  source: "notes/clas12_notes/2024/ftof_shield_study.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-009.pdf?documentId=176"
+  year: "2024"
+
 - title: "Importing the downstream beamline from engineering models"
-  source: "notes/clas12_notes/2024/downstream_beamline_import_from_engineering.docx "
+  source: "notes/clas12_notes/2024/downstream_beamline_import_from_engineering.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-006.pdf?documentId=171"
   year: "2024"
 
