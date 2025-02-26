@@ -19,11 +19,19 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
             {% if note.source == "na" %}
                 <td> na </td>
             {% else %}
-                <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}"           target="_blank"> source </a> </td>
+                {% assign ext = note.source | slice: -5, 5 %} <!-- Get last 5 characters -->
+                {% if ext == ".docx" %}
+                    <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> docx </a> </td>
+                {% elsif note.source | slice: -6, 6 == ".pages" %}
+                    <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> pages </a> </td>
+                {% else %}
+                    <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> source </a> </td>
+                {% endif %}
             {% endif %}
 
         </tr>
 	{% endfor %}
+
 </table>
 
 <br/>

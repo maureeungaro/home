@@ -1,5 +1,10 @@
 - title: "New CAD / Mirrors Import Mechanisms in GEMC"
-  source: "notes/clas12_notes/2024/run_dependent_clas12_simulations.docx"
+  source: "notes/clas12_notes/2025/run_dependent_clas12_simulations.docx"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-010.pdf?documentId=177"
+  year: "2025"
+
+- title: "New CAD / Mirrors Import Mechanisms in GEMC"
+  source: "notes/clas12_notes/2024/new_cad_mirrors_import_mechanism_gemc.docx"
   pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2024-010.pdf?documentId=177"
   year: "2024"
 
