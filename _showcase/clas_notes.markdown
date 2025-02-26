@@ -9,20 +9,21 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 <table class="alternate">
 	{% for note in site.data.all_notes %}
-		<tr>
+        <tr>
             <td> {{ note.title }} </td>
 
-			<td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
-				
-			<td> {{ note.year }} </td>
+            <td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
+                
+            <td> {{ note.year }} </td>
 
             {% if note.source == "na" %}
                 <td> na </td>
             {% else %}
-                {% assign ext = note.source | slice: -5, 5 %} <!-- Get last 5 characters -->
-                {% if ext == ".docx" %}
+                {% assign ext5 = note.source | slice: -5, 5 %}
+                {% assign ext6 = note.source | slice: -6, 6 %}
+                {% if ext5 == ".docx" %}
                     <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> docx </a> </td>
-                {% elsif note.source | slice: -6, 6 == ".pages" %}
+                {% elsif ext6 == ".pages" %}
                     <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> pages </a> </td>
                 {% else %}
                     <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> source </a> </td>
