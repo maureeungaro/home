@@ -294,8 +294,12 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
         <tr>
             <td> {{ note.title }} </td>
 
-            <td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
-                
+            {% if note.source == "soon" %}
+            	<td> <a href="coming soon"  target="_blank"> pdf </a> </td>
+            {% else %}
+            	<td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
+			{% endif %}
+
             <td> {{ note.year }} </td>
 
             {% if note.source == "na" %}

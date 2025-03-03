@@ -12,8 +12,12 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
         <tr>
             <td> {{ note.title }} </td>
 
-            <td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
-                
+            {% if note.source == "soon" %}
+            	<td> <a href="coming soon"  target="_blank"> pdf </a> </td>
+            {% else %}
+            	<td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
+			{% endif %}
+
             <td> {{ note.year }} </td>
 
             {% if note.source == "na" %}
