@@ -58,7 +58,7 @@ interest: "{::nomarkdown}
 <img src=\"assets/images/home/physics.png\" width=30px/> Staff Scientist<br/>
 <span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.jlab.org\">Jefferson Laboratory</a>, VA, USA, 2011-present</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> <img src=\"assets/images/home/physics.png\" width=30px/> Post-Doc and Research Associate<br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.uconn.edu\">University of Connecticut</a>, USA, 2004-2011</span><br/><br/>
+<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://uconn.edu\">University of Connecticut</a>, USA, 2004-2011</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> PhD in Nuclear Physics     <br/>
 <span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.rpi.edu\">Rensselaer Polytechnic Institute</a>, Troy, NY, USA, 2003</span><br/><br/>
 <img src=\"assets/images/home/degree.png\" width=30px/> Laurea in Fisica <br/>
