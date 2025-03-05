@@ -1,4 +1,13 @@
 - title: "Run Dependent Simulations"
+  filename: "gemc/full/hallBCollMeetings/march-2025"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
+  occasion_url: "https://indico.jlab.org/event/928/"
+  date: "March 2025"
+
+- title: "Run Dependent Simulations"
   filename: "gemc/full/june-2024"
   pptx: "na"
   key: "yes"

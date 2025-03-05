@@ -1,3 +1,12 @@
+- title: "CLAS12 on Open Science Grid Status"
+  filename: "/osg/full/hallBCollMeetings/march-2025"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "CLAS12 Collaboration Meeting, Newport News, Virginia"
+  occasion_url: "https://indico.jlab.org/event/928/"
+  date: "March 2025"
+
 - title: "CLAS12 Open Science Grid portal upgrade"
   filename: "/osg/full/osg_upgrade_sept_13"
   pptx: "na"
