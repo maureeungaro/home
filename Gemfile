@@ -5,7 +5,7 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
-# gem "jekyll", "~> 4.2.2"
+# gem "jekyll", "~> 3.10.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"

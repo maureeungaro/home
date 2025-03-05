@@ -15,6 +15,11 @@ in the `[pubs]` repo. to copy:
 scp /opt/projects/pubs/update_mauriplots_jlabl4.zsh ifarm:.
 ```
 
+# Versions:
+
+See https://pages.github.com/versions/  for the compatible version of the software when running jekyll on github
+
+
 #### Link checker:
 
 https://www.deadlinkchecker.com/

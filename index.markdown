@@ -27,7 +27,9 @@ and the [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0
 I work on the Refurbishment, Operation / Maintenance / Calibration of the<br/> 
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
 I am developing the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simulations](clas12Tags/clas12Tags),  <br/>
-including [web submissions](osg/osg) to the [Open Science Grid (OSG)](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).<br/><br/>
+including [web submissions](osg/osg) to the 
+[Open Science Grid (OSG)](https://osg-htc.org), see for example our <br/>
+[CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1),<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
 [supporting it at JLab](https://jeffersonlab.github.io/g4home/).<br/><br/>
 In my free time I am learning to play hockey, while watching and [assisting](showcase/hockey)<br/>
@@ -142,7 +144,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
     <th style="width: 25%"><img src="assets/images/home/languages.png"/> <br/>Languages</th>
 </tr>
 <tr>
-    <td><p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github CI, Docker, Environment-modules, HTCondor, CMake, SCons, Fortran, PHP, Javascript, Highchart, Html, CSS, Markdown</p></td>
+    <td><p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github, Continuous Integration, Docker, Environment-modules, HTCondor, meson, cmake, scons, fortran, PHP, Javascript, Highchart, html, CSS, Markdown</p></td>
     <td></td>
     <td><p style="color:#333;font-weight:400;font-size:18px; font-family: Avenir"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp, Excel, Powerpoint, Keynote, Numbers  </p></td>
     <td></td>
