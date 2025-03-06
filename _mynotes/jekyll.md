@@ -1,50 +1,69 @@
 ---
 layout: default
-title: "asciinema"
+title: "jekyll"
 ---
 
-# [Jekyll](https://asciinema.org/)
+# [Jekyll](https://jekyllrb.com)
+
 ---
 
 <br/>
 
-## Recording typing
+
+## Various commands: 
 
 ```
-asciinema rec demo.cast
+bundle exec jekyll serve
+bundle exec jekyll clean 
+bundle update jekyll
+bundle install
 ```
-Press `Ctrl + D` when done recording.
 
-
-`asciinema upload demo.cast` will return the address - that will show how 
-to **embed** it on a webpage or download a **gif**. 
-
-Can add `data-autoplay="true" data-loop="true"` to the page.
-
+- If the gemfile is changed, need to run `bundle`
+- If the config yaml is changed, (for example update theme), need to update `bundle update`
 
 <br/>
 
+---
 
-## [Agg]([agg](https://github.com/asciinema/agg)) to create a gif
+<br/>
 
-Make sure to:
+## Theme [Minima](https://github.com/jekyll/minima#readme) notes
 
-- comment out all echo commands in /etc/zshrc_Apple_Terminal 
-- remember to set  PROMPT_EOL_MARK='' in .zshrc 
+- The tab order is given by the filename, so you can prepend `a_` etc.
+- List of Fonts: https://fonts.google.com
 
-``` 
-agg --theme asciinema --font-size 50 --cols 112 --rows 22 --speed 2  ifarm.cast ifarm.gif
+<br/>
+
+---
+
+<br/>
+
+## Adding Content
+
+The files in directories starting with an underscore
+are not processed by jekyll if specified in the _config.yml file like this:
+
+```
+# this add content to the website from the local dirs starting with _
+collections:
+  pi0:
+    output: true
 ```
 
 <br/>
 
+Optionally [permalinks](https://jekyllrb.com/docs/permalinks/) can be added for navigation.
 
-## Scripting
+<br/>
 
-The [asciinema-rec_script](https://raw.githubusercontent.com/gemc/home/refs/heads/main/assets/asciinema-rec_script.sh) script can be used to record a script.
+---
 
-Remember to load the environment .
+<br/>
 
-```
-./asciinema-rec_script script_name.sh
-```
+## Useful links:
+
+- [versions](https://pages.github.com/versions/)  for the compatible version of the software when running jekyll on github
+- [jekyll on github](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+- [jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- [cool tables](https://github.com/jeffreytse/jekyll-spaceship)
