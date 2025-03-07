@@ -4,34 +4,4 @@ title: Notes
 permalink: /mynotes/
 ---
 
-<style>
-    .alternate {
-        width: 100%; /* Ensures the table takes full width */
-        table-layout: fixed; /* Forces equal column widths */
-        border-collapse: collapse; /* Ensures clean cell borders */
-    }
-    
-    .alternate td {
-        text-align: center; /* Centers text */
-        border: 1px solid #ccc; /* Optional: Adds border for clarity */
-        padding: 8px; /* Adds spacing inside cells */
-    }
-</style>
-
-<table class="alternate">
-    <colgroup>
-        {% for i in (1..12) %}
-            <col>
-        {% endfor %}
-    </colgroup>
-    {% for note in site.data.mynotes %}
-        {% assign mod_result = forloop.index | minus: 1 | modulo: 12 %}
-        {% if mod_result == 0 %}
-            <tr>
-        {% endif %}
-            <td> <a href="{{ note.link }}">{{ note.title }}</a> </td>
-        {% if mod_result == 11 or forloop.last %}
-            </tr>
-        {% endif %}
-    {% endfor %}
-</table>
+{% include mynotes.html %}

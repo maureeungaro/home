@@ -2,6 +2,7 @@
 layout: default
 title: "asciinema"
 ---
+{% include mynotes.html %}
 
 # [Asciinema](https://asciinema.org/)
 

@@ -2,6 +2,7 @@
 layout: default
 title: "jekyll"
 ---
+{% include mynotes.html %}
 
 # [Jekyll](https://jekyllrb.com)
 
