@@ -23,6 +23,19 @@ bundle install
 - If the gemfile is changed, need to run `bundle`
 - If the config yaml is changed, (for example update theme), need to update `bundle update`
 
+Note: never ever run bundle as `sudo`
+
+To update Bundler to a version compatible with your Ruby version and check / uninstall old versions:
+
+```
+sudo gem update --system
+sudo gem update bundler
+sudo gem install bundler 
+gem list bundler    
+sudo gem uninstall bundler -v 2.6.5
+```
+
+
 <br/>
 
 ---
