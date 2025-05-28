@@ -13,7 +13,9 @@ title: "jekyll"
 
 ## Various commands: 
 
-```
+To start a jekyll server, clean up, update, install the bundles, run:
+
+```bash
 bundle exec jekyll serve
 bundle exec jekyll clean 
 bundle update jekyll
@@ -23,11 +25,13 @@ bundle install
 - If the gemfile is changed, need to run `bundle`
 - If the config yaml is changed, (for example update theme), need to update `bundle update`
 
-Note: never ever run bundle as `sudo`
+> [!WARNING] 
+> never ever run bundle as `sudo`
+
 
 To update Bundler to a version compatible with your Ruby version and check / uninstall old versions:
 
-```
+```bash
 sudo gem update --system
 sudo gem update bundler
 sudo gem install bundler 
@@ -42,14 +46,47 @@ sudo gem uninstall bundler -v 2.6.5
 
 <br/>
 
-## Theme [Minima](https://github.com/jekyll/minima#readme) notes
+## Styling
 
+- Using [Minima](https://github.com/jekyll/minima#readme)
 - The tab order is given by the filename, so you can prepend `a_` etc.
 - List of Fonts: https://fonts.google.com
 
 <br/>
 
 ---
+
+<br/>
+
+## Admonitions:
+
+Adding the following to the `jekyll_plugins` group in the `gemfile` allows to use admonitions in markdown files:
+
+```
+  gem "jekyll-gfm-admonitions", "~> 1.0"
+```
+
+Available admonitions are:
+
+> [!NOTE] 
+> Note
+
+> [!TIP] 
+> Tip
+
+> [!WARNING] 
+> Warning
+
+> [!CAUTION] 
+> Caution
+
+> [!IMPORTANT] 
+> Important
+
+<br/>
+
+---
+
 
 <br/>
 
@@ -79,5 +116,5 @@ Optionally [permalinks](https://jekyllrb.com/docs/permalinks/) can be added for 
 
 - [versions](https://pages.github.com/versions/)  for the compatible version of the software when running jekyll on github
 - [jekyll on github](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
-- [jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
+- [jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [cool tables](https://github.com/jeffreytse/jekyll-spaceship)
