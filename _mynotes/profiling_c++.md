@@ -22,7 +22,7 @@ Provided a file `env.dat`with the environment variables settings (for example fr
 the following one liner can be used to get options needed to be passed to `xctrace`:
 
 [^1]:  make sure `xctrace` points to the Xcode one:
-``` 
+```bash
 xcrun --find xctrace
 ```
 
@@ -123,7 +123,7 @@ Valgrind can be used to profile C++ applications on Linux:
 
 ```bash
 valgrind --tool=callgrind --callgrind-out-file=callgrind.out.%p \
-  --dump-instr=yes --skip-plt=yes --separate-callers=2 \
+  --dump-instr=yes --skip-plt=yes \
   /path/to/your/application options
 ```
 

@@ -1,14 +1,29 @@
+- title: "Using Git"
+  date: "June 2025"
+  category: "work"
+  link: "/home/mynotes/git"
+
 - title: "Profiling C++"
+  category: "work"
   date: "May 2025"
   link: "/home/mynotes/profiling_c++"
 
 - title: "Asciinema"
+  category: "work"
   date: "March 2025"
   link: "/home/mynotes/asciinema"
 
 - title: "Jekyll"
+  category: "work"
   date: "March 2025"
   link: "/home/mynotes/jekyll"
+
+- title: "Vacation Checklist"
+  category: "general"
+  date: "June 2025"
+  link: "/home/mynotes/vac_checklist"
+
+
 
 
 
