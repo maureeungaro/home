@@ -28,7 +28,7 @@ Merge changes from branch1 into branch2 (one of them can be main). Use `rebase` 
 Alternatively, you can use `merge` to keep the history of both branches.
 ```bash
 git checkout branch2
-git rebase branch1 
+git merge/rebase branch1 
 ```
 
 If conflicts arises:
@@ -43,14 +43,18 @@ git add conflicted_file
 If necessary, keep one version of the other of one file:
 
 ```bash
-git checkout --ours conflicted_file  # Keep our version
-git checkout --theirs conflicted_file  # Keep their version
+git checkout --ours conflicted_file  # Keep our version (the rebase source)
+git checkout --theirs conflicted_file  # Keep their version (the rebase target)
 ```
 
+After choosing one version, you still need to `git add` the file to mark it as resolved.
+
+```bash
+git add conflicted_file
+```
 
 Finalizing rebase (notice commit w/o message):
 ```bash
-git commit
 git rebase --continue
 git push origin branch2
 ```
