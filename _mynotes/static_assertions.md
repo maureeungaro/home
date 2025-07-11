@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Static Assertions in C++"
+title: "Assertions in C++"
 ---
 
 {% include mynotes.html %}
@@ -37,4 +37,18 @@ static_assert(!std::is_copy_constructible_v<GTranslationTable>,
               "Copying a translation table is disallowed — use move or shared_ptr.");
 
 ```
+
+<br/>
+
+## Choosing the right assert
+
+
+| Intent                                   | Suggested trait(s)                                   |
+| ---------------------------------------- | ---------------------------------------------------- |
+| **Performance-critical value type**      | `std::is_trivially_copyable_v<T>`                    |
+| **Resource holder that you only *move*** | Delete copy ops + assert the two nothrow-move traits |
+| **Object shared across threads**         | At least `std::is_nothrow_destructible_v<T>`         |
+| **Custom `swap` / used in ordered maps** | Add `std::is_nothrow_swappable_v<T>`                 |
+
+
 <br/>
