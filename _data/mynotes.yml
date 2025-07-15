@@ -1,10 +1,10 @@
-- title: "Assertions in C++"
-  category: "work"
+- title: "Assertions"
+  category: "c++"
   date: "July 2025"
   link: "/home/mynotes/static_assertions"
 
-- title: "Debugging C++"
-  category: "work"
+- title: "Debugging"
+  category: "c++"
   date: "July 2025"
   link: "/home/mynotes/debugging_c++"
 
@@ -13,8 +13,8 @@
   category: "work"
   link: "/home/mynotes/git"
 
-- title: "Profiling C++"
-  category: "work"
+- title: "Profiling"
+  category: "c++"
   date: "May 2025"
   link: "/home/mynotes/profiling_c++"
 

@@ -34,17 +34,20 @@ lldb ./my_executable
 ```
 
 - Set breakpoints. Can use quotes and parameters or add line numbers, use conditions (-c)
+  Notice that if the function is inside a shared object, you may need to load the shared library first (e.g. with `process launch`).
 ```bash
-breakpoint set --name my_function
+break set -n my_function_name
 break set -n 'hipo_output::writeHeader(outputContainer*, std::map<std::string, double>, gBank)'
 break set --file hipo_output.cc --line <line_number>
 break set -n "GOptions::getVerbosityFor" -c "tag.size() == 0"
 ```
 
-- Run the program:
+- Run the program[^1]:
 ```bash
-run <options>
+process launch -- <options>
 ```
+
+[^1]: For simpler options `run arg1 arg2` also works, but `process launch` is more flexible.
 
 - Step through the code:
 ```bash
