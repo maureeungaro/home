@@ -39,6 +39,13 @@ gem list bundler
 sudo gem uninstall bundler -v 2.6.5
 ```
 
+Sometimes nuke bundler and re-install it:
+
+```bash
+sudo rm -f /opt/homebrew/bin/bundle /opt/homebrew/bin/bundler
+sudo gem uninstall bundler -aIx
+```
+
 
 <br/>
 

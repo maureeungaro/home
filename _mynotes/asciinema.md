@@ -35,7 +35,7 @@ Make sure to:
 - remember to set  PROMPT_EOL_MARK='' in .zshrc 
 
 ``` 
-agg --theme asciinema --font-size 50 --cols 112 --rows 22 --speed 2  ifarm.cast ifarm.gif
+agg --theme asciinema --font-size 50 --cols 132 --rows 22 --speed 2  ifarm.cast ifarm.gif
 ```
 
 <br/>
