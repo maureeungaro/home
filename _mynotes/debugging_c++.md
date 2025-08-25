@@ -17,7 +17,8 @@ title: "Profiling C++"
 
 ## Library dependencies
 
-- `otool -L <executable>` to list shared libraries linked to an executable.
+- macOS: `otool -L <executable>` to list shared libraries linked to an executable.
+- Linux: `ldd <executable>` to list shared libraries linked to an executable.
 - `nm <executable> | grep LZ4_compress_fast` to check if a specific 
    symbol is present in the binary.
 - `nm -u <executable> ` to list undefined symbols in the binary. 
@@ -56,6 +57,7 @@ next        # or just 'n'. Step over the next line of code
 frame info  # Show current frame information
 list        # Show the current source code around the current line
 bt          # Backtrace to see the call stack
+bt all      # Full backtrace with arguments
 finish      # Step out of the current function
 ```
 

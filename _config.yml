@@ -48,6 +48,7 @@ exclude:
    - Gemfile
    - Gemfile.lock
    - README.md
+   - not_used
    - todo
    - assets/quotes.txt
    - node_modules
@@ -76,8 +77,8 @@ collections:
     output: true
   mynotes:
     output: true
-  blog_cats:
-    output: true
+#  blog_cats:
+#    output: true
   software:
     output: true
 

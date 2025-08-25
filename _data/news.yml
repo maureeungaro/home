@@ -1,15 +1,20 @@
-- title: "The proton fiducial cut in the pi0 analysis is finalized"
-  date: "Aug 2023"
-  image: "https://userweb.jlab.org/~ungaro/plots/pfid/img/plane-DC2_intsector-2.png"
-  link: "/home/meson/pi0_resonance/proton_fid"
+- title: "Geant4 School at JLab"
+  date: "Aug 2025"
+  image: "https://jeffersonlab.github.io/g4home/assets/images/ifarm.png"
+  link: "https://indico.jlab.org/event/963/"
+
+- title: "GEMC CHEP proceedings are published"
+  date: "May 2024"
+  image: "https://gemc.github.io/home/assets/images/gemcArchitecture.png"
+  link: "https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_05005.pdf"
 
 - title: "The electron kinematic corrections are finalized"
   date: "Nov 2023"
   image: "https://userweb.jlab.org/~ungaro/plots/e_kin_cor/img/dist-pi0vsPhi_sector-1.png"
   link: "/home/meson/pi0_resonance/e_kin_corr"
 
-- title: "GEMC CHEP proceedings are published"
-  date: "May 2024"
-  image: "https://gemc.github.io/home/assets/images/gemcArchitecture.png"
-  link: "https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_05005.pdf"
+- title: "The proton fiducial cut in the pi0 analysis is finalized"
+  date: "Aug 2023"
+  image: "https://userweb.jlab.org/~ungaro/plots/pfid/img/plane-DC2_intsector-2.png"
+  link: "/home/meson/pi0_resonance/proton_fid"
 

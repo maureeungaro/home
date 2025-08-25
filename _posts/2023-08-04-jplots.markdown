@@ -8,5 +8,5 @@ categories: software
 Charts in javascript (highcharts) can be quite powerful. Here's a [demo page](/home/software/charts) where one can drop CSV files
 to display data in them. 
 
-Thwe page plots all the data in the chart on top, and the individual variables (up to 10) in the plots below.
+The page plots all the data in the chart on top, and the individual variables (up to 10) in the plots below.
 
