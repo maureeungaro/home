@@ -75,18 +75,38 @@ Adding the following to the `jekyll_plugins` group in the `gemfile` allows to us
 
 Available admonitions are:
 
+```
+> [!NOTE] 
+> Note
+```
 > [!NOTE] 
 > Note
 
+```
+> [!TIP] 
+> Tip
+```
 > [!TIP] 
 > Tip
 
+```
+> [!WARNING] 
+> Warning
+```
 > [!WARNING] 
 > Warning
 
+```
+> [!CAUTION] 
+> Caution
+```
 > [!CAUTION] 
 > Caution
 
+```
+> [!IMPORTANT] 
+> Important
+```
 > [!IMPORTANT] 
 > Important
 
@@ -119,9 +139,27 @@ Optionally [permalinks](https://jekyllrb.com/docs/permalinks/) can be added for 
 
 <br/>
 
+## Additional markdown features
+
+- Web Links: 
+```
+This site was built using [GitHub Pages](https://pages.github.com/).
+```
+
+- Section Links:
+```
+See the [Admonitions](#admonitions) section for more details.
+```
+
+- emails:
+```
+You can contact me at [gemc@jlab.org](mailto:gemc@jlab.org)
+```
+
+
+
 ## Useful links:
 
-- [versions](https://pages.github.com/versions/)  for the compatible version of the software when running jekyll on github
 - [jekyll on github](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 - [jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [cool tables](https://github.com/jeffreytse/jekyll-spaceship)

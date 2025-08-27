@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  /* Grab only the *outer* wrapper that always exists */
+  /* Grab all highlight containers, regardless of the specific class name */
   document.querySelectorAll('div.highlight').forEach(block => {
     /* Skip if we already added a button (avoids duplicates on hot reload) */
     if (block.dataset.copyBtn) return;
@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     block.appendChild(btn);
 
     btn.addEventListener('click', () => {
+      // Find the code element within the highlight block
       const code = block.querySelector('code').innerText.trim();
       navigator.clipboard.writeText(code).then(() => {
         btn.textContent = 'Copied!';

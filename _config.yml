@@ -39,9 +39,9 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# the vendor directory is added to allow github pages build
+# The following items will not be processed, by default.
+# Create a custom list to override the default setting.
+# The vendor directory is added to allow github pages build.
 exclude:
    - .jekyll-cache/
    - .idea/
