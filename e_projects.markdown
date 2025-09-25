@@ -11,17 +11,17 @@ gemc: "<br/><a href=\"../gemc/gemc\"><img src=\"../assets/images/home/gemc.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 <a href=\"../gemc/gemc\">GEMC: C++ Simulation framework</a><br/><br/>  " 
   
-clas12: "<br/><a href=\"../clas12Tags/clas12Tags\"><img src=\"../assets/images/home/clas12.png\"    
+clas12: "<br/><a href=\"https://github.com/gemc/clas12Tags\"><img src=\"../assets/images/home/clas12.png\"    
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../clas12Tags/clas12Tags\">CLAS12 Simulations with GEMC</a><br/><br/>  "
+<a href=\"https://github.com/gemc/clas12Tags\">CLAS12 Simulations with GEMC</a><br/><br/>  "
 
 osg: "<br/><a href=\"../osg/osg\"><img src=\"../assets/images/home/osg.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 <a href=\"../osg/osg\">CLAS12 Simulations on the Open Science Grid</a><br/><br/>  "
 
-geant4: "<br/><a href=\"../geant4/geant4\"><img src=\"../assets/images/home/geant4.png\"
+geant4: "<br/><a href=\"https://jeffersonlab.github.io/g4home/\"><img src=\"../assets/images/home/geant4.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../geant4/geant4\">Geant4 Physics Validation</a><br/><br/>  "
+<a href=\"https://jeffersonlab.github.io/g4home/\">Geant4 At Jefferson Lab</a><br/><br/>  "
 
 ltcc: "<br/><a href=\"../ltcc/ltcc\"><img src=\"../assets/images/home/ltcc.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>

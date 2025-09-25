@@ -26,14 +26,14 @@ form factors and dressed quark mass (see for example the [N → Δ(1232) transit
 and the [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses). <br/><br/>
 I work on the Refurbishment, Operation / Maintenance / Calibration of the<br/> 
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
-I am developing the [GEMC](gemc/gemc)  simulation framework and the [CLAS12 simulations](clas12Tags/clas12Tags),  <br/>
-including [web submissions](osg/osg) to the 
+I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags),  <br/>
+including [Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the 
 [Open Science Grid (OSG)](https://osg-htc.org), see for example our <br/>
 [CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1),<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
 [supporting it at JLab](https://jeffersonlab.github.io/g4home/).<br/><br/>
-In my free time I am learning to play hockey, while watching and [assisting](showcase/hockey)<br/>
- my kid learning it much faster than me.
+In my free time I am learning to play hockey, while watching 
+ my kid learning it <br/> much faster than me.
 <br/><br/>"
 
 

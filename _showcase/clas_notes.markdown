@@ -7,6 +7,8 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 <br/>
 
+# CLAS Notes
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
