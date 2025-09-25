@@ -1,3 +1,13 @@
+- title: "Geant4 at Jefferson Lab"
+  filename: "geant4/full/gspda_lunch_seminar_sept_2025"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "Graduate Student and PostDoc Association Lunch Seminar"
+  occasion_url: "https://www.jlab.org/user_resources/pizza_seminars/2025/Ungaro_2025.pdf"
+  date: "September 2025"
+
+
 - title: "Geant4 Electromagnetic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/em1/full/em1_jlab_august2025"
   pptx: "na"
@@ -96,3 +106,12 @@
   occasion: "CHEP 2023, Norfolk, Virginia"
   occasion_url: "https://indico.jlab.org/event/459/"
   date: "May 2023"
+
+- title: "Expanding, uniting, and enhancing CLAS12 computing with OSG’s fabric of services"
+  filename: "/gemc/full/chep_2023"
+  pptx: "na"
+  key: "na"
+  pdf: "na"
+  occasion: "Interview with OSG Consortium"
+  occasion_url: "https://osg-htc.org/spotlights/CLAS12.html"
+  date: "May 2022"

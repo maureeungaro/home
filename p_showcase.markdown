@@ -11,6 +11,13 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 # Recent and Upcoming talks
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>
+
 	{% for presentation in site.data.recent_and_upcoming_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -20,18 +27,6 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
                 {% elsif presentation.pdf == "no_animation" %}
                     <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
                  {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"  target="_blank"> key </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
-                {% else %}
                     <td> na </td>
                 {% endif %}
 
@@ -71,6 +66,12 @@ A list of all Mauri's research papers can be found at [Mauri's profile on Inspir
 Selected Presentations:
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>
 	{% for presentation in site.data.meson_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -83,17 +84,6 @@ Selected Presentations:
                     <td> na </td>
                 {% endif %}
 
-                {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key" target="_blank"> key </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
@@ -115,6 +105,12 @@ A list of all meson electro-production presentations can be found at [mauri's me
 # Low Threshold Cherenkov Counter (LTCC)
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>	
 	{% for presentation in site.data.ltcc_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -127,17 +123,6 @@ A list of all meson electro-production presentations can be found at [mauri's me
                     <td> na </td>
                 {% endif %}
 
-                {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"  target="_blank"> key </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
@@ -159,6 +144,12 @@ A list of all the ltcc presentations can be found at [mauri's ltcc presentations
 # GEANT4
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>	
 	{% for presentation in site.data.geant4_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -168,18 +159,6 @@ A list of all the ltcc presentations can be found at [mauri's ltcc presentations
                 {% elsif presentation.pdf == "no_animation" %}
                     <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
                  {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"  target="_blank"> key </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
-                {% else %}
                     <td> na </td>
                 {% endif %}
 
@@ -203,6 +182,12 @@ A list of all the geant4 presentations can be found at [mauri's geant4 presentat
 # GEMC
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>	
 	{% for presentation in site.data.gemc_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -215,17 +200,6 @@ A list of all the geant4 presentations can be found at [mauri's geant4 presentat
                     <td> na </td>
                 {% endif %}
 
-                {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"  target="_blank"> key </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
@@ -247,6 +221,12 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 # Open Science Grid
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>	
 	{% for presentation in site.data.osg_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
@@ -256,18 +236,6 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
                 {% elsif presentation.pdf == "no_animation" %}
                     <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
                  {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.key == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.key"  target="_blank"> key </a> </td>
-                {% else %}
-                    <td> na </td>
-                {% endif %}
-
-                {% if presentation.pptx == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pptx" target="_blank"> ppt </a> </td>
-                {% else %}
                     <td> na </td>
                 {% endif %}
 
@@ -290,6 +258,12 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 # Selected CLAS/CLAS12 Technical Notes
 
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> pdf </td>
+		<td> Date </td>
+	</tr>	
+
 	{% for note in site.data.selected_notes %}
         <tr>
             <td> {{ note.title }} </td>
@@ -302,19 +276,6 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 
             <td> {{ note.year }} </td>
 
-            {% if note.source == "na" %}
-                <td> na </td>
-            {% else %}
-                {% assign ext5 = note.source | slice: -5, 5 %}
-                {% assign ext6 = note.source | slice: -6, 6 %}
-                {% if ext5 == ".docx" %}
-                    <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> docx </a> </td>
-                {% elsif ext6 == ".pages" %}
-                    <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> pages </a> </td>
-                {% else %}
-                    <td> <a href="{{ page.pub_baseurl }}/{{ note.source }}" target="_blank"> source </a> </td>
-                {% endif %}
-            {% endif %}
 
         </tr>
 	{% endfor %}

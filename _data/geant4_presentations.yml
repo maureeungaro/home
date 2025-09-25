@@ -1,3 +1,12 @@
+- title: "Geant4 at Jefferson Lab"
+  filename: "geant4/full/gspda_lunch_seminar_sept_2025"
+  pptx: "na"
+  key: "yes"
+  pdf: "yes"
+  occasion: "Graduate Student and PostDoc Association Lunch Seminar"
+  occasion_url: "https://www.jlab.org/user_resources/pizza_seminars/2025/Ungaro_2025.pdf"
+  date: "September 2025"
+
 - title: "Geant4 Electromagnetic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/em1/full/em1_jlab_august2025"
   pptx: "na"
