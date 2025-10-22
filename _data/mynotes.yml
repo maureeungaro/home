@@ -1,3 +1,8 @@
+- title: "Cernlib on MacOS"
+  category: "work"
+  date: "October 2025"
+  link: "/home/mynotes/paw_cernlib_macos"
+
 - title: "Docker and Apptainer"
   category: "work"
   date: "July 2025"
@@ -33,10 +38,7 @@
   date: "March 2025"
   link: "/home/mynotes/jekyll"
 
-- title: "Vacation Checklist"
-  category: "general"
-  date: "June 2025"
-  link: "/home/mynotes/vac_checklist"
+
 
 
 
