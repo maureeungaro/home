@@ -1,7 +1,14 @@
+- title: "Real Run Number simulations for CLAS12"
+  filename: "geant4/full/gspda_lunch_seminar_sept_2025"
+  pdf: "no"
+  occasion: "CLAS12 Technical Note"
+  occasion_url: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2025-005.pdf?documentId=183"
+  date: "October 2025"
+
+
+
 - title: "Geant4 at Jefferson Lab"
   filename: "geant4/full/gspda_lunch_seminar_sept_2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Graduate Student and PostDoc Association Lunch Seminar"
   occasion_url: "https://www.jlab.org/user_resources/pizza_seminars/2025/Ungaro_2025.pdf"
@@ -10,8 +17,6 @@
 
 - title: "Geant4 Electromagnetic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/em1/full/em1_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -19,8 +24,6 @@
 
 - title: "Geant4 Materials"
   filename: "geant4-tutorials/presentations/mauri/materials/full/materials_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -28,8 +31,6 @@
 
 - title: "Geant4 User Documentation and Examples"
   filename: "geant4-tutorials/presentations/mauri/usersdocs_examples/full/usersdocs_examples_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -37,8 +38,6 @@
 
 - title: "Geant4 Analysis Tools"
   filename: "geant4-tutorials/presentations/mauri/analysis/full/analysis_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -46,8 +45,6 @@
 
 - title: "Geant4 Hadronic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/hp1/full/hadronic_physics_1_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -55,8 +52,6 @@
 
 - title: "Geant4 Visualization"
   filename: "geant4-tutorials/presentations/mauri/visualization/full/visualization_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -64,8 +59,6 @@
 
 - title: "Upgrading Geant4 Release"
   filename: "geant4-tutorials/presentations/mauri/upgrading/full/upgrading_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -73,8 +66,6 @@
 
 - title: "Run Dependent Simulations"
   filename: "gemc/full/hallBCollMeetings/march-2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/928/"
@@ -82,8 +73,6 @@
 
 - title: "CLAS12 on Open Science Grid Status"
   filename: "/osg/full/hallBCollMeetings/march-2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS12 Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/928/"
@@ -91,8 +80,6 @@
 
 - title: "Geant4 Hadronic Physics Updates"
   filename: "geant4/full/hadronic_physics_updates_space_workshop_dec_2023"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 Space Users Workshop, Pasadena, California"
   occasion_url: "https://indico.esa.int/event/477/"
@@ -100,8 +87,6 @@
 
 - title: "GEMC: a database driven Monte-Carlo simulation program"
   filename: "/gemc/full/chep_2023"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CHEP 2023, Norfolk, Virginia"
   occasion_url: "https://indico.jlab.org/event/459/"
@@ -109,8 +94,6 @@
 
 - title: "Expanding, uniting, and enhancing CLAS12 computing with OSG’s fabric of services"
   filename: "/gemc/full/chep_2023"
-  pptx: "na"
-  key: "na"
   pdf: "na"
   occasion: "Interview with OSG Consortium"
   occasion_url: "https://osg-htc.org/spotlights/CLAS12.html"

@@ -1,7 +1,5 @@
 - title: "Geant4 at Jefferson Lab"
   filename: "geant4/full/gspda_lunch_seminar_sept_2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Graduate Student and PostDoc Association Lunch Seminar"
   occasion_url: "https://www.jlab.org/user_resources/pizza_seminars/2025/Ungaro_2025.pdf"
@@ -9,8 +7,6 @@
 
 - title: "Geant4 Electromagnetic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/em1/full/em1_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -18,8 +14,6 @@
 
 - title: "Geant4 Materials"
   filename: "geant4-tutorials/presentations/mauri/materials/full/materials_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -27,8 +21,6 @@
 
 - title: "Geant4 User Documentation and Examples"
   filename: "geant4-tutorials/presentations/mauri/usersdocs_examples/full/usersdocs_examples_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -36,8 +28,6 @@
 
 - title: "Geant4 Analysis Tools"
   filename: "geant4-tutorials/presentations/mauri/analysis/full/analysis_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -45,8 +35,6 @@
 
 - title: "Geant4 Hadronic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/hp1/full/hadronic_physics_1_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -54,8 +42,6 @@
 
 - title: "Geant4 Visualization"
   filename: "geant4-tutorials/presentations/mauri/visualization/full/visualization_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -63,8 +49,6 @@
 
 - title: "Upgrading Geant4 Release"
   filename: "geant4-tutorials/presentations/mauri/upgrading/full/upgrading_jlab_august2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/963/"
@@ -72,8 +56,6 @@
 
 - title: "Geant4 Analysis Tools"
   filename: "geant4-tutorials/presentations/mauri/analysis/full/analysis_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"
@@ -81,8 +63,6 @@
 
 - title: "Geant4 Hadronic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/hp1/full/hadronic_physics_1_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"
@@ -90,8 +70,6 @@
 
 - title: "Geant4 Visualization"
   filename: "geant4-tutorials/presentations/mauri/visualization/full/visualization_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"
@@ -99,8 +77,6 @@
 
 - title: "Upgrading Geant4 Release"
   filename: "geant4-tutorials/presentations/mauri/upgrading/full/upgrading_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"
@@ -108,8 +84,6 @@
 
 - title: "Geant4 Hadronic Physics Updates"
   filename: "geant4/full/hadronic_physics_updates_space_workshop_dec_2023"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 Space Users Workshop, Pasadena, California"
   occasion_url: "https://indico.esa.int/event/477/"

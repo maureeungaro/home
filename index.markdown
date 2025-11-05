@@ -84,7 +84,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 <br/><br/><br/>
 
 <p style="text-align:center">
-<span style="color:#444;font-weight:300;font-size:54px">Recent and Upcoming talks</span>
+<span style="color:#444;font-weight:300;font-size:54px">Recent and Upcoming</span>
 </p>
 <br/><br/>
 <table class="alternate">
@@ -105,7 +105,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
                 {% elsif presentation.pdf == "no_animation" %}
                     <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
                  {% else %}
-                    <td> na </td>
+                    <td>  </td>
                 {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}

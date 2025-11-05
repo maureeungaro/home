@@ -1,7 +1,5 @@
 - title: "CLAS12 on Open Science Grid Status"
   filename: "/osg/full/hallBCollMeetings/march-2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS12 Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/928/"
@@ -9,8 +7,6 @@
 
 - title: "CLAS12 Open Science Grid portal upgrade"
   filename: "/osg/full/osg_upgrade_sept_13"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS12 Software Meeting, Newport News, Virginia"
   occasion_url: "https://clasweb.jlab.org/wiki/index.php/Agendas,_minutes,_notes_and_related_documents"
@@ -18,8 +14,6 @@
   
 - title: "Update on GEMC and CLAS12 OSG portal"
   filename: "/gemc/full/hallBCollMeetings/july-2023"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/724/"
@@ -27,8 +21,6 @@
 
 - title: "CLAS12 on OSG: Images, Portal and CPU Resources"
   filename: "/osg/full/hallBCollMeetings/june-2021"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS Collaboration meeting"
   occasion_url: "https://indico.jlab.org/event/445/"
@@ -36,8 +28,6 @@
 
 - title: "CLAS12 simulations on the Open Science Grid"
   filename: "/osg/full/osgHallHandsMarch2021"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "OSG All-Hands Meeting 2021"
   occasion_url: "https://indico.fnal.gov/event/47040/"

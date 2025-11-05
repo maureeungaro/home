@@ -1,7 +1,5 @@
 - title: "LTCC Review"
   filename: "/ltcc/review_2015"
-  pptx: "yes"
-  key: "yes"
   pdf: "yes"
   occasion: "Detector Review"
   occasion_url: "NA"
@@ -9,8 +7,6 @@
 
 - title: "CLAS12 Cherenkovs For PID"
   filename: "/ltcc/cherenkovsForPID"
-  pptx: "no"
-  key: "yes"
   pdf: "yes"
   occasion: "Workshop on kaons with CLAS12, Frascati"
   occasion_url: "https://agenda.infn.it/event/33338/"

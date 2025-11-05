@@ -1,7 +1,5 @@
 - title: "Geant4 Analysis Tools"
   filename: "geant4-tutorials/presentations/mauri/analysis/full/analysis_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"
@@ -9,8 +7,6 @@
 
 - title: "Geant4 Hadronic Physics 1"
   filename: "geant4-tutorials/presentations/mauri/hp1/full/hadronic_physics_1_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"
@@ -18,8 +14,6 @@
 
 - title: "Geant4 Visualization"
   filename: "geant4-tutorials/presentations/mauri/visualization/full/visualization_jlab_march2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Geant4 tutorial course, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/828/"

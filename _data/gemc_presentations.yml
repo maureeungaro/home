@@ -1,7 +1,5 @@
 - title: "Run Dependent Simulations"
   filename: "gemc/full/hallBCollMeetings/march-2025"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/928/"
@@ -9,8 +7,6 @@
 
 - title: "Run Dependent Simulations"
   filename: "gemc/full/june-2024"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/829/"
@@ -18,8 +14,6 @@
 
 - title: "Update on GEMC and CLAS12 OSG portal"
   filename: "/gemc/full/hallBCollMeetings/july-2023"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
   occasion_url: "https://indico.jlab.org/event/724/"
@@ -27,8 +21,6 @@
 
 - title: "GEMC: a database driven Monte-Carlo simulation program"
   filename: "/gemc/full/chep_2023"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "CHEP 2023, Norfolk, Virginia"
   occasion_url: "https://indico.jlab.org/event/459/"
@@ -36,8 +28,6 @@
 
 - title: "MC Streaming"
   filename: "/sro/fullTalks/sroWorkshop8"
-  pptx: "na"
-  key: "yes"
   pdf: "yes"
   occasion: "Workshop VIII on Streaming Readout"
   occasion_url: "https://indico.mit.edu/event/1/"
