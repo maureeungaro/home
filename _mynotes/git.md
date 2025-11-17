@@ -21,38 +21,55 @@ title: "Using Git"
 
 # Update a tag / release
 
-- First checkout the branch you want to update:
+Use variables to point to the GitHub tag you want to update, the temp branch and the tag ref
+For example `5.12` or `v5.12`:
+
+```bash
+tag=v1.2.3
+btag="b$tag"
+ttag="refs/tags/$tag"
+```
+
+- Create and switch to a temporary branch (**b**) from the current tag (**t**)
 
 	```bash
-	git checkout v1.12
+	git fetch origin --tags
+	git switch -c "$btag" "$tag"
 	```
 
-- Create a branch based on that:
+- Make changes, commit and push
 
 	```bash
-	git switch -c b1.12
+	git commit -am "Fixes for $tag"
+	git push -u origin "$btag"
 	```
 
-- Notice if the branch exist, check it out like (b not v) like this: 
+- Delete old local tag, recreate tag at HEAD
 
 	```bash
-	git checkout b1.12
-	```
-	
-	```bash
-	git push --set-upstream origin b1.12
+	git switch "$btag"
+	git tag -d "$tag"        
+	git tag "$tag"            
 	```
 
-- Make changes, commit and push.
 
-- Now on GitHub website, delete the old release and tag and make a new one targeting the new branch
 
-- Cleanup: delete GitHub branch on GitHub  and local branch:
-
-	```bash
-	git branch -D  b1.12
-	```
+- Delete old remote tag, push the new tag
  
+	```bash
+	git push origin :"$ttag"
+	push origin tag "$tag"
+	```
+
+- Update the GitHub release: delete and create new one using new tag
+
+- Cleanup: delete remote temp branch, local temp branch
+
+	```bash
+	git push origin --delete "$btag"
+	branch -D "$btag"
+	```
+
 <br/>
 
 # Branches
