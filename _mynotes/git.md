@@ -9,6 +9,52 @@ title: "Using Git"
 
 <br/>
 
+# General Tips
+
+### Clone one branch or tag, w/o history
+
+```bash
+git clone -b v1.2.3 --single-branch --depth 1 [repo] 
+```
+
+
+# Update a tag / release
+
+- First checkout the branch you want to update:
+
+	```bash
+	git checkout v1.12
+	```
+
+- Create a branch based on that:
+
+	```bash
+	git switch -c b1.12
+	```
+
+- Notice if the branch exist, check it out like (b not v) like this: 
+
+	```bash
+	git checkout b1.12
+	```
+	
+	```bash
+	git push --set-upstream origin b1.12
+	```
+
+- Make changes, commit and push.
+
+- Now on GitHub website, delete the old release and tag and make a new one targeting the new branch
+
+- Cleanup: delete GitHub branch on GitHub  and local branch:
+
+	```bash
+	git branch -D  b1.12
+	```
+
+
+
+
 
 # Branches
 
