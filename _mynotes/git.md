@@ -11,12 +11,13 @@ title: "Using Git"
 
 # General Tips
 
-### Clone one branch or tag, w/o history
+- Clone one branch or tag, w/o history
 
-```bash
-git clone -b v1.2.3 --single-branch --depth 1 [repo] 
-```
+	```bash
+	git clone -b v1.2.3 --single-branch --depth 1 [repo] 
+	```
 
+<br/>
 
 # Update a tag / release
 
@@ -51,10 +52,8 @@ git clone -b v1.2.3 --single-branch --depth 1 [repo]
 	```bash
 	git branch -D  b1.12
 	```
-
-
-
-
+ 
+<br/>
 
 # Branches
 
