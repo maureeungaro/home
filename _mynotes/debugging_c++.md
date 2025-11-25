@@ -5,15 +5,11 @@ title: "Profiling C++"
 
 {% include mynotes.html %}
 
----
-
-<br/>
-
 
 # Debugging C++
 <hr style="height:4px;border:0;background:#4a90e2;">
 
-<br/><br/>
+<br/>
 
 ## Library dependencies
 

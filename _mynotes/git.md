@@ -5,11 +5,12 @@ title: "Using Git"
 
 {% include mynotes.html %}
 
----
+
+# Using Git
+<hr style="height:4px;border:0;background:#4a90e2;">
 
 <br/>
 
-# General Tips
 
 - Clone one branch or tag, w/o history
 
@@ -51,8 +52,6 @@ ttag="refs/tags/$tag"
 	git tag -d "$tag"        
 	git tag "$tag"            
 	```
-
-
 
 - Delete old remote tag, push the new tag
  

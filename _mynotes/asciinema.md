@@ -5,8 +5,8 @@ title: "asciinema"
 {% include mynotes.html %}
 
 # [Asciinema, gifs](https://asciinema.org/)
+<hr style="height:4px;border:0;background:#4a90e2;">
 
----
 
 <br/>
 

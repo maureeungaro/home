@@ -5,6 +5,9 @@ title: "Docker and Apptainer"
 {% include mynotes.html %}
 
 # [Docker](https://www.docker.com)
+<hr style="height:4px;border:0;background:#4a90e2;">
+
+<br/>
 
 To run a docker image using docker:
 

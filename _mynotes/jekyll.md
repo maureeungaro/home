@@ -4,11 +4,13 @@ title: "jekyll"
 ---
 {% include mynotes.html %}
 
-# [Jekyll](https://jekyllrb.com)
 
----
+# [Jekyll](https://jekyllrb.com)
+<hr style="height:4px;border:0;background:#4a90e2;">
 
 <br/>
+
+
 
 
 ## Various commands: 
@@ -46,11 +48,6 @@ sudo rm -f /opt/homebrew/bin/bundle /opt/homebrew/bin/bundler
 sudo gem uninstall bundler -aIx
 ```
 
-
-<br/>
-
----
-
 <br/>
 
 ## Styling
@@ -58,10 +55,9 @@ sudo gem uninstall bundler -aIx
 - Using [Minima](https://github.com/jekyll/minima#readme)
 - The tab order is given by the filename, so you can prepend `a_` etc.
 - List of Fonts: https://fonts.google.com
+- The minima files location can be found with `bundle show minima`. 
 
-<br/>
 
----
 
 <br/>
 
@@ -73,49 +69,34 @@ Adding the following to the `jekyll_plugins` group in the `gemfile` allows to us
   gem "jekyll-gfm-admonitions", "~> 1.0"
 ```
 
-Available admonitions are:
+Admonitions can be achieved like this:
 
 ```
 > [!NOTE] 
 > Note
 ```
+
+The available ones are:
+
 > [!NOTE] 
 > Note
 
-```
-> [!TIP] 
-> Tip
-```
 > [!TIP] 
 > Tip
 
-```
-> [!WARNING] 
-> Warning
-```
 > [!WARNING] 
 > Warning
 
-```
-> [!CAUTION] 
-> Caution
-```
 > [!CAUTION] 
 > Caution
 
-```
-> [!IMPORTANT] 
-> Important
-```
 > [!IMPORTANT] 
 > Important
 
 <br/>
 
----
 
 
-<br/>
 
 ## Adding Content
 
@@ -133,9 +114,6 @@ collections:
 
 Optionally [permalinks](https://jekyllrb.com/docs/permalinks/) can be added for navigation.
 
-<br/>
-
----
 
 <br/>
 
@@ -156,7 +134,12 @@ See the [Admonitions](#admonitions) section for more details.
 You can contact me at [gemc@jlab.org](mailto:gemc@jlab.org)
 ```
 
+<br/>
 
+
+
+
+<br/>
 
 ## Useful links:
 

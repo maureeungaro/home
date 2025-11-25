@@ -5,15 +5,10 @@ title: "Cernlib on MacOS"
 
 {% include mynotes.html %}
 
----
-
-<br/>
-
-
 # Cernlib, Paw on MacOS
 <hr style="height:4px;border:0;background:#4a90e2;">
 
-<br/><br/>
+<br/>
 
 Here is a quick way to run cernlib’s paw in a Docker container on MacOS[^1]. 
 This uses a debian based container with paw, paw++, and cernlib installed via the system (i.e. apt-get).
