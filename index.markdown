@@ -8,7 +8,7 @@
 layout: default
 
 mauri: "
-<img src=\"assets/images/home/mauri.png\" style=\"width: 60%\"/><br/><br/>
+<img src=\"assets/images/home/mauri.png\" style=\"width: 100%\"/><br/><br/>
 <span style=\"color:#222222;font-weight:200;font-size:30px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:24px\">Staff Scientist</span><br/><br/>
 [Jefferson Laboratory](https://www.jlab.org) <br/>[Experimental Hall-B](https://www.jlab.org/physics/hall-b)<br/><br/>
 <a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> 
@@ -17,26 +17,24 @@ mauri: "
 <a href=\"mailto:ungaro@jlab.org\"                                                    ><img class=\"zoomIcon\" src=\"assets/images/home/email.png\"   /> </a>
 <br/><br/><br/><br/><br/>"
 
-abtme: "<span style=\"color:#222222;font-weight:500;font-size:2.5rem; font-family: Montserrat,sans-serif; \">About Me</span> <br/>"
+abtme: ""
 
-hello: "<br/>I'm Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).<br/><br/>
-My research is focused on the internal structure and dynamics of the nucleon, <br/>
-in particular the physics beyond the constituent quark model and the link between <br/>
-form factors and dressed quark mass (see for example the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta)<br/>
-and the [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses). <br/><br/>
-I work on the Refurbishment, Operation / Maintenance / Calibration of the<br/> 
+hello: "<span style=\"color:#222222;font-weight:500;font-size:2.5rem; font-family: Montserrat,sans-serif; \">About Me</span><br/><br/>
+I'm Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).<br/><br/>
+My research is focused on the internal structure and dynamics of the nucleon, 
+in particular the physics beyond the constituent quark model and the link between 
+form factors and dressed quark mass (see for example the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta)
+and the [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses). <br/><br/> 
+I work on the Refurbishment, Operation / Maintenance / Calibration of the
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
-I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags),  <br/>
+I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags),  
 including [Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the 
-[Open Science Grid (OSG)](https://osg-htc.org), see for example our <br/>
+[Open Science Grid (OSG)](https://osg-htc.org), see for example our 
 [CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1),<br/><br/>
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
 [supporting it at JLab](https://jeffersonlab.github.io/g4home/).<br/><br/>
-In my free time I am learning to play hockey, while watching 
- my kid learning it <br/> much faster than me.
-<br/><br/>"
-
-
+In my free time I am learning to play hockey, while watching my kid learning it <br/> much faster than me.
+<br/><br/><br/>"
 
 
 interest: "{::nomarkdown}
@@ -74,17 +72,18 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 ---
 
-|                                                      |                                                       |
-|:----------------------------------------------------:|-------------------------------------------------------|
-|                    {{page.mauri}}                    | {{page.abtme}} {{page.hello}}     {{page.interest}}   |
-| ---------------------------------------------------- | ----------------------------------------------------- |
+|                                                     |                        |
+|:---------------------------------------------------:|------------------------|
+|                   {{page.mauri}}                    | {{page.hello}}         |
+|                                                     | {{page.interest}}      |
+| --------------------------------------------------- | ---------------------- |
 
 <div class="colored_band">
 
 <br/><br/><br/>
 
 <p style="text-align:center">
-<span style="color:#444;font-weight:300;font-size:54px">Recent and Upcoming</span>
+<span style="color:#444;font-weight:300;font-size:54px">Recent and Upcoming Work/Talks</span>
 </p>
 <br/><br/>
 <table class="alternate">
@@ -120,10 +119,10 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 	{% endfor %}
 
 </table>
+
 <br/><br/><br/>
 
 </div>
-
 
 <br/><br/>
 
