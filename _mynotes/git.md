@@ -12,10 +12,10 @@ title: "Using Git"
 <br/>
 
 
-- Clone one branch or tag, w/o history
+- Clone one branch or tag, w/o history, with submodules w/o their history (shallow)
 
 	```bash
-	git clone -b v1.2.3 --single-branch --depth 1 [repo] 
+	git clone -b v1.2.3 --recurse-submodules --shallow-submodules --depth 1 [repo] 
 	```
 
 <br/>
