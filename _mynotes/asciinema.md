@@ -28,12 +28,14 @@ Can add `data-autoplay="true" data-loop="true"` to the page.
 
 ## Scripting
 
-The [asciinema-rec_script](https://raw.githubusercontent.com/gemc/home/refs/heads/main/assets/asciinema-rec_script.sh) script can be used to record a script.
+The [asciinema-rec_script](https://raw.githubusercontent.com/gemc/home/refs/heads/main/assets/asciinema-rec_script) script can be used to record a script.
 
-Remember to load the environment.
+Remember to load the environment needed by the running script. 
+Currently `asciinema-rec_script` does not support ssh-ing into remote hosts
+and running commands there.
 
 ```
-./asciinema-rec_script script_name.sh
+asciinema-rec_script script_name.sh
 ```
 
 <br/>
