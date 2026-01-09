@@ -66,32 +66,23 @@ sudo gem uninstall bundler -aIx
 Adding the following to the `jekyll_plugins` group in the `gemfile` allows to use admonitions in markdown files:
 
 ```
-  gem "jekyll-gfm-admonitions", "~> 1.0"
+  gem "jekyll-gfm-admonitions"
 ```
 
 Admonitions can be achieved like this:
 
-```
+```markdown
 > [!NOTE] 
-> Note
+> Note text line1
+> Note text line2
 ```
 
-The available ones are:
+The available admonitions are:
 
-> [!NOTE] 
-> Note
 
-> [!TIP] 
-> Tip
-
-> [!WARNING] 
-> Warning
-
-> [!CAUTION] 
-> Caution
-
-> [!IMPORTANT] 
-> Important
+```markdown
+[!NOTE], [!TIP], [!WARNING], [!CAUTION], [!IMPORTANT]
+```
 
 <br/>
 
@@ -103,7 +94,7 @@ The available ones are:
 The files in directories starting with an underscore
 are not processed by jekyll if specified in the _config.yml file like this:
 
-```
+```markdown
 # this add content to the website from the local dirs starting with _
 collections:
   pi0:
