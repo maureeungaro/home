@@ -69,8 +69,6 @@ analysis and the JANR unitary isobar model.
 
 
 
-<div class="colored_band">
-
 <br/><br/>
 
 <h2> Cross Sections, Structure Functions and Legendre Coefficients Distributions </h2>
@@ -93,7 +91,6 @@ analysis and the JANR unitary isobar model.
 
 <br/><br/><br/>
 
-</div>
 
 <br/>
 ---

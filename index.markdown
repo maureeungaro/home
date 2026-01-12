@@ -7,53 +7,9 @@
 
 layout: default
 
-mauri: "
-<img src=\"assets/images/home/mauri.png\" style=\"width: 100%\"/><br/><br/>
-<span style=\"color:#222222;font-weight:200;font-size:30px\"><center>Maurizio Ungaro</center></span><span style=\"color:#888888;font-weight:200;font-size:24px\">Staff Scientist</span><br/><br/>
-[Jefferson Laboratory](https://www.jlab.org) <br/>[Experimental Hall-B](https://www.jlab.org/physics/hall-b)<br/><br/>
-<a href=\"https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en\" target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/gscholar.png\"/> </a> 
-<a href=\"https://github.com/maureeungaro\"                              target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/github.png\"  /> </a> 
-<a href=\"https://inspirehep.net/authors/1322331\"                       target=_blank><img class=\"zoomIcon\" src=\"assets/images/home/inspire.png\" /> </a> 
-<a href=\"mailto:ungaro@jlab.org\"                                                    ><img class=\"zoomIcon\" src=\"assets/images/home/email.png\"   /> </a>
-<br/><br/><br/><br/><br/>"
-
-abtme: ""
-
-hello: "<span style=\"color:#222222;font-weight:500;font-size:2.5rem; font-family: Montserrat,sans-serif; \">About Me</span><br/><br/>
-I'm Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).<br/><br/>
-My research is focused on the internal structure and dynamics of the nucleon, 
-in particular the physics beyond the constituent quark model and the link between 
-form factors and dressed quark mass (see for example the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta)
-and the [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses). <br/><br/> 
-I work on the Refurbishment, Operation / Maintenance / Calibration of the
-[Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. <br/><br/>
-I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags),  
-including [Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the 
-[Open Science Grid (OSG)](https://osg-htc.org), see for example our 
-[CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1),<br/><br/>
-Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
-[supporting it at JLab](https://jeffersonlab.github.io/g4home/).<br/><br/>
-In my free time I am learning to play hockey, while watching my kid learning it <br/> much faster than me.
-<br/><br/><br/>"
-
 
 interest: "{::nomarkdown}
-<table>
-<tr>
-<th>Interests</th>   
-<th>Education</th>
-</tr>
-<tr>
-<td>
-<ul>
-<li> Quark Structure</li>
-<li> MonteCarlo Simulations</li>
-<li> Data Analysis</li>
-<li> Geant4</li>
-<li> Cherenkov Counters</li>
-<li> Software Development<br/><br/><br/><br/><br/><br/></li>
-</ul>
-</td>
+
 <td>
 <img src=\"assets/images/home/physics.png\" width=30px/> Staff Scientist<br/>
 <span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.jlab.org\">Jefferson Laboratory</a>, VA, USA, 2011-present</span><br/><br/>
@@ -70,22 +26,152 @@ interest: "{::nomarkdown}
 
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
+
 ---
 
-|                                                     |                        |
-|:---------------------------------------------------:|------------------------|
-|                   {{page.mauri}}                    | {{page.hello}}         |
-|                                                     | {{page.interest}}      |
-| --------------------------------------------------- | ---------------------- |
 
-<div class="colored_band">
+{% assign gscholar_img = '/assets/images/home/gscholar.png' | relative_url %}
+{% assign gscholar_link = 'https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en' %}
+{% assign github_img = '/assets/images/home/github.png' | relative_url %}
+{% assign github_link = 'https://github.com/maureeungaro' %}
+{% assign inspire_img = '/assets/images/home/inspire.png' | relative_url %}
+{% assign inspire_link = 'https://inspirehep.net/authors/1322331' %}
+{% assign email_img = '/assets/images/home/email.png' | relative_url %}
+{% assign email_link = 'mailto:ungaro@jlab.org' %}
+{% assign physics_img = '/assets/images/home/physics.png' | relative_url %}
+{% assign degree_img = '/assets/images/home/degree.png' | relative_url %}
 
-<br/><br/><br/>
 
-<p style="text-align:center">
-<span style="color:#444;font-weight:300;font-size:54px">Recent and Upcoming Work/Talks</span>
-</p>
+{% capture left %}
+
+{% include figure.html
+   src="assets/images/home/mauri.png"
+   alt="Database-driven architecture"
+   width="170"
+%}
+
+## Maurizio Ungaro
+
+
+
+|                     `Staff Scientist`                      |
+|:----------------------------------------------------------:|
+|       [Jefferson Laboratory](https://www.jlab.org)         |
+| [Experimental Hall-B](https://www.jlab.org/physics/hall-b) |
+
+|                                            |                                      |                                         |                                   |
+|--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
+| [![gscholar][gscholar-img]][gscholar-link] | [![github][github-img]][github-link] | [![inspire][inspire-img]][inspire-link] | [![email][email-img]][email-link] |
+
+
+[gscholar-img]: {{ gscholar_img }}
+[gscholar-link]: {{ gscholar_link }}
+[github-img]: {{ github_img }}
+[github-link]: {{ github_link }}
+[inspire-img]: {{ inspire_img }}
+[inspire-link]: {{ inspire_link }}
+[email-img]: {{ email_img }}
+[email-link]: {{ email_link }}
+
+{% endcapture %}
+
+
+{% capture right %}
+
+<br/>
+
+## About Me
+
+I’m Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).
+
+My research is focused on the internal structure and dynamics of the nucleon, in particular the physics beyond the 
+constituent quark model and the link between form factors and dressed quark mass (see for example 
+the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and the 
+[meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses).
+
+I work on the Refurbishment, Operation / Maintenance / Calibration of the 
+[Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B.
+
+I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework 
+and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags), including 
+[Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the 
+[Open Science Grid (OSG)](https://osg-htc.org), see for example our 
+[CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).
+
+Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
+[supporting it at JLab](https://jeffersonlab.github.io/g4home/).
+
+In my free time I am learning to play hockey, while enjoying watching my kid skating much faster than me.
+
+{% endcapture %}
+
+{% include two_col_md.html left="30%" right="70%" left_content=left right_content=right %}
+
+
 <br/><br/>
+
+
+{% capture left2 %}
+<br/>
+<br/><br/>
+<br/>
+
+
+## Interests
+
+<br/>
+
+- Quark Structure
+- MonteCarlo Simulations
+- Large Language Models
+- Data Analysis
+- Geant4
+- Cherenkov Counters
+- Software Development
+{% endcapture %}
+
+
+{% capture right2 %}
+
+## Education
+
+<br/>
+
+<img src="{{ physics_img }}" alt="Physics" style="scale:60%; height:auto;"> Staff Scientist
+
+<p class="indent3" markdown="1">
+[Jefferson Laboratory](https://www.jlab.org), _VA, USA, 2011-present_
+</p>
+
+
+<img src="{{ degree_img }}"  style="scale:60%; height:auto;">
+<img src="{{ physics_img }}" style="scale:60%; height:auto;"> Post-Doc and Research Associate
+
+<p class="indent3" markdown="1">
+[University of Connecticut](https://uconn.edu), _CT, USA, 2004-2011_
+</p>
+
+<img src="{{ degree_img }}" style="scale:60%; height:auto;"> PhD in Nuclear Physics
+<p class="indent3" markdown="1">
+[Rensselaer Polytechnic Institute](https://www.rpi.edu/), _NY, USA, 2003_
+</p>
+
+
+<img src="{{ degree_img }}" style="scale:60%; height:auto;"> Laurea in Fisica (Physics Bachelo)
+<p class="indent3" markdown="1">
+[Università degli studi di Genova](https://www.difi.unige.it/it), _Genova, Italy, 1999_
+</p>
+
+{% endcapture %}
+
+{% include two_col_md.html left="40%" right="60%" left_content=left2 right_content=right2 %}
+
+<br/>
+
+## Recent and Upcoming Work/Talks
+
+<br/>
+
 <table class="alternate">
 
 	<tr>
@@ -120,15 +206,10 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 </table>
 
-<br/><br/><br/>
-
-</div>
-
-<br/><br/>
-
-<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Skills</span></p>    
 <br/>
 
+
+## Skills
 
 <table style="text-align:center;">
 <tr>
@@ -146,13 +227,14 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
     <td><p style="color:#333;font-weight:400;font-size:16px">English, Italian</p></td>
 </tr>
 </table>
+
+
 <br/>
 
+## Latest News
+<br/>
 
-<div class="colored_band">
-	<br/>
-	<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Latest News</span></p>    
-	<br/><br/>
+<div >
 	<table class="alternate">
 	{% for news in site.data.news %}
 		<tr>
@@ -165,14 +247,15 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 </div>
 
 
+<br/>
+
+## Galleria
 
 <link type="text/css" rel="stylesheet" href="/home/assets/lightslider.css" />
 <script src="/home/assets/jq.js"></script>
 <script src="/home/assets/lightslider.js"></script>
 
 <div>
-	<br/><br/><br/>
-	<p style="text-align:center"><span style="color:#444;font-weight:300;font-size:54px;">Galleria</span></p>    
 	<br/>
 
 	<ul style="text-align:center"  id="light-slider" >
@@ -211,15 +294,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 <br/><br/><br/>
 
 
-[mauri]: assets/images/home/mauri.png
 
-[gscholar]: assets/images/home/google-scholar.png
-
-[github]: assets/images/home/github.png
-
-[inspire]: assets/images/home/inspire.png
-
-[degree]: assets/images/home/degree.png
 
 [code]: assets/images/home/code.png
 
@@ -228,3 +303,9 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 [languages]: assets/images/home/languages.png
 
 [quote1]: assets/images/home/quote1.png
+
+
+
+
+
+

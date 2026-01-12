@@ -26,7 +26,6 @@ to create and run realistic simulations w/o programming knowledge, in particular
 
 <br/>
 
-<div class="colored_band">
 
 <br/><br/><br/>
 
@@ -73,5 +72,4 @@ to create and run realistic simulations w/o programming knowledge, in particular
 
 </table>
 <br/><br/><br/>
-</div>
 

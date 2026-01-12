@@ -152,3 +152,28 @@ List all remote branches:
 - `git branch -vv`: lists all branches with their last commit
 - `git branch --merged`: lists branches that have been merged into the current branch
 - `git branch --no-merged`: lists branches that have not been merged into the current branch
+
+
+# History
+
+To remove all history from a repo:
+
+```bash
+	git checkout --orphan new-main
+	git add -A
+	git commit -m 'new files'
+	git branch -D main
+	git branch -m main
+	git push -f origin main
+	git branch --set-upstream-to=origin/main main
+```
+
+# Tokens
+
+Can use 'regenerate' to copy the configuration
+
+Configuration:
+
+repo --> public_repo 
+
+For private images, the token must have at least read:packages.

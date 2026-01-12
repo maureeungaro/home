@@ -34,7 +34,6 @@ This measurement is the extension to higher W of the
 
 
 
-<div class="colored_band">
 
 <br/><br/>
 
@@ -58,7 +57,6 @@ This measurement is the extension to higher W of the
 
 <br/><br/><br/>
 
-</div>
 
 
 

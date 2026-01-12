@@ -100,7 +100,6 @@ border=\"0px\"  /></a><br/> "
 
 <br/>
 
-<div class="colored_band">
 
 <br/><br/>
 
@@ -120,7 +119,6 @@ border=\"0px\"  /></a><br/> "
 </table>
 <br/><br/><br/>
 
-</div>
 
 <br/>
 
