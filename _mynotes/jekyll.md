@@ -17,7 +17,7 @@ title: "jekyll"
 
 To start a jekyll server, clean up, update, install the bundles, run:
 
-```bash
+```shell
 bundle exec jekyll serve
 bundle exec jekyll clean 
 bundle update jekyll
@@ -33,7 +33,7 @@ bundle install
 
 To update Bundler to a version compatible with your Ruby version and check / uninstall old versions:
 
-```bash
+```shell
 sudo gem update --system
 sudo gem update bundler
 sudo gem install bundler 
@@ -43,7 +43,7 @@ sudo gem uninstall bundler -v 2.6.5
 
 Sometimes nuke bundler and re-install it:
 
-```bash
+```shell
 sudo rm -f /opt/homebrew/bin/bundle /opt/homebrew/bin/bundler
 sudo gem uninstall bundler -aIx
 ```

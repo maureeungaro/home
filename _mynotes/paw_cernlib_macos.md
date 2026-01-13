@@ -36,7 +36,7 @@ It should look like this:
 
 Run the following command in a terminal to allow X11 connections from Docker containers:
 
-```bash
+```shell
 xhost +
 ```
 
@@ -50,7 +50,7 @@ If you have an Intel CPU, remove the `--platform linux/amd64` option from the `d
 In a terminal, run the following commands to create a script `dsh` that will launch an interactive
 shell in the container:
 
-```bash
+```shell
 docker pull jeffersonlab/cernlib:2004
 docker run --rm -it --platform linux/amd64 jeffersonlab/cernlib:2004 cat /container/image/dsh | tr -d "\r" > dsh
 chmod +x dsh
@@ -59,7 +59,7 @@ chmod +x dsh
 You're now ready to run Paw/Cernlib in Docker.
 In a terminal, run the following command to launch an interactive shell in the container, and then start `paw++`:
 
-```bash
+```shell
 ./dsh jeffersonlab/cernlib:2004
 paw++
 ```

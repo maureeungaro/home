@@ -18,11 +18,11 @@ Provided a file `env.dat`with the environment variables settings (for example fr
 the following one liner can be used to get options needed to be passed to `xctrace`:
 
 [^1]:  make sure `xctrace` points to the Xcode one:
-```bash
+```shell
 xcrun --find xctrace
 ```
 
-```bash
+```shell
  awk '{print "--env "$0" \\"}' env.dat
 ```
 
@@ -40,7 +40,7 @@ xcrun xctrace list templates
 
 The `--template` option can be used to select a template. For example:
 
-```bash
+```shell
  --template 'Time Profiler'  
 ```
 
@@ -58,7 +58,7 @@ The `--template` option can be used to select a template. For example:
 
 The command below was used to profile gemc with the Time Profiler template:
 
-```bash
+```shell
 
  rm -rf cpu.trace ; xcrun xctrace record \
   --template 'Time Profiler' \
@@ -117,7 +117,7 @@ Make sure the executable is compiled with the following flags to enable profilin
 
 Valgrind can be used to profile C++ applications on Linux:
 
-```bash
+```shell
 valgrind --tool=callgrind --callgrind-out-file=callgrind.out.%p \
   --dump-instr=yes --skip-plt=yes \
   /path/to/your/application options
@@ -139,7 +139,7 @@ valgrind --tool=callgrind --callgrind-out-file=callgrind.out.%p \
 
 ## Viewing the results
 
-```bash
+```shell
 qcachegrind callgrind.out.<PID>
 ```
 

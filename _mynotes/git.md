@@ -14,7 +14,7 @@ title: "Using Git"
 
 - Clone one branch or tag, w/o history, with submodules w/o their history (shallow)
 
-	```bash
+	```shell
 	git clone -b v1.2.3 --recurse-submodules --shallow-submodules --depth 1 [repo] 
 	```
 
@@ -25,7 +25,7 @@ title: "Using Git"
 Use variables to point to the GitHub tag you want to update, the temp branch and the tag ref
 For example `5.12` or `v5.12`:
 
-```bash
+```shell
 tag=v1.2.3
 btag="b$tag"
 ttag="refs/tags/$tag"
@@ -33,21 +33,21 @@ ttag="refs/tags/$tag"
 
 - Create and switch to a temporary branch (**b**) from the current tag (**t**)
 
-	```bash
+	```shell
 	git fetch origin --tags
 	git switch -c "$btag" "$tag"
 	```
 
 - Make changes, commit and push
 
-	```bash
+	```shell
 	git commit -am "Fixes for $tag"
 	git push -u origin "$btag"
 	```
 
 - Delete old local tag, recreate tag at HEAD
 
-	```bash
+	```shell
 	git switch "$btag"
 	git tag -d "$tag"        
 	git tag "$tag"            
@@ -55,7 +55,7 @@ ttag="refs/tags/$tag"
 
 - Delete old remote tag, push the new tag
  
-	```bash
+	```shell
 	git push origin :"$ttag"
 	push origin tag "$tag"
 	```
@@ -64,7 +64,7 @@ ttag="refs/tags/$tag"
 
 - Cleanup: delete remote temp branch, local temp branch
 
-	```bash
+	```shell
 	git push origin --delete "$btag"
 	branch -D "$btag"
 	```
@@ -75,19 +75,19 @@ ttag="refs/tags/$tag"
 
 Create new branch and switch to it:
 
-```bash
+```shell
 git checkout -b branchname
 ```
 
 Switch to an existing branch:
 
-```bash
+```shell
 git checkout branchname
 ```
 
 Merge changes from branch1 into branch2 (one of them can be main). Use `rebase` for a clean history. 
 Alternatively, you can use `merge` to keep the history of both branches.
-```bash
+```shell
 git checkout branch2
 git merge/rebase branch1 
 ```
@@ -97,25 +97,25 @@ If conflicts arises:
 1. Open each conflicted file `(<<<<<<<, =======, >>>>>>> markers)`.
 2. Manually resolve the conflicts by editing the file.
 3. After resolving conflicts, mark the files as resolved:
-```bash
+```shell
 git add conflicted_file
 ```
 
 If necessary, keep one version of the other of one file:
 
-```bash
+```shell
 git checkout --ours conflicted_file  # Keep our version (the rebase source)
 git checkout --theirs conflicted_file  # Keep their version (the rebase target)
 ```
 
 After choosing one version, you still need to `git add` the file to mark it as resolved.
 
-```bash
+```shell
 git add conflicted_file
 ```
 
 Finalizing rebase (notice commit w/o message):
-```bash
+```shell
 git rebase --continue
 git push origin branch2
 ```
@@ -134,13 +134,13 @@ The status can be:
 
 Push a branch to remote:
 
-```bash
+```shell
 git push -u origin branchname
 ```
 
 Delete a remote branch:
 
-```bash
+```shell
 git push origin --delete branchname
 ```
 
@@ -158,7 +158,7 @@ List all remote branches:
 
 To remove all history from a repo:
 
-```bash
+```shell
 	git checkout --orphan new-main
 	git add -A
 	git commit -m 'new files'

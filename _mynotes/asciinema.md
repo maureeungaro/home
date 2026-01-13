@@ -65,7 +65,7 @@ agg --theme asciinema --font-size 50 --cols 132 --rows 22 --speed 2  ifarm.cast 
 
 Here's an example to convert a mov file to a gif. The two steps ensure optimal colors:
 
-```bash
+```shell
 ffmpeg -i input.mov -vf "fps=15,scale=800:-1:flags=lanczos,palettegen" -y palette.png
 ffmpeg -i input.mov -i palette.png -lavfi "fps=15,scale=800:-1:flags=lanczos[x];[x][1:v]paletteuse" -loop 0 output.gif
 ```
@@ -83,7 +83,7 @@ where:
 
 To concatenate 3 gifs:
 
-```bash
+```shell
 
 W=860
 H=600
@@ -113,7 +113,7 @@ where:
 
 To make sure a gif loops forever:
 
-```bash
+```shell
 ffmpeg -i in.gif \
   -filter_complex "fps=15,split[x][z];[x]palettegen[p];[z][p]paletteuse" \
   -loop 0 out.gif
