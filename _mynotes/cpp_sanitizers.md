@@ -46,7 +46,7 @@ Typical use: “find crashes/corruption fast.”
 
 <br/>
 
-## `thread`: San — ThreadSanitizer (`-fsanitize=thread`)
+## `thread`: TSan — ThreadSanitizer (`-fsanitize=thread`)
 
 Detects **data races** and other concurrency issues:
 
