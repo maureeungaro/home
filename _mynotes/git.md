@@ -66,7 +66,7 @@ ttag="refs/tags/$tag"
 
 	```shell
 	git push origin --delete "$btag"
-	branch -D "$btag"
+	git branch -D "$btag"
 	```
 
 <br/>
