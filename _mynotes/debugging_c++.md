@@ -15,11 +15,23 @@ title: "Profiling C++"
 
 - macOS: `otool -L <executable>` to list shared libraries linked to an executable.
 - Linux: `ldd <executable>` to list shared libraries linked to an executable.
-- `nm <executable> | grep LZ4_compress_fast` to check if a specific 
-   symbol is present in the binary.
-- `nm -u <executable> ` to list undefined symbols in the binary. 
-   Notice: this may include symbols from libraries that are not linked to the binary, 
-   but are available in the system.
+
+- `nm <options> <executable/library> | grep LZ4_compress_fast` to check if a specific 
+   symbol is present in the binary/library.
+
+   MacOS options:
+     - `-g`: external (global) symbols only 
+     - `-U`: undefined symbols suppressed
+     - `-m`: verbose Mach-O style info<br/><br/>
+
+   Linux options:
+     - `-D`: dynamic symbols (exported interface)
+     - `--defined-only`: only symbols the library defines (not undefined imports)<br/><br/>
+
+   Type of Symbol:
+     - `T/t`: text (function) defined
+     - `D/d`: data defined
+     - `U`: undefined 
 
 <br/>
 
