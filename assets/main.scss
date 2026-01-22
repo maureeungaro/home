@@ -470,3 +470,11 @@ pre:not(.highlight) {
 
 .indent3 { text-indent: 3em;    position: relative;
   top: -1.4rem;   }
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(8, max-content);
+  gap: 0.4rem 0.8rem;
+  align-items: start;
+}
+.link-item { white-space: nowrap; }

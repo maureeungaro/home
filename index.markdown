@@ -50,14 +50,14 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
    width="170"
 %}
 
-## Maurizio Ungaro
+<div style="text-align: center">
+<h2>Maurizio Ungaro</h2> 
+</div>
 
-
-
-|                     `Staff Scientist`                      |
-|:----------------------------------------------------------:|
-|       [Jefferson Laboratory](https://www.jlab.org)         |
-| [Experimental Hall-B](https://www.jlab.org/physics/hall-b) |
+|                      `Staff Scientist`                      |
+|:-----------------------------------------------------------:|
+|        [Jefferson Laboratory](https://www.jlab.org)         |
+| [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
 
 |                                            |                                      |                                         |                                   |
 |--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
