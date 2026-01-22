@@ -51,12 +51,35 @@ break set --file hipo_output.cc --line <line_number>
 break set -n "GOptions::getVerbosityFor" -c "tag.size() == 0"
 ```
 
-- Run the program with arguments[^1]:
+- Run the program without arguments:
+```shell
+run arg1 arg2
+```
+
+- Run the program with arguments (more flexible)
 ```shell
 process launch -- arg1 arg2 ...
 ```
 
-[^1]: For simpler lldb options `run arg1 arg2` also works, but `process launch` is more flexible.
+- Change focus to a stack frame (a specific invocation of a function)
+```shell
+frame select 1
+```
+	- `0` is the currently executing instruction pointer for the selected thread at the stop moment.
+      That is typically where the fault occurred (or where an exception/breakpoint was raised).
+	- `1` is the immediate caller of frame #0.
+	- `2` is the caller of frame #1, and so on up the stack.
+
+<br/>
+
+
+
+- Inspect / Print variable values:
+```shell
+frame variable    # show all variables in the current frame
+p variable_name   # print a specific variable value
+p *variable_name  # if they're pointers
+```
 
 - Step through the code:
 ```shell
@@ -68,14 +91,6 @@ bt          # Backtrace to see the call stack
 bt all      # Full backtrace with arguments
 finish      # Step out of the current function
 ```
-
-- Inspect / Print variable values:
-```shell
-frame variable    # show all variables in the current frame
-p variable_name   # print a specific variable value
-p *variable_name  # if they're pointers
-```
-
 
 <br/>
 
