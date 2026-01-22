@@ -4,11 +4,13 @@ title: "asciinema"
 ---
 {% include mynotes.html %}
 
-# [Asciinema, gifs](https://asciinema.org/)
+# Using Asciinema and creating gifs
 <hr style="height:4px;border:0;background:#4a90e2;">
 
 
 <br/>
+
+- [Asciinema Home](https://asciinema.org/)
 
 ## Recording typing
 

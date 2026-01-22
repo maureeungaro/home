@@ -5,13 +5,12 @@ title: "jekyll"
 {% include mynotes.html %}
 
 
-# [Jekyll](https://jekyllrb.com)
+# Using Jekyll
 <hr style="height:4px;border:0;background:#4a90e2;">
 
 <br/>
 
-
-
+- [Jekyll Home](https://jekyllrb.com)
 
 ## Various commands: 
 
