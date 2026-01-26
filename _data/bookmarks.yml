@@ -1,110 +1,146 @@
 - title: "Home"
   category: "HallB"
-  link: "https://www.jlab.org/physics/hall-b"
-
-
-- title: "Collaboration"
-  category: "HallB"
-  link: "https://wiki.jlab.org/clas_chair/index.php/CLAS_Collaboration_Information"
+  link1: "https://www.jlab.org/physics/hall-b"
 
 - title: "Experiment Wikis"
   category: "HallB"
-  link: "https://wiki.jlab.org/clas12-run/index.php/Hall_B_Run_Wikis"
+  link1: "https://wiki.jlab.org/clas12-run/index.php/Hall_B_Run_Wikis"
+
+- title: "Collaboration"
+  category: "HallB"
+  link1: "https://wiki.jlab.org/clas_chair/index.php/CLAS_Collaboration_Information"
 
 - title: "Shifts"
   category: "HallB"
-  link: "https://www.jlab.org/Hall-B/shifts/"
-
+  link1: "https://www.jlab.org/Hall-B/shifts/"
 
 - title: "Calcom"
   category: "HallB"
-  link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Calibration_and_Commissioning"
+  link1: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Calibration_and_Commissioning"
 
 - title: "Clas12Mon"
   category: "HallB"
-  link: "https://clas12mon.jlab.org"
+  link1: "https://clas12mon.jlab.org"
 
 - title: "RCDB"
   category: "HallB"
-  link: "https://clasweb.jlab.org/rcdb"
+  link1: "https://clasweb.jlab.org/rcdb"
 
 - title: "CCDB"
   category: "HallB"
-  link: "https://clasweb.jlab.org/cgi-bin/ccdb/objects"
+  link1: "https://clasweb.jlab.org/cgi-bin/ccdb/objects"
 
 - title: "Software Wiki"
   category: "HallB"
-  link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
+  link1: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
 
 - title: "CLAS12 Discourse"
   category: "HallB"
-  link: "https://clas12.discourse.group"
+  link1: "https://clas12.discourse.group"
+
+
+
+
 
 - title: "Run Info"
   category: "Current Run"
-  link: "https://www.jlab.org/physics/hall-b/run"
+  link1: "https://www.jlab.org/physics/hall-b/run"
 
 - title: "Hall-B OPI"
   category: "Current Run"
-  link: "https://hallbopi.jlab.org/webopi3.3/w"
+  link1: "https://hallbopi.jlab.org/webopi3.3/w"
 
 - title: "HBLOG"
   category: "Current Run"
-  link: "https://logbooks.jlab.org/book/hblog"
+  link1: "https://logbooks.jlab.org/book/hblog"
 
 - title: "ELOG"
   category: "Current Run"
-  link: "https://logbooks.jlab.org/book/elog"
+  link1: "https://logbooks.jlab.org/book/elog"
+
+
+
+- title: "Gemc3"
+  category: "Software"
+  tit1: "Home"
+  tit2: "GitHub"
+  link1: "https://gemc.github.io/home/"
+  link2: "https://github.com/gemc/src"
+
+
+
+- title: "Mauri Repos"
+  category: "Software"
+  link1: "https://github.com/maureeungaro?tab=repositories"
 
 - title: "ROOT"
   category: "Software"
-  link: "https://root.cern/doc/master/index.html"
+  link1: "https://root.cern/doc/master/index.html"
 
 - title: "Geant4"
   category: "Software"
-  link: "https://geant4.web.cern.ch"
+  link1: "https://geant4.web.cern.ch"
 
-- title: "Meson"
-  category: "Software"
-  link: "https://mesonbuild.com/index.html"
 
 - title: "Pyvista"
   category: "Software"
-  link: "https://docs.pyvista.org/"
+  link1: "https://docs.pyvista.org/"
 
-- title: "gemc3"
-  category: "Software"
-  link: "https://gemc.github.io/home/"
+
 
 - title: "clas12Tags"
   category: "Software"
-  link: "https://github.com/gemc/clas12Tags"
+  link1: "https://github.com/gemc/clas12Tags"
 
-- title: "Coatjava"
+
+- title: "Assimp"
   category: "Software"
-  link: "https://github.com/JeffersonLab/coatjava"
+  link1: "https://github.com/assimp/assimp/releases"
+
+- title: "Yaml-Cpp"
+  category: "Software"
+  link1: "https://github.com/jbeder/yaml-cpp/releases"
+
+- title: "Meson"
+  tit1: "Home"
+  tit2: "GitHub"
+  category: "Software"
+  link1: "https://mesonbuild.com/index.html"
+  link2: "https://github.com/mesonbuild/meson"
+
+
+- title: "GEMC Repos"
+  category: "Software"
+  link1: "https://github.com/orgs/gemc/repositories"
+
+
+
 
 - title: "Farm"
   category: "JLab"
-  link: "https://scicomp.jlab.org/scicomp/home"
+  link1: "https://scicomp.jlab.org/scicomp/home"
 
 - title: "Insight"
   category: "JLab"
-  link: "https://www.jlab.org/Hall-B/shifts/"
+  link1: "https://www.jlab.org/Hall-B/shifts/"
 
 - title: "Geant4 at JLab"
   category: "JLab"
-  link: "https://jeffersonlab.github.io/g4home/"
+  link1: "https://jeffersonlab.github.io/g4home/"
+
+
+
+
 
 
 - title: "CLAS12 Portal"
   category: "Open Science Grid"
-  link: "https://gemc.jlab.org/web_interface/index.php"
+  link1: "https://gemc.jlab.org/web_interface/index.php"
 
 - title: "Dev Portal"
   category: "Open Science Grid"
-  link: "https://gemc.jlab.org/test/web_interface/index.php"
+  link1: "https://gemc.jlab.org/test/web_interface/index.php"
 
 - title: "OSG Helpdesk"
   category: "Open Science Grid"
-  link: "https://support.opensciencegrid.org/support/home"
+  link1: "https://support.opensciencegrid.org/support/home"

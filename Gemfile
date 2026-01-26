@@ -34,32 +34,3 @@ gem "kramdown-parser-gfm"
 
 # (Optional) Let MRI/TruffleRuby use newer versions
 gem "http_parser.rb", ">= 0.8", platforms: [:ruby, :truffleruby]
-
-
-# SHELL=/bin/bash
-# PATH=/sbin:/bin:/usr/sbin:/usr/bin
-# MAILTO=ungaro@jlab.org
-# # CUE Machine: ifarm2401
-# # .---------------- minute (0 - 59)
-# # |  .------------- hour (0 - 23)
-# # |  |  .---------- day of month (1 - 31)
-# # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
-# # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
-# # |  |  |  |  |
-# # *  *  *  *  * user-name  command to be executed
-#
-# # this copies the query log from /volatile to the web location
-# 01,11,21,31,41,51  *	  *  *  * /home/ungaro/osgLog.sh >/dev/null 2>&1
-#
-
-# #!/bin/zsh
-#
-# src="/volatile/clas12/osg/osgLog.json"
-# dest="/u/group/clas/www/gemc/html/web_interface/data/"
-# logfile="logs/osgLog.txt"
-#
-# cp "$src" "$dest"
-#
-# # recreate the log file with current date/time
-# rm -f "$logfile"
-# date > "$logfile"
