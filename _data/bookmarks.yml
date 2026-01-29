@@ -67,19 +67,23 @@
 
 
 - title: "Gemc3"
-  category: "Software"
+  category: "Gemc"
   tit1: "Home"
   tit2: "GitHub"
   link1: "https://gemc.github.io/home/"
   link2: "https://github.com/gemc/src"
 
 - title: "Gemc2"
-  category: "Software"
+  category: "Gemc"
   link1: "https://gemc.jlab.org/gemc/html/index.html"
 
 - title: "clas12Tags"
-  category: "Software"
+  category: "Gemc"
   link1: "https://github.com/gemc/clas12Tags"
+
+- title: "GEMC Repos"
+  category: "Gemc"
+  link1: "https://github.com/orgs/gemc/repositories"
 
 - title: "g4install"
   category: "Software"
@@ -97,9 +101,6 @@
   category: "Software"
   link1: "https://github.com/maureeungaro?tab=repositories"
 
-- title: "GEMC Repos"
-  category: "Software"
-  link1: "https://github.com/orgs/gemc/repositories"
 
 - title: "Meson"
   tit1: "Home"
@@ -110,7 +111,12 @@
 
 - title: "Geant4"
   category: "Software"
+  tit1: "Home"
+  tit2: "GitLab"
+  tit3: "Forum"
   link1: "https://geant4.web.cern.ch"
+  link2: "https://gitlab.cern.ch/geant4/geant4-dev"
+  link3: "https://geant4-forum.web.cern.ch"
 
 - title: "ROOT"
   category: "Software"
@@ -140,7 +146,17 @@
   category: "Software"
   link1: "https://github.com/jbeder/yaml-cpp/releases"
 
+- title: "NoVNC"
+  category: "Software"
+  link1: "https://github.com/novnc/noVNC/tags"
 
+- title: "Dask"
+  category: "Software"
+  link1: "https://www.dask.org"
+
+- title: "Seaborn"
+  category: "Software"
+  link1: "https://seaborn.pydata.org"
 
 
 - title: "Farm"
