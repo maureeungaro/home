@@ -104,7 +104,6 @@ gdb my_executable
 
 - Set breakpoints (can use function names, file:line, or conditions):
 
-
 ```shell
 break my_function_name
 break 'hipo_output::writeHeader(outputContainer*, std::map<std::string, double>, gBank)'
@@ -112,10 +111,35 @@ break hipo_output.cc:<line_number>
 break GOptions::getVerbosityFor if tag.size() == 0
 ```
 
+- Set utilities (may have to entere these one by one)
+
+```shell
+set pagination off
+set print thread-events off
+
+catch throw
+catch catch
+```
+
 - Run the program with arguments:
 
 ```shell
 run arg1 arg2 ...
+```
+
+- Backtrace, inspect program state
+
+```shell
+backtrace       # Show call stack
+bt full
+thread apply all bt full
+info threads
+frame N         # Change focus to a stack frame
+info locals     # Show local variables
+info args       # Show function arguments
+print var       # Print value of variable
+print *ptr      # Dereference a pointer
+list            # Show source around current line
 ```
 
 - Step through the code:
@@ -125,18 +149,6 @@ step     # Step into the next line (enter function)
 next     # Step over the next line (skip into function)
 finish   # Step out of the current function
 ```
-
-- Inspect program state:
-
-```shell
-backtrace       # Show call stack
-info locals     # Show local variables
-info args       # Show function arguments
-print var       # Print value of variable
-print *ptr      # Dereference a pointer
-list            # Show source around current line
-```
-
 
 <br/>
 <br/>

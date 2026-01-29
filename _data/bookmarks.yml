@@ -1,18 +1,15 @@
-- title: "Home"
-  category: "HallB"
-  link1: "https://www.jlab.org/physics/hall-b"
-
 - title: "Experiment Wikis"
   category: "HallB"
   link1: "https://wiki.jlab.org/clas12-run/index.php/Hall_B_Run_Wikis"
+
+- title: "Home"
+  category: "HallB"
+  link1: "https://www.jlab.org/physics/hall-b"
 
 - title: "Collaboration"
   category: "HallB"
   link1: "https://wiki.jlab.org/clas_chair/index.php/CLAS_Collaboration_Information"
 
-- title: "Shifts"
-  category: "HallB"
-  link1: "https://www.jlab.org/Hall-B/shifts/"
 
 - title: "Calcom"
   category: "HallB"
@@ -30,7 +27,7 @@
   category: "HallB"
   link1: "https://clasweb.jlab.org/cgi-bin/ccdb/objects"
 
-- title: "Software Wiki"
+- title: "Software Center"
   category: "HallB"
   link1: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
 
@@ -58,6 +55,15 @@
   category: "Current Run"
   link1: "https://logbooks.jlab.org/book/elog"
 
+- title: "Shifts"
+  category: "Current Run"
+  link1: "https://www.jlab.org/Hall-B/shifts/"
+
+- title: "CLAS12 Manuals"
+  category: "Current Run"
+  link1: "https://github.com/JeffersonLab/clas12-manuals"
+
+
 
 
 - title: "Gemc3"
@@ -67,39 +73,33 @@
   link1: "https://gemc.github.io/home/"
   link2: "https://github.com/gemc/src"
 
-
-
-- title: "Mauri Repos"
+- title: "Gemc2"
   category: "Software"
-  link1: "https://github.com/maureeungaro?tab=repositories"
-
-- title: "ROOT"
-  category: "Software"
-  link1: "https://root.cern/doc/master/index.html"
-
-- title: "Geant4"
-  category: "Software"
-  link1: "https://geant4.web.cern.ch"
-
-
-- title: "Pyvista"
-  category: "Software"
-  link1: "https://docs.pyvista.org/"
-
-
+  link1: "https://gemc.jlab.org/gemc/html/index.html"
 
 - title: "clas12Tags"
   category: "Software"
   link1: "https://github.com/gemc/clas12Tags"
 
-
-- title: "Assimp"
+- title: "g4install"
   category: "Software"
-  link1: "https://github.com/assimp/assimp/releases"
+  link1: "https://github.com/gemc/g4install"
 
-- title: "Yaml-Cpp"
+- title: "ceInstall"
   category: "Software"
-  link1: "https://github.com/jbeder/yaml-cpp/releases"
+  link1: "https://github.com/JeffersonLab/ceInstall"
+
+- title: "clas12-config"
+  category: "Software"
+  link1: "https://github.com/JeffersonLab/clas12-config"
+
+- title: "Mauri Repos"
+  category: "Software"
+  link1: "https://github.com/maureeungaro?tab=repositories"
+
+- title: "GEMC Repos"
+  category: "Software"
+  link1: "https://github.com/orgs/gemc/repositories"
 
 - title: "Meson"
   tit1: "Home"
@@ -108,10 +108,37 @@
   link1: "https://mesonbuild.com/index.html"
   link2: "https://github.com/mesonbuild/meson"
 
-
-- title: "GEMC Repos"
+- title: "Geant4"
   category: "Software"
-  link1: "https://github.com/orgs/gemc/repositories"
+  link1: "https://geant4.web.cern.ch"
+
+- title: "ROOT"
+  category: "Software"
+  link1: "https://root.cern/doc/master/index.html"
+
+- title: "Coatjava"
+  category: "Software"
+  link1: "https://github.com/JeffersonLab/coatjava"
+
+- title: "mcgen"
+  category: "Software"
+  link1: "https://github.com/JeffersonLab/clas12-mcgen"
+
+- title: "Pyvista"
+  category: "Software"
+  link1: "https://docs.pyvista.org/"
+
+- title: "VTK"
+  category: "Software"
+  link1: "https://vtk.org"
+
+- title: "Assimp"
+  category: "Software"
+  link1: "https://github.com/assimp/assimp/releases"
+
+- title: "Yaml-Cpp"
+  category: "Software"
+  link1: "https://github.com/jbeder/yaml-cpp/releases"
 
 
 
@@ -124,7 +151,7 @@
   category: "JLab"
   link1: "https://www.jlab.org/Hall-B/shifts/"
 
-- title: "Geant4 at JLab"
+- title: "G4Home"
   category: "JLab"
   link1: "https://jeffersonlab.github.io/g4home/"
 
@@ -144,3 +171,15 @@
 - title: "OSG Helpdesk"
   category: "Open Science Grid"
   link1: "https://support.opensciencegrid.org/support/home"
+
+- title: "CVMFS Sync"
+  category: "Open Science Grid"
+  link1: "https://github.com/opensciencegrid/cvmfs-singularity-sync"
+
+- title: "HTCondor"
+  category: "Open Science Grid"
+  link1: "https://research.cs.wisc.edu/htcondor/manual/"
+
+- title: "Glideins"
+  category: "Open Science Grid"
+  link1: "http://gfactory-1.osg-htc.org/factory/monitor/factoryEntryStatusNow.html?entry=CMSHTPC_T2_US_MIT_ce03"
