@@ -471,10 +471,104 @@ pre:not(.highlight) {
 .indent3 { text-indent: 3em;    position: relative;
   top: -1.4rem;   }
 
-.link-grid {
-  display: grid;
-  grid-template-columns: repeat(8, max-content);
-  gap: 0.4rem 0.8rem;
-  align-items: start;
+
+/* ===================================================================== */
+/* Directory page (script-style) — appended at bottom, scoped to directory */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/* Directory page (match python-generated index.html styling)              */
+/* ===================================================================== */
+
+/*
+  This block intentionally resets typography inside the directory page to
+  match the standalone HTML produced by your python script:
+
+  - font-family: GitHub-ish system stack (NOT your global --font-sans)
+  - base font-size: 16px (your global body is 1.2em)
+  - link hover: underline (your global hover removes underline)
+  - h3 in footer: normalized to browser-ish sizing (script has no h3 rule)
+*/
+
+.page-content .directory-page {
+  /* script "body" equivalent, but scoped */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+               Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #24292f;
+  background: #ffffff;
+
+  /* script ".container" */
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 24px 24px 24px;
 }
-.link-item { white-space: nowrap; }
+
+.page-content .directory-page .intro {
+  margin: 0 0 16px 0;
+  color: #57606a;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-content .directory-page .link-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+.page-content .directory-page .section {
+  margin: 0 0 20px 0;
+}
+
+.page-content .directory-page .section-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 24px 0 10px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.page-content .directory-page .section-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+
+  /* match script column layout */
+  column-count: 4;
+  column-gap: 18px;
+}
+
+.page-content .directory-page .section-links li {
+  break-inside: avoid;
+  margin: 6px 0;
+}
+
+/* Match script link behavior (override your global hover rules) */
+.page-content .directory-page a {
+  color: #0969da;
+  text-decoration: none;
+}
+
+.page-content .directory-page a:hover {
+  text-decoration: underline;
+  color: #0969da; /* keep same as script */
+}
+
+/* Footer matches script */
+.page-content .directory-page .footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #999;
+}
+
+/* Normalize footer h3 (script uses browser default since it has no h3 rule) */
+.page-content .directory-page .footer h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}

@@ -1,43 +1,39 @@
-<style>
-    .alternate {
-        width: 100%; /* Ensures the table takes full width */
-        table-layout: fixed; /* Forces equal column widths */
-        border-collapse: collapse; /* Ensures clean cell borders */
-    }
+{% assign items = site.data.mynotes | group_by: "category" %}
 
-    .alternate td {
-        text-align: center; /* Centers text */
-        border: 1px solid #ccc; /* Optional: Adds border for clarity */
-        padding: 8px; /* Adds spacing inside cells */
-        width: 120px; /* Each column takes up 1/12 of the table width */
-    }
-</style>
+<div class="directory-page">
+  <ul class="link-list">
+    {% for group in items %}
+      <li class="section">
+        <div class="section-title">{{ group.name | escape }}</div>
 
-{% assign grouped_notes = site.data.mynotes | group_by: "category" %}
+        <ul class="section-links">
+          {% for note in group.items %}
+            {%- assign has_multi = false -%}
+            {%- if note.tit1 and note.link1 -%}
+              {%- assign has_multi = true -%}
+            {%- endif -%}
 
-{% for group in grouped_notes %}
-  <p><strong>{{ group.name }}</strong></p>
+            {%- if has_multi -%}
+              <li>
+                {{ note.title | escape }}:
+                {%- for i in (1..10) -%}
+                  {%- assign titk = 'tit' | append: i -%}
+                  {%- assign linkk = 'link' | append: i -%}
+                  {%- if note[titk] and note[linkk] -%}
+                    <a href="{{ note[linkk] | escape }}" >[ {{ note[titk] | escape }} ]</a>
+                  {%- endif -%}
+                {%- endfor -%}
+              </li>
+            {%- else -%}
+              {%- assign href = note.link | default: note.link1 -%}
+              <li>
+                <a href="{{ href | escape }}" >[ {{ note.title | escape }} ]</a>
+              </li>
+            {%- endif -%}
+          {% endfor %}
+        </ul>
+      </li>
 
-  <table class="alternate">
-    <colgroup>
-      {% for i in (1..12) %}
-        <col>
-      {% endfor %}
-    </colgroup>
-
-    {% for note in group.items %}
-      {% assign mod_result = forloop.index0 | modulo: 12 %}
-      {% if mod_result == 0 %}
-        <tr>
-      {% endif %}
-
-      <td><a href="{{ note.link }}">{{ note.title }}</a></td>
-
-      {% if mod_result == 11 or forloop.last %}
-        </tr>
-      {% endif %}
     {% endfor %}
-  </table>
-{% endfor %}
-
-<script src="/home/assets/copyCode.js"></script>
+  </ul>
+</div>
