@@ -26,9 +26,21 @@ bundle install
 - If the gemfile is changed, need to run `bundle`
 - If the config yaml is changed, (for example update theme), need to update `bundle update`
 
-> [!WARNING] 
+<br/>
+
+> [!CAUTION]
+> Sometimes `Gemfile.lock` pins a different bundler. Verify:
+> 
+> ```bash
+> gem list bundler
+> tail -n +1 Gemfile.lock | sed -n '/BUNDLED WITH/,$p'
+> ```
+> Removing the file solves the problem.
+
+> [!IMPORTANT] 
 > never ever run bundle as `sudo`
 
+<br/>
 
 To update Bundler to a version compatible with your Ruby version and check / uninstall old versions:
 
