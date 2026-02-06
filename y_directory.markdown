@@ -44,7 +44,6 @@ permalink: /directory/
         </ul>
       </li>
 
-      <br/>
     {% endfor %}
   </ul>
 

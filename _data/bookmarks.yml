@@ -10,7 +10,6 @@
   category: "HallB"
   link1: "https://wiki.jlab.org/clas_chair/index.php/CLAS_Collaboration_Information"
 
-
 - title: "Calcom"
   category: "HallB"
   link1: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Calibration_and_Commissioning"
@@ -68,9 +67,10 @@
 
 - title: "Gemc3"
   category: "Gemc"
-  tit1: "Home"
-  tit2: "GitHub"
   link1: "https://gemc.github.io/home/"
+
+- title: "Github"
+  category: "Gemc"
   link2: "https://github.com/gemc/src"
 
 - title: "Gemc2"
@@ -85,50 +85,46 @@
   category: "Gemc"
   link1: "https://github.com/orgs/gemc/repositories"
 
-- title: "g4install"
-  category: "Software"
-  link1: "https://github.com/gemc/g4install"
+
+
+
 
 - title: "ceInstall"
-  category: "Software"
+  category: "CLAS12"
   link1: "https://github.com/JeffersonLab/ceInstall"
 
 - title: "clas12-config"
-  category: "Software"
+  category: "CLAS12"
   link1: "https://github.com/JeffersonLab/clas12-config"
+
+- title: "Coatjava"
+  category: "CLAS12"
+  link1: "https://github.com/JeffersonLab/coatjava"
+
+- title: "mcgen"
+  category: "CLAS12"
+  link1: "https://github.com/JeffersonLab/clas12-mcgen"
+
+- title: "CCDB"
+  category: "CLAS12"
+  link1: "https://github.com/JeffersonLab/ccdb"
+
+
+
+
+
 
 - title: "Mauri Repos"
   category: "Software"
   link1: "https://github.com/maureeungaro?tab=repositories"
 
-
 - title: "Meson"
-  tit1: "Home"
-  tit2: "GitHub"
   category: "Software"
   link1: "https://mesonbuild.com/index.html"
-  link2: "https://github.com/mesonbuild/meson"
-
-- title: "Geant4"
-  category: "Software"
-  tit1: "Home"
-  tit2: "GitLab"
-  tit3: "Forum"
-  link1: "https://geant4.web.cern.ch"
-  link2: "https://gitlab.cern.ch/geant4/geant4-dev"
-  link3: "https://geant4-forum.web.cern.ch"
 
 - title: "ROOT"
   category: "Software"
   link1: "https://root.cern/doc/master/index.html"
-
-- title: "Coatjava"
-  category: "Software"
-  link1: "https://github.com/JeffersonLab/coatjava"
-
-- title: "mcgen"
-  category: "Software"
-  link1: "https://github.com/JeffersonLab/clas12-mcgen"
 
 - title: "Pyvista"
   category: "Software"
@@ -158,6 +154,13 @@
   category: "Software"
   link1: "https://seaborn.pydata.org"
 
+- title: "C++ Reference"
+  category: "Software"
+  link1: "https://en.cppreference.com/w/"
+
+
+
+
 
 - title: "Farm"
   category: "JLab"
@@ -175,8 +178,26 @@
 
 
 
+- title: "Home"
+  category: "Geant4"
+  link1: "https://geant4.web.cern.ch"
 
-- title: "CLAS12 Portal"
+- title: "GitLab"
+  category: "Geant4"
+  link1: "https://gitlab.cern.ch/geant4/geant4-dev"
+
+- title: "Forum"
+  category: "Geant4"
+  link1: "https://geant4-forum.web.cern.ch"
+
+- title: "g4install"
+  category: "Geant4"
+  link1: "https://github.com/gemc/g4install"
+
+
+
+
+- title: "Prod Portal"
   category: "Open Science Grid"
   link1: "https://gemc.jlab.org/web_interface/index.php"
 
@@ -199,3 +220,15 @@
 - title: "Glideins"
   category: "Open Science Grid"
   link1: "http://gfactory-1.osg-htc.org/factory/monitor/factoryEntryStatusNow.html?entry=CMSHTPC_T2_US_MIT_ce03"
+
+
+
+
+
+- title: "HuggingFace"
+  category: "LLM"
+  link1: "https://huggingface.co"
+
+- title: "Learn"
+  category: "LLM"
+  link1: "https://huggingface.co/learn"
