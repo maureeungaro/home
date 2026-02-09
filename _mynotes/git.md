@@ -12,66 +12,80 @@ title: "Using Git"
 <br/>
 
 
-- Clone one branch or tag, w/o history, with submodules w/o their history (shallow)
-
-	```shell
-	git clone -b v1.2.3 --recurse-submodules --shallow-submodules --depth 1 [repo] 
-	```
-
-<br/>
-
-# Update a tag / release
-
-Use variables to point to the GitHub tag you want to update, the temp branch and the tag ref
-For example `5.12` or `v5.12`:
+## Clone one branch or tag, w/o history, with submodules w/o their history (shallow)
 
 ```shell
-tag=v1.2.3
-btag="b$tag"
-ttag="refs/tags/$tag"
+git clone -b v1.2.3 --recurse-submodules --shallow-submodules --depth 1 [repo] 
 ```
-
-- Create and switch to a temporary branch (**b**) from the current tag (**t**)
-
-	```shell
-	git fetch origin --tags
-	git switch -c "$btag" "$tag"
-	```
-
-- Make changes, commit and push
-
-	```shell
-	git commit -am "Fixes for $tag"
-	git push -u origin "$btag"
-	```
-
-- Delete old local tag, recreate tag at HEAD
-
-	```shell
-	git switch "$btag"
-	git tag -d "$tag"        
-	git tag "$tag"            
-	```
-
-- Delete old remote tag, push the new tag
- 
-	```shell
-	git push origin :"$ttag"
-	push origin tag "$tag"
-	```
-
-- Update the GitHub release: delete and create new one using new tag
-
-- Cleanup: delete remote temp branch, local temp branch
-
-	```shell
-	git push origin --delete "$btag"
-	git branch -D "$btag"
-	```
 
 <br/>
 
-# Branches
+## Update a tag / release (rewrite an existing tag)
+
+**Use these Variables**
+
+* `tag`: the GitHub tag name (e.g. `v1.2.3`)
+* `btag`: temporary branch name created from the tag
+* `rtag`: full tag ref path (`refs/tags/<tag>`), used for remote deletion
+
+Example:
+
+```sh
+tag=v1.2.3
+btag="b$tag"
+rtag="refs/tags/$tag"
+```
+
+### 1) Create and switch to a temporary branch from the existing tag
+
+```sh
+git fetch origin --tags
+git switch -c "$btag" "$tag"
+```
+
+### 2) Make changes, commit, and push the temporary branch
+
+```sh
+git commit -am "Fixes for $tag"
+git push -u origin "$btag"
+```
+
+### 3) Delete old local tag, recreate the tag locally at the new HEAD
+
+(You’re already on `$btag`, so the extra `git switch "$btag"` is redundant.)
+
+```sh
+git tag -d "$tag"
+git tag "$tag"
+```
+
+### 4) Replace the remote tag
+
+First delete the old remote tag, then push the new one. 
+Force-update the remote tag explicitly because tags are immutable by convention and many servers reject non-fast-forward tag updates unless forced.
+
+```sh
+git push origin ":$rtag"
+git push --force origin "$rtag"
+```
+
+### 5) Update the GitHub release
+
+* Delete the existing release for `$tag`
+* Create a new release pointing at the updated `$tag`
+
+
+### 6) Cleanup: delete the temporary branch (remote + local)
+
+```sh
+git push origin --delete "$btag"
+git branch -D "$btag"
+```
+
+
+<br/>
+
+## Branches
 
 Create new branch and switch to it:
 
