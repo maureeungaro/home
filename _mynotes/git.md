@@ -132,13 +132,13 @@ List all remote branches:
 
 ## Conflicts
 
-1. Check what’s conflicted:
+- Check what’s conflicted:
 
 ```sh
 git status
 ```
 
-2. Resolve each conflicted path, then stage it to mark resolved:
+- Resolve each conflicted path, then stage it to mark resolved:
 
 * **Text conflicts (`UU`, etc.)**: open file and fix `<<<<<<< ======= >>>>>>>`, then:
 
@@ -163,12 +163,22 @@ git rm --cached -- path
 git add -u
 ```
 
-3. Finalize:
+
+- Finalize a rebase
 
 ```sh
-git rebase --continue
+git rebase --continue   # repeat until it finishes
 git push origin branch2
 ```
+
+- Finalize a merge (non-rebase)
+
+```sh
+git commit -m "merge branch1 into branch2"
+git push origin branch2
+```
+
+
 
 ### Unmerged status codes
 
