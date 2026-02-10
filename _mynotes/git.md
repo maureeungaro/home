@@ -36,21 +36,21 @@ btag="b$tag"
 rtag="refs/tags/$tag"
 ```
 
-### 1) Create and switch to a temporary branch from the existing tag
+#### 1) Create and switch to a temporary branch from the existing tag
 
 ```sh
 git fetch origin --tags
 git switch -c "$btag" "$tag"
 ```
 
-### 2) Make changes, commit, and push the temporary branch
+#### 2) Make changes, commit, and push the temporary branch
 
 ```sh
 git commit -am "Fixes for $tag"
 git push -u origin "$btag"
 ```
 
-### 3) Delete old local tag, recreate the tag locally at the new HEAD
+#### 3) Delete old local tag, recreate the tag locally at the new HEAD
 
 (You’re already on `$btag`, so the extra `git switch "$btag"` is redundant.)
 
@@ -59,7 +59,7 @@ git tag -d "$tag"
 git tag "$tag"
 ```
 
-### 4) Replace the remote tag
+#### 4) Replace the remote tag
 
 First delete the old remote tag, then push the new one. 
 Force-update the remote tag explicitly because tags are immutable by convention and many servers reject non-fast-forward tag updates unless forced.
@@ -69,13 +69,13 @@ git push origin ":$rtag"
 git push --force origin "$rtag"
 ```
 
-### 5) Update the GitHub release
+#### 5) Update the GitHub release
 
 * Delete the existing release for `$tag`
 * Create a new release pointing at the updated `$tag`
 
 
-### 6) Cleanup: delete the temporary branch (remote + local)
+#### 6) Cleanup: delete the temporary branch (remote + local)
 
 ```sh
 git push origin --delete "$btag"
@@ -106,7 +106,6 @@ git checkout branch2
 git merge/rebase branch1 
 ```
 
-
 Push a branch to remote:
 
 ```shell
@@ -119,7 +118,6 @@ Delete a remote branch:
 git push origin --delete branchname
 ```
 
-
 List all remote branches:
 
 - `git branch -r`: lists all remote branches
@@ -129,6 +127,7 @@ List all remote branches:
 - `git branch --no-merged`: lists branches that have not been merged into the current branch
 
 
+<br/>
 
 ## Conflicts
 
@@ -178,6 +177,7 @@ git commit -m "merge branch1 into branch2"
 git push origin branch2
 ```
 
+<br/>
 
 
 ### Unmerged status codes
@@ -189,6 +189,8 @@ git push origin branch2
 * `DU` deleted by us *(often: decide keep vs delete; use `git rm` to delete)*
 * `AA` both added
 * `UU` both modified
+
+<br/>
 
 
 ## History
@@ -204,6 +206,8 @@ To remove all history from a repo:
 	git push -f origin main
 	git branch --set-upstream-to=origin/main main
 ```
+
+<br/>
 
 ## Tokens
 
