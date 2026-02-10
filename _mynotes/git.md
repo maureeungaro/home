@@ -106,45 +106,6 @@ git checkout branch2
 git merge/rebase branch1 
 ```
 
-If conflicts arises:
-
-1. Open each conflicted file `(<<<<<<<, =======, >>>>>>> markers)`.
-2. Manually resolve the conflicts by editing the file.
-3. After resolving conflicts, mark the files as resolved:
-```shell
-git add conflicted_file
-```
-
-If necessary, keep one version of the other of one file:
-
-```shell
-git checkout --ours conflicted_file  # Keep our version (the rebase source)
-git checkout --theirs conflicted_file  # Keep their version (the rebase target)
-```
-
-After choosing one version, you still need to `git add` the file to mark it as resolved.
-
-```shell
-git add conflicted_file
-```
-
-Finalizing rebase (notice commit w/o message):
-```shell
-git rebase --continue
-git push origin branch2
-```
-
-The status can be:
-
-- `DD` unmerged, both deleted
-- `AU` unmerged, added by us
-- `UD` unmerged, deleted by them
-- `UA` unmerged, added by them
-- `DU` unmerged, deleted by us
-- `AA` unmerged, both added
-- `UU` unmerged, both modified
-
-
 
 Push a branch to remote:
 
@@ -168,7 +129,59 @@ List all remote branches:
 - `git branch --no-merged`: lists branches that have not been merged into the current branch
 
 
-# History
+
+## Conflicts
+
+1. Check what’s conflicted:
+
+```sh
+git status
+```
+
+2. Resolve each conflicted path, then stage it to mark resolved:
+
+* **Text conflicts (`UU`, etc.)**: open file and fix `<<<<<<< ======= >>>>>>>`, then:
+
+```sh
+git add path
+```
+
+* **Keep one side** (still requires `git add`):
+
+```sh
+git checkout --ours  path   # keep our version (rebase source)
+git checkout --theirs path  # keep their version (rebase target)
+git add path
+```
+
+* **You want the file removed (e.g. `DU` / delete-vs-modify conflict)**:
+
+```sh
+git rm -- path
+# if the file is already gone locally:
+git rm --cached -- path
+git add -u
+```
+
+3. Finalize:
+
+```sh
+git rebase --continue
+git push origin branch2
+```
+
+### Unmerged status codes
+
+* `DD` both deleted
+* `AU` added by us
+* `UD` deleted by them
+* `UA` added by them
+* `DU` deleted by us *(often: decide keep vs delete; use `git rm` to delete)*
+* `AA` both added
+* `UU` both modified
+
+
+## History
 
 To remove all history from a repo:
 
@@ -182,7 +195,7 @@ To remove all history from a repo:
 	git branch --set-upstream-to=origin/main main
 ```
 
-# Tokens
+## Tokens
 
 Can use 'regenerate' to copy the configuration
 
