@@ -70,6 +70,10 @@ frame select 1
 	- `1` is the immediate caller of frame #0.
 	- `2` is the caller of frame #1, and so on up the stack.
 
+- show what it’s doing right before it dies.
+```shell
+disassemble -f
+```
 <br/>
 
 
