@@ -1,8 +1,12 @@
+- title: "CVMFS on MacOS"
+  category: "Work"
+  date: "February 2026"
+  link: "/home/mynotes/cvmfs"
+
 - title: "macos"
   category: "Various"
   date: "January 2026"
   link: "/home/mynotes/macos"
-
 
 - title: "C++ Sanitizers"
   category: "C++"

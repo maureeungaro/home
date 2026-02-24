@@ -4,11 +4,9 @@ title: Directory
 permalink: /directory/
 ---
 
-{% assign NUM_COLUMNS = 5 %}
 {% assign items = site.data.bookmarks | group_by: "category" %}
 
 <div class="directory-page">
-
 
   <ul class="link-list">
     {% for group in items %}

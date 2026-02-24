@@ -195,7 +195,18 @@ git push origin branch2
 
 ## History
 
-To remove all history from a repo:
+### Show commit + diff for a specific file
+
+```shell
+git log -p -- path/to/file
+```
+
+### Compact one-line history
+```shell
+git log --follow --date=short --pretty=format:"%h %ad %an %s" -- path/to/file
+```
+
+### To remove all history from a repo:
 
 ```shell
 	git checkout --orphan new-main
@@ -211,10 +222,17 @@ To remove all history from a repo:
 
 ## Tokens
 
-Can use 'regenerate' to copy the configuration
+```
+Personal Settings > Developer Settings 
+```
 
-Configuration:
+Can `regenerate` with custom expiration date.
+
+
+### Configuration:
 
 repo --> public_repo 
 
 For private images, the token must have at least read:packages.
+
+The token should go in 
