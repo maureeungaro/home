@@ -28,57 +28,61 @@ git clone -b v1.2.3 --recurse-submodules --shallow-submodules --depth 1 [repo]
 * `btag`: temporary branch name created from the tag
 * `rtag`: full tag ref path (`refs/tags/<tag>`), used for remote deletion
 
-Example:
+Example: `tag=v1.2.3`
 
-```sh
-tag=v1.2.3
+```shell
 btag="b$tag"
 rtag="refs/tags/$tag"
 ```
 
 #### 1) Create and switch to a temporary branch from the existing tag
 
-```sh
+```shell
 git fetch origin --tags
 git switch -c "$btag" "$tag"
 ```
 
 #### 2) Make changes, commit, and push the temporary branch
 
-```sh
+```shell
 git commit -am "Fixes for $tag"
 git push -u origin "$btag"
 ```
 
-#### 3) Delete old local tag, recreate the tag locally at the new HEAD
+#### 3) Delete old local tag pointing to the old commit, recreate the tag locally at the new HEAD
 
 (You’re already on `$btag`, so the extra `git switch "$btag"` is redundant.)
 
-```sh
+```shell
 git tag -d "$tag"
 git tag "$tag"
 ```
 
-#### 4) Replace the remote tag
+#### 4) Replace the remote tag pointing to the new commit
 
 First delete the old remote tag, then push the new one. 
 Force-update the remote tag explicitly because tags are immutable by convention and many servers reject non-fast-forward tag updates unless forced.
 
-```sh
+```shell
 git push origin ":$rtag"
 git push --force origin "$rtag"
 ```
 
-#### 5) Update the GitHub release
-
-* Delete the existing release for `$tag`
-* Create a new release pointing at the updated `$tag`
-
+#### 5) Update the GitHub Release (and assets) if necessary
+* If you uploaded release assets (binaries / custom .tar.gz / etc.):
+   update the existing release by removing the old assets and uploading the new ones (or delete and recreate the release).
+   Moving the tag does not replace uploaded assets.
+* If only GitHub-generated source archives are used (“Source code (tar.gz/zip)”):
+  you can usually leave the release as-is; it will continue to be “for $tag”, and the generated archives will 
+  follow the updated tag (may take a short while due to caching).
+* If release notes/changelog should change:
+  either edit the existing release notes, or delete and recreate the release for $tag.
 
 #### 6) Cleanup: delete the temporary branch (remote + local)
 
-```sh
+```shell
 git push origin --delete "$btag"
+git switch main
 git branch -D "$btag"
 ```
 
@@ -133,7 +137,7 @@ List all remote branches:
 
 - Check what’s conflicted:
 
-```sh
+```shell
 git status
 ```
 
@@ -141,13 +145,13 @@ git status
 
 * **Text conflicts (`UU`, etc.)**: open file and fix `<<<<<<< ======= >>>>>>>`, then:
 
-```sh
+```shell
 git add path
 ```
 
 * **Keep one side** (still requires `git add`):
 
-```sh
+```shell
 git checkout --ours  path   # keep our version (rebase source)
 git checkout --theirs path  # keep their version (rebase target)
 git add path
@@ -155,7 +159,7 @@ git add path
 
 * **You want the file removed (e.g. `DU` / delete-vs-modify conflict)**:
 
-```sh
+```shell
 git rm -- path
 # if the file is already gone locally:
 git rm --cached -- path
@@ -165,14 +169,14 @@ git add -u
 
 - Finalize a rebase
 
-```sh
+```shell
 git rebase --continue   # repeat until it finishes
 git push origin branch2
 ```
 
 - Finalize a merge (non-rebase)
 
-```sh
+```shell
 git commit -m "merge branch1 into branch2"
 git push origin branch2
 ```
