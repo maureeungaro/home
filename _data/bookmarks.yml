@@ -113,6 +113,23 @@
   category: "CLAS12"
   link1: "https://code.jlab.org/hallb/clas12/iguana"
 
+- title: "cmag"
+  category: "CLAS12"
+  link1: "https://github.com/JeffersonLab/clas12-cmag"
+
+- title: "clas12-validation"
+  category: "CLAS12"
+  link1: "https://github.com/JeffersonLab/clas12-validation"
+
+- title: "ced"
+  category: "CLAS12"
+  link1: "https://userweb.jlab.org/~heddle/ced/builds/"
+
+- title: "orca"
+  category: "CLAS12"
+  link1: "https://code.jlab.org/hallb/clas12/orca"
+
+
 
 
 
