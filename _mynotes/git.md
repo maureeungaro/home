@@ -135,13 +135,13 @@ List all remote branches:
 
 ## Conflicts
 
+### 1. Resolve Conflicts
+
 - Check what’s conflicted:
 
 ```shell
 git status
 ```
-
-- Resolve each conflicted path, then stage it to mark resolved:
 
 * **Text conflicts (`UU`, etc.)**: open file and fix `<<<<<<< ======= >>>>>>>`, then:
 
@@ -149,7 +149,7 @@ git status
 git add path
 ```
 
-* **Keep one side** (still requires `git add`):
+* **Keep one side** (choose ours or theirs):
 
 ```shell
 git checkout --ours  path   # keep our version (rebase source)
@@ -166,16 +166,14 @@ git rm --cached -- path
 git add -u
 ```
 
-
-- Finalize a rebase
+### 2. Finalize a rebase or a merge
 
 ```shell
 git rebase --continue   # repeat until it finishes
 git push origin branch2
 ```
 
-- Finalize a merge (non-rebase)
-
+or
 ```shell
 git commit -m "merge branch1 into branch2"
 git push origin branch2
