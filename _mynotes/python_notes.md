@@ -18,8 +18,8 @@ title: "jekyll"
 To define and use a new python environment, and install particular packages:
 
 ```shell
-python3 -m venv .venv-meson
-. .venv-meson/bin/activate
+python3 -m venv ~/.venv-meson
+source ~/.venv-meson/bin/activate
 pip install 'meson @ git+https://github.com/mesonbuild/meson.git'
 meson --version
 ```
