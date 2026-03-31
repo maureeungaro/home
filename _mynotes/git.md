@@ -237,4 +237,5 @@ repo --> public_repo
 
 For private images, the token must have at least read:packages.
 
-The token should go in 
+The token should go in a file read by the software using it, typically in the home dir, for 
+example `.bob`
