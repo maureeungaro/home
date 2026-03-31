@@ -23,8 +23,10 @@ To use **CernVM File System** mount points on a Mac, two packages are needed:
 > [!IMPORTANT] MacFuse permissions
 > During installation a prompt should appear to allow `Ben Fisher` extension. <br/>
 > This can also be checked with the command: <br/>
-> `sudo kmutil load -p /Library/Filesystems/macfuse.fs/Contents/Extensions/26/macfuse.kext`
-> (replace 26 with the OS Versions)<br/>
+> ```shell
+>    sudo kmutil load -p /Library/Filesystems/macfuse.fs/Contents/Extensions/26/macfuse.kext
+> ```
+> (replace 26 with the OS Versions)<br/><br/>
 > If they are not approved to load, go to `Settings > Privacy and Security > Security`, allow and restart.
 
 
