@@ -61,6 +61,24 @@ sudo gem uninstall bundler -aIx
 
 <br/>
 
+
+## Missing Extensions
+
+The following messages:
+
+```html
+Source locally installed gems is ignoring #<Bundler::StubSpecification name=nokogiri version=1.18.3 platform=ruby> because it is missing extensions
+```
+
+Can be addressed by issuing:
+
+```shell
+gem pristine <module>
+bundle install
+```
+
+<br/>
+
 ## Styling
 
 - Using [Minima](https://github.com/jekyll/minima#readme)

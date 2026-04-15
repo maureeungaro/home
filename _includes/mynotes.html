@@ -3,7 +3,12 @@
 <div class="directory-page">
   <ul class="link-list">
     {% for group in items %}
-      <li class="section">
+      {% assign owner_only = false %}
+      {% if page.owner_only_categories contains group.name %}
+        {% assign owner_only = true %}
+      {% endif %}
+
+      <li class="section{% if owner_only %} owner-only-section{% endif %}">
         <div class="section-title">{{ group.name | escape }}</div>
 
         <ul class="section-links">
@@ -20,20 +25,19 @@
                   {%- assign titk = 'tit' | append: i -%}
                   {%- assign linkk = 'link' | append: i -%}
                   {%- if note[titk] and note[linkk] -%}
-                    <a href="{{ note[linkk] | escape }}" >[ {{ note[titk] | escape }} ]</a>
+                    <a href="{{ note[linkk] | escape }}">[ {{ note[titk] | escape }} ]</a>
                   {%- endif -%}
                 {%- endfor -%}
               </li>
             {%- else -%}
               {%- assign href = note.link | default: note.link1 -%}
               <li>
-                <a href="{{ href | escape }}" >[ {{ note.title | escape }} ]</a>
+                <a href="{{ href | escape }}">[ {{ note.title | escape }} ]</a>
               </li>
             {%- endif -%}
           {% endfor %}
         </ul>
       </li>
-
     {% endfor %}
   </ul>
 </div>

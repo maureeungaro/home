@@ -1,0 +1,18 @@
+---
+layout: none
+permalink: /database/
+---
+
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+	<meta charset="utf-8">
+	<title>Owner mode off</title>
+</head>
+<body>
+<script>
+	document.cookie = "ownerMode=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax";
+	window.location.href = "{{ '/mynotes/' | relative_url }}";
+</script>
+</body>
+</html>

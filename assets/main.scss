@@ -572,3 +572,11 @@ pre:not(.highlight) {
   border-bottom: none;
   padding-bottom: 0;
 }
+
+.owner-only-section {
+  display: none;
+}
+
+html.owner .owner-only-section {
+  display: list-item;
+}
