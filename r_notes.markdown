@@ -7,4 +7,4 @@ owner_only_categories:
   - Recipes
 ---
 
-{% include mynotes.html %}
+{% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}

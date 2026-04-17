@@ -2,7 +2,7 @@
 layout: default
 title: "jekyll"
 ---
-{% include mynotes.html %}
+{% include directory.html data=site.data.mynotes columns=2 section_breaks=2 %}
 
 
 # Python Notes
@@ -18,8 +18,8 @@ title: "jekyll"
 To define and use a new python environment, and install particular packages:
 
 ```shell
-python3 -m venv ~/.venv-meson
-source ~/.venv-meson/bin/activate
+python3 -m venv ~/venv/meson
+source ~/venv/meson/bin/activate
 pip install 'meson @ git+https://github.com/mesonbuild/meson.git'
 meson --version
 ```

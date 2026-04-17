@@ -580,3 +580,26 @@ pre:not(.highlight) {
 html.owner .owner-only-section {
   display: list-item;
 }
+
+.directory-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.directory-section {
+  display: block;
+}
+
+.directory-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.35rem 0 0 0;
+  column-gap: 2rem;
+}
+
+.directory-links > li {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 0.35em;
+}

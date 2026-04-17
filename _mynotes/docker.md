@@ -2,7 +2,7 @@
 layout: default
 title: "Docker and Apptainer"
 ---
-{% include mynotes.html %}
+{% include directory.html data=site.data.mynotes columns=2 section_breaks=2 %}
 
 # Docker and Apptainer
 <hr style="height:4px;border:0;background:#4a90e2;">

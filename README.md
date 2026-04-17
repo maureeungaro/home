@@ -1,12 +1,4 @@
-#### Plots and slides are updated on jlabl4 by the cronjob `update_mauriplots_jlabl4` 
-
-in the `[pubs]` repo. to copy:
-
-```
-scp /opt/projects/pubs/update_mauriplots_jlabl4.zsh ifarm:.
-```
-
-
+#### Plots and slides are updated on jlabl2 by the cronjob `update_mauriplots_jlabl2` 
 
 
 
