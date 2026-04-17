@@ -573,10 +573,6 @@ pre:not(.highlight) {
   padding-bottom: 0;
 }
 
-.owner-only-section {
-  display: none;
-}
-
 
 .directory-section {
   display: block;
@@ -591,4 +587,13 @@ pre:not(.highlight) {
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
   margin-bottom: 0.35em;
+}
+
+
+.owner-only-section {
+  display: none;
+}
+
+.owner-mode .owner-only-section {
+  display: block;
 }
