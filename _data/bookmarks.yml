@@ -1,89 +1,88 @@
 - title: "Experiment Wikis"
   category: "HallB"
-  link1: "https://wiki.jlab.org/clas12-run/index.php/Hall_B_Run_Wikis"
+  link: "https://wiki.jlab.org/clas12-run/index.php/Hall_B_Run_Wikis"
 
 - title: "Home"
   category: "HallB"
-  link1: "https://www.jlab.org/physics/hall-b"
+  link: "https://www.jlab.org/physics/hall-b"
 
 - title: "Collaboration"
   category: "HallB"
-  link1: "https://wiki.jlab.org/clas_chair/index.php/CLAS_Collaboration_Information"
+  link: "https://wiki.jlab.org/clas_chair/index.php/CLAS_Collaboration_Information"
 
 - title: "Calcom"
   category: "HallB"
-  link1: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Calibration_and_Commissioning"
+  link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Calibration_and_Commissioning"
 
 - title: "Clas12Mon"
   category: "HallB"
-  link1: "https://clas12mon.jlab.org"
+  link: "https://clas12mon.jlab.org"
 
 - title: "RCDB"
   category: "HallB"
-  link1: "https://clasweb.jlab.org/rcdb"
+  link: "https://clasweb.jlab.org/rcdb"
 
 - title: "CCDB"
   category: "HallB"
-  link1: "https://clasweb.jlab.org/cgi-bin/ccdb/objects"
+  link: "https://clasweb.jlab.org/cgi-bin/ccdb/objects"
 
 - title: "Software Center"
   category: "HallB"
-  link1: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
+  link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
 
 - title: "CLAS12 Discourse"
   category: "HallB"
-  link1: "https://clas12.discourse.group"
-
+  link: "https://clas12.discourse.group"
 
 
 
 
 - title: "Run Info"
   category: "Current Run"
-  link1: "https://www.jlab.org/physics/hall-b/run"
+  link: "https://www.jlab.org/physics/hall-b/run"
 
 - title: "Hall-B OPI"
   category: "Current Run"
-  link1: "https://hallbopi.jlab.org/webopi3.3/w"
+  link: "https://hallbopi.jlab.org/webopi3.3/w"
 
 - title: "HBLOG"
   category: "Current Run"
-  link1: "https://logbooks.jlab.org/book/hblog"
+  link: "https://logbooks.jlab.org/book/hblog"
 
 - title: "ELOG"
   category: "Current Run"
-  link1: "https://logbooks.jlab.org/book/elog"
+  link: "https://logbooks.jlab.org/book/elog"
 
 - title: "Shifts"
   category: "Current Run"
-  link1: "https://www.jlab.org/Hall-B/shifts/"
+  link: "https://www.jlab.org/Hall-B/shifts/"
 
 - title: "CLAS12 Manuals"
   category: "Current Run"
-  link1: "https://github.com/JeffersonLab/clas12-manuals"
+  link: "https://github.com/JeffersonLab/clas12-manuals"
 
 
 
 
 - title: "Gemc3"
   category: "Gemc"
-  link1: "https://gemc.github.io/home/"
+  link: "https://gemc.github.io/home/"
 
 - title: "Github"
   category: "Gemc"
-  link1: "https://github.com/gemc/src"
+  link: "https://github.com/gemc/src"
 
 - title: "Gemc2"
   category: "Gemc"
-  link1: "https://gemc.jlab.org/gemc/html/index.html"
+  link: "https://gemc.jlab.org/gemc/html/index.html"
 
 - title: "clas12Tags"
   category: "Gemc"
-  link1: "https://github.com/gemc/clas12Tags"
+  link: "https://github.com/gemc/clas12Tags"
 
 - title: "GEMC Repos"
   category: "Gemc"
-  link1: "https://github.com/orgs/gemc/repositories"
+  link: "https://github.com/orgs/gemc/repositories"
 
 
 
@@ -91,43 +90,43 @@
 
 - title: "ceInstall"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/ceInstall"
+  link: "https://github.com/JeffersonLab/ceInstall"
 
 - title: "clas12-config"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/clas12-config"
+  link: "https://github.com/JeffersonLab/clas12-config"
 
 - title: "Coatjava"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/coatjava"
+  link: "https://github.com/JeffersonLab/coatjava"
 
 - title: "mcgen"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/clas12-mcgen"
+  link: "https://github.com/JeffersonLab/clas12-mcgen"
 
 - title: "CCDB"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/ccdb"
+  link: "https://github.com/JeffersonLab/ccdb"
 
 - title: "Iguana"
   category: "CLAS12"
-  link1: "https://code.jlab.org/hallb/clas12/iguana"
+  link: "https://code.jlab.org/hallb/clas12/iguana"
 
 - title: "cmag"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/clas12-cmag"
+  link: "https://github.com/JeffersonLab/clas12-cmag"
 
 - title: "clas12-validation"
   category: "CLAS12"
-  link1: "https://github.com/JeffersonLab/clas12-validation"
+  link: "https://github.com/JeffersonLab/clas12-validation"
 
 - title: "ced"
   category: "CLAS12"
-  link1: "https://userweb.jlab.org/~heddle/ced/builds/"
+  link: "https://userweb.jlab.org/~heddle/ced/builds/"
 
 - title: "orca"
   category: "CLAS12"
-  link1: "https://code.jlab.org/hallb/clas12/orca"
+  link: "https://code.jlab.org/hallb/clas12/orca"
 
 
 
@@ -138,47 +137,47 @@
 
 - title: "Mauri Repos"
   category: "Software"
-  link1: "https://github.com/maureeungaro?tab=repositories"
+  link: "https://github.com/maureeungaro?tab=repositories"
 
 - title: "Meson"
   category: "Software"
-  link1: "https://mesonbuild.com/index.html"
+  link: "https://mesonbuild.com/index.html"
 
 - title: "ROOT"
   category: "Software"
-  link1: "https://root.cern/doc/master/index.html"
+  link: "https://root.cern/doc/master/index.html"
 
 - title: "Pyvista"
   category: "Software"
-  link1: "https://docs.pyvista.org/"
+  link: "https://docs.pyvista.org/"
 
 - title: "VTK"
   category: "Software"
-  link1: "https://vtk.org"
+  link: "https://vtk.org"
 
 - title: "Assimp"
   category: "Software"
-  link1: "https://github.com/assimp/assimp/releases"
+  link: "https://github.com/assimp/assimp/releases"
 
 - title: "Yaml-Cpp"
   category: "Software"
-  link1: "https://github.com/jbeder/yaml-cpp/releases"
+  link: "https://github.com/jbeder/yaml-cpp/releases"
 
 - title: "NoVNC"
   category: "Software"
-  link1: "https://github.com/novnc/noVNC/tags"
+  link: "https://github.com/novnc/noVNC/tags"
 
 - title: "Dask"
   category: "Software"
-  link1: "https://www.dask.org"
+  link: "https://www.dask.org"
 
 - title: "Seaborn"
   category: "Software"
-  link1: "https://seaborn.pydata.org"
+  link: "https://seaborn.pydata.org"
 
 - title: "C++ Reference"
   category: "Software"
-  link1: "https://en.cppreference.com/w/"
+  link: "https://en.cppreference.com/w/"
 
 
 
@@ -186,57 +185,57 @@
 
 - title: "Farm"
   category: "JLab"
-  link1: "https://scicomp.jlab.org/scicomp/home"
+  link: "https://scicomp.jlab.org/scicomp/home"
 
 - title: "Insight"
   category: "JLab"
-  link1: "https://www.jlab.org/Hall-B/shifts/"
+  link: "https://www.jlab.org/Hall-B/shifts/"
 
 - title: "G4Home"
   category: "JLab"
-  link1: "https://jeffersonlab.github.io/g4home/"
+  link: "https://jeffersonlab.github.io/g4home/"
 
 - title: "SciComp"
   category: "JLab"
-  link1: "https://jlab.servicenowservices.com/scicomp"
+  link: "https://jlab.servicenowservices.com/scicomp"
 
 - title: "ServiceNow"
   category: "JLab"
-  link1: "https://jlab.servicenowservices.com/nav_to.do?uri=%2Fhome.do%3F"
+  link: "https://jlab.servicenowservices.com/nav_to.do?uri=%2Fhome.do%3F"
 
 - title: "Orcid"
   category: "JLab"
-  link1: "https://orcid.org"
+  link: "https://orcid.org"
 
 - title: "Calendar"
   category: "JLab"
-  link1: "https://www.jlab.org/jlab-calendar"
+  link: "https://www.jlab.org/jlab-calendar"
 
 - title: "Staff Search"
   category: "JLab"
-  link1: "https://misportal.jlab.org/staff_search"
+  link: "https://misportal.jlab.org/staff_search"
 
 - title: "RadCon"
   category: "JLab"
-  link1: "https://www.jlab.org/esh/radcon"
+  link: "https://www.jlab.org/esh/radcon"
 
 - title: "Publications"
   category: "JLab"
-  link1: "https://misportal.jlab.org/sti/"
+  link: "https://misportal.jlab.org/sti/"
 
 
 
 - title: "Inspire"
   category: "Physics"
-  link1: "https://inspirehep.net"
+  link: "https://inspirehep.net"
 
 - title: "Mauri on Inspire"
   category: "Physics"
-  link1: "https://inspirehep.net/authors/1322331"
+  link: "https://inspirehep.net/authors/1322331"
 
 - title: "DNP"
   category: "Physics"
-  link1: "https://engage.aps.org/dnp/home"
+  link: "https://engage.aps.org/dnp/home"
 
 
 
@@ -246,46 +245,46 @@
 
 - title: "Home"
   category: "Geant4"
-  link1: "https://geant4.web.cern.ch"
+  link: "https://geant4.web.cern.ch"
 
 - title: "GitLab"
   category: "Geant4"
-  link1: "https://gitlab.cern.ch/geant4/geant4-dev"
+  link: "https://gitlab.cern.ch/geant4/geant4-dev"
 
 - title: "Forum"
   category: "Geant4"
-  link1: "https://geant4-forum.web.cern.ch"
+  link: "https://geant4-forum.web.cern.ch"
 
 - title: "g4install"
   category: "Geant4"
-  link1: "https://github.com/gemc/g4install"
+  link: "https://github.com/gemc/g4install"
 
 
 
 
 - title: "Prod Portal"
   category: "Open Science Grid"
-  link1: "https://gemc.jlab.org/web_interface/index.php"
+  link: "https://gemc.jlab.org/web_interface/index.php"
 
 - title: "Dev Portal"
   category: "Open Science Grid"
-  link1: "https://gemc.jlab.org/test/web_interface/index.php"
+  link: "https://gemc.jlab.org/test/web_interface/index.php"
 
 - title: "OSG Helpdesk"
   category: "Open Science Grid"
-  link1: "https://support.opensciencegrid.org/support/home"
+  link: "https://support.opensciencegrid.org/support/home"
 
 - title: "CVMFS Sync"
   category: "Open Science Grid"
-  link1: "https://github.com/opensciencegrid/cvmfs-singularity-sync"
+  link: "https://github.com/opensciencegrid/cvmfs-singularity-sync"
 
 - title: "HTCondor"
   category: "Open Science Grid"
-  link1: "https://research.cs.wisc.edu/htcondor/manual/"
+  link: "https://research.cs.wisc.edu/htcondor/manual/"
 
 - title: "Glideins"
   category: "Open Science Grid"
-  link1: "http://gfactory-1.osg-htc.org/factory/monitor/factoryEntryStatusNow.html?entry=CMSHTPC_T2_US_MIT_ce03"
+  link: "http://gfactory-1.osg-htc.org/factory/monitor/factoryEntryStatusNow.html?entry=CMSHTPC_T2_US_MIT_ce03"
 
 
 
@@ -293,8 +292,8 @@
 
 - title: "HuggingFace"
   category: "LLM"
-  link1: "https://huggingface.co"
+  link: "https://huggingface.co"
 
 - title: "Learn"
   category: "LLM"
-  link1: "https://huggingface.co/learn"
+  link: "https://huggingface.co/learn"

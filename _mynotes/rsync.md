@@ -3,7 +3,7 @@ layout: default
 title: "Using rsync"
 ---
 
-{% include directory.html data=site.data.mynotes columns=2 section_breaks=2 %}
+{% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 
 # Using rsync

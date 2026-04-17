@@ -3,7 +3,7 @@ layout: default
 title: "Profiling C++"
 ---
 
-{% include directory.html data=site.data.mynotes columns=2 section_breaks=2 %}
+{% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 
 # Profiling on MacOS using Instruments and xctrace

@@ -16,31 +16,12 @@
       {% endunless %}
     >
       <div class="section-title">{{ group.name | escape }}</div>
-
       <div class="directory-links" style="column-count: {{ columns }};">
         {% for item in group.items %}
-          {%- assign has_multi = false -%}
-          {%- if item.tit1 and item.link1 -%}
-            {%- assign has_multi = true -%}
-          {%- endif -%}
-
-          {%- if has_multi -%}
-            <div class="directory-entry">
-              {{ item.title | escape }}:
-              {%- for i in (1..10) -%}
-                {%- assign titk = 'tit' | append: i -%}
-                {%- assign linkk = 'link' | append: i -%}
-                {%- if item[titk] and item[linkk] -%}
-                  <a href="{{ item[linkk] | escape }}">[ {{ item[titk] | escape }} ]</a>
-                {%- endif -%}
-              {%- endfor -%}
-            </div>
-          {%- else -%}
             {%- assign href = item.link | default: item.link1 -%}
             <div class="directory-entry">
               <a href="{{ href | escape }}">[ {{ item.title | escape }} ]</a>
             </div>
-          {%- endif -%}
         {% endfor %}
       </div>
     </div>

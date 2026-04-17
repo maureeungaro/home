@@ -1,71 +1,57 @@
 - title: "Venice"
   category: "Travel"
-  date: "April 2026"
   link: "/home/mynotes/venice"
 
 - title: "rsync"
   category: "Work"
-  date: "March 2026"
   link: "/home/mynotes/rsync"
 
 - title: "CVMFS on MacOS"
   category: "Work"
-  date: "February 2026"
   link: "/home/mynotes/cvmfs"
 
 - title: "macos"
   category: "Various"
-  date: "January 2026"
   link: "/home/mynotes/macos"
 
 - title: "C++ Sanitizers"
   category: "C++"
-  date: "January 2026"
   link: "/home/mynotes/cpp_sanitizers"
 
 - title: "Python"
   category: "Work"
-  date: "January 2026"
   link: "/home/mynotes/python_notes"
 
 - title: "Cernlib on MacOS"
   category: "Work"
-  date: "October 2025"
   link: "/home/mynotes/paw_cernlib_macos"
 
-- title: "Docker and Apptainer"
+- title: "Docker, Apptainer"
   category: "Work"
-  date: "July 2025"
   link: "/home/mynotes/docker"
 
 - title: "Assertions"
   category: "C++"
-  date: "July 2025"
   link: "/home/mynotes/static_assertions"
 
 - title: "Debugging"
   category: "C++"
-  date: "July 2025"
   link: "/home/mynotes/debugging_c++"
 
 - title: "Using Git"
-  date: "June 2025"
   category: "Work"
   link: "/home/mynotes/git"
 
 - title: "Profiling"
   category: "C++"
-  date: "May 2025"
   link: "/home/mynotes/profiling_c++"
 
 - title: "Asciinema"
   category: "Work"
-  date: "March 2025"
   link: "/home/mynotes/asciinema"
 
 - title: "Jekyll"
   category: "Work"
-  date: "March 2025"
   link: "/home/mynotes/jekyll"
 
 

@@ -3,7 +3,7 @@ layout: default
 title: "Cernlib on MacOS"
 ---
 
-{% include directory.html data=site.data.mynotes columns=2 section_breaks=2 %}
+{% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 # Cernlib, Paw on MacOS
 <hr style="height:4px;border:0;background:#4a90e2;">
