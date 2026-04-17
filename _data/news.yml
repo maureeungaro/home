@@ -1,6 +1,16 @@
+- title: "GEMC v 5.14 Released"
+  date: "April 2026"
+  image: "https://github.com/gemc/clas12Tags/raw/main/clas12.png?raw=true"
+  link: "https://github.com/gemc/clas12Tags/releases/tag/5.14"
+
+- title: "Real Run Number simulations for CLAS12"
+  date: "October 2025"
+  image: "https://jeffersonlab.github.io/g4home/assets/images/ifarm.png"
+  link: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2025-005.pdf?documentId=183"
+
 - title: "Geant4 School at JLab"
   date: "Aug 2025"
-  image: "https://jeffersonlab.github.io/g4home/assets/images/ifarm.png"
+  image: "https://jeffersonlab.github.io/g4home/assets/images/tutorial.png"
   link: "https://indico.jlab.org/event/963/"
 
 - title: "GEMC CHEP proceedings are published"
