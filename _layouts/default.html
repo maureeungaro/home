@@ -63,22 +63,6 @@
 
 <script src="/home/assets/copyCode.js"></script>
 
-<script>
-  function getCookie(name) {
-    const cookies = document.cookie.split("; ");
-    for (const c of cookies) {
-      const [k, ...rest] = c.split("=");
-      if (k === name) {
-        return decodeURIComponent(rest.join("="));
-      }
-    }
-    return null;
-  }
-
-  if (getCookie("ownerMode") === "true") {
-    document.documentElement.classList.add("owner");
-  }
-</script>
 
 <script>
   window.MathJax = {
@@ -94,6 +78,8 @@
   id="MathJax-script"
   src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
 </script>
+
+
 
 </body>
 
