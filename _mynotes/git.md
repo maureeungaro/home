@@ -6,6 +6,7 @@ title: "Using Git"
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 
+
 # Using Git
 <hr style="height:4px;border:0;background:#4a90e2;">
 

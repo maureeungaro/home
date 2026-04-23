@@ -2,27 +2,12 @@
 {% assign columns = include.columns | default: 1 | plus: 0 %}
 {% assign section_breaks = include.section_breaks | default: 1 | plus: 0 %}
 {% assign link_target = include.link_target | default: "_self" %}
-
-<script>
-	(function () {
-		function syncOwnerMode() {
-			const isOwner = document.cookie
-				.split(';')
-				.map(c => c.trim())
-				.includes('ownerMode=true');
-
-			document.documentElement.classList.toggle('owner-mode', isOwner);
-		}
-
-		syncOwnerMode();
-		window.addEventListener('pageshow', syncOwnerMode);
-	})();
-</script>
+{% assign owner_only_cats = site.directory_owner_only_categories %}
 
 <div class="directory-page directory-container">
 	{% for group in items %}
 		{% assign owner_only = false %}
-		{% if page.owner_only_categories and page.owner_only_categories contains group.name %}
+		{% if owner_only_cats contains group.name %}
 			{% assign owner_only = true %}
 		{% endif %}
 

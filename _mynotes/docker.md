@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "Docker and Apptainer"
+title: Docker, Apptainer
 ---
+
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 # Docker and Apptainer

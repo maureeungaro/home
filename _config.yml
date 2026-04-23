@@ -107,3 +107,6 @@ mauriPubsPDFUrl: 'https://userweb.jlab.org/~ungaro/pubs/pdfs'
 mauriSlicesUrl: 'https://userweb.jlab.org/~ungaro/slices'
 
 
+directory_owner_only_categories:
+  - Travel
+  - Recipes

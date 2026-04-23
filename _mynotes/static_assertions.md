@@ -5,6 +5,7 @@ title: "Assertions in C++"
 
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
+
 # Static Assertions
 <hr style="height:4px;border:0;background:#4a90e2;">
 

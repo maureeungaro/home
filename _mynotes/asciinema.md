@@ -4,6 +4,7 @@ title: "asciinema"
 ---
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
+
 # Using Asciinema and creating gifs
 <hr style="height:4px;border:0;background:#4a90e2;">
 

@@ -3,8 +3,9 @@
 
 {%- include head.html -%}
 
-
 <body>
+
+
 
 {%- include header.html -%}
 
@@ -63,7 +64,6 @@
 
 <script src="/home/assets/copyCode.js"></script>
 
-
 <script>
   window.MathJax = {
     tex: {
@@ -80,6 +80,28 @@
 </script>
 
 
+<script>
+  (function () {
+    function getCookie(name) {
+      const cookies = document.cookie.split("; ");
+      for (const c of cookies) {
+        const [k, ...rest] = c.split("=");
+        if (k === name) {
+          return decodeURIComponent(rest.join("="));
+        }
+      }
+      return null;
+    }
+
+    function syncOwnerMode() {
+      const isOwner = getCookie("ownerMode") === "true";
+      document.documentElement.classList.toggle("owner-mode", isOwner);
+    }
+
+    syncOwnerMode();
+    window.addEventListener("pageshow", syncOwnerMode);
+  })();
+</script>
 
 </body>
 
