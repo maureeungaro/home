@@ -41,28 +41,26 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 {% assign physics_img = '/assets/images/home/physics.png' | relative_url %}
 {% assign degree_img = '/assets/images/home/degree.png' | relative_url %}
 
-
 {% capture left %}
 
 {% include figure.html
-   src="assets/images/home/mauri.png"
-   alt="Database-driven architecture"
-   width="170"
+src="assets/images/home/mauri.png"
+alt="Database-driven architecture"
+width="170"
 %}
 
 <div style="text-align: center">
 <h2>Maurizio Ungaro</h2> 
 </div>
 
-|                      `Staff Scientist`                      |
-|:-----------------------------------------------------------:|
-|        [Jefferson Laboratory](https://www.jlab.org)         |
-| [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
+|                     `Staff Scientist`                      |
+|:----------------------------------------------------------:|
+|        [Jefferson Laboratory](https://www.jlab.org)        |
+| [Experimental Hall-B](https://www.jlab.org/physics/hall-b) |
 
 |                                            |                                      |                                         |                                   |
 |--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
 | [![gscholar][gscholar-img]][gscholar-link] | [![github][github-img]][github-link] | [![inspire][inspire-img]][inspire-link] | [![email][email-img]][email-link] |
-
 
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
@@ -75,7 +73,6 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 {% endcapture %}
 
-
 {% capture right %}
 
 <br/>
@@ -84,21 +81,21 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 I’m Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).
 
-My research is focused on the internal structure and dynamics of the nucleon, in particular the physics beyond the 
-constituent quark model and the link between form factors and dressed quark mass (see for example 
-the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and the 
+My research is focused on the internal structure and dynamics of the nucleon, in particular the physics beyond the
+constituent quark model and the link between form factors and dressed quark mass (see for example
+the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and the
 [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses).
 
-I work on the Refurbishment, Operation / Maintenance / Calibration of the 
+I work on the Refurbishment, Operation / Maintenance / Calibration of the
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B.
 
-I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework 
-and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags), including 
-[Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the 
-[Open Science Grid (OSG)](https://osg-htc.org), see for example our 
+I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework
+and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags), including
+[Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the
+[Open Science Grid (OSG)](https://osg-htc.org), see for example our
 [CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).
 
-Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of 
+Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration with the purpose of
 [supporting it at JLab](https://jeffersonlab.github.io/g4home/).
 
 In my free time I am learning to play hockey, while enjoying watching my kid skating much faster than me.
@@ -107,15 +104,12 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 {% include two_col_md.html left="30%" right="70%" left_content=left right_content=right %}
 
-
 <br/><br/>
-
 
 {% capture left2 %}
 <br/>
 <br/><br/>
 <br/>
-
 
 ## Interests
 
@@ -128,8 +122,7 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 - Geant4
 - Cherenkov Counters
 - Software Development
-{% endcapture %}
-
+  {% endcapture %}
 
 {% capture right2 %}
 
@@ -208,7 +201,6 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 <br/>
 
-
 ## Skills
 
 <table style="text-align:center;">
@@ -232,6 +224,7 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 <br/>
 
 ## Latest News
+
 <br/>
 
 <div >
@@ -272,6 +265,20 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 </div>
 
+
+<br/><br/><br/>
+
+{:.zebra}
+
+| Home Page Deployment | [![CI][CI-badge]][CI]  |
+
+
+[CI]: https://github.com/maureeungaro/home/actions/workflows/jekyll.yml
+[CI-badge]: https://github.com/maureeungaro/home/actions/workflows/jekyll.yml/badge.svg
+
+
+<br/><br/><br/>
+
 <script type="text/javascript">
     $(document).ready(function() {
             $('#light-slider').lightSlider({
@@ -289,11 +296,6 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 		});
 });
 </script>
-
-<br/><br/><br/>
-<br/><br/><br/>
-
-
 
 
 [code]: assets/images/home/code.png
