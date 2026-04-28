@@ -7,22 +7,28 @@
 
 layout: default
 
+interest: |
+  
+  - ▸ Quark Structure
+  - ▸ MonteCarlo Simulations
+  - ▸ Large Language Models
+  - ▸ Data Analysis
+  - ▸ Geant4
+  - ▸ Cherenkov Counters
+  - ▸ Software Development
 
-interest: "{::nomarkdown}
+education: |
+  - <span class="large-emoji">🔬</span> **Staff Scientist**  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Jefferson Laboratory](https://www.jlab.org), VA, USA, 2011-present <br/><br/>
 
-<td>
-<img src=\"assets/images/home/physics.png\" width=30px/> Staff Scientist<br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.jlab.org\">Jefferson Laboratory</a>, VA, USA, 2011-present</span><br/><br/>
-<img src=\"assets/images/home/degree.png\" width=30px/> <img src=\"assets/images/home/physics.png\" width=30px/> Post-Doc and Research Associate<br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://uconn.edu\">University of Connecticut</a>, USA, 2004-2011</span><br/><br/>
-<img src=\"assets/images/home/degree.png\" width=30px/> PhD in Nuclear Physics     <br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.rpi.edu\">Rensselaer Polytechnic Institute</a>, Troy, NY, USA, 2003</span><br/><br/>
-<img src=\"assets/images/home/degree.png\" width=30px/> Laurea in Fisica <br/>
-<span style=\"color:#888888;font-weight:300;font-size:18px\"><a style=\"color:#448844;\" href=\"https://www.difi.unige.it/it\">Università degli studi di Genova</a>, Italy, 1999</span><br/>
-</td>
-</tr>
-</table>{:/}
-"
+  - <span class="large-emoji">🎓 🔬</span>  **Post-Doc and Research Associate**  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[University of Connecticut](https://uconn.edu), USA, 2004-2011 <br/><br/>
+
+  - <span class="large-emoji">🎓</span>  **PhD in Nuclear Physics**  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Rensselaer Polytechnic Institute](https://www.rpi.edu), Troy, NY, USA, 2003 <br/><br/>
+
+  - <span class="large-emoji">🎓</span>  **Laurea in Fisica**  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Università degli studi di Genova](https://www.difi.unige.it/it), Italy, 1999 <br/><br/>
 
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
@@ -56,9 +62,9 @@ width="170"
 |                     `Staff Scientist`                      |
 |:----------------------------------------------------------:|
 |        [Jefferson Laboratory](https://www.jlab.org)        |
+|:----------------------------------------------------------:|
 | [Experimental Hall-B](https://www.jlab.org/physics/hall-b) |
 
-|                                            |                                      |                                         |                                   |
 |--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
 | [![gscholar][gscholar-img]][gscholar-link] | [![github][github-img]][github-link] | [![inspire][inspire-img]][inspire-link] | [![email][email-img]][email-link] |
 
@@ -115,14 +121,13 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 <br/>
 
-- Quark Structure
-- MonteCarlo Simulations
-- Large Language Models
-- Data Analysis
-- Geant4
-- Cherenkov Counters
-- Software Development
+
+<div class="no-bullets-list">
+  {{ page.interest | markdownify }}
+</div>
+
   {% endcapture %}
+
 
 {% capture right2 %}
 
@@ -130,34 +135,15 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 <br/>
 
-<img src="{{ physics_img }}" alt="Physics" style="scale:60%; height:auto;"> Staff Scientist
 
-<p class="indent3" markdown="1">
-[Jefferson Laboratory](https://www.jlab.org), _VA, USA, 2011-present_
-</p>
-
-
-<img src="{{ degree_img }}"  style="scale:60%; height:auto;">
-<img src="{{ physics_img }}" style="scale:60%; height:auto;"> Post-Doc and Research Associate
-
-<p class="indent3" markdown="1">
-[University of Connecticut](https://uconn.edu), _CT, USA, 2004-2011_
-</p>
-
-<img src="{{ degree_img }}" style="scale:60%; height:auto;"> PhD in Nuclear Physics
-<p class="indent3" markdown="1">
-[Rensselaer Polytechnic Institute](https://www.rpi.edu/), _NY, USA, 2003_
-</p>
-
-
-<img src="{{ degree_img }}" style="scale:60%; height:auto;"> Laurea in Fisica (Physics Bachelo)
-<p class="indent3" markdown="1">
-[Università degli studi di Genova](https://www.difi.unige.it/it), _Genova, Italy, 1999_
-</p>
-
+<div class="no-bullets-list">
+  {{ page.education | markdownify }}
+</div>
 {% endcapture %}
 
 {% include two_col_md.html left="40%" right="60%" left_content=left2 right_content=right2 %}
+
+<br/>
 
 <br/>
 
@@ -205,18 +191,18 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 <table style="text-align:center;">
 <tr>
-    <th style="width: 25%"><img src="assets/images/home/code.png" alt="code"/>      <br/>Programming</th>
+    <th style="width: 35%"><img src="assets/images/home/code.png" alt="code"/>      <br/>Programming</th>
     <th></th>
     <th style="width: 25%"><img src="assets/images/home/software.png"/>  <br/>Software</th>
     <th></th>
     <th style="width: 25%"><img src="assets/images/home/languages.png"/> <br/>Languages</th>
 </tr>
 <tr>
-    <td><p style="color:#333;font-weight:400;font-size:16px; font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github, Continuous Integration, Docker, Environment-modules, HTCondor, meson, cmake, scons, fortran, PHP, Javascript, Highchart, html, CSS, Markdown</p></td>
+    <td><p style="font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github, Continuous Integration, Docker, Environment-modules, HTCondor, meson, cmake, scons, fortran, PHP, Javascript, Highchart, html, CSS, Markdown</p></td>
     <td></td>
-    <td><p style="color:#333;font-weight:400;font-size:18px; font-family: Avenir"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp, Excel, Powerpoint, Keynote, Numbers  </p></td>
+    <td><p style="font-family: Monaco"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp, Excel, Powerpoint, Keynote, Numbers  </p></td>
     <td></td>
-    <td><p style="color:#333;font-weight:400;font-size:16px">English, Italian</p></td>
+    <td><p style="font-family: Monaco">English, Italian</p></td>
 </tr>
 </table>
 

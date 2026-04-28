@@ -30,10 +30,6 @@
   category: "HallB"
   link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
 
-- title: "CLAS12 Discourse"
-  category: "HallB"
-  link: "https://clas12.discourse.group"
-
 
 
 
@@ -127,6 +123,10 @@
 - title: "orca"
   category: "CLAS12"
   link: "https://code.jlab.org/hallb/clas12/orca"
+
+- title: "CLAS12 Discourse"
+  category: "CLAS12"
+  link: "https://clas12.discourse.group"
 
 
 
