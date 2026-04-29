@@ -405,7 +405,7 @@ pre.highlight {
 
 /* Plain <pre> blocks, not Rouge-highlighted — original light-mode style */
 pre:not(.highlight) {
-  background: #252323;
+  background: rgba(40, 40, 40, 0.88);
   border: 1px solid #d7dde6;
   border-radius: 6px;
   padding: 0.75rem 1rem;
@@ -672,7 +672,18 @@ pre:not(.highlight) {
 
 .figure {
   margin: 2.25rem auto;
+}
+
+.figure--left {
+  text-align: left;
+}
+
+.figure--center {
   text-align: center;
+}
+
+.figure--right {
+  text-align: right;
 }
 
 .figure img {
@@ -683,6 +694,15 @@ pre:not(.highlight) {
 
 .figure figcaption {
   margin-top: 1rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #444;
+}
+
+.image-caption {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
   font-size: 1.1rem;
   font-style: italic;
   color: #444;
@@ -699,6 +719,37 @@ pre:not(.highlight) {
   .meta {
 	color: var(--muted);
   }
+}
+
+/* Caption block is centered, but its internal text can indent cleanly */
+.caption-flow {
+  display: inline-block;
+  text-align: left;
+}
+
+.caption-indent-1 {
+  display: block;
+  padding-left: 10rem;
+}
+
+.caption-indent-2 {
+  display: block;
+  padding-left: 12rem;
+}
+
+.caption-indent-3 {
+  display: block;
+  padding-left: 14rem;
+}
+
+.caption-indent-4 {
+  display: block;
+  padding-left: 16rem;
+}
+
+.caption-indent-5 {
+  display: block;
+  padding-left: 18rem;
 }
 
 /* ===================== Search ===================== */
@@ -1102,10 +1153,13 @@ blockquote.doc-important img {
 	color: #ffffff;
   }
 
-  /* Keep code visually separate */
-  code,
-  pre {
-	background: #2b2b2b;
-	color: #f1f1f1;
+
+  /* Dark mode for pre */
+  @media (prefers-color-scheme: dark) {
+	pre,
+	code {
+	  background: rgba(50, 50, 60, 0.88) !important;
+	  color: #f5f5f5;
+	}
   }
 }
