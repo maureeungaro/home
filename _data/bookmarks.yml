@@ -64,6 +64,10 @@
   category: "Gemc"
   link: "https://gemc.github.io/home/"
 
+- title: "project"
+  category: "Gemc"
+  link: "https://github.com/orgs/gemc/projects/1"
+
 - title: "Github"
   category: "Gemc"
   link: "https://github.com/gemc/src"

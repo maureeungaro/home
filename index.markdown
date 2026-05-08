@@ -113,20 +113,18 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 <br/><br/>
 
 {% capture left2 %}
-<br/>
-<br/><br/>
-<br/>
+
+<br/><br/><br/><br/>
 
 ## Interests
 
 <br/>
 
-
 <div class="no-bullets-list">
   {{ page.interest | markdownify }}
 </div>
 
-  {% endcapture %}
+{% endcapture %}
 
 
 {% capture right2 %}
@@ -135,10 +133,10 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 <br/>
 
-
 <div class="no-bullets-list">
   {{ page.education | markdownify }}
 </div>
+
 {% endcapture %}
 
 {% include two_col_md.html left="40%" right="60%" left_content=left2 right_content=right2 %}

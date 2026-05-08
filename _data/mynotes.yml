@@ -1,6 +1,13 @@
+
+- title: "jupyter"
+  category: "Work"
+  link: "/home/mynotes/jupyter"
+
+
 - title: "Venice"
   category: "Travel"
   link: "/home/mynotes/venice"
+
 
 - title: "rsync"
   category: "Work"
