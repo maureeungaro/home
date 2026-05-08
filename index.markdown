@@ -66,6 +66,8 @@ width="170"
 
 |--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
 | [![gscholar][gscholar-img]][gscholar-link] | [![github][github-img]][github-link] | [![inspire][inspire-img]][inspire-link] | [![email][email-img]][email-link] |
+{: .small-icons }
+
 
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
