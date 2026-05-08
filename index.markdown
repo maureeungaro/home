@@ -8,7 +8,6 @@
 layout: default
 
 interest: |
-  
   - ▸ Quark Structure
   - ▸ MonteCarlo Simulations
   - ▸ Large Language Models
@@ -59,11 +58,11 @@ width="170"
 <h2>Maurizio Ungaro</h2> 
 </div>
 
-|                     `Staff Scientist`                      |
-|:----------------------------------------------------------:|
-|        [Jefferson Laboratory](https://www.jlab.org)        |
-|:----------------------------------------------------------:|
-| [Experimental Hall-B](https://www.jlab.org/physics/hall-b) |
+|                      `Staff Scientist`                       |
+|:------------------------------------------------------------:|
+|      [Jefferson Laboratory](https://www.jlab.org)            |
+| :----------------------------------------------------------: |
+|  [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
 
 |--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
 | [![gscholar][gscholar-img]][gscholar-link] | [![github][github-img]][github-link] | [![inspire][inspire-img]][inspire-link] | [![email][email-img]][email-link] |
@@ -114,11 +113,9 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 {% capture left2 %}
 
-<br/><br/><br/><br/>
 
 ## Interests
 
-<br/>
 
 <div class="no-bullets-list">
   {{ page.interest | markdownify }}
@@ -129,11 +126,13 @@ In my free time I am learning to play hockey, while enjoying watching my kid ska
 
 {% capture right2 %}
 
+
 ## Education
 
 <br/>
 
 <div class="no-bullets-list">
+
   {{ page.education | markdownify }}
 </div>
 
