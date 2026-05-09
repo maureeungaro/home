@@ -64,13 +64,17 @@
   category: "Gemc"
   link: "https://gemc.github.io/home/"
 
-- title: "project"
+- title: "Project"
   category: "Gemc"
   link: "https://github.com/orgs/gemc/projects/1"
 
 - title: "Github"
   category: "Gemc"
   link: "https://github.com/gemc/src"
+
+- title: "Jupyter"
+  category: "Gemc"
+  link: "https://github.com/gemc/binder-tutorials"
 
 - title: "Gemc2"
   category: "Gemc"
