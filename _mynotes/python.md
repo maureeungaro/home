@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "jekyll"
+title: "python notes"
 ---
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
