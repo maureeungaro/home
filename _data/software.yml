@@ -1,21 +1,21 @@
 - name: "gemc2"
   link: "gemc2"
   image: "assets/images/software/gemc2.png"
-  description: "The original GEMC, a c++ framework that uses geant4 to simulate 
+  description: "The original GEMC, a C++ framework that uses Geant4 to simulate 
   the passage of particles through matter. "
 
 - name: "gemc3"
   link: "gemc3"
   image: "assets/images/software/gemc3.png"
   description: "The new GEMC, entirely database-driven, 
-  with a python API to build detectors and plugin mechanism for 
+  with a Python API to build detectors and a plugin mechanism for 
   custom user digitization."
 
 - name: "Open Science Grid Simulation Portal"
   link: "osg"
   image: "assets/images/software/osg_web_interface.png"
   description: "The Open Science Grid (OSG) portal includes the web 
-  interface and back-end software to store jobs on a mysql database
+  interface and back-end software to store jobs in a MySQL database
   and submit them to OSG using HTCondor."
 
 - name: "Geant4 Validation at JLAB's regime"
@@ -33,20 +33,20 @@
 - name: "scons build system"
   link: "scons"
   image: "assets/images/software/scons.png"
-  description: "The SCons build system provide supports for building 
-  applications using clhep, geant4, xercesc, mysql, root, etc."
+  description: "The SCons build system provides support for building 
+  applications using CLHEP, Geant4, Xerces-C, MySQL, ROOT, etc."
 
 - name: "dc eff efficiency"
   link: "dc_eff"
   image: "assets/images/software/dc_eff.png"
-  description: "The DC Efficiency is a  algorithm to account for 
-  CLAS Drift Chambers inefficiencies to provide a realistic GSIM simulation. "
+  description: "The DC Efficiency is an algorithm to account for 
+  CLAS Drift Chamber inefficiencies to provide a realistic GSIM simulation. "
 
 - name: "V4 library"
   link: "v4"
   image: "assets/images/software/V4.png"
-  description: "A c++ class for three- and four-vectors operations. 
-  It uses the CHEP library and add some functionality."
+  description: "A C++ class for three- and four-vector operations. 
+  It uses the CLHEP library and adds some functionality."
 
 - name: "muevent library"
   link: "muevent"
@@ -58,22 +58,21 @@
   link: "htmlBrowserCreator"
   image: "assets/images/software/htmlBrowserCreator.png"
   description: "The HTML Browser Creator creates a web page with
-  an hoverable tables aimed at displaying multiple images."
+  hoverable tables aimed at displaying multiple images."
 
 - name: "ceInstall"
   link: "ceInstall"
   image: "assets/images/software/ceInstall.png"
-  description: "Modules environment and installation of geant4 simulation software,
+  description: "Modules environment and installation of Geant4 simulation software,
   gemc2, gemc3, clas12Tags."
 
 - name: "docker images"
   link: "docker"
   image: "assets/images/software/docker.png"
-  description: "The Docker Container images I maintain for geant4, gemc, clas12 geometry, latex"
+  description: "The Docker container images I maintain for Geant4, GEMC, CLAS12 geometry, and LaTeX"
 
 
 - name: "online charts"
   link: "charts"
   image: "assets/images/software/charts.png"
-  description: "Display data from CSV files using javascript highcharts."
-
+  description: "Display data from CSV files using JavaScript Highcharts."

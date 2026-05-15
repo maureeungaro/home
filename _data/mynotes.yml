@@ -13,11 +13,11 @@
   category: "Work"
   link: "/home/mynotes/rsync"
 
-- title: "CVMFS on MacOS"
+- title: "CVMFS on macOS"
   category: "Work"
   link: "/home/mynotes/cvmfs"
 
-- title: "macos"
+- title: "macOS"
   category: "Various"
   link: "/home/mynotes/macos"
 
@@ -29,7 +29,7 @@
   category: "Work"
   link: "/home/mynotes/python"
 
-- title: "Cernlib on MacOS"
+- title: "Cernlib on macOS"
   category: "Work"
   link: "/home/mynotes/paw_cernlib_macos"
 
@@ -60,7 +60,6 @@
 - title: "Jekyll"
   category: "Work"
   link: "/home/mynotes/jekyll"
-
 
 
 

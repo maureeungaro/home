@@ -93,7 +93,7 @@ bundle install
 
 ## Admonitions:
 
-Adding the following to the `jekyll_plugins` group in the `gemfile` allows to use admonitions in markdown files:
+Adding the following to the `jekyll_plugins` group in the `gemfile` enables admonitions in Markdown files:
 
 ```
   gem "jekyll-gfm-admonitions"

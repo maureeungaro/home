@@ -1,4 +1,4 @@
-The following trick is used to have a buttons group to select blog categories:
+The following trick is used to have a button group for selecting blog categories:
 
 
 1. create the category file inside _blog_cats, make sure the title and permalinks are correct, for example:

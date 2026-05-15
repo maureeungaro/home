@@ -7,7 +7,7 @@ title: "Profiling C++"
 
 
 
-# Profiling on MacOS using Instruments and xctrace
+# Profiling on macOS using Instruments and xctrace
 <hr style="height:4px;border:0;background:#4a90e2;">
 
 <br/>
@@ -15,8 +15,8 @@ title: "Profiling C++"
 ### Environment Variables
 
 The environment is passed to the `xctrace`[^1] command with `--env` options.
-Provided a file `env.dat`with the environment variables settings (for example from `export`),
-the following one liner can be used to get options needed to be passed to `xctrace`:
+Given a file `env.dat` with the environment variable settings (for example from `export`),
+the following one-liner can be used to get the options that need to be passed to `xctrace`:
 
 [^1]:  make sure `xctrace` points to the Xcode one:
 ```shell
@@ -31,7 +31,7 @@ xcrun --find xctrace
 
 ### Templates
 
-The most used template for profiling is `Time Profiler`, which can be used to profile CPU usage.
+The most commonly used template for profiling is `Time Profiler`, which can be used to profile CPU usage.
 
 To list all available templates, use:
 
@@ -51,7 +51,7 @@ The `--template` option can be used to select a template. For example:
 
 - `--output` to specify the output file for the trace data.
 - `--launch` to specify the application to be profiled.
-  it must have the path to the executable and can include its options
+  It must have the path to the executable and can include its options.
 
 <br/>
 

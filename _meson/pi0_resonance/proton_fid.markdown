@@ -6,7 +6,7 @@ layout: default
 
 # Proton Fiducial Cut
 
-The purpose of this study is to select a fiducial region for electrons.
+The purpose of this study is to select a fiducial region for protons.
 
 
 <br/>

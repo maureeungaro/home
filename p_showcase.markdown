@@ -8,7 +8,7 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 <br/>
 
-# Recent and Upcoming talks
+# Recent and Upcoming Talks
 
 <table class="alternate">
 	<tr>
@@ -57,7 +57,7 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 </table>
 
 
-A list of all Mauri's research papers can be found at [Mauri's profile on Inspire](https://inspirehep.net/authors/1322331){:target="_blank"}
+A list of all Mauri's research papers can be found at [Mauri's profile on Inspire](https://inspirehep.net/authors/1322331){:target="_blank"}.
 
 <br/><br/>
 
@@ -98,7 +98,7 @@ Selected Presentations:
 
 </table>
 
-A list of all meson electro-production presentations can be found at [mauri's meson electro-production presentations](/home/showcase/meson).
+A list of all meson electro-production presentations can be found at [Mauri's meson electro-production presentations](/home/showcase/meson).
 
 <br/><br/>
 
@@ -137,7 +137,7 @@ A list of all meson electro-production presentations can be found at [mauri's me
 
 </table>
 
-A list of all the ltcc presentations can be found at [mauri's ltcc presentations](/home/showcase/ltcc).
+A list of all the LTCC presentations can be found at [Mauri's LTCC presentations](/home/showcase/ltcc).
 
 <br/><br/>
 
@@ -175,7 +175,7 @@ A list of all the ltcc presentations can be found at [mauri's ltcc presentations
 
 </table>
 
-A list of all the geant4 presentations can be found at [mauri's geant4 presentations](/home/showcase/geant4).
+A list of all the Geant4 presentations can be found at [Mauri's Geant4 presentations](/home/showcase/geant4).
 
 <br/><br/>
 
@@ -214,7 +214,7 @@ A list of all the geant4 presentations can be found at [mauri's geant4 presentat
 
 </table>
 
-A list of all the gemc presentations can be found at [mauri's gemc presentations](/home/showcase/gemc).
+A list of all the GEMC presentations can be found at [Mauri's GEMC presentations](/home/showcase/gemc).
 
 <br/><br/>
 
@@ -282,6 +282,5 @@ A list of all the gemc presentations can be found at [mauri's gemc presentations
 </table>
 
 
-A list of all tecnhical CLAS and CLAS12 notes can be found at [mauri's techical notes](/home/showcase/clas_notes).
-
+A list of all technical CLAS and CLAS12 notes can be found at [Mauri's technical notes](/home/showcase/clas_notes).
 

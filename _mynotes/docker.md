@@ -10,7 +10,7 @@ title: Docker, Apptainer
 
 <br/>
 
-To run a docker image using docker:
+To run a Docker image using Docker:
 
 ```shell
 docker run -it --rm <image> command
@@ -22,8 +22,8 @@ where:
 - `--rm`: Automatically remove the container when it exits.
 - `command`: a command to run within the container, typically `bash`
 
-Mounting a local directory on the container for permanent storage can be achieved using the `-v` binding.
-For example this will have the local `~/mywork` available on the container in `/usr/local/mywork`:
+Mounting a local directory in the container for permanent storage can be achieved using the `-v` binding.
+For example, this will make the local `~/mywork` available in the container as `/usr/local/mywork`:
 
 ```shell
 docker run -it --rm  -v ~/mywork:/usr/local/mywork <image> command
@@ -33,13 +33,13 @@ docker run -it --rm  -v ~/mywork:/usr/local/mywork <image> command
 
 ## Useful commands
 
-The dockerfile keyworkd `CMD` can point to a script that will run if the 
-docker run `command` flag is not included. 
+The Dockerfile keyword `CMD` can point to a script that will run if the 
+Docker `run` command is not included. 
 
-The keyworkd `ENTRYPOINT` defines a script that will always run in the container, regardless
-if the  `command` flag is included or not.
+The keyword `ENTRYPOINT` defines a script that will always run in the container, regardless
+of whether the `command` flag is included.
 
-The entrypoint can be overwrittten at run time with the option (using `sh` as an example here):
+The entrypoint can be overwritten at runtime with the option below (using `sh` as an example):
 
 ```shell
 --entrypoint /bin/sh
@@ -56,8 +56,8 @@ docker image inspect <image>
 
 ## Apptainer
 
-Linux host have `apptainer` (formally singularity), that can be run similarly to docker. 
-It uses a cache directory to store the images so I suggest to set that cache to 
+Linux hosts have `apptainer` (formerly Singularity), which can be run similarly to Docker. 
+It uses a cache directory to store the images, so I suggest setting that cache to 
 a location with large disk capacity. In the following example `/path/to/user/cache` is used:
 
 ```shell

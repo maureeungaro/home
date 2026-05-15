@@ -20,7 +20,7 @@ title: "Debugging C++"
 - `nm <options> <executable/library> | grep LZ4_compress_fast` to check if a specific 
    symbol is present in the binary/library.
 
-   MacOS options:
+   macOS options:
      - `-g`: external (global) symbols only 
      - `-U`: undefined symbols suppressed
      - `-m`: verbose Mach-O style info<br/><br/>
@@ -36,7 +36,7 @@ title: "Debugging C++"
 
 <br/>
 
-# Using lldb (MacOS)
+# Using lldb (macOS)
 
 - Start lldb with the executable:
 ```shell

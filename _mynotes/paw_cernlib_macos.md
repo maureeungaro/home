@@ -1,20 +1,20 @@
 ---
 layout: default
-title: "Cernlib on MacOS"
+title: "Cernlib on macOS"
 ---
 
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 
-# Cernlib, Paw on MacOS
+# Cernlib, Paw on macOS
 <hr style="height:4px;border:0;background:#4a90e2;">
 
 <br/>
 
-Here is a quick way to run cernlib’s paw in a Docker container on MacOS[^1]. 
-This uses a debian based container with paw, paw++, and cernlib installed via the system (i.e. apt-get).
+Here is a quick way to run Cernlib's Paw in a Docker container on macOS[^1]. 
+This uses a Debian-based container with paw, paw++, and Cernlib installed via the system (i.e. apt-get).
 
-[^1]: Credits to [David Lawrence Original Blog Post](https://davidljlab.wordpress.com/2018/10/03/cernlib-paw-docker/)
+[^1]: Credits to [David Lawrence's original blog post](https://davidljlab.wordpress.com/2018/10/03/cernlib-paw-docker/)
 
 ## Requirements
 
@@ -28,7 +28,7 @@ It should look like this:
 
 {% include figure.html
    src="assets/images/notes/xquartz.png"
-   alt="xquarts security preferences"
+   alt="xquartz security preferences"
    caption="<br/>
    Allow connections from network clients. You may need to 
    restart XQuartz for the change to take effect."
@@ -44,7 +44,7 @@ xhost +
 ## Running Paw/Cernlib in Docker
 
 In the following instructions we assume you are using a Mac
-with a silicon CPU (M1/M2/M3, etc). 
+with an Apple silicon CPU (M1/M2/M3, etc.). 
 If you have an Intel CPU, remove the `--platform linux/amd64` option from the `docker run` command below.
 
 

@@ -4,9 +4,9 @@ title: "Charts"
 permalink: /software/charts
 ---
 
-Select or drag and drop a csv file in the button below.
+Select or drag and drop a CSV file using the button below.
 
-This page load the csv and plot all the data in the chart on top, and the individual variables (up to 10) in the plots below.
+This page loads the CSV file and plots all the data in the chart on top, with the individual variables (up to 10) in the plots below.
 
 <br/>
 
@@ -27,7 +27,7 @@ This page load the csv and plot all the data in the chart on top, and the indivi
 <br/><br/>
 
 
-<h1> All Data in one plots</h1>
+<h1> All Data in One Plot</h1>
 <div id="container" style="min-width: 310px; height: 600px; margin: 0 auto"> </div><br/>
 <h1 id="individual"> </h1>
 <div id="container1" style="min-width: 310px; height: 400px; margin: 0 auto"> </div><br/>

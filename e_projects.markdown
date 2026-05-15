@@ -9,7 +9,7 @@ border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 
 gemc: "<br/><a href=\"../gemc/gemc\"><img src=\"../assets/images/home/gemc.png\"                    
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../gemc/gemc\">GEMC: C++ Simulation framework</a><br/><br/>  " 
+<a href=\"../gemc/gemc\">GEMC: C++ Simulation Framework</a><br/><br/>  " 
   
 clas12: "<br/><a href=\"https://github.com/gemc/clas12Tags\"><img src=\"../assets/images/home/clas12.png\"    
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
@@ -21,11 +21,11 @@ border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 
 geant4: "<br/><a href=\"https://jeffersonlab.github.io/g4home/\"><img src=\"../assets/images/home/geant4.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"https://jeffersonlab.github.io/g4home/\">Geant4 At Jefferson Lab</a><br/><br/>  "
+<a href=\"https://jeffersonlab.github.io/g4home/\">Geant4 at Jefferson Lab</a><br/><br/>  "
 
 ltcc: "<br/><a href=\"../ltcc/ltcc\"><img src=\"../assets/images/home/ltcc.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../ltcc/ltcc\">Low Threshold Cerenkov Detector</a><br/><br/>  "
+<a href=\"../ltcc/ltcc\">Low Threshold Cherenkov Counter</a><br/><br/>  "
 
 
 ---

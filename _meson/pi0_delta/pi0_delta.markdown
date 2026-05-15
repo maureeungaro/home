@@ -25,7 +25,7 @@ R<sub>EM</sub>  is small and negative, while  R<sub>SM</sub> remains negative an
 These results confirm the absence of pQCD scaling at these kinematics and suggest large helicity non-conservation.<br/><br/>
 <h2> ELI5</h2> 
 At these energies, we cannot use pQCD to describe the &Delta;(1232) resonance: the contributions
-from quark and gluons interactions is just too strong, and unknown.<br/>
+from quark and gluon interactions are just too strong, and unknown.<br/>
 {:/}
 "
 
@@ -99,8 +99,8 @@ analysis and the JANR unitary isobar model.
 
 # Main Results:
 
-With high enough energy we expected to 'see' past the mesons / gluons cloud and be able to probe directly the quarks in 
-the {{ site.deltaM }} resonance. This is clearly not the case at these energy: the meson/gluon contribution
+With high enough energy we expected to 'see' past the meson/gluon cloud and be able to probe directly the quarks in 
+the {{ site.deltaM }} resonance. This is clearly not the case at this energy: the meson/gluon contribution
 is still too strong, and unknown.<br/>
 
 
@@ -145,5 +145,4 @@ ___
 
 [gmstarImg]: {{ page.gmstarImg }}
 [multipoles_ratiosImg]: {{ page.multipoles_ratiosImg }}
-
 

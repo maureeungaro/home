@@ -26,7 +26,7 @@ These results confirm the absence of pQCD scaling at these kinematics and sugges
 <h2> ELI5</h2> 
 
 At these energies, we cannot use pQCD to describe the &Delta;(1232) resonance: the contributions
-from quark and gluons interactions is just too strong, and unknown!<br/>
+from quark and gluon interactions are just too strong, and unknown!<br/>
 "
 
 
@@ -36,8 +36,8 @@ border=\"0px\" /></a><br/> "
 pi0_resonance_current_status: "
 This analysis was resumed in 2022.  <br/>
 Currently I'm in the process of refining <br/>
-the data reduction cuts, update the ROOT macros <br/>
-to the latest version of ROOT, and write <br/> 
+the data reduction cuts, updating the ROOT macros <br/>
+to the latest version of ROOT, and writing <br/> 
 the analysis note. <br/><br/>
 
 Completed parts, included in the analysis note: <br/>
@@ -52,7 +52,7 @@ Completed parts, included in the analysis note: <br/>
 <li> [p] Pi0 identification</li>
 </ul>
 
-On the right is a picture of the π0 missing mass versus ϕ distribution before and after the kinematic corrections for sector 1 . <br/><br/>
+On the right is a picture of the π0 missing mass versus ϕ distribution before and after the kinematic corrections for sector 1. <br/><br/>
 
 Upcoming:<br/> 
 <i>(y=done previously, n=not done)</i><br/><br/>
@@ -123,6 +123,4 @@ border=\"0px\"  /></a><br/> "
 <br/>
 
 ---
-
-
 
