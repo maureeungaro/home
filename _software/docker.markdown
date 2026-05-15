@@ -2,9 +2,14 @@
 layout: default
 title: "Docker"
 permalink: /software/docker
+last_updated: "May 15, 2026"
 ---
 
 <br/> <br/> 
+
+Last updated: {{ page.last_updated }}
+
+<br/>
 
 A collection of Docker images used in my research.
 

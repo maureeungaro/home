@@ -2,7 +2,12 @@
 layout: default
 title: "Charts"
 permalink: /software/charts
+last_updated: "May 15, 2026"
 ---
+
+Last updated: {{ page.last_updated }}
+
+<br/>
 
 Select or drag and drop a CSV file using the button below.
 

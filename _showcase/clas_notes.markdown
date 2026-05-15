@@ -9,10 +9,12 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 # CLAS Notes
 
+Technical notes for CLAS and CLAS12 detector, reconstruction, and simulation work.
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Date </td>
 	</tr>	
 
@@ -21,9 +23,9 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
             <td> {{ note.title }} </td>
 
             {% if note.source == "soon" %}
-            	<td> <a href="coming soon"  target="_blank"> pdf </a> </td>
+                <td> Coming soon </td>
             {% else %}
-            	<td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
+                <td> <a href="{{ note.pdf }}"  target="_blank"> PDF </a> </td>
 			{% endif %}
 
             <td> {{ note.year }} </td>

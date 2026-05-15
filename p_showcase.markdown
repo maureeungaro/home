@@ -10,10 +10,12 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 # Recent and Upcoming Talks
 
+Recent seminars, tutorials, and collaboration updates across Geant4, GEMC, CLAS12 simulation, and detector work.
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>
@@ -23,11 +25,11 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
@@ -46,11 +48,18 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 # Selected Papers
 
+Representative papers connected to my simulation, detector, and meson electro-production work.
+
 <table class="alternate">
+	<tr>
+		<td> Title </td>
+		<td> PDF </td>
+		<td> Journal </td>
+	</tr>
 	{% for paper in site.data.selected_papers %}
 		<tr>
             <td> <a href="{{ paper.inspire }}"> {{ paper.title }}</a> </td>
-            <td> <a href="{{ paper.pdf }}"> pdf </a> </td>
+            <td> <a href="{{ paper.pdf }}"> PDF </a> </td>
             <td> {{ paper.journal }} </td>
         </tr>
 	{% endfor %}
@@ -63,12 +72,12 @@ A list of all Mauri's research papers can be found at [Mauri's profile on Inspir
 
 # Meson Electro-production Presentations
 
-Selected Presentations:
+Selected presentations:
 
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>
@@ -77,11 +86,11 @@ Selected Presentations:
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf" target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf" target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"          target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"          target="_blank"> PDF </a> </td>
                 {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
 
 
@@ -104,10 +113,12 @@ A list of all meson electro-production presentations can be found at [Mauri's me
 
 # Low Threshold Cherenkov Counter (LTCC)
 
+Selected talks related to LTCC operation, calibration, and detector performance.
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
@@ -116,11 +127,11 @@ A list of all meson electro-production presentations can be found at [Mauri's me
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
 
 
@@ -141,12 +152,14 @@ A list of all the LTCC presentations can be found at [Mauri's LTCC presentations
 
 <br/><br/>
 
-# GEANT4
+# Geant4
+
+Selected tutorials and presentations for Geant4 users at JLab and related workshops.
 
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
@@ -155,11 +168,11 @@ A list of all the LTCC presentations can be found at [Mauri's LTCC presentations
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
@@ -181,10 +194,12 @@ A list of all the Geant4 presentations can be found at [Mauri's Geant4 presentat
 
 # GEMC
 
+Selected talks on GEMC, CLAS12 simulations, and database-driven simulation workflows.
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
@@ -193,11 +208,11 @@ A list of all the Geant4 presentations can be found at [Mauri's Geant4 presentat
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
 
 
@@ -220,10 +235,12 @@ A list of all the GEMC presentations can be found at [Mauri's GEMC presentations
 
 # Open Science Grid
 
+Presentations on CLAS12 simulation workflows and distributed computing resources.
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
@@ -232,11 +249,11 @@ A list of all the GEMC presentations can be found at [Mauri's GEMC presentations
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
@@ -257,10 +274,12 @@ A list of all the GEMC presentations can be found at [Mauri's GEMC presentations
 
 # Selected CLAS/CLAS12 Technical Notes
 
+Selected technical notes for CLAS and CLAS12 detector and simulation work.
+
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Date </td>
 	</tr>	
 
@@ -269,9 +288,9 @@ A list of all the GEMC presentations can be found at [Mauri's GEMC presentations
             <td> {{ note.title }} </td>
 
             {% if note.source == "soon" %}
-            	<td> <a href="coming soon"  target="_blank"> pdf </a> </td>
+                <td> Coming soon </td>
             {% else %}
-            	<td> <a href="{{ note.pdf }}"  target="_blank"> pdf </a> </td>
+                <td> <a href="{{ note.pdf }}"  target="_blank"> PDF </a> </td>
 			{% endif %}
 
             <td> {{ note.year }} </td>

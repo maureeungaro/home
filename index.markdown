@@ -50,7 +50,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 {% include figure.html
 src="assets/images/home/mauri.png"
-alt="Database-driven architecture"
+alt="Portrait of Maurizio Ungaro"
 width="170"
 %}
 
@@ -118,6 +118,17 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 <br/><br/>
 
+## Featured
+
+| Resource | Description |
+|:--|:--|
+| [GEMC](/home/gemc/gemc) | Database-driven Geant4 simulations with a Python-friendly workflow. |
+| [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) | Geant4 tutorials, support material, and JLab-specific guidance. |
+| [Research & Talks](/home/showcase/) | Selected papers, presentations, and CLAS/CLAS12 technical notes. |
+| [Technical Notes](/home/mynotes/) | Practical notes on software, systems, development, and workflows. |
+
+<br/><br/>
+
 {% capture left2 %}
 
 
@@ -159,7 +170,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
@@ -169,9 +180,9 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
                     <td>  </td>
                 {% endif %}
@@ -197,14 +208,14 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 <tr>
     <th style="width: 35%"><img src="assets/images/home/code.png" alt="code"/>      <br/>Programming</th>
     <th></th>
-    <th style="width: 25%"><img src="assets/images/home/software.png"/>  <br/>Software</th>
+    <th style="width: 25%"><img src="assets/images/home/software.png" alt="software"/>  <br/>Software</th>
     <th></th>
-    <th style="width: 25%"><img src="assets/images/home/languages.png"/> <br/>Languages</th>
+    <th style="width: 25%"><img src="assets/images/home/languages.png" alt="languages"/> <br/>Languages</th>
 </tr>
 <tr>
-    <td><p style="font-family: Monaco">C++, [z][ba][c]sh, Python, LaTex, Git, Github, Continuous Integration, Docker, Environment-modules, HTCondor, meson, cmake, scons, fortran, PHP, Javascript, Highchart, html, CSS, Markdown</p></td>
+    <td><p style="font-family: Monaco">C++, [z][ba][c]sh, Python, LaTeX, Git, GitHub, Continuous Integration, Docker, Environment Modules, HTCondor, Meson, CMake, SCons, Fortran, PHP, JavaScript, Highcharts, HTML, CSS, Markdown</p></td>
     <td></td>
-    <td><p style="font-family: Monaco"> Geant4, ROOT, XCode, PyCharm, CLion, FreeCad, Gimp, Excel, Powerpoint, Keynote, Numbers  </p></td>
+    <td><p style="font-family: Monaco"> Geant4, ROOT, Xcode, PyCharm, CLion, FreeCAD, GIMP, Excel, PowerPoint, Keynote, Numbers  </p></td>
     <td></td>
     <td><p style="font-family: Monaco">English, Italian</p></td>
 </tr>
@@ -221,7 +232,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 	<table class="alternate">
 	{% for news in site.data.news %}
 		<tr>
-			<td> <a href="{{news.link}}"><img src="{{news.image}}" width="100px">&nbsp;&nbsp;&nbsp;{{news.title}}</a> </td>
+			<td> <a href="{{news.link}}"><img src="{{news.image}}" alt="{{news.title}}" width="100px">&nbsp;&nbsp;&nbsp;{{news.title}}</a> </td>
 			<td> {{news.date}} </td>
 		</tr>
 	{% endfor %}
@@ -232,7 +243,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 <br/>
 
-## Galleria
+## Gallery
 
 <link type="text/css" rel="stylesheet" href="/home/assets/lightslider.css" />
 <script src="/home/assets/jq.js"></script>
@@ -243,13 +254,13 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 	<ul style="text-align:center"  id="light-slider" >
     	<li data-thumb="assets/images/empty.png">
-			<img src="assets/images/home/quote1.png" height="500px" width="90%"/><br/><br/><br/>
+			<img src="assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
     	<li data-thumb="assets/images/empty.png">
-			<a href="/home/software/charts">Chart CSV displayer<br/><img src="assets/images/software/charts_big.png" height="500px" width="90%"/></a>
+			<a href="/home/software/charts">Chart CSV displayer<br/><img src="assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="assets/images/empty.png">
-			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" height="500px" width="90%"/></a>
+			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 
@@ -295,7 +306,5 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 [languages]: assets/images/home/languages.png
 
 [quote1]: assets/images/home/quote1.png
-
-
 
 

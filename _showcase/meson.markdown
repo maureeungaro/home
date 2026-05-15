@@ -7,11 +7,12 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
 # Meson Electro-Production Presentations
 
+Presentations on single-meson electro-production and nucleon-structure measurements.
 
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> pdf </td>
+		<td> PDF </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
@@ -20,11 +21,11 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 		<tr>
             <td> {{ presentation.title }} </td>
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf" target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf" target="_blank"> PDF </a> </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"          target="_blank"> pdf </a> </td>
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"          target="_blank"> PDF </a> </td>
                 {% else %}
-                    <td> na </td>
+                    <td></td>
                 {% endif %}
                 {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
