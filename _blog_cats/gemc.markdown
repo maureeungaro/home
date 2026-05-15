@@ -1,6 +1,6 @@
 ---
 layout: default
-title: gemc
+title: GEMC
 permalink: /search/gemc
 ---
 
@@ -35,4 +35,3 @@ permalink: /search/gemc
 {%- endfor -%}
 
 </div>
-

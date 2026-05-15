@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Various Macos Notes"
+title: "Various macOS Notes"
 ---
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
 
 
 
-# Macos
+# macOS
 <hr style="height:4px;border:0;background:#4a90e2;">
 
 <br/>
@@ -16,7 +16,7 @@ title: "Various Macos Notes"
 
 This may be due to a corrupt secure token.
 
-To disable, re-enable the tokens and updated the `/` with diskutil, run the following commands.
+To disable and re-enable the tokens, and then update `/` with `diskutil`, run the following commands.
 Notice the `-` will tell the command to prompt for the passwords. Replacing it with the actual passwords may need
 some escape char (for example for `&`).
 

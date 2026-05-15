@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Showcase
+title: Research & Talks
 permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
@@ -283,4 +283,3 @@ A list of all the GEMC presentations can be found at [Mauri's GEMC presentations
 
 
 A list of all technical CLAS and CLAS12 notes can be found at [Mauri's technical notes](/home/showcase/clas_notes).
-

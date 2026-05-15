@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CVMFS on Macos"
+title: "CVMFS on macOS"
 ---
 
 {% include directory.html data=site.data.mynotes columns=5 section_breaks=2 %}
@@ -29,5 +29,4 @@ To use **CernVM File System** mount points on a Mac, two packages are needed:
 > ```
 > (replace 26 with the OS Versions)<br/><br/>
 > If they are not approved to load, go to `Settings > Privacy and Security > Security`, allow and restart.
-
 

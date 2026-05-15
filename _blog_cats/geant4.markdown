@@ -1,6 +1,6 @@
 ---
 layout: default
-title: geant4
+title: Geant4
 permalink: /search/geant4
 ---
 
@@ -35,6 +35,5 @@ permalink: /search/geant4
 {%- endfor -%}
 
 </div>
-
 
 

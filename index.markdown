@@ -87,23 +87,28 @@ width="170"
 ## About Me
 
 I’m Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).
+This site collects my research, talks, software projects, technical notes, and selected links.
 
+### Research
 My research focuses on the internal structure and dynamics of the nucleon, in particular the physics beyond the
 constituent quark model and the link between form factors and dressed quark mass (see, for example,
 the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and the
 [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses).
 
+### Detector Work
 I work on the refurbishment, operation, maintenance, and calibration of the
 [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B.
 
-I am developing the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework
-and the [CLAS12 Simulations](https://github.com/gemc/clas12Tags), including
+### Simulation Software
+I develop the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework
+and [CLAS12 Simulations](https://github.com/gemc/clas12Tags), including
 [Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the
 [Open Science Grid (OSG)](https://osg-htc.org). See, for example, our
 [CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).
 
+### Geant4 at JLab
 Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration to
-[supporting it at JLab](https://jeffersonlab.github.io/g4home/).
+[support Geant4 at JLab](https://jeffersonlab.github.io/g4home/).
 
 In my free time, I am learning to play hockey while enjoying watching my kid skate much faster than me.
 
@@ -290,7 +295,6 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 [languages]: assets/images/home/languages.png
 
 [quote1]: assets/images/home/quote1.png
-
 
 
 

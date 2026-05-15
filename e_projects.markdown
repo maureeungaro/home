@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Software Projects
 permalink: /projects/
 
 pi0: "<br/><a href=\"../meson/meson\"><img src=\"../assets/images/home/formFactor.png\" 
