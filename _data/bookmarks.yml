@@ -72,6 +72,10 @@
   category: "Gemc"
   link: "https://github.com/gemc/src"
 
+- title: "pygemc"
+  category: "Gemc"
+  link: "https://github.com/gemc/pygemc"
+
 - title: "Jupyter"
   category: "Gemc"
   link: "https://github.com/gemc/binder-tutorials"

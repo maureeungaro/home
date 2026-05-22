@@ -39,4 +39,9 @@ pip install pyvista vtk pyqt6 pyvistaqt
 ```
 
 
-To exit from the python environment: `deactivate`
+
+
+- To exit from the python environment: `deactivate`
+- To list all the installed packages: `pip list`
+- To update the installed packages: `pip install --upgrade pip`
+- To uninstall a package: `pip uninstall <package_name>`
