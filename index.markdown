@@ -128,12 +128,13 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 ## Start Here
 
-| Resource | Description |
+| If you are looking for... | Start with |
 |:--|:--|
-| [Use GEMC](/home/gemc/gemc) | Database-driven Geant4 simulations with a Python-friendly workflow. |
-| [Learn Geant4 at JLab](https://jeffersonlab.github.io/g4home/) | Tutorials, support material, and JLab-specific guidance for Geant4 users. |
-| [Browse Research & Talks](/home/showcase/) | Selected papers, presentations, and CLAS/CLAS12 technical notes. |
-| [Read Technical Notes](/home/mynotes/) | Practical notes on software, systems, development, and scientific workflows. |
+| Geant4 examples, tutorials, or JLab support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
+| GEMC simulation workflows | [GEMC](/home/gemc/gemc) |
+| CLAS12 simulation releases and production workflows | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) and [OSG submissions](/home/osg/osg) |
+| Research talks, papers, and technical notes | [Research & Talks](/home/showcase/) |
+| Practical computing notes | [Technical Notes](/home/mynotes/) |
 
 <br/><br/>
 
