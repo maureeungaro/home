@@ -19,11 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 # For customization check https://github.com/jekyll/minima/blob/master/README.md
 
-title: Home
+title: Maurizio Ungaro
+tagline: Jefferson Lab Nuclear Physicist and Geant4/GEMC Developer
 author: Maurizio Ungaro
 email: ungaro@jlab.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Mauri
+  Nuclear physicist at Jefferson Lab working on Geant4 simulations, GEMC,
+  CLAS12 software, detector systems, and nucleon-structure research.
 
 baseurl: /home                        # the subpath of your site, e.g. /blog - this is important cause of the file feed.xml
 domain: maureeungaro.github.io        # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
@@ -56,6 +58,8 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+   - AGENTS.md
+   - CLAUDE.md
 
 # this adds content to the website from the local dirs starting with _
 collections:

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Technical Notes
+description: Practical notes on software development, scientific computing, systems, debugging, Jekyll, Docker, Python, C++, and research workflows.
 permalink: /mynotes/
 last_updated: "May 15, 2026"
 ---

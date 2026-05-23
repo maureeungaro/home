@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research & Talks
+description: Selected papers, talks, tutorials, and technical notes on Geant4, GEMC, CLAS12 simulations, detector work, and nucleon-structure research.
 permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
@@ -8,9 +9,9 @@ pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 
 <br/>
 
-# Recent and Upcoming Talks
+# Recent Talks and Notes
 
-Recent seminars, tutorials, and collaboration updates across Geant4, GEMC, CLAS12 simulation, and detector work.
+Recent seminars, tutorials, technical notes, and collaboration updates across Geant4, GEMC, CLAS12 simulation, and detector work.
 
 <table class="alternate">
 	<tr>

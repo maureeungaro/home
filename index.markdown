@@ -6,6 +6,10 @@
 # Table: add first row (3 |) for autoformatting
 
 layout: default
+title: Maurizio Ungaro
+description: Nuclear physicist at Jefferson Lab working on Geant4 simulations, GEMC, CLAS12 software, detector systems, and nucleon-structure research.
+image: /assets/images/home/mauri.png
+nav_exclude: true
 
 interest: |
   - ▸ Quark Structure
@@ -56,6 +60,7 @@ width="170"
 
 <div style="text-align: center">
 <h2>Maurizio Ungaro</h2> 
+<p>Nuclear physicist and simulation software developer</p>
 </div>
 
 |                      `Staff Scientist`                       |
@@ -64,8 +69,9 @@ width="170"
 | :----------------------------------------------------------: |
 |  [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
 
-|--------------------------------------------|--------------------------------------|-----------------------------------------|-----------------------------------|
-| [![gscholar][gscholar-img]][gscholar-link] | [![github][github-img]][github-link] | [![inspire][inspire-img]][inspire-link] | [![email][email-img]][email-link] |
+|-----------------------------------------------------|---------------------------------------------|
+| [![Google Scholar][gscholar-img]][gscholar-link]<br/>[Google Scholar][gscholar-link] | [![GitHub][github-img]][github-link]<br/>[GitHub][github-link] |
+| [![INSPIRE][inspire-img]][inspire-link]<br/>[INSPIRE][inspire-link] | [![Email][email-img]][email-link]<br/>[Email][email-link] |
 {: .small-icons }
 
 
@@ -86,8 +92,10 @@ width="170"
 
 ## About Me
 
-I’m Mauri, a physicist working in [Hall-B](https://www.jlab.org/physics/hall-b) at [Jefferson Lab](https://www.jlab.org).
-This site collects my research, talks, software projects, technical notes, and selected links.
+I am Maurizio Ungaro, a nuclear physicist working in [Hall-B](https://www.jlab.org/physics/hall-b)
+at [Jefferson Lab](https://www.jlab.org).
+This site collects my research, talks, simulation software, detector work, technical notes, and selected links.
+It is intended for collaborators, Geant4 and GEMC users, CLAS12 simulation users, and students looking for practical examples.
 
 ### Research
 My research focuses on the internal structure and dynamics of the nucleon, in particular the physics beyond the
@@ -118,14 +126,14 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 <br/><br/>
 
-## Featured
+## Start Here
 
 | Resource | Description |
 |:--|:--|
-| [GEMC](/home/gemc/gemc) | Database-driven Geant4 simulations with a Python-friendly workflow. |
-| [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) | Geant4 tutorials, support material, and JLab-specific guidance. |
-| [Research & Talks](/home/showcase/) | Selected papers, presentations, and CLAS/CLAS12 technical notes. |
-| [Technical Notes](/home/mynotes/) | Practical notes on software, systems, development, and workflows. |
+| [Use GEMC](/home/gemc/gemc) | Database-driven Geant4 simulations with a Python-friendly workflow. |
+| [Learn Geant4 at JLab](https://jeffersonlab.github.io/g4home/) | Tutorials, support material, and JLab-specific guidance for Geant4 users. |
+| [Browse Research & Talks](/home/showcase/) | Selected papers, presentations, and CLAS/CLAS12 technical notes. |
+| [Read Technical Notes](/home/mynotes/) | Practical notes on software, systems, development, and scientific workflows. |
 
 <br/><br/>
 
@@ -145,7 +153,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 {% capture right2 %}
 
 
-## Education
+## Experience and Education
 
 <br/>
 
@@ -162,7 +170,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 <br/>
 
-## Recent and Upcoming Work/Talks
+## Recent Talks and Notes
 
 <br/>
 
@@ -202,24 +210,14 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 <br/>
 
-## Skills
+## Technical Skills
 
-<table style="text-align:center;">
-<tr>
-    <th style="width: 35%"><img src="assets/images/home/code.png" alt="code"/>      <br/>Programming</th>
-    <th></th>
-    <th style="width: 25%"><img src="assets/images/home/software.png" alt="software"/>  <br/>Software</th>
-    <th></th>
-    <th style="width: 25%"><img src="assets/images/home/languages.png" alt="languages"/> <br/>Languages</th>
-</tr>
-<tr>
-    <td><p style="font-family: Monaco">C++, [z][ba][c]sh, Python, LaTeX, Git, GitHub, Continuous Integration, Docker, Environment Modules, HTCondor, Meson, CMake, SCons, Fortran, PHP, JavaScript, Highcharts, HTML, CSS, Markdown</p></td>
-    <td></td>
-    <td><p style="font-family: Monaco"> Geant4, ROOT, Xcode, PyCharm, CLion, FreeCAD, GIMP, Excel, PowerPoint, Keynote, Numbers  </p></td>
-    <td></td>
-    <td><p style="font-family: Monaco">English, Italian</p></td>
-</tr>
-</table>
+| Area | Tools and Experience |
+|:--|:--|
+| Simulation and analysis | Geant4, GEMC, CLAS12 simulations, ROOT, detector geometry, event generation, digitization workflows |
+| Programming and infrastructure | C++, Python, shell scripting, Git, GitHub, continuous integration, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
+| Scientific communication | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, technical documentation, tutorials, presentations |
+| Languages | English, Italian |
 
 
 <br/>
@@ -306,5 +304,3 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 [languages]: assets/images/home/languages.png
 
 [quote1]: assets/images/home/quote1.png
-
-

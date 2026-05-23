@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Software Projects
+description: Research, detector, and simulation software projects connected to CLAS12, Geant4, GEMC, OSG, and Hall-B.
 permalink: /projects/
 last_updated: "May 15, 2026"
 
@@ -11,7 +12,7 @@ Studies of nucleon structure using single-meson electro-production measurements.
 
 gemc: "<br/><a href=\"../gemc/gemc\"><img src=\"../assets/images/home/gemc.png\"                    
 alt=\"GEMC simulation framework\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../gemc/gemc\">GEMC: C++ Simulation Framework</a><br/>
+<a href=\"../gemc/gemc\">GEMC: Geant4 simulations with a Python-friendly workflow</a><br/>
 A database-driven Geant4 simulation framework for detector and radiation-transport studies.<br/><br/>  "
   
 clas12: "<br/><a href=\"https://github.com/gemc/clas12Tags\"><img src=\"../assets/images/home/clas12.png\"    
@@ -38,6 +39,10 @@ Detector work covering LTCC operation, calibration, and performance for Hall-B.<
 ---
 
 Last updated: {{ page.last_updated }}
+
+<br/>
+
+Selected research, detector, and software projects connected to CLAS12, Geant4, GEMC, and Hall-B.
 
 <br/>
 
