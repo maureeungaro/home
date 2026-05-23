@@ -69,12 +69,6 @@ width="170"
 | :----------------------------------------------------------: |
 |  [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
 
-|-----------------------------------------------------|---------------------------------------------|
-| [![Google Scholar][gscholar-img]][gscholar-link]<br/>[Google Scholar][gscholar-link] | [![GitHub][github-img]][github-link]<br/>[GitHub][github-link] |
-| [![INSPIRE][inspire-img]][inspire-link]<br/>[INSPIRE][inspire-link] | [![Email][email-img]][email-link]<br/>[Email][email-link] |
-{: .small-icons }
-
-
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
 [github-img]: {{ github_img }}
@@ -96,29 +90,32 @@ I am Maurizio Ungaro, a nuclear physicist working in [Hall-B](https://www.jlab.o
 at [Jefferson Lab](https://www.jlab.org).
 This site collects my research, talks, simulation software, detector work, technical notes, and selected links.
 It is intended for collaborators, Geant4 and GEMC users, CLAS12 simulation users, and students looking for practical examples.
-
-### Research
-My research focuses on the internal structure and dynamics of the nucleon, in particular the physics beyond the
-constituent quark model and the link between form factors and dressed quark mass (see, for example,
-the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and the
-[meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance) analyses).
-
-### Detector Work
-I work on the refurbishment, operation, maintenance, and calibration of the
-[Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B.
-
-### Simulation Software
-I develop the [GEMC](https://gemc.github.io/home/) Geant4 simulation framework
-and [CLAS12 Simulations](https://github.com/gemc/clas12Tags), including
-[Web Submissions](https://gemc.jlab.org/web_interface/index.php) to the
-[Open Science Grid (OSG)](https://osg-htc.org). See, for example, our
-[CLAS12 Project accounting](https://gracc.opensciencegrid.org/d/000000033/osg-project-accounting?orgId=1).
-
-### Geant4 at JLab
-Most recently I joined the [Geant4](https://geant4.web.cern.ch) collaboration to
-[support Geant4 at JLab](https://jeffersonlab.github.io/g4home/).
+My work connects nuclear physics analysis, detector operations, and simulation infrastructure, with a focus on making
+Geant4-based workflows easier to build, run, document, and share.
 
 In my free time, I am learning to play hockey while enjoying watching my kid skate much faster than me.
+
+<br/>
+
+<table class="zebra compact-table">
+  <tr>
+    <th>Primary links</th>
+    <td><a href="/home/gemc/gemc">GEMC</a></td>
+    <td><a href="/home/showcase/">Research & Talks</a></td>
+    <td><a href="/home/mynotes/">Technical Notes</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table class="small-icons">
+  <tr>
+    <td><a href="{{ gscholar_link }}"><img src="{{ gscholar_img }}" alt="Google Scholar"></a><br/><a href="{{ gscholar_link }}">Google Scholar</a></td>
+    <td><a href="{{ github_link }}"><img src="{{ github_img }}" alt="GitHub"></a><br/><a href="{{ github_link }}">GitHub</a></td>
+    <td><a href="{{ inspire_link }}"><img src="{{ inspire_img }}" alt="INSPIRE"></a><br/><a href="{{ inspire_link }}">INSPIRE</a></td>
+    <td><a href="{{ email_link }}"><img src="{{ email_img }}" alt="Email"></a><br/><a href="{{ email_link }}">Email</a></td>
+  </tr>
+</table>
 
 {% endcapture %}
 
@@ -137,6 +134,71 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 | Practical computing notes | [Technical Notes](/home/mynotes/) |
 
 <br/><br/>
+
+## What I Work On
+
+| Area | Focus |
+|:--|:--|
+| Nuclear physics | Nucleon structure, physics beyond the constituent quark model, and links between form factors and dressed quark mass, including the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance). |
+| Detector work | Refurbishment, operation, maintenance, and calibration of the [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. |
+| Simulation software | [GEMC](https://gemc.github.io/home/), [CLAS12 Simulations](https://github.com/gemc/clas12Tags), [Web Submissions](https://gemc.jlab.org/web_interface/index.php), and [Open Science Grid](https://osg-htc.org) production workflows. |
+| Geant4 support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) tutorials, examples, and support material for Jefferson Lab users. |
+
+<br/>
+
+## Recent Talks and Notes
+
+<br/>
+
+<table class="alternate">
+
+	<tr>
+		<td> Title </td>
+		<td> PDF </td>
+		<td> Occasion </td>
+		<td> Date </td>
+	</tr>	
+
+	{% for presentation in site.data.recent_and_upcoming_presentations limit: 6 %}
+		<tr>
+            <td> {{ presentation.title }} </td>
+
+                {% if presentation.pdf == "yes" %}
+                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
+                {% elsif presentation.pdf == "no_animation" %}
+                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
+                 {% else %}
+                    <td>  </td>
+                {% endif %}
+
+                 {% if presentation.occasion_url == "NA" %}
+                    <td>{{presentation.occasion}} </td>
+                {% else %}
+                     <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
+                {% endif %}
+
+            <td> {{presentation.date}} </td>
+
+        </tr>
+	{% endfor %}
+
+</table>
+
+More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
+
+<br/>
+
+## Technical Skills
+
+| Area | Tools and Experience |
+|:--|:--|
+| Simulation and analysis | Geant4, GEMC, CLAS12 simulations, ROOT, detector geometry, event generation, digitization workflows |
+| Programming and infrastructure | C++, Python, shell scripting, Git, GitHub, continuous integration, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
+| Scientific communication | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, technical documentation, tutorials, presentations |
+| Languages | English, Italian |
+
+
+<br/>
 
 {% capture left2 %}
 
@@ -166,60 +228,6 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 {% endcapture %}
 
 {% include two_col_md.html left="40%" right="60%" left_content=left2 right_content=right2 %}
-
-<br/>
-
-<br/>
-
-## Recent Talks and Notes
-
-<br/>
-
-<table class="alternate">
-
-	<tr>
-		<td> Title </td>
-		<td> PDF </td>
-		<td> Occasion </td>
-		<td> Date </td>
-	</tr>	
-
-	{% for presentation in site.data.recent_and_upcoming_presentations %}
-		<tr>
-            <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
-                 {% else %}
-                    <td>  </td>
-                {% endif %}
-
-                 {% if presentation.occasion_url == "NA" %}
-                    <td>{{presentation.occasion}} </td>
-                {% else %}
-                     <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
-                {% endif %}
-
-            <td> {{presentation.date}} </td>
-
-        </tr>
-	{% endfor %}
-
-</table>
-
-<br/>
-
-## Technical Skills
-
-| Area | Tools and Experience |
-|:--|:--|
-| Simulation and analysis | Geant4, GEMC, CLAS12 simulations, ROOT, detector geometry, event generation, digitization workflows |
-| Programming and infrastructure | C++, Python, shell scripting, Git, GitHub, continuous integration, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
-| Scientific communication | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, technical documentation, tutorials, presentations |
-| Languages | English, Italian |
-
 
 <br/>
 
