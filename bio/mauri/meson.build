@@ -9,6 +9,7 @@ tex_sources = [
   'mauri_resume.tex',
   'mauri_job_application.tex',
   'mauri_bio.tex',
+  'mauri_application_letters.tex',
 ]
 
 run_target(

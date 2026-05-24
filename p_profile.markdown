@@ -52,7 +52,6 @@ collaboration at Jefferson Lab.
 | [Scientific CV](/home/assets/bio/mauri/mauri_cv.pdf) | Full academic, research, software, and detector record. |
 | [Resume](/home/assets/bio/mauri/mauri_resume.pdf) | Shorter document for collaborations, applications, and technical roles. |
 | [Biography Sheet](/home/assets/bio/mauri/mauri_bio.pdf) | Short, medium, and long bio text for programs, websites, and profiles. |
-| [Application Profile](/home/assets/bio/mauri/mauri_job_application.pdf) | Application-oriented research and technical summary. |
 | [Publications](/home/publications/) | INSPIRE-derived publication list with first-author classification. |
 
 <br/>

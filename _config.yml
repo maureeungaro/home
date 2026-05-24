@@ -61,6 +61,8 @@ exclude:
    - AGENTS.md
    - CLAUDE.md
    - bio
+   - assets/bio/mauri/mauri_job_application.pdf
+   - assets/bio/mauri/markdown/job_application_notes.md
 
 # this adds content to the website from the local dirs starting with _
 collections:

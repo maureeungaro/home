@@ -7,3 +7,5 @@ build/
 *.fdb_latexmk
 *.pdf
 data/inspire_papers.json
+applications/output/
+applications/*.pdf
