@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Mauri's Technical Notes
+title: CLAS and CLAS12 Technical Notes
+description: CLAS and CLAS12 technical notes on detector systems, reconstruction, simulation, calibration, and Hall-B analysis workflows.
 permalink: /showcase/clas_notes
 pub_baseurl: "https://userweb.jlab.org/~ungaro/pubs/"
 ---

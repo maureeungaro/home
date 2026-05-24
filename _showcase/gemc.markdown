@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Mauri's GEMC Work
+title: GEMC Talks and Presentations
+description: GEMC talks and presentations on Geant4 detector simulation, CLAS12 workflows, database-driven geometry, and Jefferson Lab simulation production.
 permalink: /showcase/gemc
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---

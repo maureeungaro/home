@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Charts"
+description: Browser-based CSV plotting utility for quickly visualizing scientific data columns with combined and individual Highcharts plots.
 permalink: /software/charts
 last_updated: "May 15, 2026"
 ---

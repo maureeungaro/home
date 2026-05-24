@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Docker"
+description: Docker containers for Jefferson Lab research workflows, including scientific software environments, reproducible analysis tools, and simulation support images.
 permalink: /software/docker
 last_updated: "May 15, 2026"
 ---

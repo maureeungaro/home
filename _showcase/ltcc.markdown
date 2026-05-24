@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Mauri's LTCC Work
+title: Low Threshold Cherenkov Counter Talks
+description: LTCC talks and presentations on the CLAS12 Low Threshold Cherenkov Counter, pion/kaon discrimination, refurbishment, operation, calibration, and detector performance in Hall-B.
 permalink: /showcase/ltcc
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---
 
 # Low Threshold Cherenkov Presentations
 
-Talks related to LTCC refurbishment, operation, calibration, and detector performance.
+Talks related to CLAS12 LTCC refurbishment, operation, calibration, detector performance,
+and pion/kaon discrimination in the Hall-B forward detector.
 
 <table class="alternate">
 	<tr>

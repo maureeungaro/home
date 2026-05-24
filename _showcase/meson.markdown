@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Mauri's Meson Electro-production research
+title: Meson Electro-Production Talks
+description: Presentations on single-meson electro-production, CLAS nucleon-structure measurements, pion production, form factors, and resonance-region analyses.
 permalink: /showcase/meson
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---

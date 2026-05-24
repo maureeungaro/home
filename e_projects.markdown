@@ -33,7 +33,7 @@ Tutorials, examples, and local support material for Geant4 users at JLab.<br/><b
 ltcc: "<br/><a href=\"../ltcc/ltcc\"><img src=\"../assets/images/home/ltcc.png\"
 alt=\"Low Threshold Cherenkov Counter detector\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 <a href=\"../ltcc/ltcc\">Low Threshold Cherenkov Counter</a><br/>
-Detector work covering LTCC operation, calibration, and performance for Hall-B.<br/><br/>  "
+CLAS12 forward detector work covering LTCC operation, calibration, pion/kaon discrimination, and performance for Hall-B.<br/><br/>  "
 
 
 ---

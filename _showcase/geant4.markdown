@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Mauri's Geant4 presentations
+title: Geant4 Talks and Tutorials
+description: Geant4 talks, tutorials, and user-support material for Jefferson Lab users, including simulation examples, physics updates, and training material.
 permalink: /showcase/geant4
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---

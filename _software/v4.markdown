@@ -1,6 +1,15 @@
 ---
 layout: default
-title: "v4"
+title: "V4"
+description: V4 software notes for Jefferson Lab analysis and scientific computing workflows.
 ---
 
-Under Construction
+V4 is part of this software portfolio for Jefferson Lab analysis and scientific
+computing workflows.
+
+| Question | Answer |
+|:--|:--|
+| What is it? | A software project in the analysis and scientific-computing collection. |
+| Who is it for? | Users looking for related tools from this software portfolio. |
+| Why use it? | It preserves project context and makes the software index more searchable. |
+| Where to start? | See the [software projects](/home/projects/) overview. |

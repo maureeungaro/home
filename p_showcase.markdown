@@ -67,7 +67,7 @@ Representative papers connected to my simulation, detector, and meson electro-pr
 </table>
 
 
-A list of all Mauri's research papers can be found at [Mauri's profile on Inspire](https://inspirehep.net/authors/1322331){:target="_blank"}.
+All research papers are listed in [Maurizio Ungaro's INSPIRE profile](https://inspirehep.net/authors/1322331){:target="_blank"}.
 
 <br/><br/>
 
@@ -108,7 +108,7 @@ Selected presentations:
 
 </table>
 
-A list of all meson electro-production presentations can be found at [Mauri's meson electro-production presentations](/home/showcase/meson).
+All meson electro-production presentations are listed in [Meson Electro-Production Talks](/home/showcase/meson).
 
 <br/><br/>
 
@@ -149,7 +149,7 @@ Selected talks related to LTCC operation, calibration, and detector performance.
 
 </table>
 
-A list of all the LTCC presentations can be found at [Mauri's LTCC presentations](/home/showcase/ltcc).
+All LTCC presentations are listed in [Low Threshold Cherenkov Counter Talks](/home/showcase/ltcc).
 
 <br/><br/>
 
@@ -189,7 +189,7 @@ Selected tutorials and presentations for Geant4 users at JLab and related worksh
 
 </table>
 
-A list of all the Geant4 presentations can be found at [Mauri's Geant4 presentations](/home/showcase/geant4).
+All Geant4 presentations are listed in [Geant4 Talks and Tutorials](/home/showcase/geant4).
 
 <br/><br/>
 
@@ -230,7 +230,7 @@ Selected talks on GEMC, CLAS12 simulations, and database-driven simulation workf
 
 </table>
 
-A list of all the GEMC presentations can be found at [Mauri's GEMC presentations](/home/showcase/gemc).
+All GEMC presentations are listed in [GEMC Talks and Presentations](/home/showcase/gemc).
 
 <br/><br/>
 
@@ -302,4 +302,4 @@ Selected technical notes for CLAS and CLAS12 detector and simulation work.
 </table>
 
 
-A list of all technical CLAS and CLAS12 notes can be found at [Mauri's technical notes](/home/showcase/clas_notes).
+All technical CLAS and CLAS12 notes are listed in [CLAS and CLAS12 Technical Notes](/home/showcase/clas_notes).
