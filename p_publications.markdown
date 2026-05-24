@@ -1,3 +1,12 @@
+---
+layout: default
+title: Publications
+description: INSPIRE publication list for Maurizio Ungaro with first-author papers and source links.
+permalink: /publications/
+nav_exclude: true
+---
+
+{% raw %}
 # Publications
 
 Generated from INSPIRE.
@@ -301,3 +310,4 @@ Generated from INSPIRE.
 | 2002 | [First measurement of the double spin asymmetry in polarized-e polarized-p ---> e-prime pi+ n in the resonance region](https://doi.org/10.1103/PhysRevLett.88.082001) | Phys.Rev.Lett. 88 (2002) | [DOI](https://doi.org/10.1103/PhysRevLett.88.082001) |
 | n.d. | [Progress on the Interaction Region Design and Detector Integration at JLab’s MEIC](https://doi.org/10.18429/JACoW-IPAC2014-MOPRO005) | Preprint | [DOI](https://doi.org/10.18429/JACoW-IPAC2014-MOPRO005) |
 | n.d. | [$\pi^0$ Electroproduction off the $\Delta(1232)$ Resonance at High Momentum Transfer](https://inspirehep.net/literature/1289007) | Preprint | [INSPIRE](https://inspirehep.net/literature/1289007) |
+{% endraw %}

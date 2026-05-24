@@ -104,6 +104,29 @@ def install_outputs(build_dir: Path, install_dir: Path) -> None:
     for name in ["all_papers.tex", "first_author_papers.tex"]:
         copy_if_exists(SOURCE_DIR / "data" / name, install_dir / "tex" / name)
 
+    publications_source = SOURCE_DIR / "markdown" / "publications.md"
+    publications_page = REPO_ROOT / "p_publications.markdown"
+    if publications_source.exists():
+        publications_page.write_text(
+            "\n".join(
+                [
+                    "---",
+                    "layout: default",
+                    "title: Publications",
+                    "description: INSPIRE publication list for Maurizio Ungaro with first-author papers and source links.",
+                    "permalink: /publications/",
+                    "nav_exclude: true",
+                    "---",
+                    "",
+                    "{% raw %}",
+                    publications_source.read_text().strip(),
+                    "{% endraw %}",
+                    "",
+                ]
+            )
+        )
+        print(f"installed {publications_page}")
+
     index = install_dir / "README.md"
     index.write_text(
         "\n".join(

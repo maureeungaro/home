@@ -53,7 +53,7 @@ collaboration at Jefferson Lab.
 | [Resume](/home/assets/bio/mauri/mauri_resume.pdf) | Shorter document for collaborations, applications, and technical roles. |
 | [Biography Sheet](/home/assets/bio/mauri/mauri_bio.pdf) | Short, medium, and long bio text for programs, websites, and profiles. |
 | [Application Profile](/home/assets/bio/mauri/mauri_job_application.pdf) | Application-oriented research and technical summary. |
-| [Generated Publications](/home/assets/bio/mauri/markdown/publications.md) | INSPIRE-derived publication list with first-author classification. |
+| [Publications](/home/publications/) | INSPIRE-derived publication list with first-author classification. |
 
 <br/>
 

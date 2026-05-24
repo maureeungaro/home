@@ -2,293 +2,302 @@
 
 Generated from INSPIRE.
 
-- Total records: 271
-- First-author records: 11
+{:.zebra.compact-table}
+| Records | Count |
+|:--|--:|
+| Total publications | 271 |
+| First-author publications | 11 |
 
 ## First-Author Papers
 
-- 2024: [Geant4 Monte-Carlo (GEMC) A database-driven simulation program](https://doi.org/10.1051/epjconf/202429505005)
-- 2020: [The CLAS12 Geant4 simulation](https://doi.org/10.1016/j.nima.2020.163422)
-- 2020: [The CLAS12 Low Threshold Cherenkov detector](https://doi.org/10.1016/j.nima.2020.163420)
-- 2012: [Exclusive pi0 electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3701209)
-- 2011: [Exclusive pi0, eta electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3647159)
-- 2011: [CLAS data and progress in the investigation of electro-excitation of nucleon resonances](https://doi.org/10.1142/9789814329569_0029)
-- 2007: [γ* N → Δ at JLab: Exploring the High $Q^2$ Regime](https://doi.org/10.1063/1.2734308)
-- 2006: [Single Pion Electroproduction in Δ(1232) and Roper Resonance Region with CLAS](https://doi.org/10.1063/1.2402682)
-- 2006: [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://doi.org/10.1103/PhysRevLett.97.112003)
-- 2005: [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://inspirehep.net/literature/706540)
-- : [$\pi^0$ Electroproduction off the $\Delta(1232)$ Resonance at High Momentum Transfer](https://inspirehep.net/literature/1289007)
+{:.zebra.publications-table}
+| Year | Publication | Venue | Source |
+|:--:|:--|:--|:--:|
+| 2024 | [Geant4 Monte-Carlo (GEMC) A database-driven simulation program](https://doi.org/10.1051/epjconf/202429505005) | EPJ Web Conf. 295 (2024) | [DOI](https://doi.org/10.1051/epjconf/202429505005) |
+| 2020 | [The CLAS12 Geant4 simulation](https://doi.org/10.1016/j.nima.2020.163422) | Nucl.Instrum.Meth.A 959 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163422) |
+| 2020 | [The CLAS12 Low Threshold Cherenkov detector](https://doi.org/10.1016/j.nima.2020.163420) | Nucl.Instrum.Meth.A 957 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163420) |
+| 2012 | [Exclusive pi0 electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3701209) | AIP Conf.Proc. 1432 187 (2012) | [DOI](https://doi.org/10.1063/1.3701209) |
+| 2011 | [Exclusive pi0, eta electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3647159) | AIP Conf.Proc. 1374 357 (2011) | [DOI](https://doi.org/10.1063/1.3647159) |
+| 2011 | [CLAS data and progress in the investigation of electro-excitation of nucleon resonances](https://doi.org/10.1142/9789814329569_0029) | 275 (2011) | [DOI](https://doi.org/10.1142/9789814329569_0029) |
+| 2007 | [γ* N → Δ at JLab: Exploring the High $Q^2$ Regime](https://doi.org/10.1063/1.2734308) | AIP Conf.Proc. 904 232 (2007) | [DOI](https://doi.org/10.1063/1.2734308) |
+| 2006 | [Single Pion Electroproduction in Δ(1232) and Roper Resonance Region with CLAS](https://doi.org/10.1063/1.2402682) | AIP Conf.Proc. 870 486 (2006) | [DOI](https://doi.org/10.1063/1.2402682) |
+| 2006 | [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://doi.org/10.1103/PhysRevLett.97.112003) | Phys.Rev.Lett. 97 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.97.112003) |
+| 2005 | [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://inspirehep.net/literature/706540) | 277 | [INSPIRE](https://inspirehep.net/literature/706540) |
+| n.d. | [$\pi^0$ Electroproduction off the $\Delta(1232)$ Resonance at High Momentum Transfer](https://inspirehep.net/literature/1289007) | Preprint | [INSPIRE](https://inspirehep.net/literature/1289007) |
 
 ## All Papers
 
-- 2026: [Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production](https://arxiv.org/abs/2605.11690)
-- 2026: [Measurement of the near-threshold J$/ψ$ photoproduction cross section with the CLAS12 experiment](https://arxiv.org/abs/2602.22128)
-- 2026: [Measurements of Beam Spin Asymmetries of $π^\pmπ^0$ dihadrons at CLAS12](https://arxiv.org/abs/2602.14271)
-- 2026: [First study of the nuclear response to fast hadrons via angular correlations between pions and slow protons in electron-nucleus scattering](https://doi.org/10.1016/j.physletb.2026.140250)
-- 2026: [First displaced vertex search for electroproduced dark-sector strongly interacting massive particles by the HPS experiment](https://doi.org/10.1103/2k3q-9mhj)
-- 2026: [Proton transparency and neutrino physics: New methods and modeling](https://doi.org/10.1103/7xct-5jcp)
-- 2025: [Polarization Observables $T$ and $F$ in the $γp \to π^0 p$ Reaction at CLAS](https://arxiv.org/abs/2508.17589)
-- 2025: [Measurement of beam-recoil observables <math><msub><mi>C</mi><mi>x</mi></msub></math> and <math><msub><mi>C</mi><mi>z</mi></msub></math> for <math><mrow><msup><mi>K</mi><mo>+</mo></msup><mi mathvariant="normal">Λ</mi></mrow></math> photoproduction](https://doi.org/10.1103/1q5m-x849)
-- 2025: [Recoil polarization in <math><mrow><msup><mi>K</mi><mo>+</mo></msup><mi>Y</mi></mrow></math> electroproduction in the nucleon resonance region with CLAS12](https://doi.org/10.1103/nhvq-7fv7)
-- 2025: [Measurement of single- and double-polarization observables in the photoproduction of <math><mrow><msup><mi>π</mi><mo>+</mo></msup><msup><mi>π</mi><mo>−</mo></msup></mrow></math> meson pairs off the proton using CLAS at Jefferson Laboratory](https://doi.org/10.1103/bddq-9qlq)
-- 2025: [Multidimensional measurements of beam single-spin asymmetries in semi-inclusive deep-inelastic charged-kaon electroproduction off protons in the valence region](https://doi.org/10.1103/2m4z-htrp)
-- 2025: [Inclusive electron scattering in the resonance region off a hydrogen target with CLAS12](https://doi.org/10.1103/qy4p-dyjt)
-- 2025: [Photoproduction of two charged pions off protons in the resonance region](https://doi.org/10.1103/PhysRevC.111.035203)
-- 2025: [Measurement of the nucleon spin structure functions for <math><mrow><mn>0.01</mn><mo>&lt;</mo><msup><mi>Q</mi><mn>2</mn></msup><mo>&lt;</mo><mn>1</mn><mspace width="0.16em"/><msup><mrow><mi>GeV</mi></mrow><mn>2</mn></msup></mrow></math> using CLAS](https://doi.org/10.1103/PhysRevC.111.035202)
-- 2025: [Dihadron azimuthal correlations in deep-inelastic scattering off nuclear targets](https://doi.org/10.1103/PhysRevC.111.035201)
-- 2025: [Suppression of neutral-pion production in deep-inelastic scattering off nuclei with the CLAS detector](https://doi.org/10.1103/kbhz-h4jv)
-- 2025: [Photoproduction of the <math><msup><mi mathvariant="normal">Σ</mi><mo>+</mo></msup></math> hyperon using linearly polarized photons with CLAS](https://doi.org/10.1103/PhysRevC.111.025204)
-- 2024: [First Measurement of Deeply Virtual Compton Scattering on the Neutron with Detection of the Active Neutron](https://doi.org/10.1103/PhysRevLett.133.211903)
-- 2024: [Geant4 Monte-Carlo (GEMC) A database-driven simulation program](https://doi.org/10.1051/epjconf/202429505005)
-- 2024: [Double-pion electroproduction off protons in deuterium: Quasifree cross sections and final-state interactions](https://doi.org/10.1103/PhysRevC.109.065205)
-- 2024: [Beam spin asymmetry measurements of deeply virtual π0 production with CLAS12](https://doi.org/10.1016/j.physletb.2024.138459)
-- 2024: [Strong interaction physics at the luminosity frontier with 22 GeV electrons at Jefferson Lab](https://doi.org/10.1140/epja/s10050-024-01282-x)
-- 2023: [Measurement of the helicity asymmetry ${\mathbb {E}}$ for the $\vec {\gamma }\vec {p} \rightarrow p \pi ^0$ reaction in the resonance region: The CLAS Collaboration](https://doi.org/10.1140/epja/s10050-023-01123-3)
-- 2023: [First Measurement of Hard Exclusive <math display="inline"><mrow><msup><mrow><mi>π</mi></mrow><mrow><mo>-</mo></mrow></msup><msup><mrow><mi mathvariant="normal">Δ</mi></mrow><mrow><mo>+</mo><mo>+</mo></mrow></msup></mrow></math> Electroproduction Beam-Spin Asymmetries off the Proton](https://doi.org/10.1103/PhysRevLett.131.021901)
-- 2023: [Searching for prompt and long-lived dark photons in electroproduced <math display="inline"><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>+</mo></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mo>-</mo></mrow></msup></mrow></math> pairs with the heavy photon search experiment at JLab](https://doi.org/10.1103/PhysRevD.108.012015)
-- 2023: [First CLAS12 Measurement of Deeply Virtual Compton Scattering Beam-Spin Asymmetries in the Extended Valence Region](https://doi.org/10.1103/PhysRevLett.130.211902)
-- 2023: [A multidimensional study of the structure function ratio <math altimg="si1.svg"><msub><mrow><mi>σ</mi></mrow><mrow><mi>L</mi><msup><mrow><mi>T</mi></mrow><mrow><mo>′</mo></mrow></msup></mrow></msub><mo stretchy="false">/</mo><msub><mrow><mi>σ</mi></mrow><mrow><mn>0</mn></mrow></msub></math> from hard exclusive π+ electro-production off protons in the GPD regime](https://doi.org/10.1016/j.physletb.2023.137761)
-- 2023: [First Measurement of <math display="inline"><mi mathvariant="normal">Λ</mi></math> Electroproduction off Nuclei in the Current and Target Fragmentation Regions](https://doi.org/10.1103/PhysRevLett.130.142301)
-- 2023: [Observation of large missing-momentum <math><mrow><mo>(</mo><mi>e</mi><mo>,</mo><msup><mi>e</mi><mo>′</mo></msup><mi>p</mi><mo>)</mo></mrow></math> cross-section scaling and the onset of correlated-pair dominance in nuclei](https://doi.org/10.1103/PhysRevC.107.L061301)
-- 2023: [Observation of Correlations between Spin and Transverse Momenta in Back-to-Back Dihadron Production at CLAS12](https://doi.org/10.1103/PhysRevLett.130.022501)
-- 2023: [Alignment of the CLAS12 central hybrid tracker with a Kalman Filter](https://doi.org/10.1016/j.nima.2023.168032)
-- 2023: [Exclusive <math><msup><mi>π</mi><mo>−</mo></msup></math> electroproduction off the neutron in deuterium in the resonance region](https://doi.org/10.1103/PhysRevC.107.015201)
-- 2022: [Observation of Azimuth-Dependent Suppression of Hadron Pairs in Electron Scattering off Nuclei](https://doi.org/10.1103/PhysRevLett.129.182501)
-- 2022: [The Heavy Photon Search Experiment](https://arxiv.org/abs/2203.08324)
-- 2022: [Streaming readout for next generation electron scattering experiments](https://doi.org/10.1140/epjp/s13360-022-03146-z)
-- 2022: [Beam-recoil transferred polarization in <math><mrow><msup><mi>K</mi><mo>+</mo></msup><mi>Y</mi></mrow></math> electroproduction in the nucleon resonance region with CLAS12](https://doi.org/10.1103/PhysRevC.105.065201)
-- 2022: [Simulation tool for MRPC telescopes of EEE experiment](https://doi.org/10.1088/1742-6596/2374/1/012051)
-- 2022: [Reduction of Greenhouse Gases impact in the EEE Project](https://doi.org/10.1088/1742-6596/2374/1/012152)
-- 2022: [Polarized structure function $\sigma_{LT'}$ from $\pi^0 p$ electroproduction data in the resonance region at 0.4GeV$^2$<Q$^2$<1.0GeV$^2$](https://doi.org/10.1103/PhysRevC.105.L022201)
-- 2022: [Measurement of charged-pion production in deep-inelastic scattering off nuclei with the CLAS detector](https://doi.org/10.1103/PhysRevC.105.015201)
-- 2022: [Beam-spin asymmetry $\boldsymbol{\Sigma}$ for $\Sigma^-$ hyperon photoproduction off the neutron](https://doi.org/10.1016/j.physletb.2022.136985)
-- 2022: [Science Requirements and Detector Concepts for the Electron-Ion Collider](https://doi.org/10.1016/j.nuclphysa.2022.122447)
-- 2022: [Multidimensional, High Precision Measurements of Beam Single Spin Asymmetries in Semi-inclusive $\pi^{+}$ Electroproduction off Protons in the Valence Region](https://doi.org/10.1103/PhysRevLett.128.062005)
-- 2021: [Electron-beam energy reconstruction for neutrino oscillation measurements](https://doi.org/10.1038/s41586-021-04046-5)
-- 2021: [First Measurement of Timelike Compton Scattering](https://doi.org/10.1103/PhysRevLett.127.262501)
-- 2021: [Improved $\Lambda p$ Elastic Scattering Cross Sections Between 0.9 and 2.0 GeV/c and Connections to the Neutron Star Equation of State](https://doi.org/10.1103/PhysRevLett.127.272303)
-- 2021: [Double polarisation observable $\mathbb G$ for single pion photoproduction from the proton](https://doi.org/10.1016/j.physletb.2021.136304)
-- 2021: [Light dark matter searches with positrons](https://doi.org/10.1140/epja/s10050-021-00524-6)
-- 2021: [The cosmic muon and detector simulation framework of the extreme energy events (EEE) experiment](https://doi.org/10.1140/epjc/s10052-021-09237-y)
-- 2021: [Measurement of deeply virtual Compton scattering off $^{4}\mathrm{He}$ with the CEBAF Large Acceptance Spectrometer at Jefferson Lab](https://doi.org/10.1103/PhysRevC.104.025203)
-- 2021: [Measurement of the proton spin structure at long distances](https://doi.org/10.1038/s41567-021-01198-z)
-- 2021: [Differential cross sections for $\Lambda(1520)$ using photoproduction at CLAS](https://doi.org/10.1103/PhysRevC.103.025206)
-- 2021: [Observation of Beam Spin Asymmetries in the Process $ep\rightarrow{e}^{'}{\pi}^{+}{\pi}^{-}X$ with CLAS12](https://doi.org/10.1103/PhysRevLett.126.152501)
-- 2021: [Photoproduction of the $f_2(1270)$ meson using the CLAS detector](https://doi.org/10.1103/PhysRevLett.126.082002)
-- 2021: [Beam Spin Asymmetry in Semi-Inclusive Electroproduction of Hadron Pairs](https://doi.org/10.1103/PhysRevLett.126.062002)
-- 2021: [An experimental program with high duty-cycle polarized and unpolarized positron beams at Jefferson Lab](https://doi.org/10.1140/epja/s10050-021-00564-y)
-- 2021: [12C(e,e'pN) measurements of short range correlations in the tensor-to-scalar interaction transition region](https://doi.org/10.1016/j.physletb.2021.136523)
-- 2020: [Beam–target helicity asymmetry $E$ in $K^+$ $\Sigma^-$ photoproduction on the neutron](https://doi.org/10.1016/j.physletb.2020.135662)
-- 2020: [Extraction of Beam-Spin Asymmetries from the Hard Exclusive $\pi^+$ Channel off Protons in a Wide Range of Kinematics](https://doi.org/10.1103/PhysRevLett.125.182001)
-- 2020: [Photoproduction of $\eta$ mesons off the proton for $1.2 < E_\gamma < 4.7$ GeV using CLAS at Jefferson Laboratory](https://doi.org/10.1103/PhysRevC.102.065203)
-- 2020: [The CLAS12 Silicon Vertex Tracker](https://doi.org/10.1016/j.nima.2020.163701)
-- 2020: [The CLAS12 beamline and its performance](https://doi.org/10.1016/j.nima.2020.163421)
-- 2020: [The CLAS12 Geant4 simulation](https://doi.org/10.1016/j.nima.2020.163422)
-- 2020: [The CLAS12 software framework and event reconstruction](https://doi.org/10.1016/j.nima.2020.163472)
-- 2020: [The CLAS12 Spectrometer at Jefferson Laboratory](https://doi.org/10.1016/j.nima.2020.163419)
-- 2020: [First measurement of direct photoproduction of the $a_2(1320)^0$ meson on the proton](https://doi.org/10.1103/PhysRevC.102.032201)
-- 2020: [The CLAS12 Low Threshold Cherenkov detector](https://doi.org/10.1016/j.nima.2020.163420)
-- 2020: [Probing the core of the strong nuclear interaction](https://doi.org/10.1038/s41586-020-2021-6)
-- 2020: [Exclusive ${\pi^{0}p}$ electroproduction off protons in the resonance region at photon virtualities 0.4 GeV${^{2}}$ ${\leq~ Q^{2} \leq~1}$ GeV${^{2}}$](https://doi.org/10.1103/PhysRevC.101.015208)
-- 2019: [Dark Matter Search in a Beam-Dump EXperiment (BDX) at Jefferson Lab -- 2018 Update to PR12-16-001](https://arxiv.org/abs/1910.03532)
-- 2019: [Modified structure of protons and neutrons in correlated pairs](https://doi.org/10.1038/s41586-019-0925-9)
-- 2019: [Measurement of the beam spin asymmetry of $\overrightarrow e p \to e′p′ \eta$ in the deep-inelastic regime with CLAS](https://doi.org/10.1016/j.physletb.2018.12.065)
-- 2019: [Exploring the Structure of the Bound Proton with Deeply Virtual Compton Scattering](https://doi.org/10.1103/PhysRevLett.123.032502)
-- 2019: [First Measurements of the Double-Polarization Observables F , P , and H in ω Photoproduction off Transversely Polarized Protons in the N* Resonance Region](https://doi.org/10.1103/PhysRevLett.122.162301)
-- 2019: [Measurement of Nuclear Transparency Ratios for Protons and Neutrons](https://doi.org/10.1016/j.physletb.2019.07.039)
-- 2019: [Direct Observation of Proton-Neutron Short-Range Correlation Dominance in Heavy Nuclei](https://doi.org/10.1103/PhysRevLett.122.172502)
-- 2019: [First results on nucleon resonance photocouplings from the $\gamma p \to \pi^+\pi^-p$ reaction](https://doi.org/10.1016/j.physletb.2018.10.013)
-- 2018: [Measurement of Unpolarized and Polarized Cross Sections for Deeply Virtual Compton Scattering on the Proton at Jefferson Laboratory with CLAS](https://doi.org/10.1103/PhysRevC.98.045203)
-- 2018: [Study of $\Xi^*$ Photoproduction from Threshold to $W = 3.3$ GeV](https://doi.org/10.1103/PhysRevC.98.062201)
-- 2018: [Exclusive $\pi ^{0}$ Electroproduction in the Resonance Region](https://doi.org/10.1007/s00601-018-1448-x)
-- 2018: [Probing high-momentum protons and neutrons in neutron-rich nuclei](https://doi.org/10.1038/s41586-018-0400-z)
-- 2018: [Photoproduction of $K^+K^-$ meson pairs on the proton](https://doi.org/10.1103/PhysRevD.98.052009)
-- 2018: [Search for a dark photon in electroproduced $e^{+}e^{-}$ pairs with the Heavy Photon Search experiment at JLab](https://doi.org/10.1103/PhysRevD.98.091101)
-- 2018: [Beam-target helicity asymmetry $E$ in $K^{0}\Lambda$ and $K^{0}\Sigma^0$  photoproduction on the neutron](https://doi.org/10.1103/PhysRevC.98.045205)
-- 2018: [Center of Mass Motion of Short-Range Correlated Nucleon Pairs studied via the $A(e,e′pp)$ Reaction](https://doi.org/10.1103/PhysRevLett.121.092501)
-- 2018: [Measurements of the $\gamma_{v} p \rightarrow p' \pi^{+} \pi^{-}$ cross section with the CLAS detector for $0.4$ GeV$^{2}$ $< Q^{2} <$ $1.0$ GeV$^{2}$ and $1.3$ GeV $< W <$ $1.825$ GeV](https://doi.org/10.1103/PhysRevC.98.025203)
-- 2018: [First measurement of $\Xi^-$ polarization in photoproduction](https://doi.org/10.1016/j.physletb.2018.07.004)
-- 2018: [Differential cross section for $\gamma d \rightarrow \omega d$ using CLAS at Jefferson Lab](https://doi.org/10.1016/j.physletb.2018.06.003)
-- 2018: [Differential cross section and photon-beam asymmetry for the $\gamma p \to \pi^- \Delta^{++}$(1232) reaction at forward $\pi^-$ angles for $E_\gamma$=1.5-2.95 GeV](https://doi.org/10.1103/PhysRevLett.120.202004)
-- 2018: [Exclusive photoproduction of $\pi^0$ up to large values of Mandelstam variables $s, t$ and $u$ with CLAS](https://doi.org/10.1103/PhysRevC.98.015207)
-- 2018: [Double $K_S^0$ Photoproduction off the Proton at CLAS](https://doi.org/10.1103/PhysRevC.97.025203)
-- 2018: [Hard exclusive pion electroproduction at backward angles with CLAS](https://doi.org/10.1016/j.physletb.2018.03.026)
-- 2018: [Measurement of the beam asymmetry $\Sigma$ and the target asymmetry $T$ in the photoproduction of $\omega$ mesons off the proton using CLAS at Jefferson Laboratory](https://doi.org/10.1103/PhysRevC.97.055202)
-- 2018: [Photoproduction of $\Lambda$ and $\Sigma^{0}$ hyperons off protons with linearly polarized photons at $E_{\gamma} = 1.5-3.0$ GeV](https://doi.org/10.1103/PhysRevC.97.015208)
-- 2018: [Measurement of the ${Q}^{2}$ Dependence of the Deuteron Spin Structure Function ${g}_{1}$ and its Moments at Low ${Q}^{2}$ with CLAS](https://doi.org/10.1103/PhysRevLett.120.062501)
-- 2018: [Semi-Inclusive $\pi_0$ target and beam-target asymmetries from 6 GeV electron scattering with CLAS](https://doi.org/10.1016/j.physletb.2018.06.014)
-- 2018: [Differential cross section and photon beam asymmetry for the $\overrightarrow \gamma p \to \pi^+$ n reaction at forward $\pi^+$ angles at E$_\gamma$ =1.5-2.95 GeV](https://doi.org/10.1103/PhysRevC.97.015205)
-- 2018: [Measurements of the separated longitudinal structure function $F_L$ from hydrogen and deuterium targets at low $Q^2$](https://doi.org/10.1103/PhysRevC.97.045204)
-- 2017: [Dark matter search in a Beam-Dump eXperiment (BDX) at Jefferson Lab: an update on PR12-16-001](https://arxiv.org/abs/1712.01518)
-- 2017: [$\phi$ photoproduction on the proton at $E_{\gamma}$ = 1.5 - 2.9 GeV](https://doi.org/10.1103/PhysRevC.96.062201)
-- 2017: [Differential cross sections and polarization observables from CLAS $K$* photoproduction and the search for new $N$* states](https://doi.org/10.1016/j.physletb.2017.05.029)
-- 2017: [Measurement of the helicity asymmetry $E$ in $\omega\to\pi^+\pi^-\pi^0$ photoproduction](https://doi.org/10.1103/PhysRevC.96.065209)
-- 2017: [First Exclusive Measurement of Deeply Virtual Compton Scattering off $^4$He: Toward the 3D Tomography of Nuclei](https://doi.org/10.1103/PhysRevLett.119.202004)
-- 2017: [Determination of the Proton Spin Structure Functions for $0.05 < Q^{2} < 5 GeV^{2}$ using CLAS](https://doi.org/10.1103/PhysRevC.96.065208)
-- 2017: [Measurement of the differential and total cross sections of the ${\gamma}d{\rightarrow}{K}^{0}\mathrm{{\Lambda}}(p)$ reaction within the resonance region](https://doi.org/10.1103/PhysRevC.96.065201)
-- 2017: [Photon beam asymmetry $\Sigma$ in the reaction $\vec{\gamma} p \to p \omega$ for $E_\gamma$ = 1.152 to 1.876 GeV](https://doi.org/10.1016/j.physletb.2017.08.015)
-- 2017: [Differential cross section measurements for $\gamma n\rightarrow{\pi}^{-}p$ above the first nucleon resonance region](https://doi.org/10.1103/PhysRevC.96.035204)
-- 2017: [Beam-Target Helicity Asymmetry for $\vec{\gamma} \vec{n} \rightarrow \pi^- p$ in the $N^*$ Resonance Region](https://doi.org/10.1103/PhysRevLett.118.242002)
-- 2017: [Measurements of $e p \to e' \pi^+ \pi^- p'$ Cross Sections with CLAS at $1.40$ Gev $< W < 2.0$ GeV and $2.0$ GeV$^2$ $< Q^2 < 5.0$ GeV$^2$](https://doi.org/10.1103/PhysRevC.96.025209)
-- 2017: [Exclusive $\eta$ electroproduction at $W$>2 GeV with CLAS and transversity generalized parton distributions](https://doi.org/10.1103/PhysRevC.95.035202)
-- 2017: [Photon beam asymmetry $\Sigma$ for $\eta$ and $\eta^\prime$ photoproduction from the proton](https://doi.org/10.1016/j.physletb.2017.05.045)
-- 2017: [The Heavy Photon Search beamline and its performance](https://doi.org/10.1016/j.nima.2017.03.061)
-- 2017: [Target and beam-target spin asymmetries in exclusive pion electroproduction for $Q^2>1$ GeV$^2$. II. $e p \rightarrow e \pi^0 p$](https://doi.org/10.1103/PhysRevC.95.035207)
-- 2017: [Enhanced UV light detection using a p-terphenyl wavelength shifter](https://doi.org/10.1016/j.nima.2017.06.050)
-- 2017: [Beam-target double-spin asymmetry in quasielastic electron scattering off the deuteron with CLAS](https://doi.org/10.1103/PhysRevC.95.024005)
-- 2017: [Target and Beam-Target Spin Asymmetries in Exclusive Pion Electroproduction for $Q^2>1$ GeV$^2$. I. $e p \rightarrow e \pi^+ n$](https://doi.org/10.1103/PhysRevC.95.035206)
-- 2017: [Measurement of two-photon exchange effect by comparing elastic $e^\pm p$ cross sections](https://doi.org/10.1103/PhysRevC.95.065201)
-- 2017: [Target and double spin asymmetries of deeply virtual $\pi^0$ production with a longitudinally polarized proton target and CLAS](https://doi.org/10.1016/j.physletb.2017.02.032)
-- 2016: [Dark Sectors 2016 Workshop: Community Report](https://arxiv.org/abs/1608.08632)
-- 2016: [Measurement of Target and Double-spin Asymmetries for the $\vec e\vec p\to e\pi^+ (n)$ Reaction in the Nucleon Resonance Region at Low $Q^2$](https://doi.org/10.1103/PhysRevC.94.045206)
-- 2016: [Dark Matter Search in a Beam-Dump eXperiment (BDX) at Jefferson Lab](https://arxiv.org/abs/1607.01390)
-- 2016: [Production of Highly Polarized Positrons Using Polarized Electrons at MeV Energies](https://doi.org/10.1103/PhysRevLett.116.214801)
-- 2016: [Photoproduction of the $f_1(1285)$ Meson](https://doi.org/10.1103/PhysRevC.93.065202)
-- 2016: [Target and beam-target spin asymmetries in exclusive $\pi^+$ and $\pi^-$ electroproduction with 1.6- to 5.7-GeV electrons](https://doi.org/10.1103/PhysRevC.94.055201)
-- 2016: [Photoproduction of $\Lambda$ and $\Sigma^0$ hyperons using linearly polarized photons](https://doi.org/10.1103/PhysRevC.93.065201)
-- 2016: [Interference effect between $\phi$ and $\Lambda(1520)$ production channels in the $\gamma p \rightarrow K^+K^-p$ reaction near threshold](https://doi.org/10.1103/PhysRevLett.116.232001)
-- 2016: [First measurement of the helicity asymmetry $E$ in $\eta$ photoproduction on the proton](https://doi.org/10.1016/j.physletb.2016.01.044)
-- 2015: [Search for baryon-number and lepton-number violating decays of Λ hyperons using the CLAS detector at Jefferson Laboratory](https://doi.org/10.1103/PhysRevD.92.072002)
-- 2015: [Precise determination of the deuteron spin structure at low to moderate $Q^2$ with CLAS and extraction of the neutron contribution](https://doi.org/10.1103/PhysRevC.92.055201)
-- 2015: [Cross sections for the exclusive photon electroproduction on the proton and Generalized Parton Distributions](https://doi.org/10.1103/PhysRevLett.115.212003)
-- 2015: [Determination of the beam-spin asymmetry of deuteron photodisintegration in the energy region $E_γ$ = 1.1 –2.3 GeV](https://doi.org/10.1103/PhysRevC.91.055202)
-- 2015: [First Measurement of the Polarization Observable E in the $\vec p(\vec \gamma,\pi^+)n$ Reaction up to 2.25 GeV](https://doi.org/10.1016/j.physletb.2015.08.053)
-- 2015: [Single and double spin asymmetries for deeply virtual Compton scattering measured with CLAS and a longitudinally polarized proton target](https://doi.org/10.1103/PhysRevD.91.052014)
-- 2015: [Measurements of $ep \to e^\prime \pi^+n$ at W = 1.6 - 2.0 GeV and extraction of nucleon resonance electrocouplings at CLAS](https://doi.org/10.1103/PhysRevC.91.045203)
-- 2015: [Towards a resolution of the proton form factor problem: new electron and positron scattering data](https://doi.org/10.1103/PhysRevLett.114.062003)
-- 2015: [Longitudinal target-spin asymmetries for deeply virtual Compton scattering](https://doi.org/10.1103/PhysRevLett.114.032001)
-- 2015: [The Heavy Photon Search Test Detector](https://doi.org/10.1016/j.nima.2014.12.017)
-- 2014: [Momentum sharing in imbalanced Fermi systems](https://doi.org/10.1126/science.1256785)
-- 2014: [Strangeness Suppression of qq¯ Creation Observed in Exclusive Reactions](https://doi.org/10.1103/PhysRevLett.113.152004)
-- 2014: [Induced polarization of {\Lambda}(1116) in kaon electroproduction](https://doi.org/10.1103/PhysRevC.90.035202)
-- 2014: [Dark matter search in a Beam-Dump eXperiment (BDX) at Jefferson Lab](https://arxiv.org/abs/1406.3028)
-- 2014: [Exclusive ${\pi}^0$ electroproduction at $W>2$ GeV with CLAS](https://doi.org/10.1103/PhysRevC.90.039901)
-- 2014: [Precision measurements of $g_1$ of the proton and the deuteron with 6 GeV electrons](https://doi.org/10.1103/PhysRevC.90.025212)
-- 2014: [Beam-spin asymmetries from semi-inclusive pion electroproduction](https://doi.org/10.1103/PhysRevD.89.072011)
-- 2014: [Measurement of the structure function of the nearly free neutron using spectator tagging in inelastic $^2$H(e, e'p)X scattering with CLAS](https://doi.org/10.1103/PhysRevC.89.045206)
-- 2014: [Search for $K^-pp$ bound state via $\gamma d \rightarrow K^+ \pi^-X$ reaction at $E_\gamma=1.5-2.4$ GeV](https://doi.org/10.1016/j.physletb.2013.12.039)
-- 2013: [Demonstration of a novel technique to measure two-photon exchange effects in elastic $e^\pm p$ scattering](https://doi.org/10.1103/PhysRevC.88.025210)
-- 2013: [Differential Photoproduction Cross Sections of the $\Sigma^0(1385)$, $\Lambda(1405)$, and $\Lambda(1520)$](https://doi.org/10.1103/PhysRevC.88.045201)
-- 2013: [Hard Two-body Photodisintegration of $^3$He](https://doi.org/10.1103/PhysRevLett.110.242301)
-- 2013: [Cross sections for the γp → $K^{*+}$Λ and γp → $K^{*+}Σ^0$ reactions measured at CLAS](https://doi.org/10.1103/PhysRevC.87.065204)
-- 2013: [Measurement of the Σπ photoproduction line shapes near the Λ(1405)](https://doi.org/10.1103/PhysRevC.87.035206)
-- 2013: [Performance of the CLAS12 Silicon Vertex Tracker modules](https://doi.org/10.1016/j.nima.2013.06.077)
-- 2013: [Measurement of transparency ratios for protons from short-range correlated pairs](https://doi.org/10.1016/j.physletb.2013.04.011)
-- 2013: [Near Threshold Neutral Pion Electroproduction at High Momentum Transfers and Generalized Form Factors](https://doi.org/10.1103/PhysRevC.87.045205)
-- 2013: [Deep exclusive $\pi^+$ electroproduction off the proton at CLAS](https://doi.org/10.1140/epja/i2013-13016-9)
-- 2012: [Comment on 'Observation of a narrow structure in $p(\gamma, K_S) X$ via interference with $\phi$-meson production'](https://doi.org/10.1103/PhysRevC.86.069801)
-- 2012: [Measurement of Exclusive $\pi^0$ Electroproduction Structure Functions and their Relationship to Transversity GPDs](https://doi.org/10.1103/PhysRevLett.109.112001)
-- 2012: [Experimental Study of the $P_{11}(1440)$ and $D_{13}(1520)$ resonances from CLAS data on $ep \rightarrow e'\pi^{+} \pi^{-} p'$](https://doi.org/10.1103/PhysRevC.86.035203)
-- 2012: [Exclusive pi0 electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3701209)
-- 2012: [Comment on the narrow structure reported by Amaryan et al](https://arxiv.org/abs/1204.1105)
-- 2012: [Spin-Density Matrix Elements for $\gamma p \to K^{*0} \Sigma^+$ at $E_\gamma=1.85-3.0$ GeV with Evidence for the $\kappa(800)$ Meson Exchange](https://doi.org/10.1103/PhysRevLett.108.092001)
-- 2012: [Measurement of the generalized form factors near threshold via $\gamma^* p \to n\pi^+$ at high $Q^2$](https://doi.org/10.1103/PhysRevC.85.035208)
-- 2012: [Evidence for the onset of color transparency in $\rho^0$  electroproduction off nuclei](https://doi.org/10.1016/j.physletb.2012.05.019)
-- 2012: [Measurement of the neutron F2 structure function via spectator tagging with CLAS](https://doi.org/10.1103/PhysRevLett.108.142001)
-- 2012: [Upper limits for the photoproduction cross section for the $\Phi^{--}(1860)$ pentaquark state off the deuteron](https://doi.org/10.1103/PhysRevC.85.015205)
-- 2012: [Semi-Inclusive Charged-Pion Electroproduction off Protons and Deuterons: Cross Sections, Ratios and Access to the Quark-Parton Model at Low Energies](https://doi.org/10.1103/PhysRevC.85.015202)
-- 2011: [Measurement of the nuclear multiplicity ratio for $K^0_s$ hadronization at CLAS](https://doi.org/10.1016/j.physletb.2011.10.071)
-- 2011: [Exclusive pi0, eta electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3647159)
-- 2011: [Precise measurements of beam spin asymmetries in semi-inclusive $\pi^0$ production](https://doi.org/10.1016/j.physletb.2011.09.044)
-- 2011: [Coherent Photoproduction of $\pi^{+}$ from $^3$He](https://doi.org/10.1103/PhysRevC.83.034001)
-- 2011: [Near-threshold Photoproduction of Phi Mesons from Deuterium](https://doi.org/10.1016/j.physletb.2010.12.065)
-- 2011: [CLAS data and progress in the investigation of electro-excitation of nucleon resonances](https://doi.org/10.1142/9789814329569_0029)
-- 2010: [Tensor Correlations Measured in $^3He(e,e'pp)n$](https://doi.org/10.1103/PhysRevLett.105.222501)
-- 2010: [Differential cross sections and recoil polarizations for the reaction $\gamma p \to K^{+} \Sigma^{0}$](https://doi.org/10.1103/PhysRevC.82.025202)
-- 2010: [Absorption of the $\omega$ and $\phi$ Mesons in Nuclei](https://doi.org/10.1103/PhysRevLett.105.112301)
-- 2010: [Measurement of Single and Double Spin Asymmetries in Deep Inelastic Pion Electroproduction with a Longitudinally Polarized Target](https://doi.org/10.1103/PhysRevLett.105.262002)
-- 2010: [Measurement of the Nucleon Structure Function F2 in the Nuclear Medium and Evaluation of its Moments](https://doi.org/10.1016/j.nuclphysa.2010.05.059)
-- 2010: [Differential cross section and recoil polarization measurements for the gamma p to K+ Lambda reaction using CLAS at Jefferson Lab](https://doi.org/10.1103/PhysRevC.81.025201)
-- 2010: [Evidence for a backward peak in the gama d ---> pi0 d cross section near the eta threshold](https://doi.org/10.1140/epja/i2010-10918-x)
-- 2009: [Differential cross s ections for the reactions gamma p ---> p eta and gamma p ---> p eta-prime](https://doi.org/10.1103/PhysRevC.80.045213)
-- 2009: [Electroexcitation of nucleon resonances from CLAS data on single pion electroproduction](https://doi.org/10.1103/PhysRevC.80.055203)
-- 2009: [Beam spin asymmetries from semi-inclusive pion electroproduction in deep inelastic scattering](https://doi.org/10.1063/1.3215689)
-- 2009: [Differential cross sections and spin density matrix elements for the reaction gamma p ---> p omega](https://doi.org/10.1103/PhysRevC.80.065208)
-- 2009: [Partial wave analysis of the reaction gamma p ---> p omega and the search for nucleon resonances](https://doi.org/10.1103/PhysRevC.80.065209)
-- 2009: [Photoproduction of pi+ pi- meson pairs on the proton](https://doi.org/10.1103/PhysRevD.80.072005)
-- 2009: [The Extraction of phi-N total cross section from d(gamma,pK+ K-)n](https://doi.org/10.1016/j.physletb.2009.09.024)
-- 2009: [Photodisintegration of $^4$He into p+t](https://doi.org/10.1103/PhysRevC.80.044603)
-- 2009: [Neutral Pion Electroproduction in the Resonance Region at High Q**2](https://doi.org/10.1103/PhysRevC.80.035203)
-- 2009: [Applications of quark-hadron duality in F(2) structure function](https://doi.org/10.1103/PhysRevC.80.035207)
-- 2009: [Beam-Recoil Polarization Transfer in the Nucleon Resonance Region in the Exclusive vec-ep ---> e-prime K+ vec-Lambda and vec-ep ---> e-prime K+ vec-Sigma0 Reactions at CLAS](https://doi.org/10.1103/PhysRevC.79.065205)
-- 2009: [A Measurement of the differential cross section for the reaction gamma n ---> pi- p from deuterium](https://doi.org/10.1103/PhysRevLett.103.012301)
-- 2009: [Beam spin asymmetries in deeply virtual Compton scattering (DVCS) with CLAS at 4.8 GeV](https://doi.org/10.1103/PhysRevC.80.035206)
-- 2009: [First measurement of direct f0(980) photoproduction on the proton](https://doi.org/10.1103/PhysRevLett.102.102001)
-- 2009: [A Precise Measurement of the Neutron Magnetic Form Factor G**n(M)in the Few-GeV**2 Region](https://doi.org/10.1103/PhysRevLett.102.192001)
-- 2009: [Measurement of unpolarized semi-inclusive pi+ electroproduction off the proton](https://doi.org/10.1103/PhysRevD.80.032004)
-- 2009: [Electroproduction of p pi+ pi- off protons at 0.2 < Q**2 < 0.6-GeV**2 and 1.3 < W < 1.57-GeV with CLAS](https://doi.org/10.1103/PhysRevC.79.015204)
-- 2009: [Exclusive rho0 electroproduction on the proton at CLAS](https://doi.org/10.1140/epja/i2008-10683-5)
-- 2009: [Search for the photo-excitation of exotic mesons in the pi+ pi+ pi- system](https://doi.org/10.1103/PhysRevLett.102.102002)
-- 2009: [Electroproduction of Eta Mesons in the S(11)(1535) Resonance Region at High Momentum Transfer](https://doi.org/10.1103/PhysRevC.80.015205)
-- 2009: [Moments of the Spin Structure Functions g**p(1) and g**d(1) for 0.05 < Q**2 < 3.0-GeV**2](https://doi.org/10.1016/j.physletb.2008.12.063)
-- 2008: [Electroexcitation of the Roper resonance for 1.7 < Q**2 < 4.5 -GeV2 in vec-ep ---> en pi+](https://doi.org/10.1103/PhysRevC.78.045209)
-- 2008: [First measurement of target and double spin asymmetries for polarized-e polarized-p ---> e p pi0 in the nucleon resonance region above the Delta(1232)](https://doi.org/10.1103/PhysRevC.78.045204)
-- 2008: [Light Vector Mesons in the Nuclear Medium](https://doi.org/10.1103/PhysRevC.78.015201)
-- 2008: [Electroproduction of phi(1020) mesons at 1.4 < Q**2 < 3.8 GeV**2 measured with the CLAS spectrometer](https://doi.org/10.1103/PhysRevC.78.025210)
-- 2008: [Polarized Structure Function sigma(LT-prime) for p(polarized-e, e-prime K+) Lambda in the Nucleon Resonance Region](https://doi.org/10.1103/PhysRevC.77.065208)
-- 2008: [Ratios of N-15/C-12 and He-4/C-12 inclusive electroproduction cross sections in the nucleon resonance region](https://doi.org/10.1103/PhysRevC.78.015202)
-- 2008: [Measurement of e p --> e p pi0 beam spin asymmetries above the resonance region](https://doi.org/10.1103/PhysRevC.77.042201)
-- 2008: [Measurement of Deeply virtual Compton scattering beam-spin asymmetries](https://doi.org/10.1103/PhysRevLett.100.162002)
-- 2008: [Cross sections and beam asymmetries for vec(e) p ---> en pi+ in the nucleon resonance region for 1.7 <= Q**2 <= 4.5-(GeV)**2](https://doi.org/10.1103/PhysRevC.77.015208)
-- 2008: [Transverse momentum dependence of semi-inclusive pion production](https://doi.org/10.1016/j.physletb.2008.05.047)
-- 2008: [A Bayesian analysis of pentaquark signals from CLAS data](https://doi.org/10.1103/PhysRevLett.100.052001)
-- 2007: [Search for medium modification of the rho meson](https://doi.org/10.1103/PhysRevLett.99.262302)
-- 2007: [Beam spin asymmetry measurements from deeply virtual meson production](https://doi.org/10.1063/1.2750854)
-- 2007: [pi0 photoproduction on the proton for photon energies from 0.675 to 2.875-GeV](https://doi.org/10.1103/PhysRevC.76.025211)
-- 2007: [γ* N → Δ at JLab: Exploring the High $Q^2$ Regime](https://doi.org/10.1063/1.2734308)
-- 2007: [Q*2 dependence of the S(11)(1535) photocoupling and evidence for a P-wave resonance in eta electroproduction](https://doi.org/10.1103/PhysRevC.76.015204)
-- 2007: [First measurement of coherent phi-meson photoproduction on deuteron at low energies](https://doi.org/10.1103/PhysRevC.76.052202)
-- 2007: [Cascade production in the reactions gamma p ---> K+ K+ (X) and gamma p ---> K+ K+ pi- (X)](https://doi.org/10.1103/PhysRevC.76.025208)
-- 2007: [Experimental study of exclusive H-2(e,e-prime p)n reaction mechanisms at high Q**2](https://doi.org/10.1103/PhysRevLett.98.262502)
-- 2007: [Cross-sections for the gamma p ---> K*0 Sigma+ reaction at E(gamma) = 1.7-GeV - 3.0-GeV](https://doi.org/10.1103/PhysRevC.76.039905)
-- 2007: [Separated structure functions for the exclusive electroproduction of K+ Lambda and K+ Sigma0 final states](https://doi.org/10.1103/PhysRevC.75.045203)
-- 2007: [First measurement of beam-recoil observables C(x) and C(z) in hyperon photoproduction](https://doi.org/10.1103/PhysRevC.75.035205)
-- 2007: [The Onset of Quark-Hadron Duality in Pion Electroproduction](https://doi.org/10.1103/PhysRevLett.98.022001)
-- 2007: [Quark-hadron duality in spin structure functions g(1)p and g(1)d](https://doi.org/10.1103/PhysRevC.75.035203)
-- 2006: [Single Pion Electroproduction in Δ(1232) and Roper Resonance Region with CLAS](https://doi.org/10.1063/1.2402682)
-- 2006: [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://doi.org/10.1103/PhysRevLett.97.112003)
-- 2006: [Search for the Theta+ pentaquark in the reactions gamma p ---> anti-K0 K+n and gamma p ---> anti-K0 K0p](https://doi.org/10.1103/PhysRevD.74.032001)
-- 2006: [Search for Theta++ pentaquarks in the exclusive reaction gamma p ---> K+ K- p](https://doi.org/10.1103/PhysRevLett.97.102001)
-- 2006: [Measurement of deeply virtual compton scattering with a polarized proton target](https://doi.org/10.1103/PhysRevLett.97.072002)
-- 2006: [Measurement of the x- and Q**2-dependence of the asymmetry A(1) on the nucleon](https://doi.org/10.1016/j.physletb.2006.08.011)
-- 2006: [Search for the Theta+ pentaquark in the gamma d ---> Lambda n K+ reaction measured with CLAS](https://doi.org/10.1103/PhysRevLett.97.032001)
-- 2006: [Search for the Theta+ pentaquark in the reaction gamma d ---> p K- K+ n](https://doi.org/10.1103/PhysRevLett.96.212001)
-- 2006: [Single pi+ electroproduction on the proton in the first and second resonance regions at 0.25-GeV**2 < Q**2 < 0.65-GeV**2 using CLAS](https://doi.org/10.1103/PhysRevC.73.025204)
-- 2006: [$\eta\prime$ photoproduction on the proton for photon energies from 1.527-GeV to 2.227-GeV](https://doi.org/10.1103/PhysRevLett.96.062001)
-- 2006: [Electron scattering from high-momentum neutrons in deuterium](https://doi.org/10.1103/PhysRevC.73.035212)
-- 2006: [Search for Theta+(1540) pentaquark in high statistics measurement of gamma p ---> anti-K0 K+ n at CLAS](https://doi.org/10.1103/PhysRevLett.96.042001)
-- 2006: [Differential cross sections for gamma + p ---> K+ + Y for Lambda and Sigma0 hyperons](https://doi.org/10.1103/PhysRevC.73.035202)
-- 2006: [Measurement of 2- and 3-nucleon short range correlation probabilities in nuclei](https://doi.org/10.1103/PhysRevLett.96.082501)
-- 2006: [Measurement of the deuteron structure function F(2) in the resonance region and evaluation of its moments](https://doi.org/10.1103/PhysRevC.73.045205)
-- 2005: [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://inspirehep.net/literature/706540)
-- 2005: [Beam-helicity asymmetries in double-charged-pion photoproduction on the proton](https://doi.org/10.1103/PhysRevLett.95.162003)
-- 2005: [The Deuteron structure function F(2) with CLAS](https://arxiv.org/abs/hep-ex/0507098)
-- 2005: [Measurement of the polarized structure function sigma(LT-prime) for pion electroproduction in the Roper resonance region](https://doi.org/10.1103/PhysRevC.72.058202)
-- 2005: [Deeply virtual and exclusive electroproduction of omega mesons](https://doi.org/10.1140/epja/i2005-10032-4)
-- 2005: [Radiative decays of the Sigma0(1385) and Lambda(1520) hyperons](https://doi.org/10.1103/PhysRevC.71.054609)
-- 2005: [Exclusive photoproduction of the cascade (Xi) hyperons](https://doi.org/10.1103/PhysRevC.71.058201)
-- 2005: [Exclusive rho0 meson electroproduction from hydrogen at CLAS](https://doi.org/10.1016/j.physletb.2004.11.019)
-- 2005: [Onset of asymptotic scaling in deuteron photodisintegration](https://doi.org/10.1103/PhysRevLett.94.012301)
-- 2005: [Survey of A(LT-prime) asymmetries in semi-exclusive electron scattering on He-4 and C-12](https://doi.org/10.1016/j.nuclphysa.2004.11.009)
-- 2004: [Complete measurement of three-body photodisintegration of He-3 for photon energies between 0.35-GeV and 1.55-GeV](https://doi.org/10.1103/PhysRevC.70.064003)
-- 2004: [Measurement of the polarized structure function sigma(LT-prime) for p(polarized-e, e-prime pi+)n in the Delta(1232) resonance region](https://doi.org/10.1103/PhysRevC.70.042201)
-- 2004: [Proton source size measurements in the eA ---> e-prime ppX reaction](https://doi.org/10.1103/PhysRevLett.93.192301)
-- 2004: [Complete angular distribution measurements of two body deuteron photodisintegration between 0.5-GeV and 3-GeV](https://doi.org/10.1103/PhysRevC.70.014005)
-- 2004: [Tensor polarization of the phi meson photoproduced at high t](https://doi.org/10.1103/PhysRevC.69.032203)
-- 2004: [Observation of an exotic baryon with S = +1 in photoproduction from the proton](https://doi.org/10.1103/PhysRevLett.92.032001)
-- 2004: [Two nucleon momentum distributions measured in He-3(e,e-prime pp)n](https://doi.org/10.1103/PhysRevLett.92.052303)
-- 2004: [Hyperon photoproduction in the nucleon resonance region](https://doi.org/10.1103/PhysRevC.69.042201)
-- 2004: [Measurement of beam-spin asymmetries for pi + electroproduction above the baryon resonance region](https://doi.org/10.1103/PhysRevD.69.112004)
-- 2003: [Study of e p ---> e p pi0 in the Delta(1232) mass region using polarization asymmetries](https://doi.org/10.1103/PhysRevC.68.035202)
-- 2003: [Observation of an exotic S = +1 baryon in exclusive photoproduction from the deuteron](https://doi.org/10.1103/PhysRevLett.91.252001)
-- 2003: [Measurement of the proton spin structure function g(1)(x,Q**2) for Q**2 from 0.15 to 1.6 GeV**2 with CLAS](https://doi.org/10.1103/PhysRevLett.91.222002)
-- 2003: [Measurement of ep ---> e-prime p pi+ pi-: Experimental procedures and baryon resonance analysis](https://arxiv.org/abs/hep-ex/0304034)
-- 2003: [Observation of nuclear scaling in the A(e, e-prime) reaction at x(B) greater than 1](https://doi.org/10.1103/PhysRevC.68.014313)
-- 2003: [Measurement of the polarized structure function sigma(LT-prime) for p(polarized-p, e-prime p) pi0 in the Delta(1232) resonance region](https://doi.org/10.1103/PhysRevC.68.032201)
-- 2003: [A Kinematically complete measurement of the proton structure function F(2) in the resonance region and evaluation of its moments](https://doi.org/10.1103/PhysRevD.67.092001)
-- 2003: [First measurement of transferred polarization in the exclusive polarized-e p ---> e-prime K+ polarized-Lambda reaction](https://doi.org/10.1103/PhysRevLett.90.131804)
-- 2003: [Measurement of e p ---> e-prime p pi+ pi- and baryon resonance analysis](https://doi.org/10.1103/PhysRevLett.91.022002)
-- 2002: [Eta photoproduction on the proton for photon energies from 0.75-GeV to 1.95-GeV](https://doi.org/10.1103/PhysRevLett.89.222002)
-- 2002: [First measurement of the double spin asymmetry in polarized-e polarized-p ---> e-prime pi+ n in the resonance region](https://doi.org/10.1103/PhysRevLett.88.082001)
-- : [Progress on the Interaction Region Design and Detector Integration at JLab’s MEIC](https://doi.org/10.18429/JACoW-IPAC2014-MOPRO005)
-- : [$\pi^0$ Electroproduction off the $\Delta(1232)$ Resonance at High Momentum Transfer](https://inspirehep.net/literature/1289007)
+{:.zebra.publications-table}
+| Year | Publication | Venue | Source |
+|:--:|:--|:--|:--:|
+| 2026 | [Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production](https://arxiv.org/abs/2605.11690) | Preprint | [arXiv](https://arxiv.org/abs/2605.11690) |
+| 2026 | [Measurement of the near-threshold J$/ψ$ photoproduction cross section with the CLAS12 experiment](https://arxiv.org/abs/2602.22128) | Preprint | [arXiv](https://arxiv.org/abs/2602.22128) |
+| 2026 | [Measurements of Beam Spin Asymmetries of $π^\pmπ^0$ dihadrons at CLAS12](https://arxiv.org/abs/2602.14271) | Preprint | [arXiv](https://arxiv.org/abs/2602.14271) |
+| 2026 | [First study of the nuclear response to fast hadrons via angular correlations between pions and slow protons in electron-nucleus scattering](https://doi.org/10.1016/j.physletb.2026.140250) | Phys.Lett.B 874 (2026) | [DOI](https://doi.org/10.1016/j.physletb.2026.140250) |
+| 2026 | [First displaced vertex search for electroproduced dark-sector strongly interacting massive particles by the HPS experiment](https://doi.org/10.1103/2k3q-9mhj) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/2k3q-9mhj) |
+| 2026 | [Proton transparency and neutrino physics: New methods and modeling](https://doi.org/10.1103/7xct-5jcp) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/7xct-5jcp) |
+| 2025 | [Polarization Observables $T$ and $F$ in the $γp \to π^0 p$ Reaction at CLAS](https://arxiv.org/abs/2508.17589) | Preprint | [arXiv](https://arxiv.org/abs/2508.17589) |
+| 2025 | [Measurement of beam-recoil observables Cx and Cz for K+Λ photoproduction](https://doi.org/10.1103/1q5m-x849) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/1q5m-x849) |
+| 2025 | [Recoil polarization in K+Y electroproduction in the nucleon resonance region with CLAS12](https://doi.org/10.1103/nhvq-7fv7) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/nhvq-7fv7) |
+| 2025 | [Measurement of single- and double-polarization observables in the photoproduction of π+π− meson pairs off the proton using CLAS at Jefferson Laboratory](https://doi.org/10.1103/bddq-9qlq) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/bddq-9qlq) |
+| 2025 | [Multidimensional measurements of beam single-spin asymmetries in semi-inclusive deep-inelastic charged-kaon electroproduction off protons in the valence region](https://doi.org/10.1103/2m4z-htrp) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/2m4z-htrp) |
+| 2025 | [Inclusive electron scattering in the resonance region off a hydrogen target with CLAS12](https://doi.org/10.1103/qy4p-dyjt) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/qy4p-dyjt) |
+| 2025 | [Photoproduction of two charged pions off protons in the resonance region](https://doi.org/10.1103/PhysRevC.111.035203) | Phys.Rev.C 111 (2025) | [DOI](https://doi.org/10.1103/PhysRevC.111.035203) |
+| 2025 | [Measurement of the nucleon spin structure functions for 0.01Q21GeV2 using CLAS](https://doi.org/10.1103/PhysRevC.111.035202) | Phys.Rev.C 111 (2025) | [DOI](https://doi.org/10.1103/PhysRevC.111.035202) |
+| 2025 | [Dihadron azimuthal correlations in deep-inelastic scattering off nuclear targets](https://doi.org/10.1103/PhysRevC.111.035201) | Phys.Rev.C 111 (2025) | [DOI](https://doi.org/10.1103/PhysRevC.111.035201) |
+| 2025 | [Suppression of neutral-pion production in deep-inelastic scattering off nuclei with the CLAS detector](https://doi.org/10.1103/kbhz-h4jv) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/kbhz-h4jv) |
+| 2025 | [Photoproduction of the Σ+ hyperon using linearly polarized photons with CLAS](https://doi.org/10.1103/PhysRevC.111.025204) | Phys.Rev.C 111 (2025) | [DOI](https://doi.org/10.1103/PhysRevC.111.025204) |
+| 2024 | [First Measurement of Deeply Virtual Compton Scattering on the Neutron with Detection of the Active Neutron](https://doi.org/10.1103/PhysRevLett.133.211903) | Phys.Rev.Lett. 133 (2024) | [DOI](https://doi.org/10.1103/PhysRevLett.133.211903) |
+| 2024 | [Geant4 Monte-Carlo (GEMC) A database-driven simulation program](https://doi.org/10.1051/epjconf/202429505005) | EPJ Web Conf. 295 (2024) | [DOI](https://doi.org/10.1051/epjconf/202429505005) |
+| 2024 | [Double-pion electroproduction off protons in deuterium: Quasifree cross sections and final-state interactions](https://doi.org/10.1103/PhysRevC.109.065205) | Phys.Rev.C 109 (2024) | [DOI](https://doi.org/10.1103/PhysRevC.109.065205) |
+| 2024 | [Beam spin asymmetry measurements of deeply virtual π0 production with CLAS12](https://doi.org/10.1016/j.physletb.2024.138459) | Phys.Lett.B 849 (2024) | [DOI](https://doi.org/10.1016/j.physletb.2024.138459) |
+| 2024 | [Strong interaction physics at the luminosity frontier with 22 GeV electrons at Jefferson Lab](https://doi.org/10.1140/epja/s10050-024-01282-x) | Eur.Phys.J.A 60 173 (2024) | [DOI](https://doi.org/10.1140/epja/s10050-024-01282-x) |
+| 2023 | [Measurement of the helicity asymmetry ${\mathbb {E}}$ for the $\vec {\gamma }\vec {p} \rightarrow p \pi ^0$ reaction in the resonance region: The CLAS Collaboration](https://doi.org/10.1140/epja/s10050-023-01123-3) | Eur.Phys.J.A 59 217 (2023) | [DOI](https://doi.org/10.1140/epja/s10050-023-01123-3) |
+| 2023 | [First Measurement of Hard Exclusive π-Δ++ Electroproduction Beam-Spin Asymmetries off the Proton](https://doi.org/10.1103/PhysRevLett.131.021901) | Phys.Rev.Lett. 131 (2023) | [DOI](https://doi.org/10.1103/PhysRevLett.131.021901) |
+| 2023 | [Searching for prompt and long-lived dark photons in electroproduced e+e- pairs with the heavy photon search experiment at JLab](https://doi.org/10.1103/PhysRevD.108.012015) | Phys.Rev.D 108 (2023) | [DOI](https://doi.org/10.1103/PhysRevD.108.012015) |
+| 2023 | [First CLAS12 Measurement of Deeply Virtual Compton Scattering Beam-Spin Asymmetries in the Extended Valence Region](https://doi.org/10.1103/PhysRevLett.130.211902) | Phys.Rev.Lett. 130 (2023) | [DOI](https://doi.org/10.1103/PhysRevLett.130.211902) |
+| 2023 | [A multidimensional study of the structure function ratio σLT′/σ0 from hard exclusive π+ electro-production off protons in the GPD regime](https://doi.org/10.1016/j.physletb.2023.137761) | Phys.Lett.B 839 (2023) | [DOI](https://doi.org/10.1016/j.physletb.2023.137761) |
+| 2023 | [First Measurement of Λ Electroproduction off Nuclei in the Current and Target Fragmentation Regions](https://doi.org/10.1103/PhysRevLett.130.142301) | Phys.Rev.Lett. 130 (2023) | [DOI](https://doi.org/10.1103/PhysRevLett.130.142301) |
+| 2023 | [Observation of large missing-momentum (e,e′p) cross-section scaling and the onset of correlated-pair dominance in nuclei](https://doi.org/10.1103/PhysRevC.107.L061301) | Phys.Rev.C 107 (2023) | [DOI](https://doi.org/10.1103/PhysRevC.107.L061301) |
+| 2023 | [Observation of Correlations between Spin and Transverse Momenta in Back-to-Back Dihadron Production at CLAS12](https://doi.org/10.1103/PhysRevLett.130.022501) | Phys.Rev.Lett. 130 (2023) | [DOI](https://doi.org/10.1103/PhysRevLett.130.022501) |
+| 2023 | [Alignment of the CLAS12 central hybrid tracker with a Kalman Filter](https://doi.org/10.1016/j.nima.2023.168032) | Nucl.Instrum.Meth.A 1049 (2023) | [DOI](https://doi.org/10.1016/j.nima.2023.168032) |
+| 2023 | [Exclusive π− electroproduction off the neutron in deuterium in the resonance region](https://doi.org/10.1103/PhysRevC.107.015201) | Phys.Rev.C 107 (2023) | [DOI](https://doi.org/10.1103/PhysRevC.107.015201) |
+| 2022 | [Observation of Azimuth-Dependent Suppression of Hadron Pairs in Electron Scattering off Nuclei](https://doi.org/10.1103/PhysRevLett.129.182501) | Phys.Rev.Lett. 129 18 (2022) | [DOI](https://doi.org/10.1103/PhysRevLett.129.182501) |
+| 2022 | [The Heavy Photon Search Experiment](https://arxiv.org/abs/2203.08324) | Preprint | [arXiv](https://arxiv.org/abs/2203.08324) |
+| 2022 | [Streaming readout for next generation electron scattering experiments](https://doi.org/10.1140/epjp/s13360-022-03146-z) | Eur.Phys.J.Plus 137 958 (2022) | [DOI](https://doi.org/10.1140/epjp/s13360-022-03146-z) |
+| 2022 | [Beam-recoil transferred polarization in K+Y electroproduction in the nucleon resonance region with CLAS12](https://doi.org/10.1103/PhysRevC.105.065201) | Phys.Rev.C 105 (2022) | [DOI](https://doi.org/10.1103/PhysRevC.105.065201) |
+| 2022 | [Simulation tool for MRPC telescopes of EEE experiment](https://doi.org/10.1088/1742-6596/2374/1/012051) | J.Phys.Conf.Ser. 2374 (2022) | [DOI](https://doi.org/10.1088/1742-6596/2374/1/012051) |
+| 2022 | [Reduction of Greenhouse Gases impact in the EEE Project](https://doi.org/10.1088/1742-6596/2374/1/012152) | J.Phys.Conf.Ser. 2374 (2022) | [DOI](https://doi.org/10.1088/1742-6596/2374/1/012152) |
+| 2022 | [Polarized structure function $\sigma_{LT'}$ from $\pi^0 p$ electroproduction data in the resonance region at 0.4GeV$^2$<Q$^2$<1.0GeV$^2$](https://doi.org/10.1103/PhysRevC.105.L022201) | Phys.Rev.C 105 (2022) | [DOI](https://doi.org/10.1103/PhysRevC.105.L022201) |
+| 2022 | [Measurement of charged-pion production in deep-inelastic scattering off nuclei with the CLAS detector](https://doi.org/10.1103/PhysRevC.105.015201) | Phys.Rev.C 105 (2022) | [DOI](https://doi.org/10.1103/PhysRevC.105.015201) |
+| 2022 | [Beam-spin asymmetry $\boldsymbol{\Sigma}$ for $\Sigma^-$ hyperon photoproduction off the neutron](https://doi.org/10.1016/j.physletb.2022.136985) | Phys.Lett.B 827 (2022) | [DOI](https://doi.org/10.1016/j.physletb.2022.136985) |
+| 2022 | [Science Requirements and Detector Concepts for the Electron-Ion Collider](https://doi.org/10.1016/j.nuclphysa.2022.122447) | Nucl.Phys.A 1026 (2022) | [DOI](https://doi.org/10.1016/j.nuclphysa.2022.122447) |
+| 2022 | [Multidimensional, High Precision Measurements of Beam Single Spin Asymmetries in Semi-inclusive $\pi^{+}$ Electroproduction off Protons in the Valence Region](https://doi.org/10.1103/PhysRevLett.128.062005) | Phys.Rev.Lett. 128 (2022) | [DOI](https://doi.org/10.1103/PhysRevLett.128.062005) |
+| 2021 | [Electron-beam energy reconstruction for neutrino oscillation measurements](https://doi.org/10.1038/s41586-021-04046-5) | Nature 599 565 (2021) | [DOI](https://doi.org/10.1038/s41586-021-04046-5) |
+| 2021 | [First Measurement of Timelike Compton Scattering](https://doi.org/10.1103/PhysRevLett.127.262501) | Phys.Rev.Lett. 127 (2021) | [DOI](https://doi.org/10.1103/PhysRevLett.127.262501) |
+| 2021 | [Improved $\Lambda p$ Elastic Scattering Cross Sections Between 0.9 and 2.0 GeV/c and Connections to the Neutron Star Equation of State](https://doi.org/10.1103/PhysRevLett.127.272303) | Phys.Rev.Lett. 127 (2021) | [DOI](https://doi.org/10.1103/PhysRevLett.127.272303) |
+| 2021 | [Double polarisation observable $\mathbb G$ for single pion photoproduction from the proton](https://doi.org/10.1016/j.physletb.2021.136304) | Phys.Lett.B 817 (2021) | [DOI](https://doi.org/10.1016/j.physletb.2021.136304) |
+| 2021 | [Light dark matter searches with positrons](https://doi.org/10.1140/epja/s10050-021-00524-6) | Eur.Phys.J.A 57 253 (2021) | [DOI](https://doi.org/10.1140/epja/s10050-021-00524-6) |
+| 2021 | [The cosmic muon and detector simulation framework of the extreme energy events (EEE) experiment](https://doi.org/10.1140/epjc/s10052-021-09237-y) | Eur.Phys.J.C 81 464 (2021) | [DOI](https://doi.org/10.1140/epjc/s10052-021-09237-y) |
+| 2021 | [Measurement of deeply virtual Compton scattering off $^{4}\mathrm{He}$ with the CEBAF Large Acceptance Spectrometer at Jefferson Lab](https://doi.org/10.1103/PhysRevC.104.025203) | Phys.Rev.C 104 (2021) | [DOI](https://doi.org/10.1103/PhysRevC.104.025203) |
+| 2021 | [Measurement of the proton spin structure at long distances](https://doi.org/10.1038/s41567-021-01198-z) | Nature Phys. 17 736 (2021) | [DOI](https://doi.org/10.1038/s41567-021-01198-z) |
+| 2021 | [Differential cross sections for $\Lambda(1520)$ using photoproduction at CLAS](https://doi.org/10.1103/PhysRevC.103.025206) | Phys.Rev.C 103 (2021) | [DOI](https://doi.org/10.1103/PhysRevC.103.025206) |
+| 2021 | [Observation of Beam Spin Asymmetries in the Process $ep\rightarrow{e}^{'}{\pi}^{+}{\pi}^{-}X$ with CLAS12](https://doi.org/10.1103/PhysRevLett.126.152501) | Phys.Rev.Lett. 126 (2021) | [DOI](https://doi.org/10.1103/PhysRevLett.126.152501) |
+| 2021 | [Photoproduction of the $f_2(1270)$ meson using the CLAS detector](https://doi.org/10.1103/PhysRevLett.126.082002) | Phys.Rev.Lett. 126 (2021) | [DOI](https://doi.org/10.1103/PhysRevLett.126.082002) |
+| 2021 | [Beam Spin Asymmetry in Semi-Inclusive Electroproduction of Hadron Pairs](https://doi.org/10.1103/PhysRevLett.126.062002) | Phys.Rev.Lett. 126 (2021) | [DOI](https://doi.org/10.1103/PhysRevLett.126.062002) |
+| 2021 | [An experimental program with high duty-cycle polarized and unpolarized positron beams at Jefferson Lab](https://doi.org/10.1140/epja/s10050-021-00564-y) | Eur.Phys.J.A 57 261 (2021) | [DOI](https://doi.org/10.1140/epja/s10050-021-00564-y) |
+| 2021 | [12C(e,e'pN) measurements of short range correlations in the tensor-to-scalar interaction transition region](https://doi.org/10.1016/j.physletb.2021.136523) | Phys.Lett.B 820 (2021) | [DOI](https://doi.org/10.1016/j.physletb.2021.136523) |
+| 2020 | [Beam–target helicity asymmetry $E$ in $K^+$ $\Sigma^-$ photoproduction on the neutron](https://doi.org/10.1016/j.physletb.2020.135662) | Phys.Lett.B 808 (2020) | [DOI](https://doi.org/10.1016/j.physletb.2020.135662) |
+| 2020 | [Extraction of Beam-Spin Asymmetries from the Hard Exclusive $\pi^+$ Channel off Protons in a Wide Range of Kinematics](https://doi.org/10.1103/PhysRevLett.125.182001) | Phys.Rev.Lett. 125 (2020) | [DOI](https://doi.org/10.1103/PhysRevLett.125.182001) |
+| 2020 | [Photoproduction of $\eta$ mesons off the proton for $1.2 < E_\gamma < 4.7$ GeV using CLAS at Jefferson Laboratory](https://doi.org/10.1103/PhysRevC.102.065203) | Phys.Rev.C 102 (2020) | [DOI](https://doi.org/10.1103/PhysRevC.102.065203) |
+| 2020 | [The CLAS12 Silicon Vertex Tracker](https://doi.org/10.1016/j.nima.2020.163701) | Nucl.Instrum.Meth.A 962 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163701) |
+| 2020 | [The CLAS12 beamline and its performance](https://doi.org/10.1016/j.nima.2020.163421) | Nucl.Instrum.Meth.A 959 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163421) |
+| 2020 | [The CLAS12 Geant4 simulation](https://doi.org/10.1016/j.nima.2020.163422) | Nucl.Instrum.Meth.A 959 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163422) |
+| 2020 | [The CLAS12 software framework and event reconstruction](https://doi.org/10.1016/j.nima.2020.163472) | Nucl.Instrum.Meth.A 959 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163472) |
+| 2020 | [The CLAS12 Spectrometer at Jefferson Laboratory](https://doi.org/10.1016/j.nima.2020.163419) | Nucl.Instrum.Meth.A 959 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163419) |
+| 2020 | [First measurement of direct photoproduction of the $a_2(1320)^0$ meson on the proton](https://doi.org/10.1103/PhysRevC.102.032201) | Phys.Rev.C 102 (2020) | [DOI](https://doi.org/10.1103/PhysRevC.102.032201) |
+| 2020 | [The CLAS12 Low Threshold Cherenkov detector](https://doi.org/10.1016/j.nima.2020.163420) | Nucl.Instrum.Meth.A 957 (2020) | [DOI](https://doi.org/10.1016/j.nima.2020.163420) |
+| 2020 | [Probing the core of the strong nuclear interaction](https://doi.org/10.1038/s41586-020-2021-6) | Nature 578 540 (2020) | [DOI](https://doi.org/10.1038/s41586-020-2021-6) |
+| 2020 | [Exclusive ${\pi^{0}p}$ electroproduction off protons in the resonance region at photon virtualities 0.4 GeV${^{2}}$ ${\leq~ Q^{2} \leq~1}$ GeV${^{2}}$](https://doi.org/10.1103/PhysRevC.101.015208) | Phys.Rev.C 101 (2020) | [DOI](https://doi.org/10.1103/PhysRevC.101.015208) |
+| 2019 | [Dark Matter Search in a Beam-Dump EXperiment (BDX) at Jefferson Lab -- 2018 Update to PR12-16-001](https://arxiv.org/abs/1910.03532) | Preprint | [arXiv](https://arxiv.org/abs/1910.03532) |
+| 2019 | [Modified structure of protons and neutrons in correlated pairs](https://doi.org/10.1038/s41586-019-0925-9) | Nature 566 354 (2019) | [DOI](https://doi.org/10.1038/s41586-019-0925-9) |
+| 2019 | [Measurement of the beam spin asymmetry of $\overrightarrow e p \to e′p′ \eta$ in the deep-inelastic regime with CLAS](https://doi.org/10.1016/j.physletb.2018.12.065) | Phys.Lett.B 789 426 (2019) | [DOI](https://doi.org/10.1016/j.physletb.2018.12.065) |
+| 2019 | [Exploring the Structure of the Bound Proton with Deeply Virtual Compton Scattering](https://doi.org/10.1103/PhysRevLett.123.032502) | Phys.Rev.Lett. 123 (2019) | [DOI](https://doi.org/10.1103/PhysRevLett.123.032502) |
+| 2019 | [First Measurements of the Double-Polarization Observables F , P , and H in ω Photoproduction off Transversely Polarized Protons in the N* Resonance Region](https://doi.org/10.1103/PhysRevLett.122.162301) | Phys.Rev.Lett. 122 (2019) | [DOI](https://doi.org/10.1103/PhysRevLett.122.162301) |
+| 2019 | [Measurement of Nuclear Transparency Ratios for Protons and Neutrons](https://doi.org/10.1016/j.physletb.2019.07.039) | Phys.Lett.B 797 (2019) | [DOI](https://doi.org/10.1016/j.physletb.2019.07.039) |
+| 2019 | [Direct Observation of Proton-Neutron Short-Range Correlation Dominance in Heavy Nuclei](https://doi.org/10.1103/PhysRevLett.122.172502) | Phys.Rev.Lett. 122 (2019) | [DOI](https://doi.org/10.1103/PhysRevLett.122.172502) |
+| 2019 | [First results on nucleon resonance photocouplings from the $\gamma p \to \pi^+\pi^-p$ reaction](https://doi.org/10.1016/j.physletb.2018.10.013) | Phys.Lett.B 788 371 (2019) | [DOI](https://doi.org/10.1016/j.physletb.2018.10.013) |
+| 2018 | [Measurement of Unpolarized and Polarized Cross Sections for Deeply Virtual Compton Scattering on the Proton at Jefferson Laboratory with CLAS](https://doi.org/10.1103/PhysRevC.98.045203) | Phys.Rev.C 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.98.045203) |
+| 2018 | [Study of $\Xi^*$ Photoproduction from Threshold to $W = 3.3$ GeV](https://doi.org/10.1103/PhysRevC.98.062201) | Phys.Rev.C 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.98.062201) |
+| 2018 | [Exclusive $\pi ^{0}$ Electroproduction in the Resonance Region](https://doi.org/10.1007/s00601-018-1448-x) | Few Body Syst. 59 134 (2018) | [DOI](https://doi.org/10.1007/s00601-018-1448-x) |
+| 2018 | [Probing high-momentum protons and neutrons in neutron-rich nuclei](https://doi.org/10.1038/s41586-018-0400-z) | Nature 560 617 (2018) | [DOI](https://doi.org/10.1038/s41586-018-0400-z) |
+| 2018 | [Photoproduction of $K^+K^-$ meson pairs on the proton](https://doi.org/10.1103/PhysRevD.98.052009) | Phys.Rev.D 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevD.98.052009) |
+| 2018 | [Search for a dark photon in electroproduced $e^{+}e^{-}$ pairs with the Heavy Photon Search experiment at JLab](https://doi.org/10.1103/PhysRevD.98.091101) | Phys.Rev.D 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevD.98.091101) |
+| 2018 | [Beam-target helicity asymmetry $E$ in $K^{0}\Lambda$ and $K^{0}\Sigma^0$ photoproduction on the neutron](https://doi.org/10.1103/PhysRevC.98.045205) | Phys.Rev.C 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.98.045205) |
+| 2018 | [Center of Mass Motion of Short-Range Correlated Nucleon Pairs studied via the $A(e,e′pp)$ Reaction](https://doi.org/10.1103/PhysRevLett.121.092501) | Phys.Rev.Lett. 121 (2018) | [DOI](https://doi.org/10.1103/PhysRevLett.121.092501) |
+| 2018 | [Measurements of the $\gamma_{v} p \rightarrow p' \pi^{+} \pi^{-}$ cross section with the CLAS detector for $0.4$ GeV$^{2}$ $< Q^{2} <$ $1.0$ GeV$^{2}$ and $1.3$ GeV $< W <$ $1.825$ GeV](https://doi.org/10.1103/PhysRevC.98.025203) | Phys.Rev.C 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.98.025203) |
+| 2018 | [First measurement of $\Xi^-$ polarization in photoproduction](https://doi.org/10.1016/j.physletb.2018.07.004) | Phys.Lett.B 783 280 (2018) | [DOI](https://doi.org/10.1016/j.physletb.2018.07.004) |
+| 2018 | [Differential cross section for $\gamma d \rightarrow \omega d$ using CLAS at Jefferson Lab](https://doi.org/10.1016/j.physletb.2018.06.003) | Phys.Lett.B 782 646 (2018) | [DOI](https://doi.org/10.1016/j.physletb.2018.06.003) |
+| 2018 | [Differential cross section and photon-beam asymmetry for the $\gamma p \to \pi^- \Delta^{++}$(1232) reaction at forward $\pi^-$ angles for $E_\gamma$=1.5-2.95 GeV](https://doi.org/10.1103/PhysRevLett.120.202004) | Phys.Rev.Lett. 120 (2018) | [DOI](https://doi.org/10.1103/PhysRevLett.120.202004) |
+| 2018 | [Exclusive photoproduction of $\pi^0$ up to large values of Mandelstam variables $s, t$ and $u$ with CLAS](https://doi.org/10.1103/PhysRevC.98.015207) | Phys.Rev.C 98 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.98.015207) |
+| 2018 | [Double $K_S^0$ Photoproduction off the Proton at CLAS](https://doi.org/10.1103/PhysRevC.97.025203) | Phys.Rev.C 97 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.97.025203) |
+| 2018 | [Hard exclusive pion electroproduction at backward angles with CLAS](https://doi.org/10.1016/j.physletb.2018.03.026) | Phys.Lett.B 780 340 (2018) | [DOI](https://doi.org/10.1016/j.physletb.2018.03.026) |
+| 2018 | [Measurement of the beam asymmetry $\Sigma$ and the target asymmetry $T$ in the photoproduction of $\omega$ mesons off the proton using CLAS at Jefferson Laboratory](https://doi.org/10.1103/PhysRevC.97.055202) | Phys.Rev.C 97 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.97.055202) |
+| 2018 | [Photoproduction of $\Lambda$ and $\Sigma^{0}$ hyperons off protons with linearly polarized photons at $E_{\gamma} = 1.5-3.0$ GeV](https://doi.org/10.1103/PhysRevC.97.015208) | Phys.Rev.C 97 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.97.015208) |
+| 2018 | [Measurement of the ${Q}^{2}$ Dependence of the Deuteron Spin Structure Function ${g}_{1}$ and its Moments at Low ${Q}^{2}$ with CLAS](https://doi.org/10.1103/PhysRevLett.120.062501) | Phys.Rev.Lett. 120 (2018) | [DOI](https://doi.org/10.1103/PhysRevLett.120.062501) |
+| 2018 | [Semi-Inclusive $\pi_0$ target and beam-target asymmetries from 6 GeV electron scattering with CLAS](https://doi.org/10.1016/j.physletb.2018.06.014) | Phys.Lett.B 782 662 (2018) | [DOI](https://doi.org/10.1016/j.physletb.2018.06.014) |
+| 2018 | [Differential cross section and photon beam asymmetry for the $\overrightarrow \gamma p \to \pi^+$ n reaction at forward $\pi^+$ angles at E$_\gamma$ =1.5-2.95 GeV](https://doi.org/10.1103/PhysRevC.97.015205) | Phys.Rev.C 97 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.97.015205) |
+| 2018 | [Measurements of the separated longitudinal structure function $F_L$ from hydrogen and deuterium targets at low $Q^2$](https://doi.org/10.1103/PhysRevC.97.045204) | Phys.Rev.C 97 (2018) | [DOI](https://doi.org/10.1103/PhysRevC.97.045204) |
+| 2017 | [Dark matter search in a Beam-Dump eXperiment (BDX) at Jefferson Lab: an update on PR12-16-001](https://arxiv.org/abs/1712.01518) | Preprint | [arXiv](https://arxiv.org/abs/1712.01518) |
+| 2017 | [$\phi$ photoproduction on the proton at $E_{\gamma}$ = 1.5 - 2.9 GeV](https://doi.org/10.1103/PhysRevC.96.062201) | Phys.Rev.C 96 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.96.062201) |
+| 2017 | [Differential cross sections and polarization observables from CLAS $K$* photoproduction and the search for new $N$* states](https://doi.org/10.1016/j.physletb.2017.05.029) | Phys.Lett.B 771 142 (2017) | [DOI](https://doi.org/10.1016/j.physletb.2017.05.029) |
+| 2017 | [Measurement of the helicity asymmetry $E$ in $\omega\to\pi^+\pi^-\pi^0$ photoproduction](https://doi.org/10.1103/PhysRevC.96.065209) | Phys.Rev.C 96 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.96.065209) |
+| 2017 | [First Exclusive Measurement of Deeply Virtual Compton Scattering off $^4$He: Toward the 3D Tomography of Nuclei](https://doi.org/10.1103/PhysRevLett.119.202004) | Phys.Rev.Lett. 119 (2017) | [DOI](https://doi.org/10.1103/PhysRevLett.119.202004) |
+| 2017 | [Determination of the Proton Spin Structure Functions for $0.05 < Q^{2} < 5 GeV^{2}$ using CLAS](https://doi.org/10.1103/PhysRevC.96.065208) | Phys.Rev.C 96 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.96.065208) |
+| 2017 | [Measurement of the differential and total cross sections of the ${\gamma}d{\rightarrow}{K}^{0}\mathrm{{\Lambda}}(p)$ reaction within the resonance region](https://doi.org/10.1103/PhysRevC.96.065201) | Phys.Rev.C 96 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.96.065201) |
+| 2017 | [Photon beam asymmetry $\Sigma$ in the reaction $\vec{\gamma} p \to p \omega$ for $E_\gamma$ = 1.152 to 1.876 GeV](https://doi.org/10.1016/j.physletb.2017.08.015) | Phys.Lett.B 773 112 (2017) | [DOI](https://doi.org/10.1016/j.physletb.2017.08.015) |
+| 2017 | [Differential cross section measurements for $\gamma n\rightarrow{\pi}^{-}p$ above the first nucleon resonance region](https://doi.org/10.1103/PhysRevC.96.035204) | Phys.Rev.C 96 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.96.035204) |
+| 2017 | [Beam-Target Helicity Asymmetry for $\vec{\gamma} \vec{n} \rightarrow \pi^- p$ in the $N^*$ Resonance Region](https://doi.org/10.1103/PhysRevLett.118.242002) | Phys.Rev.Lett. 118 (2017) | [DOI](https://doi.org/10.1103/PhysRevLett.118.242002) |
+| 2017 | [Measurements of $e p \to e' \pi^+ \pi^- p'$ Cross Sections with CLAS at $1.40$ Gev $< W < 2.0$ GeV and $2.0$ GeV$^2$ $< Q^2 < 5.0$ GeV$^2$](https://doi.org/10.1103/PhysRevC.96.025209) | Phys.Rev.C 96 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.96.025209) |
+| 2017 | [Exclusive $\eta$ electroproduction at $W$>2 GeV with CLAS and transversity generalized parton distributions](https://doi.org/10.1103/PhysRevC.95.035202) | Phys.Rev.C 95 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.95.035202) |
+| 2017 | [Photon beam asymmetry $\Sigma$ for $\eta$ and $\eta^\prime$ photoproduction from the proton](https://doi.org/10.1016/j.physletb.2017.05.045) | Phys.Lett.B 771 213 (2017) | [DOI](https://doi.org/10.1016/j.physletb.2017.05.045) |
+| 2017 | [The Heavy Photon Search beamline and its performance](https://doi.org/10.1016/j.nima.2017.03.061) | Nucl.Instrum.Meth.A 859 69 (2017) | [DOI](https://doi.org/10.1016/j.nima.2017.03.061) |
+| 2017 | [Target and beam-target spin asymmetries in exclusive pion electroproduction for $Q^2>1$ GeV$^2$. II. $e p \rightarrow e \pi^0 p$](https://doi.org/10.1103/PhysRevC.95.035207) | Phys.Rev.C 95 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.95.035207) |
+| 2017 | [Enhanced UV light detection using a p-terphenyl wavelength shifter](https://doi.org/10.1016/j.nima.2017.06.050) | Nucl.Instrum.Meth.A 870 110 (2017) | [DOI](https://doi.org/10.1016/j.nima.2017.06.050) |
+| 2017 | [Beam-target double-spin asymmetry in quasielastic electron scattering off the deuteron with CLAS](https://doi.org/10.1103/PhysRevC.95.024005) | Phys.Rev.C 95 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.95.024005) |
+| 2017 | [Target and Beam-Target Spin Asymmetries in Exclusive Pion Electroproduction for $Q^2>1$ GeV$^2$. I. $e p \rightarrow e \pi^+ n$](https://doi.org/10.1103/PhysRevC.95.035206) | Phys.Rev.C 95 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.95.035206) |
+| 2017 | [Measurement of two-photon exchange effect by comparing elastic $e^\pm p$ cross sections](https://doi.org/10.1103/PhysRevC.95.065201) | Phys.Rev.C 95 (2017) | [DOI](https://doi.org/10.1103/PhysRevC.95.065201) |
+| 2017 | [Target and double spin asymmetries of deeply virtual $\pi^0$ production with a longitudinally polarized proton target and CLAS](https://doi.org/10.1016/j.physletb.2017.02.032) | Phys.Lett.B 768 168 (2017) | [DOI](https://doi.org/10.1016/j.physletb.2017.02.032) |
+| 2016 | [Dark Sectors 2016 Workshop: Community Report](https://arxiv.org/abs/1608.08632) | Preprint | [arXiv](https://arxiv.org/abs/1608.08632) |
+| 2016 | [Measurement of Target and Double-spin Asymmetries for the $\vec e\vec p\to e\pi^+ (n)$ Reaction in the Nucleon Resonance Region at Low $Q^2$](https://doi.org/10.1103/PhysRevC.94.045206) | Phys.Rev.C 94 (2016) | [DOI](https://doi.org/10.1103/PhysRevC.94.045206) |
+| 2016 | [Dark Matter Search in a Beam-Dump eXperiment (BDX) at Jefferson Lab](https://arxiv.org/abs/1607.01390) | Preprint | [arXiv](https://arxiv.org/abs/1607.01390) |
+| 2016 | [Production of Highly Polarized Positrons Using Polarized Electrons at MeV Energies](https://doi.org/10.1103/PhysRevLett.116.214801) | Phys.Rev.Lett. 116 (2016) | [DOI](https://doi.org/10.1103/PhysRevLett.116.214801) |
+| 2016 | [Photoproduction of the $f_1(1285)$ Meson](https://doi.org/10.1103/PhysRevC.93.065202) | Phys.Rev.C 93 (2016) | [DOI](https://doi.org/10.1103/PhysRevC.93.065202) |
+| 2016 | [Target and beam-target spin asymmetries in exclusive $\pi^+$ and $\pi^-$ electroproduction with 1.6- to 5.7-GeV electrons](https://doi.org/10.1103/PhysRevC.94.055201) | Phys.Rev.C 94 (2016) | [DOI](https://doi.org/10.1103/PhysRevC.94.055201) |
+| 2016 | [Photoproduction of $\Lambda$ and $\Sigma^0$ hyperons using linearly polarized photons](https://doi.org/10.1103/PhysRevC.93.065201) | Phys.Rev.C 93 (2016) | [DOI](https://doi.org/10.1103/PhysRevC.93.065201) |
+| 2016 | [Interference effect between $\phi$ and $\Lambda(1520)$ production channels in the $\gamma p \rightarrow K^+K^-p$ reaction near threshold](https://doi.org/10.1103/PhysRevLett.116.232001) | Phys.Rev.Lett. 116 (2016) | [DOI](https://doi.org/10.1103/PhysRevLett.116.232001) |
+| 2016 | [First measurement of the helicity asymmetry $E$ in $\eta$ photoproduction on the proton](https://doi.org/10.1016/j.physletb.2016.01.044) | Phys.Lett.B 755 64 (2016) | [DOI](https://doi.org/10.1016/j.physletb.2016.01.044) |
+| 2015 | [Search for baryon-number and lepton-number violating decays of Λ hyperons using the CLAS detector at Jefferson Laboratory](https://doi.org/10.1103/PhysRevD.92.072002) | Phys.Rev.D 92 (2015) | [DOI](https://doi.org/10.1103/PhysRevD.92.072002) |
+| 2015 | [Precise determination of the deuteron spin structure at low to moderate $Q^2$ with CLAS and extraction of the neutron contribution](https://doi.org/10.1103/PhysRevC.92.055201) | Phys.Rev.C 92 (2015) | [DOI](https://doi.org/10.1103/PhysRevC.92.055201) |
+| 2015 | [Cross sections for the exclusive photon electroproduction on the proton and Generalized Parton Distributions](https://doi.org/10.1103/PhysRevLett.115.212003) | Phys.Rev.Lett. 115 (2015) | [DOI](https://doi.org/10.1103/PhysRevLett.115.212003) |
+| 2015 | [Determination of the beam-spin asymmetry of deuteron photodisintegration in the energy region $E_γ$ = 1.1 –2.3 GeV](https://doi.org/10.1103/PhysRevC.91.055202) | Phys.Rev.C 91 (2015) | [DOI](https://doi.org/10.1103/PhysRevC.91.055202) |
+| 2015 | [First Measurement of the Polarization Observable E in the $\vec p(\vec \gamma,\pi^+)n$ Reaction up to 2.25 GeV](https://doi.org/10.1016/j.physletb.2015.08.053) | Phys.Lett.B 750 53 (2015) | [DOI](https://doi.org/10.1016/j.physletb.2015.08.053) |
+| 2015 | [Single and double spin asymmetries for deeply virtual Compton scattering measured with CLAS and a longitudinally polarized proton target](https://doi.org/10.1103/PhysRevD.91.052014) | Phys.Rev.D 91 (2015) | [DOI](https://doi.org/10.1103/PhysRevD.91.052014) |
+| 2015 | [Measurements of $ep \to e^\prime \pi^+n$ at W = 1.6 - 2.0 GeV and extraction of nucleon resonance electrocouplings at CLAS](https://doi.org/10.1103/PhysRevC.91.045203) | Phys.Rev.C 91 (2015) | [DOI](https://doi.org/10.1103/PhysRevC.91.045203) |
+| 2015 | [Towards a resolution of the proton form factor problem: new electron and positron scattering data](https://doi.org/10.1103/PhysRevLett.114.062003) | Phys.Rev.Lett. 114 (2015) | [DOI](https://doi.org/10.1103/PhysRevLett.114.062003) |
+| 2015 | [Longitudinal target-spin asymmetries for deeply virtual Compton scattering](https://doi.org/10.1103/PhysRevLett.114.032001) | Phys.Rev.Lett. 114 (2015) | [DOI](https://doi.org/10.1103/PhysRevLett.114.032001) |
+| 2015 | [The Heavy Photon Search Test Detector](https://doi.org/10.1016/j.nima.2014.12.017) | Nucl.Instrum.Meth.A 777 91 (2015) | [DOI](https://doi.org/10.1016/j.nima.2014.12.017) |
+| 2014 | [Momentum sharing in imbalanced Fermi systems](https://doi.org/10.1126/science.1256785) | Science 346 614 (2014) | [DOI](https://doi.org/10.1126/science.1256785) |
+| 2014 | [Strangeness Suppression of qq¯ Creation Observed in Exclusive Reactions](https://doi.org/10.1103/PhysRevLett.113.152004) | Phys.Rev.Lett. 113 (2014) | [DOI](https://doi.org/10.1103/PhysRevLett.113.152004) |
+| 2014 | [Induced polarization of {\Lambda}(1116) in kaon electroproduction](https://doi.org/10.1103/PhysRevC.90.035202) | Phys.Rev.C 90 (2014) | [DOI](https://doi.org/10.1103/PhysRevC.90.035202) |
+| 2014 | [Dark matter search in a Beam-Dump eXperiment (BDX) at Jefferson Lab](https://arxiv.org/abs/1406.3028) | Preprint | [arXiv](https://arxiv.org/abs/1406.3028) |
+| 2014 | [Exclusive ${\pi}^0$ electroproduction at $W>2$ GeV with CLAS](https://doi.org/10.1103/PhysRevC.90.039901) | Phys.Rev.C 90 (2014) | [DOI](https://doi.org/10.1103/PhysRevC.90.039901) |
+| 2014 | [Precision measurements of $g_1$ of the proton and the deuteron with 6 GeV electrons](https://doi.org/10.1103/PhysRevC.90.025212) | Phys.Rev.C 90 (2014) | [DOI](https://doi.org/10.1103/PhysRevC.90.025212) |
+| 2014 | [Beam-spin asymmetries from semi-inclusive pion electroproduction](https://doi.org/10.1103/PhysRevD.89.072011) | Phys.Rev.D 89 (2014) | [DOI](https://doi.org/10.1103/PhysRevD.89.072011) |
+| 2014 | [Measurement of the structure function of the nearly free neutron using spectator tagging in inelastic $^2$H(e, e'p)X scattering with CLAS](https://doi.org/10.1103/PhysRevC.89.045206) | Phys.Rev.C 89 (2014) | [DOI](https://doi.org/10.1103/PhysRevC.89.045206) |
+| 2014 | [Search for $K^-pp$ bound state via $\gamma d \rightarrow K^+ \pi^-X$ reaction at $E_\gamma=1.5-2.4$ GeV](https://doi.org/10.1016/j.physletb.2013.12.039) | Phys.Lett.B 728 616 (2014) | [DOI](https://doi.org/10.1016/j.physletb.2013.12.039) |
+| 2013 | [Demonstration of a novel technique to measure two-photon exchange effects in elastic $e^\pm p$ scattering](https://doi.org/10.1103/PhysRevC.88.025210) | Phys.Rev.C 88 (2013) | [DOI](https://doi.org/10.1103/PhysRevC.88.025210) |
+| 2013 | [Differential Photoproduction Cross Sections of the $\Sigma^0(1385)$, $\Lambda(1405)$, and $\Lambda(1520)$](https://doi.org/10.1103/PhysRevC.88.045201) | Phys.Rev.C 88 (2013) | [DOI](https://doi.org/10.1103/PhysRevC.88.045201) |
+| 2013 | [Hard Two-body Photodisintegration of $^3$He](https://doi.org/10.1103/PhysRevLett.110.242301) | Phys.Rev.Lett. 110 (2013) | [DOI](https://doi.org/10.1103/PhysRevLett.110.242301) |
+| 2013 | [Cross sections for the γp → $K^{*+}$Λ and γp → $K^{*+}Σ^0$ reactions measured at CLAS](https://doi.org/10.1103/PhysRevC.87.065204) | Phys.Rev.C 87 (2013) | [DOI](https://doi.org/10.1103/PhysRevC.87.065204) |
+| 2013 | [Measurement of the Σπ photoproduction line shapes near the Λ(1405)](https://doi.org/10.1103/PhysRevC.87.035206) | Phys.Rev.C 87 (2013) | [DOI](https://doi.org/10.1103/PhysRevC.87.035206) |
+| 2013 | [Performance of the CLAS12 Silicon Vertex Tracker modules](https://doi.org/10.1016/j.nima.2013.06.077) | Nucl.Instrum.Meth.A 732 99 (2013) | [DOI](https://doi.org/10.1016/j.nima.2013.06.077) |
+| 2013 | [Measurement of transparency ratios for protons from short-range correlated pairs](https://doi.org/10.1016/j.physletb.2013.04.011) | Phys.Lett.B 722 63 (2013) | [DOI](https://doi.org/10.1016/j.physletb.2013.04.011) |
+| 2013 | [Near Threshold Neutral Pion Electroproduction at High Momentum Transfers and Generalized Form Factors](https://doi.org/10.1103/PhysRevC.87.045205) | Phys.Rev.C 87 (2013) | [DOI](https://doi.org/10.1103/PhysRevC.87.045205) |
+| 2013 | [Deep exclusive $\pi^+$ electroproduction off the proton at CLAS](https://doi.org/10.1140/epja/i2013-13016-9) | Eur.Phys.J.A 49 16 (2013) | [DOI](https://doi.org/10.1140/epja/i2013-13016-9) |
+| 2012 | [Comment on 'Observation of a narrow structure in $p(\gamma, K_S) X$ via interference with $\phi$-meson production'](https://doi.org/10.1103/PhysRevC.86.069801) | Phys.Rev.C 86 (2012) | [DOI](https://doi.org/10.1103/PhysRevC.86.069801) |
+| 2012 | [Measurement of Exclusive $\pi^0$ Electroproduction Structure Functions and their Relationship to Transversity GPDs](https://doi.org/10.1103/PhysRevLett.109.112001) | Phys.Rev.Lett. 109 (2012) | [DOI](https://doi.org/10.1103/PhysRevLett.109.112001) |
+| 2012 | [Experimental Study of the $P_{11}(1440)$ and $D_{13}(1520)$ resonances from CLAS data on $ep \rightarrow e'\pi^{+} \pi^{-} p'$](https://doi.org/10.1103/PhysRevC.86.035203) | Phys.Rev.C 86 (2012) | [DOI](https://doi.org/10.1103/PhysRevC.86.035203) |
+| 2012 | [Exclusive pi0 electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3701209) | AIP Conf.Proc. 1432 187 (2012) | [DOI](https://doi.org/10.1063/1.3701209) |
+| 2012 | [Comment on the narrow structure reported by Amaryan et al](https://arxiv.org/abs/1204.1105) | Preprint | [arXiv](https://arxiv.org/abs/1204.1105) |
+| 2012 | [Spin-Density Matrix Elements for $\gamma p \to K^{*0} \Sigma^+$ at $E_\gamma=1.85-3.0$ GeV with Evidence for the $\kappa(800)$ Meson Exchange](https://doi.org/10.1103/PhysRevLett.108.092001) | Phys.Rev.Lett. 108 (2012) | [DOI](https://doi.org/10.1103/PhysRevLett.108.092001) |
+| 2012 | [Measurement of the generalized form factors near threshold via $\gamma^* p \to n\pi^+$ at high $Q^2$](https://doi.org/10.1103/PhysRevC.85.035208) | Phys.Rev.C 85 (2012) | [DOI](https://doi.org/10.1103/PhysRevC.85.035208) |
+| 2012 | [Evidence for the onset of color transparency in $\rho^0$ electroproduction off nuclei](https://doi.org/10.1016/j.physletb.2012.05.019) | Phys.Lett.B 712 326 (2012) | [DOI](https://doi.org/10.1016/j.physletb.2012.05.019) |
+| 2012 | [Measurement of the neutron F2 structure function via spectator tagging with CLAS](https://doi.org/10.1103/PhysRevLett.108.142001) | Phys.Rev.Lett. 108 (2012) | [DOI](https://doi.org/10.1103/PhysRevLett.108.142001) |
+| 2012 | [Upper limits for the photoproduction cross section for the $\Phi^{--}(1860)$ pentaquark state off the deuteron](https://doi.org/10.1103/PhysRevC.85.015205) | Phys.Rev.C 85 (2012) | [DOI](https://doi.org/10.1103/PhysRevC.85.015205) |
+| 2012 | [Semi-Inclusive Charged-Pion Electroproduction off Protons and Deuterons: Cross Sections, Ratios and Access to the Quark-Parton Model at Low Energies](https://doi.org/10.1103/PhysRevC.85.015202) | Phys.Rev.C 85 (2012) | [DOI](https://doi.org/10.1103/PhysRevC.85.015202) |
+| 2011 | [Measurement of the nuclear multiplicity ratio for $K^0_s$ hadronization at CLAS](https://doi.org/10.1016/j.physletb.2011.10.071) | Phys.Lett.B 706 26 (2011) | [DOI](https://doi.org/10.1016/j.physletb.2011.10.071) |
+| 2011 | [Exclusive pi0, eta electroproduction in the resonance region at high Q**2](https://doi.org/10.1063/1.3647159) | AIP Conf.Proc. 1374 357 (2011) | [DOI](https://doi.org/10.1063/1.3647159) |
+| 2011 | [Precise measurements of beam spin asymmetries in semi-inclusive $\pi^0$ production](https://doi.org/10.1016/j.physletb.2011.09.044) | Phys.Lett.B 704 397 (2011) | [DOI](https://doi.org/10.1016/j.physletb.2011.09.044) |
+| 2011 | [Coherent Photoproduction of $\pi^{+}$ from $^3$He](https://doi.org/10.1103/PhysRevC.83.034001) | Phys.Rev.C 83 (2011) | [DOI](https://doi.org/10.1103/PhysRevC.83.034001) |
+| 2011 | [Near-threshold Photoproduction of Phi Mesons from Deuterium](https://doi.org/10.1016/j.physletb.2010.12.065) | Phys.Lett.B 696 338 (2011) | [DOI](https://doi.org/10.1016/j.physletb.2010.12.065) |
+| 2011 | [CLAS data and progress in the investigation of electro-excitation of nucleon resonances](https://doi.org/10.1142/9789814329569_0029) | 275 (2011) | [DOI](https://doi.org/10.1142/9789814329569_0029) |
+| 2010 | [Tensor Correlations Measured in $^3He(e,e'pp)n$](https://doi.org/10.1103/PhysRevLett.105.222501) | Phys.Rev.Lett. 105 (2010) | [DOI](https://doi.org/10.1103/PhysRevLett.105.222501) |
+| 2010 | [Differential cross sections and recoil polarizations for the reaction $\gamma p \to K^{+} \Sigma^{0}$](https://doi.org/10.1103/PhysRevC.82.025202) | Phys.Rev.C 82 (2010) | [DOI](https://doi.org/10.1103/PhysRevC.82.025202) |
+| 2010 | [Absorption of the $\omega$ and $\phi$ Mesons in Nuclei](https://doi.org/10.1103/PhysRevLett.105.112301) | Phys.Rev.Lett. 105 (2010) | [DOI](https://doi.org/10.1103/PhysRevLett.105.112301) |
+| 2010 | [Measurement of Single and Double Spin Asymmetries in Deep Inelastic Pion Electroproduction with a Longitudinally Polarized Target](https://doi.org/10.1103/PhysRevLett.105.262002) | Phys.Rev.Lett. 105 (2010) | [DOI](https://doi.org/10.1103/PhysRevLett.105.262002) |
+| 2010 | [Measurement of the Nucleon Structure Function F2 in the Nuclear Medium and Evaluation of its Moments](https://doi.org/10.1016/j.nuclphysa.2010.05.059) | Nucl.Phys.A 845 1 (2010) | [DOI](https://doi.org/10.1016/j.nuclphysa.2010.05.059) |
+| 2010 | [Differential cross section and recoil polarization measurements for the gamma p to K+ Lambda reaction using CLAS at Jefferson Lab](https://doi.org/10.1103/PhysRevC.81.025201) | Phys.Rev.C 81 (2010) | [DOI](https://doi.org/10.1103/PhysRevC.81.025201) |
+| 2010 | [Evidence for a backward peak in the gama d ---> pi0 d cross section near the eta threshold](https://doi.org/10.1140/epja/i2010-10918-x) | Eur.Phys.J.A 43 261 (2010) | [DOI](https://doi.org/10.1140/epja/i2010-10918-x) |
+| 2009 | [Differential cross s ections for the reactions gamma p ---> p eta and gamma p ---> p eta-prime](https://doi.org/10.1103/PhysRevC.80.045213) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.045213) |
+| 2009 | [Electroexcitation of nucleon resonances from CLAS data on single pion electroproduction](https://doi.org/10.1103/PhysRevC.80.055203) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.055203) |
+| 2009 | [Beam spin asymmetries from semi-inclusive pion electroproduction in deep inelastic scattering](https://doi.org/10.1063/1.3215689) | AIP Conf.Proc. 1149 461 (2009) | [DOI](https://doi.org/10.1063/1.3215689) |
+| 2009 | [Differential cross sections and spin density matrix elements for the reaction gamma p ---> p omega](https://doi.org/10.1103/PhysRevC.80.065208) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.065208) |
+| 2009 | [Partial wave analysis of the reaction gamma p ---> p omega and the search for nucleon resonances](https://doi.org/10.1103/PhysRevC.80.065209) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.065209) |
+| 2009 | [Photoproduction of pi+ pi- meson pairs on the proton](https://doi.org/10.1103/PhysRevD.80.072005) | Phys.Rev.D 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevD.80.072005) |
+| 2009 | [The Extraction of phi-N total cross section from d(gamma,pK+ K-)n](https://doi.org/10.1016/j.physletb.2009.09.024) | Phys.Lett.B 680 417 (2009) | [DOI](https://doi.org/10.1016/j.physletb.2009.09.024) |
+| 2009 | [Photodisintegration of $^4$He into p+t](https://doi.org/10.1103/PhysRevC.80.044603) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.044603) |
+| 2009 | [Neutral Pion Electroproduction in the Resonance Region at High Q**2](https://doi.org/10.1103/PhysRevC.80.035203) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.035203) |
+| 2009 | [Applications of quark-hadron duality in F(2) structure function](https://doi.org/10.1103/PhysRevC.80.035207) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.035207) |
+| 2009 | [Beam-Recoil Polarization Transfer in the Nucleon Resonance Region in the Exclusive vec-ep ---> e-prime K+ vec-Lambda and vec-ep ---> e-prime K+ vec-Sigma0 Reactions at CLAS](https://doi.org/10.1103/PhysRevC.79.065205) | Phys.Rev.C 79 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.79.065205) |
+| 2009 | [A Measurement of the differential cross section for the reaction gamma n ---> pi- p from deuterium](https://doi.org/10.1103/PhysRevLett.103.012301) | Phys.Rev.Lett. 103 (2009) | [DOI](https://doi.org/10.1103/PhysRevLett.103.012301) |
+| 2009 | [Beam spin asymmetries in deeply virtual Compton scattering (DVCS) with CLAS at 4.8 GeV](https://doi.org/10.1103/PhysRevC.80.035206) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.035206) |
+| 2009 | [First measurement of direct f0(980) photoproduction on the proton](https://doi.org/10.1103/PhysRevLett.102.102001) | Phys.Rev.Lett. 102 (2009) | [DOI](https://doi.org/10.1103/PhysRevLett.102.102001) |
+| 2009 | [A Precise Measurement of the Neutron Magnetic Form Factor G**n(M)in the Few-GeV**2 Region](https://doi.org/10.1103/PhysRevLett.102.192001) | Phys.Rev.Lett. 102 (2009) | [DOI](https://doi.org/10.1103/PhysRevLett.102.192001) |
+| 2009 | [Measurement of unpolarized semi-inclusive pi+ electroproduction off the proton](https://doi.org/10.1103/PhysRevD.80.032004) | Phys.Rev.D 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevD.80.032004) |
+| 2009 | [Electroproduction of p pi+ pi- off protons at 0.2 < Q**2 < 0.6-GeV**2 and 1.3 < W < 1.57-GeV with CLAS](https://doi.org/10.1103/PhysRevC.79.015204) | Phys.Rev.C 79 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.79.015204) |
+| 2009 | [Exclusive rho0 electroproduction on the proton at CLAS](https://doi.org/10.1140/epja/i2008-10683-5) | Eur.Phys.J.A 39 5 (2009) | [DOI](https://doi.org/10.1140/epja/i2008-10683-5) |
+| 2009 | [Search for the photo-excitation of exotic mesons in the pi+ pi+ pi- system](https://doi.org/10.1103/PhysRevLett.102.102002) | Phys.Rev.Lett. 102 (2009) | [DOI](https://doi.org/10.1103/PhysRevLett.102.102002) |
+| 2009 | [Electroproduction of Eta Mesons in the S(11)(1535) Resonance Region at High Momentum Transfer](https://doi.org/10.1103/PhysRevC.80.015205) | Phys.Rev.C 80 (2009) | [DOI](https://doi.org/10.1103/PhysRevC.80.015205) |
+| 2009 | [Moments of the Spin Structure Functions g**p(1) and g**d(1) for 0.05 < Q**2 < 3.0-GeV**2](https://doi.org/10.1016/j.physletb.2008.12.063) | Phys.Lett.B 672 12 (2009) | [DOI](https://doi.org/10.1016/j.physletb.2008.12.063) |
+| 2008 | [Electroexcitation of the Roper resonance for 1.7 en pi+](https://doi.org/10.1103/PhysRevC.78.045209) | Phys.Rev.C 78 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.78.045209) |
+| 2008 | [First measurement of target and double spin asymmetries for polarized-e polarized-p ---> e p pi0 in the nucleon resonance region above the Delta(1232)](https://doi.org/10.1103/PhysRevC.78.045204) | Phys.Rev.C 78 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.78.045204) |
+| 2008 | [Light Vector Mesons in the Nuclear Medium](https://doi.org/10.1103/PhysRevC.78.015201) | Phys.Rev.C 78 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.78.015201) |
+| 2008 | [Electroproduction of phi(1020) mesons at 1.4 < Q**2 < 3.8 GeV**2 measured with the CLAS spectrometer](https://doi.org/10.1103/PhysRevC.78.025210) | Phys.Rev.C 78 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.78.025210) |
+| 2008 | [Polarized Structure Function sigma(LT-prime) for p(polarized-e, e-prime K+) Lambda in the Nucleon Resonance Region](https://doi.org/10.1103/PhysRevC.77.065208) | Phys.Rev.C 77 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.77.065208) |
+| 2008 | [Ratios of N-15/C-12 and He-4/C-12 inclusive electroproduction cross sections in the nucleon resonance region](https://doi.org/10.1103/PhysRevC.78.015202) | Phys.Rev.C 78 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.78.015202) |
+| 2008 | [Measurement of e p --> e p pi0 beam spin asymmetries above the resonance region](https://doi.org/10.1103/PhysRevC.77.042201) | Phys.Rev.C 77 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.77.042201) |
+| 2008 | [Measurement of Deeply virtual Compton scattering beam-spin asymmetries](https://doi.org/10.1103/PhysRevLett.100.162002) | Phys.Rev.Lett. 100 (2008) | [DOI](https://doi.org/10.1103/PhysRevLett.100.162002) |
+| 2008 | [Cross sections and beam asymmetries for vec(e) p ---> en pi+ in the nucleon resonance region for 1.7 <= Q**2 <= 4.5-(GeV)**2](https://doi.org/10.1103/PhysRevC.77.015208) | Phys.Rev.C 77 (2008) | [DOI](https://doi.org/10.1103/PhysRevC.77.015208) |
+| 2008 | [Transverse momentum dependence of semi-inclusive pion production](https://doi.org/10.1016/j.physletb.2008.05.047) | Phys.Lett.B 665 20 (2008) | [DOI](https://doi.org/10.1016/j.physletb.2008.05.047) |
+| 2008 | [A Bayesian analysis of pentaquark signals from CLAS data](https://doi.org/10.1103/PhysRevLett.100.052001) | Phys.Rev.Lett. 100 (2008) | [DOI](https://doi.org/10.1103/PhysRevLett.100.052001) |
+| 2007 | [Search for medium modification of the rho meson](https://doi.org/10.1103/PhysRevLett.99.262302) | Phys.Rev.Lett. 99 (2007) | [DOI](https://doi.org/10.1103/PhysRevLett.99.262302) |
+| 2007 | [Beam spin asymmetry measurements from deeply virtual meson production](https://doi.org/10.1063/1.2750854) | AIP Conf.Proc. 915 607 (2007) | [DOI](https://doi.org/10.1063/1.2750854) |
+| 2007 | [pi0 photoproduction on the proton for photon energies from 0.675 to 2.875-GeV](https://doi.org/10.1103/PhysRevC.76.025211) | Phys.Rev.C 76 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.76.025211) |
+| 2007 | [γ* N → Δ at JLab: Exploring the High $Q^2$ Regime](https://doi.org/10.1063/1.2734308) | AIP Conf.Proc. 904 232 (2007) | [DOI](https://doi.org/10.1063/1.2734308) |
+| 2007 | [Q*2 dependence of the S(11)(1535) photocoupling and evidence for a P-wave resonance in eta electroproduction](https://doi.org/10.1103/PhysRevC.76.015204) | Phys.Rev.C 76 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.76.015204) |
+| 2007 | [First measurement of coherent phi-meson photoproduction on deuteron at low energies](https://doi.org/10.1103/PhysRevC.76.052202) | Phys.Rev.C 76 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.76.052202) |
+| 2007 | [Cascade production in the reactions gamma p ---> K+ K+ (X) and gamma p ---> K+ K+ pi- (X)](https://doi.org/10.1103/PhysRevC.76.025208) | Phys.Rev.C 76 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.76.025208) |
+| 2007 | [Experimental study of exclusive H-2(e,e-prime p)n reaction mechanisms at high Q**2](https://doi.org/10.1103/PhysRevLett.98.262502) | Phys.Rev.Lett. 98 (2007) | [DOI](https://doi.org/10.1103/PhysRevLett.98.262502) |
+| 2007 | [Cross-sections for the gamma p ---> K*0 Sigma+ reaction at E(gamma) = 1.7-GeV - 3.0-GeV](https://doi.org/10.1103/PhysRevC.76.039905) | Phys.Rev.C 75 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.76.039905) |
+| 2007 | [Separated structure functions for the exclusive electroproduction of K+ Lambda and K+ Sigma0 final states](https://doi.org/10.1103/PhysRevC.75.045203) | Phys.Rev.C 75 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.75.045203) |
+| 2007 | [First measurement of beam-recoil observables C(x) and C(z) in hyperon photoproduction](https://doi.org/10.1103/PhysRevC.75.035205) | Phys.Rev.C 75 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.75.035205) |
+| 2007 | [The Onset of Quark-Hadron Duality in Pion Electroproduction](https://doi.org/10.1103/PhysRevLett.98.022001) | Phys.Rev.Lett. 98 (2007) | [DOI](https://doi.org/10.1103/PhysRevLett.98.022001) |
+| 2007 | [Quark-hadron duality in spin structure functions g(1)p and g(1)d](https://doi.org/10.1103/PhysRevC.75.035203) | Phys.Rev.C 75 (2007) | [DOI](https://doi.org/10.1103/PhysRevC.75.035203) |
+| 2006 | [Single Pion Electroproduction in Δ(1232) and Roper Resonance Region with CLAS](https://doi.org/10.1063/1.2402682) | AIP Conf.Proc. 870 486 (2006) | [DOI](https://doi.org/10.1063/1.2402682) |
+| 2006 | [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://doi.org/10.1103/PhysRevLett.97.112003) | Phys.Rev.Lett. 97 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.97.112003) |
+| 2006 | [Search for the Theta+ pentaquark in the reactions gamma p ---> anti-K0 K+n and gamma p ---> anti-K0 K0p](https://doi.org/10.1103/PhysRevD.74.032001) | Phys.Rev.D 74 (2006) | [DOI](https://doi.org/10.1103/PhysRevD.74.032001) |
+| 2006 | [Search for Theta++ pentaquarks in the exclusive reaction gamma p ---> K+ K- p](https://doi.org/10.1103/PhysRevLett.97.102001) | Phys.Rev.Lett. 97 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.97.102001) |
+| 2006 | [Measurement of deeply virtual compton scattering with a polarized proton target](https://doi.org/10.1103/PhysRevLett.97.072002) | Phys.Rev.Lett. 97 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.97.072002) |
+| 2006 | [Measurement of the x- and Q**2-dependence of the asymmetry A(1) on the nucleon](https://doi.org/10.1016/j.physletb.2006.08.011) | Phys.Lett.B 641 11 (2006) | [DOI](https://doi.org/10.1016/j.physletb.2006.08.011) |
+| 2006 | [Search for the Theta+ pentaquark in the gamma d ---> Lambda n K+ reaction measured with CLAS](https://doi.org/10.1103/PhysRevLett.97.032001) | Phys.Rev.Lett. 97 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.97.032001) |
+| 2006 | [Search for the Theta+ pentaquark in the reaction gamma d ---> p K- K+ n](https://doi.org/10.1103/PhysRevLett.96.212001) | Phys.Rev.Lett. 96 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.96.212001) |
+| 2006 | [Single pi+ electroproduction on the proton in the first and second resonance regions at 0.25-GeV**2 < Q**2 < 0.65-GeV**2 using CLAS](https://doi.org/10.1103/PhysRevC.73.025204) | Phys.Rev.C 73 (2006) | [DOI](https://doi.org/10.1103/PhysRevC.73.025204) |
+| 2006 | [$\eta\prime$ photoproduction on the proton for photon energies from 1.527-GeV to 2.227-GeV](https://doi.org/10.1103/PhysRevLett.96.062001) | Phys.Rev.Lett. 96 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.96.062001) |
+| 2006 | [Electron scattering from high-momentum neutrons in deuterium](https://doi.org/10.1103/PhysRevC.73.035212) | Phys.Rev.C 73 (2006) | [DOI](https://doi.org/10.1103/PhysRevC.73.035212) |
+| 2006 | [Search for Theta+(1540) pentaquark in high statistics measurement of gamma p ---> anti-K0 K+ n at CLAS](https://doi.org/10.1103/PhysRevLett.96.042001) | Phys.Rev.Lett. 96 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.96.042001) |
+| 2006 | [Differential cross sections for gamma + p ---> K+ + Y for Lambda and Sigma0 hyperons](https://doi.org/10.1103/PhysRevC.73.035202) | Phys.Rev.C 73 (2006) | [DOI](https://doi.org/10.1103/PhysRevC.73.035202) |
+| 2006 | [Measurement of 2- and 3-nucleon short range correlation probabilities in nuclei](https://doi.org/10.1103/PhysRevLett.96.082501) | Phys.Rev.Lett. 96 (2006) | [DOI](https://doi.org/10.1103/PhysRevLett.96.082501) |
+| 2006 | [Measurement of the deuteron structure function F(2) in the resonance region and evaluation of its moments](https://doi.org/10.1103/PhysRevC.73.045205) | Phys.Rev.C 73 (2006) | [DOI](https://doi.org/10.1103/PhysRevC.73.045205) |
+| 2005 | [Measurement of the N ---> Delta+(1232) transition at high momentum transfer by pi0 electroproduction](https://inspirehep.net/literature/706540) | 277 | [INSPIRE](https://inspirehep.net/literature/706540) |
+| 2005 | [Beam-helicity asymmetries in double-charged-pion photoproduction on the proton](https://doi.org/10.1103/PhysRevLett.95.162003) | Phys.Rev.Lett. 95 (2005) | [DOI](https://doi.org/10.1103/PhysRevLett.95.162003) |
+| 2005 | [The Deuteron structure function F(2) with CLAS](https://arxiv.org/abs/hep-ex/0507098) | Preprint | [arXiv](https://arxiv.org/abs/hep-ex/0507098) |
+| 2005 | [Measurement of the polarized structure function sigma(LT-prime) for pion electroproduction in the Roper resonance region](https://doi.org/10.1103/PhysRevC.72.058202) | Phys.Rev.C 72 (2005) | [DOI](https://doi.org/10.1103/PhysRevC.72.058202) |
+| 2005 | [Deeply virtual and exclusive electroproduction of omega mesons](https://doi.org/10.1140/epja/i2005-10032-4) | Eur.Phys.J.A 24 445 (2005) | [DOI](https://doi.org/10.1140/epja/i2005-10032-4) |
+| 2005 | [Radiative decays of the Sigma0(1385) and Lambda(1520) hyperons](https://doi.org/10.1103/PhysRevC.71.054609) | Phys.Rev.C 71 (2005) | [DOI](https://doi.org/10.1103/PhysRevC.71.054609) |
+| 2005 | [Exclusive photoproduction of the cascade (Xi) hyperons](https://doi.org/10.1103/PhysRevC.71.058201) | Phys.Rev.C 71 (2005) | [DOI](https://doi.org/10.1103/PhysRevC.71.058201) |
+| 2005 | [Exclusive rho0 meson electroproduction from hydrogen at CLAS](https://doi.org/10.1016/j.physletb.2004.11.019) | Phys.Lett.B 605 256 (2005) | [DOI](https://doi.org/10.1016/j.physletb.2004.11.019) |
+| 2005 | [Onset of asymptotic scaling in deuteron photodisintegration](https://doi.org/10.1103/PhysRevLett.94.012301) | Phys.Rev.Lett. 94 (2005) | [DOI](https://doi.org/10.1103/PhysRevLett.94.012301) |
+| 2005 | [Survey of A(LT-prime) asymmetries in semi-exclusive electron scattering on He-4 and C-12](https://doi.org/10.1016/j.nuclphysa.2004.11.009) | Nucl.Phys.A 748 357 (2005) | [DOI](https://doi.org/10.1016/j.nuclphysa.2004.11.009) |
+| 2004 | [Complete measurement of three-body photodisintegration of He-3 for photon energies between 0.35-GeV and 1.55-GeV](https://doi.org/10.1103/PhysRevC.70.064003) | Phys.Rev.C 70 (2004) | [DOI](https://doi.org/10.1103/PhysRevC.70.064003) |
+| 2004 | [Measurement of the polarized structure function sigma(LT-prime) for p(polarized-e, e-prime pi+)n in the Delta(1232) resonance region](https://doi.org/10.1103/PhysRevC.70.042201) | Phys.Rev.C 70 (2004) | [DOI](https://doi.org/10.1103/PhysRevC.70.042201) |
+| 2004 | [Proton source size measurements in the eA ---> e-prime ppX reaction](https://doi.org/10.1103/PhysRevLett.93.192301) | Phys.Rev.Lett. 93 (2004) | [DOI](https://doi.org/10.1103/PhysRevLett.93.192301) |
+| 2004 | [Complete angular distribution measurements of two body deuteron photodisintegration between 0.5-GeV and 3-GeV](https://doi.org/10.1103/PhysRevC.70.014005) | Phys.Rev.C 70 (2004) | [DOI](https://doi.org/10.1103/PhysRevC.70.014005) |
+| 2004 | [Tensor polarization of the phi meson photoproduced at high t](https://doi.org/10.1103/PhysRevC.69.032203) | Phys.Rev.C 69 (2004) | [DOI](https://doi.org/10.1103/PhysRevC.69.032203) |
+| 2004 | [Observation of an exotic baryon with S = +1 in photoproduction from the proton](https://doi.org/10.1103/PhysRevLett.92.032001) | Phys.Rev.Lett. 92 (2004) | [DOI](https://doi.org/10.1103/PhysRevLett.92.032001) |
+| 2004 | [Two nucleon momentum distributions measured in He-3(e,e-prime pp)n](https://doi.org/10.1103/PhysRevLett.92.052303) | Phys.Rev.Lett. 92 (2004) | [DOI](https://doi.org/10.1103/PhysRevLett.92.052303) |
+| 2004 | [Hyperon photoproduction in the nucleon resonance region](https://doi.org/10.1103/PhysRevC.69.042201) | Phys.Rev.C 69 (2004) | [DOI](https://doi.org/10.1103/PhysRevC.69.042201) |
+| 2004 | [Measurement of beam-spin asymmetries for pi + electroproduction above the baryon resonance region](https://doi.org/10.1103/PhysRevD.69.112004) | Phys.Rev.D 69 (2004) | [DOI](https://doi.org/10.1103/PhysRevD.69.112004) |
+| 2003 | [Study of e p ---> e p pi0 in the Delta(1232) mass region using polarization asymmetries](https://doi.org/10.1103/PhysRevC.68.035202) | Phys.Rev.C 68 (2003) | [DOI](https://doi.org/10.1103/PhysRevC.68.035202) |
+| 2003 | [Observation of an exotic S = +1 baryon in exclusive photoproduction from the deuteron](https://doi.org/10.1103/PhysRevLett.91.252001) | Phys.Rev.Lett. 91 (2003) | [DOI](https://doi.org/10.1103/PhysRevLett.91.252001) |
+| 2003 | [Measurement of the proton spin structure function g(1)(x,Q**2) for Q**2 from 0.15 to 1.6 GeV**2 with CLAS](https://doi.org/10.1103/PhysRevLett.91.222002) | Phys.Rev.Lett. 91 (2003) | [DOI](https://doi.org/10.1103/PhysRevLett.91.222002) |
+| 2003 | [Measurement of ep ---> e-prime p pi+ pi-: Experimental procedures and baryon resonance analysis](https://arxiv.org/abs/hep-ex/0304034) | Preprint | [arXiv](https://arxiv.org/abs/hep-ex/0304034) |
+| 2003 | [Observation of nuclear scaling in the A(e, e-prime) reaction at x(B) greater than 1](https://doi.org/10.1103/PhysRevC.68.014313) | Phys.Rev.C 68 (2003) | [DOI](https://doi.org/10.1103/PhysRevC.68.014313) |
+| 2003 | [Measurement of the polarized structure function sigma(LT-prime) for p(polarized-p, e-prime p) pi0 in the Delta(1232) resonance region](https://doi.org/10.1103/PhysRevC.68.032201) | Phys.Rev.C 68 (2003) | [DOI](https://doi.org/10.1103/PhysRevC.68.032201) |
+| 2003 | [A Kinematically complete measurement of the proton structure function F(2) in the resonance region and evaluation of its moments](https://doi.org/10.1103/PhysRevD.67.092001) | Phys.Rev.D 67 (2003) | [DOI](https://doi.org/10.1103/PhysRevD.67.092001) |
+| 2003 | [First measurement of transferred polarization in the exclusive polarized-e p ---> e-prime K+ polarized-Lambda reaction](https://doi.org/10.1103/PhysRevLett.90.131804) | Phys.Rev.Lett. 90 (2003) | [DOI](https://doi.org/10.1103/PhysRevLett.90.131804) |
+| 2003 | [Measurement of e p ---> e-prime p pi+ pi- and baryon resonance analysis](https://doi.org/10.1103/PhysRevLett.91.022002) | Phys.Rev.Lett. 91 (2003) | [DOI](https://doi.org/10.1103/PhysRevLett.91.022002) |
+| 2002 | [Eta photoproduction on the proton for photon energies from 0.75-GeV to 1.95-GeV](https://doi.org/10.1103/PhysRevLett.89.222002) | Phys.Rev.Lett. 89 (2002) | [DOI](https://doi.org/10.1103/PhysRevLett.89.222002) |
+| 2002 | [First measurement of the double spin asymmetry in polarized-e polarized-p ---> e-prime pi+ n in the resonance region](https://doi.org/10.1103/PhysRevLett.88.082001) | Phys.Rev.Lett. 88 (2002) | [DOI](https://doi.org/10.1103/PhysRevLett.88.082001) |
+| n.d. | [Progress on the Interaction Region Design and Detector Integration at JLab’s MEIC](https://doi.org/10.18429/JACoW-IPAC2014-MOPRO005) | Preprint | [DOI](https://doi.org/10.18429/JACoW-IPAC2014-MOPRO005) |
+| n.d. | [$\pi^0$ Electroproduction off the $\Delta(1232)$ Resonance at High Momentum Transfer](https://inspirehep.net/literature/1289007) | Preprint | [INSPIRE](https://inspirehep.net/literature/1289007) |
