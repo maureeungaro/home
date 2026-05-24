@@ -47,6 +47,10 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 {% assign inspire_link = 'https://inspirehep.net/authors/1322331' %}
 {% assign email_img = '/assets/images/home/email.png' | relative_url %}
 {% assign email_link = 'mailto:ungaro@jlab.org' %}
+{% assign orcid_img = '/assets/images/home/orcid.svg' | relative_url %}
+{% assign orcid_link = 'https://orcid.org/0000-0001-6982-3310' %}
+{% assign linkedin_img = '/assets/images/home/linkedin.svg' | relative_url %}
+{% assign linkedin_link = 'https://www.linkedin.com/in/maurizio-ungaro-37992062/' %}
 {% assign physics_img = '/assets/images/home/physics.png' | relative_url %}
 {% assign degree_img = '/assets/images/home/degree.png' | relative_url %}
 
@@ -77,6 +81,10 @@ width="170"
 [inspire-link]: {{ inspire_link }}
 [email-img]: {{ email_img }}
 [email-link]: {{ email_link }}
+[orcid-img]: {{ orcid_img }}
+[orcid-link]: {{ orcid_link }}
+[linkedin-img]: {{ linkedin_img }}
+[linkedin-link]: {{ linkedin_link }}
 
 {% endcapture %}
 
@@ -100,19 +108,24 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 <table class="zebra compact-table">
   <tr>
     <th>Primary links</th>
+    <td><a href="/home/profile/">Profile</a></td>
     <td><a href="https://gemc.github.io/home/">GEMC</a></td>
     <td><a href="/home/showcase/">Research & Talks</a></td>
-    <td><a href="/home/mynotes/">Technical Notes</a></td>
+    <td><a href="/home/mynotes/">Notes</a></td>
   </tr>
 </table>
 
 <br/>
+
+For collaboration, software questions, or detector/simulation support, email me or use the research and code profiles below.
 
 <table class="small-icons">
   <tr>
     <td><a href="{{ gscholar_link }}"><img src="{{ gscholar_img }}" alt="Google Scholar"></a><br/><a href="{{ gscholar_link }}">Google Scholar</a></td>
     <td><a href="{{ github_link }}"><img src="{{ github_img }}" alt="GitHub"></a><br/><a href="{{ github_link }}">GitHub</a></td>
     <td><a href="{{ inspire_link }}"><img src="{{ inspire_img }}" alt="INSPIRE"></a><br/><a href="{{ inspire_link }}">INSPIRE</a></td>
+    <td><a href="{{ orcid_link }}"><img src="{{ orcid_img }}" alt="ORCID"></a><br/><a href="{{ orcid_link }}">ORCID</a></td>
+    <td><a href="{{ linkedin_link }}"><img src="{{ linkedin_img }}" alt="LinkedIn"></a><br/><a href="{{ linkedin_link }}">LinkedIn</a></td>
     <td><a href="{{ email_link }}"><img src="{{ email_img }}" alt="Email"></a><br/><a href="{{ email_link }}">Email</a></td>
   </tr>
 </table>
@@ -127,11 +140,12 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 | If you are looking for... | Start with |
 |:--|:--|
+| Biography, CV, resume, or professional links | [Profile](/home/profile/) |
 | Geant4 examples, tutorials, or JLab support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
 | GEMC simulation workflows | [GEMC](https://gemc.github.io/home/) |
 | CLAS12 simulation releases and production workflows | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) and [OSG submissions](/home/osg/osg) |
 | Research talks, papers, and technical notes | [Research & Talks](/home/showcase/) |
-| Practical computing notes | [Technical Notes](/home/mynotes/) |
+| Practical computing notes | [Notes](/home/mynotes/) |
 
 <br/><br/>
 

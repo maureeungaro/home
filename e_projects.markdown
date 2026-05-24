@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software Projects
+title: Projects
 description: Research, detector, and simulation software projects connected to CLAS12, Geant4, GEMC, OSG, and Hall-B.
 permalink: /projects/
 last_updated: "May 15, 2026"

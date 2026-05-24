@@ -1,0 +1,128 @@
+name: Maurizio Ungaro
+preferred_name: Mauri
+title: Staff Scientist
+institution: Jefferson Lab
+division: Experimental Hall-B
+location: Newport News, Virginia, USA
+email: ungaro@jlab.org
+homepage: https://maureeungaro.github.io/home/
+github: https://github.com/maureeungaro
+google_scholar: https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en
+inspire: https://inspirehep.net/authors/1322331
+orcid: https://orcid.org/0000-0001-6982-3310
+linkedin: https://www.linkedin.com/in/maurizio-ungaro-37992062/
+
+reference_links:
+  jlab: https://www.jlab.org
+  hall_b: https://www.jlab.org/physics/hall-b
+  rpi: https://www.rpi.edu
+  genoa_university: https://unige.it/
+  gemc: https://gemc.github.io/home/
+  geant4_at_jlab: https://jeffersonlab.github.io/g4home/
+  clas12_simulations: https://github.com/gemc/clas12Tags
+  clas12_on_osg: https://maureeungaro.github.io/home/osg/osg
+  ltcc: https://maureeungaro.github.io/home/ltcc/ltcc
+  spring8: https://www.spring8.or.jp/en/
+  hps: https://www.jlab.org/physics/hall-b/other
+
+summary: >
+  Nuclear physicist and simulation software developer at Jefferson Lab working
+  on Geant4-based detector simulations, GEMC, CLAS12 production workflows,
+  detector systems, and nucleon-structure research.
+
+current_focus:
+  - Geant4 simulation support and tutorials for Jefferson Lab users.
+  - GEMC development and CLAS12 simulation workflows.
+  - CLAS12 Low Threshold Cherenkov Counter operation, calibration, and performance.
+  - Meson electro-production and nucleon-structure measurements.
+  - Reproducible scientific computing, documentation, and distributed production workflows.
+
+experience:
+  - role: Staff Scientist
+    institution: Jefferson Laboratory
+    location: Newport News, VA, USA
+    dates: 2011-present
+    highlights:
+      - Supports Hall-B and CLAS12 detector, simulation, and analysis workflows.
+      - Develops and maintains GEMC and CLAS12 simulation production tools.
+      - Provides Geant4 support, tutorials, and examples for Jefferson Lab users.
+      - Works on LTCC operation, calibration, maintenance, and performance.
+  - role: Postdoctoral Research Associate and Research Associate
+    institution: University of Connecticut
+    location: Storrs, CT, USA
+    dates: 2004-2011
+    highlights:
+      - Performed CLAS and related hadron-physics analyses.
+      - Contributed to experiments at SPring-8, Japan.
+      - Contributed to CLAS12 simulation and reconstruction software.
+      - Worked on nucleon-structure measurements and meson electro-production.
+
+education:
+  - degree: Ph.D. in Nuclear Physics
+    institution: Rensselaer Polytechnic Institute
+    location: Troy, NY, USA
+    year: 2003
+    thesis: pi0 electro-production from Delta(1232) at high momentum transfer
+  - degree: Laurea in Fisica
+    institution: Universita degli Studi di Genova
+    location: Genoa, Italy
+    year: 1999
+
+selected_projects:
+  - name: GEMC
+    url: https://gemc.github.io/home/
+    description: Database-driven Geant4 simulations with a Python-friendly workflow.
+  - name: Geant4 at JLab
+    url: https://jeffersonlab.github.io/g4home/
+    description: Tutorials, examples, and support material for Jefferson Lab Geant4 users.
+  - name: CLAS12 Simulations
+    url: https://github.com/gemc/clas12Tags
+    description: Tagged CLAS12 geometry and simulation releases for production workflows.
+  - name: CLAS12 on OSG
+    url: https://maureeungaro.github.io/home/osg/osg
+    description: Distributed CLAS12 simulation production on Open Science Grid resources.
+  - name: Low Threshold Cherenkov Counter
+    url: https://maureeungaro.github.io/home/ltcc/ltcc
+    description: CLAS12 forward detector system for pion/kaon discrimination in Hall-B.
+  - name: Heavy Photon Search
+    url: https://www.jlab.org/physics/hall-b/other
+    description: Dark-sector search collaboration at Jefferson Lab.
+  - name: SPring-8
+    url: https://www.spring8.or.jp/en/
+    description: Prior experimental work in Japan through LEPS/SPring-8 collaboration.
+
+skills:
+  simulation:
+    - Geant4
+    - GEMC
+    - CLAS12 simulations
+    - ROOT
+    - detector geometry
+    - digitization workflows
+    - PyVista visualization
+  programming:
+    - C++
+    - Python
+    - shell scripting
+    - Git
+    - GitHub
+    - continuous integration
+    - Docker
+    - Meson
+    - CMake
+    - SCons
+  computing:
+    - HTCondor
+    - Open Science Grid
+    - SQLite
+    - CSV/JSON/ROOT data workflows
+    - reproducible software environments
+    - scientific documentation
+  communication:
+    - technical writing
+    - tutorials
+    - presentations
+    - mentoring
+  languages:
+    - English
+    - Italian

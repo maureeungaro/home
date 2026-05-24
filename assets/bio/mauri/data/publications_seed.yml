@@ -1,0 +1,30 @@
+- title: "Geant4 Monte-Carlo (GEMC): A database-driven simulation program"
+  year: 2024
+  venue: "EPJ Web of Conferences 295, 05005"
+  url: "https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_05005/epjconf_chep2024_05005.html"
+  role: "simulation software"
+- title: "The CLAS12 Geant4 simulation"
+  year: 2020
+  venue: "Nucl. Instrum. Meth. A 959"
+  url: "https://doi.org/10.1016/j.nima.2020.163422"
+  role: "CLAS12 simulation"
+- title: "The CLAS12 Low Threshold Cherenkov detector"
+  year: 2020
+  venue: "Nucl. Instrum. Meth. A 957"
+  url: "https://doi.org/10.1016/j.nima.2020.163420"
+  role: "detector system"
+- title: "Enhanced UV light detection using a p-terphenyl wavelength shifter"
+  year: 2017
+  venue: "Nucl. Instrum. Meth. A 870"
+  url: "https://arxiv.org/pdf/1611.03467"
+  role: "detector instrumentation"
+- title: "Beam-spin asymmetries from semi-inclusive pion electroproduction"
+  year: 2014
+  venue: "Phys. Rev. D 89"
+  url: "https://arxiv.org/pdf/1402.4097"
+  role: "nucleon structure"
+- title: "Measurement of the N to Delta(1232) transition at high momentum transfer by pi0 electro-production"
+  year: 2006
+  venue: "Phys. Rev. Lett. 97"
+  url: "https://arxiv.org/pdf/hep-ex/0606042"
+  role: "first-author physics analysis"

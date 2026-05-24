@@ -1,0 +1,68 @@
+\usepackage[margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{hyperref}
+
+\definecolor{accent}{HTML}{00419B}
+\definecolor{muted}{HTML}{555555}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlist[itemize]{leftmargin=1.25em, topsep=0.2em, itemsep=0.15em}
+
+\newcommand{\MauriName}{Maurizio Ungaro}
+\newcommand{\MauriTitle}{Staff Scientist, Jefferson Lab}
+\newcommand{\MauriEmail}{\href{mailto:ungaro@jlab.org}{ungaro@jlab.org}}
+\newcommand{\MauriHomepage}{\href{https://maureeungaro.github.io/home/}{maureeungaro.github.io/home}}
+\newcommand{\MauriGitHub}{\href{https://github.com/maureeungaro}{github.com/maureeungaro}}
+\newcommand{\MauriScholar}{\href{https://scholar.google.com/citations?user=zkWYILYAAAAJ\&hl=en}{Google Scholar}}
+\newcommand{\MauriInspire}{\href{https://inspirehep.net/authors/1322331}{INSPIRE}}
+\newcommand{\MauriOrcid}{\href{https://orcid.org/0000-0001-6982-3310}{ORCID 0000-0001-6982-3310}}
+\newcommand{\MauriLinkedIn}{\href{https://www.linkedin.com/in/maurizio-ungaro-37992062/}{LinkedIn}}
+\newcommand{\MauriJLab}{\href{https://www.jlab.org}{Jefferson Lab}}
+\newcommand{\MauriHallB}{\href{https://www.jlab.org/physics/hall-b}{Jefferson Lab Hall-B}}
+\newcommand{\MauriRPI}{\href{https://www.rpi.edu}{Rensselaer Polytechnic Institute}}
+\newcommand{\MauriUniGe}{\href{https://unige.it/}{Universita degli Studi di Genova}}
+\newcommand{\MauriGEMC}{\href{https://gemc.github.io/home/}{GEMC}}
+\newcommand{\MauriGeantFourJLab}{\href{https://jeffersonlab.github.io/g4home/}{Geant4 at JLab}}
+\newcommand{\MauriClasTwelve}{\href{https://github.com/gemc/clas12Tags}{CLAS12 Simulations}}
+\newcommand{\MauriOSG}{\href{https://maureeungaro.github.io/home/osg/osg}{CLAS12 on OSG}}
+\newcommand{\MauriLTCC}{\href{https://maureeungaro.github.io/home/ltcc/ltcc}{Low Threshold Cherenkov Counter}}
+\newcommand{\MauriSPringEight}{\href{https://www.spring8.or.jp/en/}{SPring-8}}
+\newcommand{\MauriHPS}{\href{https://www.jlab.org/physics/hall-b/other}{Heavy Photon Search}}
+
+\newcommand{\DocHeader}[1]{
+  {\LARGE\bfseries \MauriName}\hfill {\color{muted}#1}\\
+  Staff Scientist, \MauriJLab{}\\
+  \MauriEmail{} \quad
+  \MauriHomepage{} \quad
+  \MauriGitHub{}\\
+  \MauriScholar{} \quad
+  \MauriInspire{} \quad
+  \MauriOrcid{}\\
+  \vspace{0.4em}
+  \hrule
+  \vspace{0.8em}
+}
+
+\newcommand{\RoleEntry}[4]{
+  \textbf{#1}\hfill {\color{muted}#2}\\
+  #3\\
+  #4
+}
+
+\newcommand{\ProjectEntry}[3]{
+  \textbf{#1}: #2\\
+  {\small\href{#3}{#3}}
+}

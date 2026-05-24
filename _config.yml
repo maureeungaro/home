@@ -60,6 +60,7 @@ exclude:
    - vendor/ruby/
    - AGENTS.md
    - CLAUDE.md
+   - bio
 
 # this adds content to the website from the local dirs starting with _
 collections:
