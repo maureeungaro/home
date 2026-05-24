@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "GEMC"
+description: GEMC is a database-driven Geant4 Monte Carlo simulation framework for detector and radiation-transport studies, with a Python-friendly workflow for CLAS12 and Jefferson Lab users.
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 last_updated: "May 15, 2026"
 ---
@@ -13,7 +14,8 @@ Last updated: {{ page.last_updated }}
 
 <br/>
 
-GEMC (**GE**ant **M**onte-**C**arlo) is a database-driven Monte Carlo simulation program based on Geant4.<br/>
+GEMC (**GE**ant **M**onte-**C**arlo) is a database-driven Monte Carlo simulation program based on Geant4.
+It is used for detector simulation, radiation-transport studies, and CLAS12 simulation workflows at Jefferson Lab.<br/>
 
 The goal is to provide a turnkey application that allows users
 to create and run realistic simulations without programming knowledge, in particular:
@@ -21,7 +23,16 @@ to create and run realistic simulations without programming knowledge, in partic
 - No need to know, write or compile C++ or Geant4
 - Automatic handling of multi-threaded hit collections and digitizations
 - Pre-defined digitizations such as `flux` and `dosimeter`
-- Built-in `text`, 'CSV' and `ROOT` output
+- Built-in `text`, `CSV`, and `ROOT` output
+
+<br/>
+
+| Question | Answer |
+|:--|:--|
+| What is it? | A Geant4-based simulation framework that stores geometry and configuration in databases and files. |
+| Who is it for? | Geant4 users, CLAS12 simulation users, detector developers, and scientists who want practical simulation workflows without writing C++ application code. |
+| Why use it? | GEMC makes it easier to build, run, document, visualize, and reproduce detector simulations. |
+| Where to start? | Visit the [GEMC homepage](https://gemc.github.io/home/) and the [GEMC3 software page](/home/software/gemc3.html). |
 
 
 <br/>

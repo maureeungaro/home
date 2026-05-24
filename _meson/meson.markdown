@@ -2,6 +2,7 @@
 # Table: add first row (3 |) for autoformatting
 layout: default
 title: "Meson Physics"
+description: Meson electro-production analyses with CLAS, including nucleon-structure studies, pion electro-production, form factors, and the N to Delta transition.
 
 d1: "<h1> Main Result</h1> <br/>
 The ratios R<sub>EM</sub> (upper panel) and R<sub>SM</sub> (lower panel). <br/>
@@ -123,4 +124,3 @@ border=\"0px\"  /></a><br/> "
 <br/>
 
 ---
-
