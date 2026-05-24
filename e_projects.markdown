@@ -10,9 +10,9 @@ alt=\"Meson electro-production form factor results\" border=\"0px\" width=\"550p
 <a href=\"../meson/meson\">Meson electro-production at high Q<sup>2</sup></a><br/>
 Studies of nucleon structure using single-meson electro-production measurements.<br/><br/>  "
 
-gemc: "<br/><a href=\"../gemc/gemc\"><img src=\"../assets/images/home/gemc.png\"                    
+gemc: "<br/><a href=\"https://gemc.github.io/home/\"><img src=\"../assets/images/home/gemc.png\"                    
 alt=\"GEMC simulation framework\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../gemc/gemc\">GEMC: Geant4 simulations with a Python-friendly workflow</a><br/>
+<a href=\"https://gemc.github.io/home/\">GEMC: Geant4 simulations with a Python-friendly workflow</a><br/>
 A database-driven Geant4 simulation framework for detector and radiation-transport studies.<br/><br/>  "
   
 clas12: "<br/><a href=\"https://github.com/gemc/clas12Tags\"><img src=\"../assets/images/home/clas12.png\"    

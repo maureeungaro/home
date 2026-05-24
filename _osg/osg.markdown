@@ -18,7 +18,6 @@ and related Jefferson Lab workflows.
 | What is it? | Distributed CLAS12 simulation production using GEMC, Geant4, and OSG resources. |
 | Who is it for? | CLAS12 collaborators and simulation users who need production-scale Monte Carlo samples. |
 | Why use it? | OSG allows large simulation campaigns to run beyond local batch limits while preserving reproducible production workflows. |
-| Where to start? | Use the [CLAS12 simulation releases](https://github.com/gemc/clas12Tags) and the [GEMC page](/home/gemc/gemc). |
-
+| Where to start? | Use the [CLAS12 simulation releases](https://github.com/gemc/clas12Tags) and the [GEMC homepage](https://gemc.github.io/home/). |
 
 

@@ -100,7 +100,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 <table class="zebra compact-table">
   <tr>
     <th>Primary links</th>
-    <td><a href="/home/gemc/gemc">GEMC</a></td>
+    <td><a href="https://gemc.github.io/home/">GEMC</a></td>
     <td><a href="/home/showcase/">Research & Talks</a></td>
     <td><a href="/home/mynotes/">Technical Notes</a></td>
   </tr>
@@ -128,7 +128,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 | If you are looking for... | Start with |
 |:--|:--|
 | Geant4 examples, tutorials, or JLab support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
-| GEMC simulation workflows | [GEMC](/home/gemc/gemc) |
+| GEMC simulation workflows | [GEMC](https://gemc.github.io/home/) |
 | CLAS12 simulation releases and production workflows | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) and [OSG submissions](/home/osg/osg) |
 | Research talks, papers, and technical notes | [Research & Talks](/home/showcase/) |
 | Practical computing notes | [Technical Notes](/home/mynotes/) |
