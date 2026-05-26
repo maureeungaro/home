@@ -11,7 +11,9 @@ import argparse
 import html
 import json
 import re
+import ssl
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -52,8 +54,37 @@ def inspire_query(orcid: str | None, author: str, size: int) -> str:
     return INSPIRE_API + "?" + urllib.parse.urlencode(params)
 
 
+def is_certificate_error(error: urllib.error.URLError) -> bool:
+    reason = getattr(error, "reason", None)
+    return isinstance(reason, ssl.SSLCertVerificationError)
+
+
+def open_url(url: str, *, insecure_tls: bool = False):
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "mauri-home-publication-updater/1.0",
+            "Accept": "application/json",
+        },
+    )
+    context = ssl._create_unverified_context() if insecure_tls else None
+    return urllib.request.urlopen(request, timeout=60, context=context)
+
+
 def fetch_records(url: str) -> list[dict]:
-    with urllib.request.urlopen(url, timeout=60) as response:
+    try:
+        response_context = open_url(url)
+    except urllib.error.URLError as error:
+        if not is_certificate_error(error):
+            raise
+        print(
+            "warning: TLS certificate verification failed for INSPIRE; "
+            "retrying with certificate verification disabled for this request.",
+            file=sys.stderr,
+        )
+        response_context = open_url(url, insecure_tls=True)
+
+    with response_context as response:
         payload = json.loads(response.read().decode("utf-8"))
     return payload.get("hits", {}).get("hits", [])
 
