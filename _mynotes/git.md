@@ -231,6 +231,13 @@ Personal Settings > Developer Settings
 
 Can `regenerate` with custom expiration date.
 
+### Direct links:
+
+   - Fine-grained: <https://github.com/settings/personal-access-tokens/new>
+     → Resource owner: `gemc` · Repository: `gemc/src` · Permission: **Actions → Read and write**
+   - Classic: <https://github.com/settings/tokens/new>
+     → Scope: ✅ `workflow`
+
 ### Configuration:
 
 repo --> public_repo 
@@ -241,6 +248,7 @@ The token should go in a file read by the software using it, typically in the ho
 example `.bob`
 
 
+<br/>
 
 ## Secrets
 
@@ -248,16 +256,11 @@ A **GitHub Actions secret** is an encrypted variable stored in a repository's se
 Workflows can read it at runtime via `${{ secrets.SECRET_NAME }}`, but the value is
 never exposed in logs or to anyone browsing the repository.
 
----
 
 ### How to create and store it
 
 
 1. **Generate the token**
-   - Fine-grained: <https://github.com/settings/personal-access-tokens/new>
-     → Resource owner: `gemc` · Repository: `gemc/src` · Permission: **Actions → Read and write**
-   - Classic: <https://github.com/settings/tokens/new>
-     → Scope: ✅ `workflow`
 
 2. **Copy the token value** shown on screen (visible only once).
 
