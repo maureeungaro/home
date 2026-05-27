@@ -92,6 +92,9 @@
   category: "Gemc"
   link: "https://github.com/orgs/gemc/repositories"
 
+- title: "SimGrid"
+  category: "Gemc"
+  link: "https://github.com/gemc/simGrid"
 
 
 
