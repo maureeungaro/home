@@ -37,6 +37,10 @@
   category: "Work"
   link: "/home/mynotes/docker"
 
+- title: "Apache PHP server"
+  category: "Work"
+  link: "/home/mynotes/apache"
+
 - title: "Assertions"
   category: "C++"
   link: "/home/mynotes/static_assertions"
