@@ -88,6 +88,11 @@
   category: "Gemc"
   link: "https://github.com/gemc/clas12Tags"
 
+- title: "clas12-systems"
+  category: "Gemc"
+  link: "https://github.com/gemc/clas12-systems"
+
+
 - title: "GEMC Repos"
   category: "Gemc"
   link: "https://github.com/orgs/gemc/repositories"
