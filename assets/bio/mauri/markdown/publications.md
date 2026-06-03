@@ -31,11 +31,11 @@ Generated from INSPIRE.
 | Year | Publication | Venue | Source |
 |:--:|:--|:--|:--:|
 | 2026 | [Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production](https://arxiv.org/abs/2605.11690) | Preprint | [arXiv](https://arxiv.org/abs/2605.11690) |
-| 2026 | [Longitudinal spin transfer to Λ hyperons in semi-inclusive deep inelastic scattering with the CLAS12 spectrometer](https://doi.org/10.1103/d6g9-96xr) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/d6g9-96xr) |
 | 2026 | [Measurement of the near-threshold J$/ψ$ photoproduction cross section with the CLAS12 experiment](https://arxiv.org/abs/2602.22128) | Preprint | [arXiv](https://arxiv.org/abs/2602.22128) |
 | 2026 | [Measurements of Beam Spin Asymmetries of $π^\pmπ^0$ dihadrons at CLAS12](https://arxiv.org/abs/2602.14271) | Preprint | [arXiv](https://arxiv.org/abs/2602.14271) |
 | 2026 | [First study of the nuclear response to fast hadrons via angular correlations between pions and slow protons in electron-nucleus scattering](https://doi.org/10.1016/j.physletb.2026.140250) | Phys.Lett.B 874 (2026) | [DOI](https://doi.org/10.1016/j.physletb.2026.140250) |
 | 2026 | [First displaced vertex search for electroproduced dark-sector strongly interacting massive particles by the HPS experiment](https://doi.org/10.1103/2k3q-9mhj) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/2k3q-9mhj) |
+| 2026 | [Longitudinal spin transfer to Λ hyperons in semi-inclusive deep inelastic scattering with the CLAS12 spectrometer](https://doi.org/10.1103/d6g9-96xr) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/d6g9-96xr) |
 | 2026 | [Proton transparency and neutrino physics: New methods and modeling](https://doi.org/10.1103/7xct-5jcp) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/7xct-5jcp) |
 | 2025 | [Polarization Observables $T$ and $F$ in the $γp \to π^0 p$ Reaction at CLAS](https://arxiv.org/abs/2508.17589) | Preprint | [arXiv](https://arxiv.org/abs/2508.17589) |
 | 2025 | [Measurement of beam-recoil observables Cx and Cz for K+Λ photoproduction](https://doi.org/10.1103/1q5m-x849) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/1q5m-x849) |
