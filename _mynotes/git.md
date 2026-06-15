@@ -390,21 +390,45 @@ The `inputs` keys must match the `inputs:` declared under `workflow_dispatch:` i
 
 ### Security: guard `workflow_run`-chained triggers
 
-If the dispatcher runs on `on: workflow_run` (e.g. "after Deploy succeeds"), it runs **privileged** and can
-see the PAT. A `workflow_run` workflow can fire for fork-PR events too, so gate the job to trusted pushes —
-otherwise a fork PR could reach the privileged step (and any code it checks out via
-`workflow_run.head_sha`). This is also why CodeQL flags "checkout of untrusted code in a privileged
+A workflow with `on: workflow_run` runs **privileged** (it can see secrets/PATs) and fires for fork-PR
+events too, so gate the job — otherwise a fork PR could reach the privileged step and any code it checks
+out via `workflow_run.head_sha`. This is also why CodeQL flags "checkout of untrusted code in a privileged
 context".
 
-{% raw %}
-```yaml
-    if: >-
-      ${{
-        github.event.workflow_run.conclusion == 'success' &&
-        github.event.workflow_run.event == 'push'
-      }}
-```
-{% endraw %}
+**Which field to check depends on the position in the chain** — this trips people up:
+
+* **1st hop** — listening to a workflow triggered *directly* by `push`/`pull_request` (e.g. a `Deploy`
+  that runs `on: workflow_run` of `Test`): `github.event.workflow_run.event` is the original event, so
+  guard with `event == 'push'`.
+
+  {% raw %}
+  ```yaml
+      if: >-
+        ${{
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.event == 'push'
+        }}
+  ```
+  {% endraw %}
+
+* **2nd hop** — listening to a workflow that is *itself* `workflow_run`-triggered (e.g. a job that runs
+  after `Deploy`, which already runs `on: workflow_run`): here `workflow_run.event` is **always
+  `workflow_run`**, never `push`. Using `event == 'push'` makes the job never run; using
+  `event == 'workflow_run'` always passes (no protection). Guard on the source repo instead — the
+  `head_*` fields carry the original source through the chain:
+
+  {% raw %}
+  ```yaml
+      if: >-
+        ${{
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.head_repository.full_name == github.repository
+        }}
+  ```
+  {% endraw %}
+
+  `head_repository.full_name == github.repository` is true for same-repo pushes and false for fork-PR
+  chains, which is exactly the untrusted-code-checkout protection you want.
 
 ### Examples in this project
 
