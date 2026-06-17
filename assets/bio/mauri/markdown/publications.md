@@ -5,7 +5,7 @@ Generated from INSPIRE.
 {:.zebra.compact-table}
 | Records | Count |
 |:--|--:|
-| Total publications | 272 |
+| Total publications | 273 |
 | First-author publications | 11 |
 
 ## First-Author Papers
@@ -30,6 +30,7 @@ Generated from INSPIRE.
 {:.zebra.publications-table}
 | Year | Publication | Venue | Source |
 |:--:|:--|:--|:--:|
+| 2026 | [GPT-Based Fast Simulation of CLAS12 Detector Hits via Conditional Autoregressive Generation](https://arxiv.org/abs/2606.16035) | Preprint | [arXiv](https://arxiv.org/abs/2606.16035) |
 | 2026 | [Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production](https://arxiv.org/abs/2605.11690) | Preprint | [arXiv](https://arxiv.org/abs/2605.11690) |
 | 2026 | [Measurement of the near-threshold J/ψ photoproduction cross section with the CLAS12 experiment](https://doi.org/10.1103/lqv1-kf2n) | Phys.Rev.C 113 6 (2026) | [DOI](https://doi.org/10.1103/lqv1-kf2n) |
 | 2026 | [Measurements of Beam Spin Asymmetries of $π^\pmπ^0$ dihadrons at CLAS12](https://arxiv.org/abs/2602.14271) | Preprint | [arXiv](https://arxiv.org/abs/2602.14271) |

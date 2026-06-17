@@ -1,3 +1,17 @@
+- title: "GPT-Based Fast Simulation of CLAS12 Detector Hits via Conditional Autoregressive Generation"
+  year: "2026"
+  first_author: "Granger, Cole"
+  is_first_author: false
+  journal: ""
+  doi: ""
+  arxiv: "2606.16035"
+  inspire: "https://inspirehep.net/literature/3168678"
+  authors:
+    - "Granger, Cole"
+    - "Giroux, James"
+    - "Tyson, Richard"
+    - "Ungaro, Maurizio"
+    - "Fanelli, Cristiano"
 - title: "Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production"
   year: "2026"
   first_author: "Alvarado, J.S."
