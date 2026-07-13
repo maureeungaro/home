@@ -14,7 +14,7 @@ Generated from INSPIRE.
 {:.zebra.compact-table}
 | Records | Count |
 |:--|--:|
-| Total publications | 273 |
+| Total publications | 274 |
 | First-author publications | 11 |
 
 ## First-Author Papers
@@ -39,6 +39,7 @@ Generated from INSPIRE.
 {:.zebra.publications-table}
 | Year | Publication | Venue | Source |
 |:--:|:--|:--|:--:|
+| 2026 | [Measurements of $γ_v p \to π^+ π^- p'$ Cross Sections with the CLAS Detector for $Q^{2}$ from 2.0--5.0~GeV$^{2}$ and $W$ from 1.400--2.125~GeV](https://arxiv.org/abs/2607.06793) | Preprint | [arXiv](https://arxiv.org/abs/2607.06793) |
 | 2026 | [GPT-Based Fast Simulation of CLAS12 Detector Hits via Conditional Autoregressive Generation](https://arxiv.org/abs/2606.16035) | Preprint | [arXiv](https://arxiv.org/abs/2606.16035) |
 | 2026 | [Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production](https://arxiv.org/abs/2605.11690) | Preprint | [arXiv](https://arxiv.org/abs/2605.11690) |
 | 2026 | [Measurement of the near-threshold J/ψ photoproduction cross section with the CLAS12 experiment](https://doi.org/10.1103/lqv1-kf2n) | Phys.Rev.C 113 6 (2026) | [DOI](https://doi.org/10.1103/lqv1-kf2n) |
@@ -46,8 +47,8 @@ Generated from INSPIRE.
 | 2026 | [First study of the nuclear response to fast hadrons via angular correlations between pions and slow protons in electron-nucleus scattering](https://doi.org/10.1016/j.physletb.2026.140250) | Phys.Lett.B 874 (2026) | [DOI](https://doi.org/10.1016/j.physletb.2026.140250) |
 | 2026 | [First displaced vertex search for electroproduced dark-sector strongly interacting massive particles by the HPS experiment](https://doi.org/10.1103/2k3q-9mhj) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/2k3q-9mhj) |
 | 2026 | [Longitudinal spin transfer to Λ hyperons in semi-inclusive deep inelastic scattering with the CLAS12 spectrometer](https://doi.org/10.1103/d6g9-96xr) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/d6g9-96xr) |
+| 2026 | [Polarization observables T and F in the γp→π0p reaction at CLAS](https://doi.org/10.1103/ml3y-pmb8) | Phys.Rev.C 114 (2026) | [DOI](https://doi.org/10.1103/ml3y-pmb8) |
 | 2026 | [Proton transparency and neutrino physics: New methods and modeling](https://doi.org/10.1103/7xct-5jcp) | Phys.Rev.D 113 (2026) | [DOI](https://doi.org/10.1103/7xct-5jcp) |
-| 2025 | [Polarization Observables $T$ and $F$ in the $γp \to π^0 p$ Reaction at CLAS](https://arxiv.org/abs/2508.17589) | Preprint | [arXiv](https://arxiv.org/abs/2508.17589) |
 | 2025 | [Measurement of beam-recoil observables Cx and Cz for K+Λ photoproduction](https://doi.org/10.1103/1q5m-x849) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/1q5m-x849) |
 | 2025 | [Recoil polarization in K+Y electroproduction in the nucleon resonance region with CLAS12](https://doi.org/10.1103/nhvq-7fv7) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/nhvq-7fv7) |
 | 2025 | [Measurement of single- and double-polarization observables in the photoproduction of π+π− meson pairs off the proton using CLAS at Jefferson Laboratory](https://doi.org/10.1103/bddq-9qlq) | Phys.Rev.C 112 (2025) | [DOI](https://doi.org/10.1103/bddq-9qlq) |
