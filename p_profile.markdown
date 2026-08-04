@@ -3,7 +3,7 @@ layout: default
 title: Profile
 description: Biography and professional materials for Maurizio Ungaro, Jefferson Lab Staff Scientist working on nuclear physics, Geant4 simulations, GEMC, CLAS12 software, detector systems, and scientific computing.
 permalink: /profile/
-last_updated: "May 24, 2026"
+last_updated: "August 3, 2026"
 ---
 
 Last updated: {{ page.last_updated }}
@@ -19,6 +19,7 @@ Nuclear physicist and simulation software developer
 [GitHub](https://github.com/maureeungaro) ·
 [Google Scholar](https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en) ·
 [INSPIRE](https://inspirehep.net/authors/1322331) ·
+[ResearchGate](https://www.researchgate.net/profile/Maurizio-Ungaro) ·
 [ORCID](https://orcid.org/0000-0001-6982-3310) ·
 [LinkedIn](https://www.linkedin.com/in/maurizio-ungaro-37992062/)
 

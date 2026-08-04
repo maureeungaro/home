@@ -45,6 +45,8 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 {% assign github_link = 'https://github.com/maureeungaro' %}
 {% assign inspire_img = '/assets/images/home/inspire.png' | relative_url %}
 {% assign inspire_link = 'https://inspirehep.net/authors/1322331' %}
+{% assign researchgate_img = '/assets/images/home/researchgate.svg' | relative_url %}
+{% assign researchgate_link = 'https://www.researchgate.net/profile/Maurizio-Ungaro' %}
 {% assign email_img = '/assets/images/home/email.png' | relative_url %}
 {% assign email_link = 'mailto:ungaro@jlab.org' %}
 {% assign orcid_img = '/assets/images/home/orcid.svg' | relative_url %}
@@ -79,6 +81,8 @@ width="170"
 [github-link]: {{ github_link }}
 [inspire-img]: {{ inspire_img }}
 [inspire-link]: {{ inspire_link }}
+[researchgate-img]: {{ researchgate_img }}
+[researchgate-link]: {{ researchgate_link }}
 [email-img]: {{ email_img }}
 [email-link]: {{ email_link }}
 [orcid-img]: {{ orcid_img }}
@@ -124,6 +128,10 @@ For collaboration, software questions, or detector/simulation support, email me 
     <td><a href="{{ gscholar_link }}"><img src="{{ gscholar_img }}" alt="Google Scholar"></a><br/><a href="{{ gscholar_link }}">Google Scholar</a></td>
     <td><a href="{{ github_link }}"><img src="{{ github_img }}" alt="GitHub"></a><br/><a href="{{ github_link }}">GitHub</a></td>
     <td><a href="{{ inspire_link }}"><img src="{{ inspire_img }}" alt="INSPIRE"></a><br/><a href="{{ inspire_link }}">INSPIRE</a></td>
+    <td>
+      <a href="{{ researchgate_link }}"><img src="{{ researchgate_img }}" alt="ResearchGate"></a><br/>
+      <a href="{{ researchgate_link }}">ResearchGate</a>
+    </td>
     <td><a href="{{ orcid_link }}"><img src="{{ orcid_img }}" alt="ORCID"></a><br/><a href="{{ orcid_link }}">ORCID</a></td>
     <td><a href="{{ linkedin_link }}"><img src="{{ linkedin_img }}" alt="LinkedIn"></a><br/><a href="{{ linkedin_link }}">LinkedIn</a></td>
     <td><a href="{{ email_link }}"><img src="{{ email_img }}" alt="Email"></a><br/><a href="{{ email_link }}">Email</a></td>
