@@ -41,7 +41,7 @@ Generated from INSPIRE.
 |:--:|:--|:--|:--:|
 | 2026 | [Measurements of $γ_v p \to π^+ π^- p'$ Cross Sections with the CLAS Detector for $Q^{2}$ from 2.0--5.0~GeV$^{2}$ and $W$ from 1.400--2.125~GeV](https://arxiv.org/abs/2607.06793) | Preprint | [arXiv](https://arxiv.org/abs/2607.06793) |
 | 2026 | [GPT-Based Fast Simulation of CLAS12 Detector Hits via Conditional Autoregressive Generation](https://arxiv.org/abs/2606.16035) | Preprint | [arXiv](https://arxiv.org/abs/2606.16035) |
-| 2026 | [Electro- and photoproduction of muon pairs with $μ$CLAS12: Double Deeply Virtual Compton Scattering, Timelike Compton Scattering, and $J/ψ$ production](https://arxiv.org/abs/2605.11690) | Preprint | [arXiv](https://arxiv.org/abs/2605.11690) |
+| 2026 | [Electro- and photoproduction of muon pairs with $\mu $CLAS12: double deeply virtual compton scattering, timelike compton scattering, and $J/\psi $ production](https://doi.org/10.1140/epja/s10050-026-01909-1) | Eur.Phys.J.A 62 157 (2026) | [DOI](https://doi.org/10.1140/epja/s10050-026-01909-1) |
 | 2026 | [Measurement of the near-threshold J/ψ photoproduction cross section with the CLAS12 experiment](https://doi.org/10.1103/lqv1-kf2n) | Phys.Rev.C 113 6 (2026) | [DOI](https://doi.org/10.1103/lqv1-kf2n) |
 | 2026 | [Measurements of Beam Spin Asymmetries of $π^\pmπ^0$ dihadrons at CLAS12](https://arxiv.org/abs/2602.14271) | Preprint | [arXiv](https://arxiv.org/abs/2602.14271) |
 | 2026 | [First study of the nuclear response to fast hadrons via angular correlations between pions and slow protons in electron-nucleus scattering](https://doi.org/10.1016/j.physletb.2026.140250) | Phys.Lett.B 874 (2026) | [DOI](https://doi.org/10.1016/j.physletb.2026.140250) |
