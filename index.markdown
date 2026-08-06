@@ -47,6 +47,8 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 {% assign inspire_link = 'https://inspirehep.net/authors/1322331' %}
 {% assign researchgate_img = '/assets/images/home/researchgate.svg' | relative_url %}
 {% assign researchgate_link = 'https://www.researchgate.net/profile/Maurizio-Ungaro' %}
+{% assign scopus_img = '/assets/images/home/scopus.svg' | relative_url %}
+{% assign scopus_link = 'https://www.scopus.com/authid/detail.uri?authorId=35228099400' %}
 {% assign email_img = '/assets/images/home/email.png' | relative_url %}
 {% assign email_link = 'mailto:ungaro@jlab.org' %}
 {% assign orcid_img = '/assets/images/home/orcid.svg' | relative_url %}
@@ -83,6 +85,8 @@ width="170"
 [inspire-link]: {{ inspire_link }}
 [researchgate-img]: {{ researchgate_img }}
 [researchgate-link]: {{ researchgate_link }}
+[scopus-img]: {{ scopus_img }}
+[scopus-link]: {{ scopus_link }}
 [email-img]: {{ email_img }}
 [email-link]: {{ email_link }}
 [orcid-img]: {{ orcid_img }}
@@ -128,6 +132,10 @@ For collaboration, software questions, or detector/simulation support, email me 
     <td><a href="{{ gscholar_link }}"><img src="{{ gscholar_img }}" alt="Google Scholar"></a><br/><a href="{{ gscholar_link }}">Google Scholar</a></td>
     <td><a href="{{ github_link }}"><img src="{{ github_img }}" alt="GitHub"></a><br/><a href="{{ github_link }}">GitHub</a></td>
     <td><a href="{{ inspire_link }}"><img src="{{ inspire_img }}" alt="INSPIRE"></a><br/><a href="{{ inspire_link }}">INSPIRE</a></td>
+    <td>
+      <a href="{{ scopus_link }}"><img src="{{ scopus_img }}" alt="Scopus"></a><br/>
+      <a href="{{ scopus_link }}">Scopus</a>
+    </td>
     <td>
       <a href="{{ researchgate_link }}"><img src="{{ researchgate_img }}" alt="ResearchGate"></a><br/>
       <a href="{{ researchgate_link }}">ResearchGate</a>
