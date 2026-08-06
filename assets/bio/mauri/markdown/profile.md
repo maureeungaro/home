@@ -15,6 +15,7 @@ Links:
 [GitHub](https://github.com/maureeungaro) ·
 [Google Scholar](https://scholar.google.com/citations?user=zkWYILYAAAAJ&hl=en) ·
 [INSPIRE](https://inspirehep.net/authors/1322331) ·
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=35228099400) ·
 [ORCID](https://orcid.org/0000-0001-6982-3310) ·
 [LinkedIn](https://www.linkedin.com/in/maurizio-ungaro-37992062/)
 
