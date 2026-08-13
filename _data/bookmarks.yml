@@ -26,9 +26,13 @@
   category: "HallB"
   link: "https://clasweb.jlab.org/cgi-bin/ccdb/objects"
 
-- title: "Software Center"
+- title: "CLAS Speaking Committee"
   category: "HallB"
-  link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
+  link: "https://clasweb.jlab.org/csc/wiki/index.php/Main_Page"
+
+- title: "CLAS Membership"
+  category: "HallB"
+  link: "https://clasweb.jlab.org/membership/edit.php"
 
 
 
@@ -92,7 +96,6 @@
   category: "Gemc"
   link: "https://github.com/gemc/clas12-systems"
 
-
 - title: "GEMC Repos"
   category: "Gemc"
   link: "https://github.com/orgs/gemc/repositories"
@@ -100,6 +103,10 @@
 - title: "SimGrid"
   category: "Gemc"
   link: "https://github.com/gemc/simGrid"
+
+- title: "GEMC Docker Hub"
+  category: "Gemc"
+  link: "https://hub.docker.com/repository/docker/gemc/gemc/general"
 
 
 
@@ -147,6 +154,18 @@
 - title: "CLAS12 Discourse"
   category: "CLAS12"
   link: "https://clas12.discourse.group"
+
+- title: "CLAS12 Field Maps"
+  category: "CLAS12"
+  link: "https://clasweb.jlab.org/12gev/field_maps/"
+
+- title: "Software Center"
+  category: "HallB"
+  link: "https://clasweb.jlab.org/wiki/index.php/CLAS12_Software_Center#tab=Communications"
+
+- title: "Software Portal"
+  category: "HallB"
+  link: "https://pages.jlab.org/hallb/clas12/swwg/"
 
 
 
@@ -223,9 +242,9 @@
   category: "JLab"
   link: "https://jlab.servicenowservices.com/nav_to.do?uri=%2Fhome.do%3F"
 
-- title: "Orcid"
+- title: "Genesis"
   category: "JLab"
-  link: "https://orcid.org"
+  link: "https://amsc.energy.gov"
 
 - title: "Calendar"
   category: "JLab"
@@ -257,6 +276,11 @@
   category: "Physics"
   link: "https://engage.aps.org/dnp/home"
 
+- title: "PDG"
+  category: "Physics"
+  link: "https://pdg.lbl.gov"
+
+
 
 
 
@@ -267,6 +291,10 @@
   category: "Geant4"
   link: "https://geant4.web.cern.ch"
 
+- title: "Portal"
+  category: "Geant4"
+  link: "https://twiki.cern.ch/twiki/bin/view/Geant4/WebHome"
+
 - title: "GitLab"
   category: "Geant4"
   link: "https://gitlab.cern.ch/geant4/geant4-dev"
@@ -275,10 +303,17 @@
   category: "Geant4"
   link: "https://geant4-forum.web.cern.ch"
 
+- title: "geant4 validation"
+  category: "Geant4"
+  link: "https://geant-val.cern.ch"
+
+- title: "geant4 CI"
+  category: "Geant4"
+  link: "https://cdash.cern.ch/index.php?project=Geant4"
+
 - title: "g4install"
   category: "Geant4"
   link: "https://github.com/gemc/g4install"
-
 
 
 
@@ -306,6 +341,33 @@
   category: "Open Science Grid"
   link: "http://gfactory-1.osg-htc.org/factory/monitor/factoryEntryStatusNow.html?entry=CMSHTPC_T2_US_MIT_ce03"
 
+- title: "Systems Status"
+  category: "Open Science Grid"
+  link: "https://status.osg-htc.org"
+
+- title: "OSG Connect"
+  category: "Open Science Grid"
+  link: "https://www.osgconnect.net"
+
+
+
+
+
+
+- title: "Systems Status"
+  category: "Open Science Grid"
+  link: "https://status.osg-htc.org"
+
+
+- title: "Systems Status"
+  category: "Open Science Grid"
+  link: "https://status.osg-htc.org"
+
+
+- title: "Systems Status"
+  category: "Open Science Grid"
+  link: "https://status.osg-htc.org"
+
 
 
 
@@ -317,3 +379,37 @@
 - title: "Learn"
   category: "LLM"
   link: "https://huggingface.co/learn"
+
+
+
+
+- title: "xkcd"
+  category: "comics"
+  link: "http://xkcd.com"
+
+- title: "nuklearpower"
+  category: "comics"
+  link: "http://www.nuklearpower.com/"
+
+- title: "bugcomic"
+  category: "comics"
+  link: "http://www.bugcomic.com"
+
+- title: "theoatmeal"
+  category: "comics"
+  link: "http://theoatmeal.com/"
+
+- title: "zerocalcare"
+  category: "comics"
+  link: "http://www.zerocalcare.it"
+
+- title: "tinyview"
+  category: "comics"
+  link: "https://tinyview.com/learn"
+
+- title: "what-if"
+  category: "comics"
+  link: "https://what-if.xkcd.com/archive/"
+
+
+
