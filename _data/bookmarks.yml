@@ -228,7 +228,7 @@
 
 - title: "Insight"
   category: "JLab"
-  link: "https://www.jlab.org/Hall-B/shifts/"
+  link: "https://jidp.jlab.org/idp/profile/SAML2/POST/SSO?execution=e1s2"
 
 - title: "G4Home"
   category: "JLab"
@@ -261,6 +261,8 @@
 - title: "Publications"
   category: "JLab"
   link: "https://misportal.jlab.org/sti/"
+
+
 
 
 
