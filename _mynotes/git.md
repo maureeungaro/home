@@ -21,6 +21,36 @@ git clone -b v1.2.3 --recurse-submodules --shallow-submodules --depth 1 [repo]
 
 <br/>
 
+## Git LFS (Large File Storage)
+
+Install Git LFS, then initialize it once for your user account:
+
+```shell
+# macOS
+brew install git-lfs
+
+# Ubuntu/Debian
+sudo apt install git-lfs
+
+git lfs install
+```
+
+Enable Git LFS in a repository and select the file types to store with it:
+
+```shell
+cd path/to/repository
+git lfs track "*.zip"       # use a pattern or a specific file path
+git add .gitattributes      # commit the tracking rules
+git add path/to/archive.zip
+git commit -m "Track ZIP files with Git LFS"
+git push
+```
+
+Run `git lfs ls-files` to list tracked files. Tracking a pattern affects newly added files only; moving files
+already committed to regular Git into LFS requires `git lfs migrate`, which rewrites repository history.
+
+<br/>
+
 ## Update a tag / release (rewrite an existing tag)
 
 **Use these Variables**
@@ -436,5 +466,4 @@ context".
 |-------------------------|-----------------------|----------------------|-------------------------|
 | `gemc/pygemc`           | `GEMC_SRC_PAT`        | `gemc/src`           | trigger Actions on src  |
 | `gemc/src`              | `CLAS12_SYSTEMS_PAT`  | `gemc/clas12-systems`| trigger Actions on clas12-systems |
-
 
