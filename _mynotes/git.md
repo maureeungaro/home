@@ -51,6 +51,53 @@ already committed to regular Git into LFS requires `git lfs migrate`, which rewr
 
 <br/>
 
+## Publish an immutable release and move its major-version tag
+
+Use two tags for a versioned GitHub Action or other project:
+
+* `v1.0.1` is the immutable release tag. Never move or reuse it.
+* `v1` is a moving compatibility tag. Users who specify `uses: owner/repository@v1` receive the latest
+  compatible `v1.x.x` release.
+
+The GitHub Release must remain attached to `v1.0.1`. Only the `v1` tag moves; there is no separate moving
+GitHub Release.
+
+#### 1) Publish the GitHub Release
+
+On the repository's GitHub page:
+
+1. Open **Releases** and select **Draft a new release**.
+2. Create (or choose) the `v1.0.1` tag. 
+3. Add the release title, notes, and any assets.
+
+
+#### 2) Create or update the major-version tag
+
+Set the immutable version and the moving major version:
+
+```shell
+version=v1.0.1
+major=v1
+```
+
+Only after the GitHub Release for `v1.0.1` is published, point `v1` at it. On the first release this creates
+`v1`; on every later release (`v1.0.2`, `v1.1.2`, ...) the same command updates `v1` to the newest immutable
+tag. Fetch the tag GitHub just created, point the local `v1` tag at the commit referenced by `$version`, then
+force-update only that tag on GitHub:
+
+```shell
+git fetch origin --tags
+git tag -f "$major" "$version^{}"
+git push --force origin "refs/tags/$major:refs/tags/$major"
+```
+
+The `^{}` suffix dereferences the version tag, so `v1` points directly to the release commit. Force is
+required because moving a tag is a non-fast-forward update (and is harmless the first time, when `v1` does not
+yet exist). Protect immutable tags such as `v*.*.*` with a GitHub tag ruleset, while allowing the major tags
+intended to move.
+
+<br/>
+
 ## Update a tag / release (rewrite an existing tag)
 
 **Use these Variables**
@@ -466,4 +513,3 @@ context".
 |-------------------------|-----------------------|----------------------|-------------------------|
 | `gemc/pygemc`           | `GEMC_SRC_PAT`        | `gemc/src`           | trigger Actions on src  |
 | `gemc/src`              | `CLAS12_SYSTEMS_PAT`  | `gemc/clas12-systems`| trigger Actions on clas12-systems |
-
