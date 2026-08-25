@@ -234,6 +234,10 @@
   category: "JLab"
   link: "https://jeffersonlab.github.io/g4home/"
 
+- title: "G4Home Github"
+  category: "JLab"
+  link: "https://github.com/jeffersonLab/g4home"
+
 - title: "SciComp"
   category: "JLab"
   link: "https://jlab.servicenowservices.com/scicomp"

@@ -86,9 +86,9 @@ tag. Fetch the tag GitHub just created, point the local `v1` tag at the commit r
 force-update only that tag on GitHub:
 
 ```shell
-git fetch origin --tags
+git fetch origin tag "$version"
 git tag -f "$major" "$version^{}"
-git push --force origin "refs/tags/$major:refs/tags/$major"
+git push --force origin "refs/tags/$major"
 ```
 
 The `^{}` suffix dereferences the version tag, so `v1` points directly to the release commit. Force is
