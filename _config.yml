@@ -86,6 +86,9 @@ collections:
 #    output: true
   software:
     output: true
+  weekly:
+    output: true
+    permalink: /weekly/:path/
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
 

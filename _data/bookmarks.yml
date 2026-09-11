@@ -151,17 +151,13 @@
   category: "CLAS12"
   link: "https://userweb.jlab.org/~heddle/ced/builds/"
 
-- title: "orca"
-  category: "CLAS12"
-  link: "https://code.jlab.org/hallb/clas12/orca"
-
 - title: "CLAS12 Discourse"
   category: "CLAS12"
   link: "https://clas12.discourse.group"
 
-- title: "CLAS12 Field Maps"
+- title: "CLAS12 magfield"
   category: "CLAS12"
-  link: "https://clasweb.jlab.org/12gev/field_maps/"
+  link: "https://code.jlab.org/hallb/clas12/magfield"
 
 - title: "Software Center"
   category: "HallB"
