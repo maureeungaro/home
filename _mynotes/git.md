@@ -356,6 +356,71 @@ git log --follow --date=short --pretty=format:"%h %ad %an %s" -- path/to/file
 
 <br/>
 
+## Revert or undo the last commit
+
+There are two very different ways to "undo" the last commit. Pick by whether the commit was already pushed.
+
+#### Already pushed → `git revert` (safe, keeps history)
+
+`git revert` does not delete the commit; it creates a **new** commit that reverses its changes. History is
+preserved and no force push is needed, so this is the right choice for a shared/pushed branch.
+
+```shell
+git revert HEAD          # opens an editor for the revert message
+git revert --no-edit HEAD   # reuse the default message, no editor
+git push
+```
+
+To undo the revert itself, just revert the revert (`git revert HEAD`) — or drop it while still local with the
+reset commands below.
+
+#### Local only → `git reset` (rewrites history)
+
+If the commit has **not** been pushed, move the branch pointer back one commit. What happens to the changes
+depends on the flag:
+
+```shell
+git reset --soft  HEAD~1   # undo the commit, keep changes staged
+git reset --mixed HEAD~1   # undo the commit, keep changes in the working tree (default)
+git reset --hard  HEAD~1   # undo the commit AND discard the changes
+```
+
+> ⚠️ `--hard` permanently discards the working-tree changes from that commit. Run `git status` (and, if
+> unsure, `git stash`) first.
+
+Common case: keep the work but redo the commit — `git reset --soft HEAD~1`, then re-stage/commit as needed.
+
+Fix only the message or add forgotten files to the last commit without resetting:
+
+```shell
+git commit --amend            # edit message and/or fold in staged changes
+git commit --amend --no-edit  # keep the message, just add the staged changes
+```
+
+#### If it was already pushed
+
+Resetting a pushed commit rewrites history, so the push is non-fast-forward and must be forced. Prefer
+`--force-with-lease`, which refuses if someone else pushed in the meantime:
+
+```shell
+git reset --hard HEAD~1
+git push --force-with-lease
+```
+
+> ⚠️ Only do this on a branch you control. Rewriting shared history breaks other clones — on a shared branch
+> use `git revert` instead.
+
+#### Recover a commit dropped by mistake
+
+`reset` does not immediately delete commits; the old tip stays in the reflog for a while:
+
+```shell
+git reflog                 # find the SHA of the lost commit
+git reset --hard <sha>     # or: git cherry-pick <sha>
+```
+
+<br/>
+
 ## Tokens (Personal Access Tokens)
 
 A **Personal Access Token (PAT)** is a credential tied to **your personal account**, not to a repository.
