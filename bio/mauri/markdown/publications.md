@@ -5,7 +5,7 @@ Generated from INSPIRE.
 {:.zebra.compact-table}
 | Records | Count |
 |:--|--:|
-| Total publications | 277 |
+| Total publications | 278 |
 | First-author publications | 11 |
 
 ## First-Author Papers
@@ -30,6 +30,7 @@ Generated from INSPIRE.
 {:.zebra.publications-table}
 | Year | Publication | Venue | Source |
 |:--:|:--|:--|:--:|
+| 2026 | [Measurements of $γ_v p \to π^+ π^-p'$ Cross Sections with the CLAS12 Detector for $Q^2$ from 2.4-8.0 GeV$^2$ and $W$ from 1.4-2.1 GeV](https://arxiv.org/abs/2609.19395) | Preprint | [arXiv](https://arxiv.org/abs/2609.19395) |
 | 2026 | [First Measurement of Near-Threshold J/ψ Photoproduction on the Neutron](https://arxiv.org/abs/2609.03579) | Preprint | [arXiv](https://arxiv.org/abs/2609.03579) |
 | 2026 | [Multi-Differential DVCS Cross Section Measurement on the Proton in the Valence Region with CLAS12](https://arxiv.org/abs/2608.20585) | Preprint | [arXiv](https://arxiv.org/abs/2608.20585) |
 | 2026 | [First measurement of polarized spin-density matrix elements and differential cross sections dσ/dt in ω photoproduction off the proton for 2.7 < Eγ < 5.2 GeV using CLAS at Jefferson Lab](https://doi.org/10.1016/j.physletb.2026.140845) | Phys.Lett.B 880 (2026) | [DOI](https://doi.org/10.1016/j.physletb.2026.140845) |
