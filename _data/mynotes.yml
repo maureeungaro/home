@@ -53,6 +53,10 @@
   category: "Work"
   link: "/home/mynotes/git"
 
+- title: "GitHub Actions Marketplace"
+  category: "Work"
+  link: "/home/mynotes/github_marketplace"
+
 - title: "Profiling"
   category: "C++"
   link: "/home/mynotes/profiling_c++"
