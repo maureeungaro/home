@@ -10,6 +10,31 @@ title: "HTCondor"
 
 <br/>
 
+## Checking site configurations
+
+Query the collector to see which sites are available in a pool and whether they expose the CVMFS
+repositories the jobs need. The two commands below report each site's `GLIDEIN_Site` along with the
+`HAS_CVMFS_oasis_opensciencegrid_org` and `HAS_CVMFS_jlab_opensciencegrid_org` flags, then group the
+distinct rows with a count.
+
+For the JLab CHTC pool, restricted to the `clas12` GlideinWMS group:
+
+```shell
+condor_status -startd -pool jlab-cm.osg.chtc.io -const 'GLIDEClient_Group == "clas12"' \
+  -af:h GLIDEIN_Site HAS_CVMFS_oasis_opensciencegrid_org HAS_CVMFS_jlab_opensciencegrid_org \
+  | sort | uniq -c | sort -n | sort -u
+```
+
+For the OSPool:
+
+```shell
+condor_status -startd -pool cm-1.ospool.osg-htc.org -const 'OSPool' \
+  -af:h GLIDEIN_Site HAS_CVMFS_oasis_opensciencegrid_org HAS_CVMFS_jlab_opensciencegrid_org \
+  | sort | uniq -c | sort -n | sort -u
+```
+
+<br/>
+
 ## Debugging held jobs
 
 Run the following commands on the submission host, such as `scosg2202`. Replace `8897.10` with the
