@@ -7,7 +7,9 @@
 
 layout: default
 title: Maurizio Ungaro
-description: Nuclear physicist at Jefferson Lab working on Geant4 simulations, GEMC, CLAS12 software, detector systems, and nucleon-structure research.
+description: >-
+  Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
+  CLAS12 detector systems, nucleon structure, and scientific computing workflows.
 image: /assets/images/home/mauri.png
 nav_exclude: true
 
@@ -24,14 +26,15 @@ education: |
   - <span class="large-emoji">🔬</span> **Staff Scientist**  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Jefferson Laboratory](https://www.jlab.org), VA, USA, 2011-present <br/><br/>
 
-  - <span class="large-emoji">🎓 🔬</span>  **Post-Doc and Research Associate**  
+  - <span class="large-emoji">🎓 🔬</span>  **Postdoctoral Researcher and Research Associate**<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[University of Connecticut](https://uconn.edu), USA, 2004-2011 <br/><br/>
 
-  - <span class="large-emoji">🎓</span>  **PhD in Nuclear Physics**  
+  - <span class="large-emoji">🎓</span>  **Ph.D. in Nuclear Physics**<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Rensselaer Polytechnic Institute](https://www.rpi.edu), Troy, NY, USA, 2003 <br/><br/>
 
   - <span class="large-emoji">🎓</span>  **Laurea in Fisica**  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Università degli studi di Genova](https://www.difi.unige.it/it), Italy, 1999 <br/><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    [Università degli Studi di Genova](https://unige.it/), Italy, 1999 <br/><br/>
 
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 
@@ -74,7 +77,6 @@ width="170"
 |                      `Staff Scientist`                       |
 |:------------------------------------------------------------:|
 |      [Jefferson Laboratory](https://www.jlab.org)            |
-| :----------------------------------------------------------: |
 |  [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
 
 [gscholar-img]: {{ gscholar_img }}
@@ -102,12 +104,14 @@ width="170"
 
 ## About Me
 
-I am Maurizio Ungaro, a nuclear physicist working in [Hall-B](https://www.jlab.org/physics/hall-b)
-at [Jefferson Lab](https://www.jlab.org).
-This site collects my research, talks, simulation software, detector work, technical notes, and selected links.
-It is intended for collaborators, Geant4 and GEMC users, CLAS12 simulation users, and students looking for practical examples.
-My work connects nuclear physics analysis, detector operations, and simulation infrastructure, with a focus on making
-Geant4-based workflows easier to build, run, document, and share.
+I am Maurizio (Mauri) Ungaro, a Staff Scientist in [Hall-B](https://www.jlab.org/physics/hall-b)
+at [Jefferson Lab](https://www.jlab.org). I work on nuclear physics, detector systems, and simulation software.
+
+My current work includes Geant4-based simulations with GEMC, CLAS12 production workflows on the
+Open Science Grid, and operation, calibration, and performance studies of the CLAS12 Low Threshold
+Cherenkov Counter. My research explores nucleon structure through meson electroproduction.
+
+Here you can find software, talks, technical notes, and practical examples for collaborators and students.
 
 In my free time, I am learning to play hockey while enjoying watching my kid skate much faster than me.
 
@@ -125,7 +129,8 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 
 <br/>
 
-For collaboration, software questions, or detector/simulation support, email me or use the research and code profiles below.
+For collaboration or help with simulations and detector work, [email me](mailto:ungaro@jlab.org).
+You can also find my publications and code through the profiles below.
 <br/>
 <br/>
 
@@ -156,6 +161,32 @@ For collaboration, software questions, or detector/simulation support, email me 
 
 <br/><br/>
 
+## Latest News and Upcoming Work
+
+<table class="alternate">
+  <thead>
+    <tr><th scope="col">News</th><th scope="col">Date / Status</th></tr>
+  </thead>
+  <tbody>
+    {% for news in site.data.news %}
+    <tr>
+      <td>
+        <a href="{{ news.link }}">
+          <img src="{{ news.image }}" alt="" width="100"> {{ news.title }}
+        </a>
+      </td>
+      <td>{{ news.date }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+The upcoming CLAS12 note describes the simGrid OSG framework, with diagrams of its architecture
+and job workflows. Until the note is available,
+the news link leads to the [CLAS12 on OSG overview]({{ '/osg/osg' | relative_url }}).
+
+<br/>
+
 ## Start Here
 
 | If you are looking for... | Start with |
@@ -163,7 +194,8 @@ For collaboration, software questions, or detector/simulation support, email me 
 | Biography, CV, resume, or professional links | [Profile](/home/profile/) |
 | Geant4 examples, tutorials, or JLab support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
 | GEMC simulation workflows | [GEMC](https://gemc.github.io/home/) |
-| CLAS12 simulation releases and production workflows | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) and [OSG submissions](/home/osg/osg) |
+| CLAS12 simulation releases | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) |
+| Distributed simulation production | [CLAS12 on OSG](/home/osg/osg) |
 | Research talks, papers, and technical notes | [Research & Talks](/home/showcase/) |
 | Practical computing notes | [Notes](/home/mynotes/) |
 
@@ -171,26 +203,30 @@ For collaboration, software questions, or detector/simulation support, email me 
 
 ## What I Work On
 
-| Area | Focus |
-|:--|:--|
-| Nuclear physics | Nucleon structure, physics beyond the constituent quark model, and links between form factors and dressed quark mass, including the [N → Δ(1232) transition](meson/pi0_delta/pi0_delta) and [meson electro-production at high Q<sup>2</sup>](meson/pi0_resonance/pi0_resonance). |
-| Detector work | Refurbishment, operation, maintenance, and calibration of the [Low Threshold Cherenkov Counter](https://www.jlab.org/Hall-B/clas12-web/specs/ltcc.pdf) detector in Hall-B. |
-| Simulation software | [GEMC](https://gemc.github.io/home/), [CLAS12 Simulations](https://github.com/gemc/clas12Tags), [Web Submissions](https://gemc.jlab.org/web_interface/index.php), and [Open Science Grid](https://osg-htc.org) production workflows. |
-| Geant4 support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) tutorials, examples, and support material for Jefferson Lab users. |
+- **Nuclear physics:** nucleon structure, resonance-region analyses, and the transition between hadronic
+  and partonic descriptions, including the [N → Δ(1232) transition](/home/meson/pi0_delta/pi0_delta)
+  and [meson electroproduction at high Q<sup>2</sup>](/home/meson/pi0_resonance/pi0_resonance).
+- **Detector systems:** operation, maintenance, calibration, and performance studies of the
+  [CLAS12 Low Threshold Cherenkov Counter](/home/ltcc/ltcc).
+- **Simulation software:** development of [GEMC and GEMC3](https://gemc.github.io/home/),
+  [CLAS12 simulations](https://github.com/gemc/clas12Tags), and
+  [Open Science Grid production workflows](/home/osg/osg).
+- **Scientific computing and support:** [Geant4 at JLab](https://jeffersonlab.github.io/g4home/),
+  reproducible simulation workflows, tutorials, examples, and user-facing documentation.
 
 <br/>
 
-## Recent Talks and Notes
+## Recent and Upcoming Talks and Notes
 
 <br/>
 
 <table class="alternate">
 
 	<tr>
-		<td> Title </td>
-		<td> PDF </td>
-		<td> Occasion </td>
-		<td> Date </td>
+		<th scope="col">Title</th>
+		<th scope="col">PDF</th>
+		<th scope="col">Occasion</th>
+		<th scope="col">Date</th>
 	</tr>	
 
 	{% for presentation in site.data.recent_and_upcoming_presentations limit: 6 %}
@@ -198,9 +234,13 @@ For collaboration, software questions, or detector/simulation support, email me 
             <td> {{ presentation.title }} </td>
 
                 {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
+                    <td>
+                      <a href="{{ page.p_baseurl }}{{ presentation.filename }}.pdf" target="_blank">PDF</a>
+                    </td>
                 {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
+                    <td>
+                      <a href="{{ page.p_baseurl }}no_pdf_animation.pdf" target="_blank">PDF</a>
+                    </td>
                  {% else %}
                     <td>  </td>
                 {% endif %}
@@ -262,25 +302,6 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
 {% endcapture %}
 
 {% include two_col_md.html left="40%" right="60%" left_content=left2 right_content=right2 %}
-
-<br/>
-
-## Latest News
-
-<br/>
-
-<div >
-	<table class="alternate">
-	{% for news in site.data.news %}
-		<tr>
-			<td> <a href="{{news.link}}"><img src="{{news.image}}" alt="{{news.title}}" width="100px">&nbsp;&nbsp;&nbsp;{{news.title}}</a> </td>
-			<td> {{news.date}} </td>
-		</tr>
-	{% endfor %}
-	</table>
-	<br/><br/>
-</div>
-
 
 <br/>
 

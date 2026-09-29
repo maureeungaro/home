@@ -1,0 +1,66 @@
+.wfd-form {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--header-border, #eaecef);
+  border-radius: 8px;
+  background: var(--table-row-alt, #f8fafa);
+}
+.wfd-form fieldset {
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+}
+.wfd-form legend { margin-bottom: .5rem; }
+.wfd-form > label { display: block; margin-top: .75rem; }
+.wfd-meal-options { display: flex; flex-wrap: wrap; gap: .75rem; }
+.wfd-meal-options label {
+  padding: .5rem .75rem;
+  border: 1px solid var(--header-border, #eaecef);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.wfd-meal-options label:has(input:checked) {
+  border-color: var(--link, #00419b);
+  background: #eaf2ff;
+}
+.wfd-form input[type="text"], .wfd-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .5rem;
+  font: inherit;
+}
+.wfd-form input[type="number"] { width: 5rem; padding: .5rem; font: inherit; }
+.wfd-day-options { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; }
+.wfd-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.wfd-results[hidden] { display: none; }
+.wfd-results > section { min-width: 0; }
+.wfd-form button {
+  display: block;
+  margin-top: 1rem;
+  padding: .6rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  background: var(--link, #00419b);
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+.wfd-form :focus-visible { outline: 2px solid var(--link, #00419b); outline-offset: 3px; }
+.wfd-cuisine { margin-bottom: 1.5rem; }
+@media (max-width: 640px) {
+  .wfd-cuisine .directory-links { grid-template-columns: 1fr; }
+  .wfd-results { grid-template-columns: 1fr; }
+}
+.wfd-day { margin: 1rem 0; padding: 1rem; border: 1px solid #eaecef; border-radius: 6px; }
+.wfd-day h3 { margin-top: 0; }
+.wfd-day ul { margin-bottom: 0; }
+#plan-ingredients { column-count: 2; column-gap: 1.25rem; }
+.wfd-ingredient-recipe { margin: 0 0 1rem; break-inside: avoid-column; }
+.wfd-ingredient-name { margin: 0 0 .25rem; font-size: 1rem; font-weight: normal; }
+.wfd-ingredient-list { margin: 0 0 0 1.25rem; font-size: .8rem; }
+@media (max-width: 640px) {
+  #plan-ingredients { column-count: 1; }
+}
+.wfd-recipe table { table-layout: fixed; width: 100%; }
+.wfd-recipe td { padding: .4rem; }
+.wfd-recipe img { max-width: 100%; height: auto; }

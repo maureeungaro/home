@@ -59,6 +59,9 @@ exclude:
    - AGENTS.md
    - CLAUDE.md
    - bio
+   - recipes/AGENTS.md
+   - recipes/CLAUDE.md
+   - recipes/.idea/
    - assets/bio/mauri/mauri_job_application.pdf
    - assets/bio/mauri/markdown/job_application_notes.md
 
@@ -118,3 +121,12 @@ mauriSlicesUrl: 'https://userweb.jlab.org/~ungaro/slices'
 notes_owner_only_categories:
   - Travel
   - Recipes
+
+# The local publishing script copies recipe source files into recipes/.
+defaults:
+  - scope:
+      path: recipes
+      type: pages
+    values:
+      layout: recipe
+      nav_exclude: true

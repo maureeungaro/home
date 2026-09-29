@@ -35,6 +35,180 @@ condor_status -startd -pool cm-1.ospool.osg-htc.org -const 'OSPool' \
 
 <br/>
 
+## Changing requirements for submitted jobs
+
+Editing a submission file affects future submissions only. Use `condor_qedit` on the submission host,
+as the job owner, to change jobs already in the queue. The commands below work in Bash and zsh.
+See the [condor_qedit reference](https://htcondor.readthedocs.io/en/25.x/man-pages/condor_qedit.html).
+
+A cluster ID such as `9291` selects all its queued subjobs; `9291.10` selects only subjob `10`.
+Without a status constraint, `condor_qedit` edits idle, held, and running jobs. It does not hold or release
+jobs. Changes affect subsequent matchmaking, not the current execution or allocation of a running job.
+
+### Inspect requirements and job status
+
+`Requirements` is the attribute name; do not replace it with another value in these inspection commands.
+Use `-long` to see the stored expression for one job:
+
+```shell
+condor_q 9291.10 -long -attributes Requirements
+```
+
+For the whole cluster, include the job IDs (this can produce a large amount of output):
+
+```shell
+condor_q 9291 -long -attributes ClusterId,ProcId,JobStatus,Requirements
+```
+
+Plain `-af Requirements` evaluates the expression instead of printing its text. Without a worker's
+attributes, the result can be `false` even when the stored expression contains valid matching conditions.
+That output does not mean the stored requirements are literally `false`, or that the jobs cannot match.
+Do not overwrite requirements based on that output. If `-long` shows the expression itself is literally
+`false`, then it does match no workers.
+
+To count jobs by status without printing thousands of lines:
+
+```shell
+condor_q 9291 -af JobStatus | sort | uniq -c
+```
+
+The first column is the count; the second is the status: `1` means idle, `2` running, and `5` held.
+For example, `2560 1`, `301 2`, and `1 5` mean 2,560 idle jobs, 301 running jobs, and one held job.
+These counts do not diagnose a requirements problem.
+
+When reading an expression into a shell variable, use `-af:r Requirements`: the `r` requests raw,
+unevaluated output. See the
+[condor_q reference](https://htcondor.readthedocs.io/en/24.x/man-pages/condor_q.html).
+
+### Set requirements for all jobs in a cluster
+
+Inspect the stored expressions above before deciding whether to change them.
+
+The following command sets the requirements for every queued job in cluster `9291`. It requires the JLab
+CVMFS repository and removes the previous Oasis availability and revision requirements:
+
+```shell
+condor_qedit 9291 Requirements \
+  "(TARGET.HAS_SINGULARITY =?= TRUE) && \
+   (TARGET.HAS_CVMFS_jlab_opensciencegrid_org =?= TRUE) && \
+   (TARGET.OSG_HOST_KERNEL_VERSION >= 21700) && \
+   (TARGET.OSG_GLIDEIN_VERSION >= 534)"
+```
+
+The double quotes and trailing backslashes pass the expression as one argument without literal newlines.
+Keep each backslash at the very end of its line, with no trailing spaces. Do not replace the double quotes
+with single quotes: backslash-newline continuation does not work inside single quotes.
+
+This replaces the entire expression. If the original submission had additional resource, architecture,
+or file-transfer requirements, include those clauses from the submission or an intact equivalent job.
+The four clauses above do not restore HTCondor-generated requirements automatically. Also check that the
+job's scripts use the intended `/cvmfs/` paths; changing requirements does not change those paths.
+
+Verify the result:
+
+```shell
+condor_q 9291 -long -attributes ClusterId,ProcId,JobStatus,Requirements
+```
+
+Idle jobs use the new requirements when next matched. Held jobs remain held. Running jobs continue their
+current attempt and use the new requirements if they need another match.
+
+Only if you intend to interrupt and restart running jobs, run `condor_hold 9291` **before** editing,
+confirm the jobs are held (`JobStatus == 5`), then run `condor_release 9291` after verifying the edits.
+Holding running jobs may lose progress or worker-local output; without checkpointing, expect a restart.
+Holding idle jobs also prevents them from starting partway through a series of edits.
+
+### Set requirements only for held jobs in a cluster
+
+To leave idle and running jobs untouched, select both the cluster and held status (`JobStatus == 5`).
+Preview the selected jobs:
+
+```shell
+condor_q -constraint 'ClusterId == 9291 && JobStatus == 5' \
+  -long -attributes ClusterId,ProcId,Requirements
+```
+
+Apply the replacement only to jobs held when the edit runs:
+
+```shell
+condor_qedit -constraint 'ClusterId == 9291 && JobStatus == 5' Requirements \
+  "(TARGET.HAS_SINGULARITY =?= TRUE) && \
+   (TARGET.HAS_CVMFS_jlab_opensciencegrid_org =?= TRUE) && \
+   (TARGET.OSG_HOST_KERNEL_VERSION >= 21700) && \
+   (TARGET.OSG_GLIDEIN_VERSION >= 534)"
+```
+
+The same complete-expression considerations above apply. You do not need to hold the cluster first:
+this command targets jobs already held and leaves them held. Verify the edits:
+
+```shell
+condor_q -constraint 'ClusterId == 9291 && JobStatus == 5' \
+  -long -attributes ClusterId,ProcId,Requirements
+```
+
+When ready to retry the held jobs in this cluster:
+
+```shell
+condor_release -constraint 'ClusterId == 9291 && JobStatus == 5'
+```
+
+Each command evaluates its constraint independently. If another job becomes held between the edit and
+release, the release also selects it. Use explicit job IDs if you need to release exactly the edited set.
+
+The memory and site examples below target one job, `8897.10`; replace it with your intended job ID.
+
+### Change requested memory
+
+For a measured requirement of 4 GiB, set `RequestMemory` to `4096` MB:
+
+```shell
+condor_qedit 8897.10 RequestMemory 4096
+condor_q 8897.10 -long -attributes RequestMemory,Requirements
+```
+
+The usual generated requirement, `TARGET.Memory >= RequestMemory`, uses the updated request automatically.
+If the expression instead contains a fixed memory threshold, review that clause too. A larger request may
+increase waiting time and does not fix a memory leak. It takes effect on the next allocation, not the
+currently running attempt. For future submissions, update `request_memory = 4096` in the submission file.
+
+### Exclude a problematic site
+
+Use the exact `GLIDEIN_Site` value advertised by the pool, as shown in the site queries above. Replace
+`SITE_TO_AVOID` below with that value. Read the latest expression so earlier edits are preserved:
+
+```bash
+requirements=$(condor_q 8897.10 -af:r Requirements)
+printf '%s\n' "$requirements"
+```
+
+Stop if the query failed or returned no expression. Then append the exclusion:
+
+```bash
+condor_qedit 8897.10 Requirements \
+  "($requirements) && (TARGET.GLIDEIN_Site =!= \"SITE_TO_AVOID\")"
+```
+
+The ClassAd operator `=!=` also allows workers where `GLIDEIN_Site` is undefined. To require a known site,
+include `!isUndefined(TARGET.GLIDEIN_Site)` as another clause. Excluding a site does not evict an existing
+attempt there; use the hold/edit/release workflow to restart it elsewhere.
+
+### Verify and release
+
+For the single-job examples, check each edit succeeded and inspect the final values. Release only if the
+job is held and you are ready to retry it:
+
+```shell
+condor_q 8897.10 -long -attributes JobStatus,Requirements,RequestMemory
+condor_release 8897.10
+condor_q 8897.10
+condor_q 8897.10 -better-analyze
+```
+
+The job returns to matchmaking and may wait for a suitable worker. Use `-better-analyze` to investigate
+unmet requirements. Apply the same intended changes to the submission file for future jobs.
+
+<br/>
+
 ## Debugging held jobs
 
 Run the following commands on the submission host, such as `scosg2202`. Replace `8897.10` with the
@@ -201,7 +375,7 @@ For a predictable test, prepare one fresh diagnostic submission in a separate di
 5. Redirect the final upload to a separate destination, or disable it, to avoid replacing existing output.
 6. Add the following settings to the diagnostic submission file:
 
-```condor
+```javascript
 stream_output = True
 stream_error = True
 ```

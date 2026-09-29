@@ -10,7 +10,7 @@ Last updated: {{ page.last_updated }}
 
 <br/>
 
-Select or drag and drop a CSV file using the button below.
+Select a CSV file using the button below, or drag and drop one here.
 
 This page loads the CSV file and plots all the data in the chart on top, with the individual variables (up to 10) in the plots below.
 

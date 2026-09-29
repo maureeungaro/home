@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/wfd.css' | relative_url }}">
+<article class="wfd-recipe">
+  <p><a href="{{ '/wfd/' | relative_url }}">&larr; What's For Dinner</a></p>
+  <p class="meta">{{ page.cuisine | escape }} · {{ page.type | join: ', ' | capitalize | escape }}</p>
+  {{ content }}
+  <p class="meta">Recipe photographs link to their original publishers.</p>
+</article>
