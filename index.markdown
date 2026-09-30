@@ -324,6 +324,9 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
     	<li data-thumb="assets/images/empty.png">
 			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
     	</li>
+    	<li data-thumb="assets/images/empty.png">
+			<a href="/home/wfd/">What's For Dinner meal planner<br/><img src="assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
+    	</li>
 	</ul>
 
 </div>
