@@ -74,10 +74,10 @@ width="170"
 <p>Nuclear physicist and simulation software developer</p>
 </div>
 
-|                      `Staff Scientist`                       |
-|:------------------------------------------------------------:|
-|      [Jefferson Laboratory](https://www.jlab.org)            |
-|  [Experimental Hall-B](https://www.jlab.org/physics/hall-b)  |
+|                     `Staff Scientist`                      |
+|:----------------------------------------------------------:|
+|        [Jefferson Laboratory](https://www.jlab.org)        |
+| [Experimental Hall-B](https://www.jlab.org/physics/hall-b) |
 
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
@@ -115,8 +115,6 @@ Here you can find software, talks, technical notes, and practical examples for c
 
 In my free time, I am learning to play hockey while enjoying watching my kid skate much faster than me.
 
-<br/>
-
 <table class="zebra compact-table">
   <tr>
     <th>Primary links</th>
@@ -127,12 +125,17 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
   </tr>
 </table>
 
-<br/>
-
 For collaboration or help with simulations and detector work, [email me](mailto:ungaro@jlab.org).
 You can also find my publications and code through the profiles below.
 <br/>
 <br/>
+
+{% endcapture %}
+
+{% include two_col_md.html left="30%" right="70%" left_content=left right_content=right %}
+
+<br/>
+
 
 <table class="small-icons">
   <tr>
@@ -146,18 +149,12 @@ You can also find my publications and code through the profiles below.
       <a href="{{ researchgate_link }}"><img src="{{ researchgate_img }}" alt="ResearchGate"></a><br/>
       <a href="{{ researchgate_link }}">ResearchGate</a>
     </td>
-  </tr>
-  <tr>
     <td><a href="{{ github_link }}"><img src="{{ github_img }}" alt="GitHub"></a><br/><a href="{{ github_link }}">GitHub</a></td>
     <td><a href="{{ orcid_link }}"><img src="{{ orcid_img }}" alt="ORCID"></a><br/><a href="{{ orcid_link }}">ORCID</a></td>
     <td><a href="{{ linkedin_link }}"><img src="{{ linkedin_img }}" alt="LinkedIn"></a><br/><a href="{{ linkedin_link }}">LinkedIn</a></td>
     <td><a href="{{ email_link }}"><img src="{{ email_img }}" alt="Email"></a><br/><a href="{{ email_link }}">Email</a></td>
   </tr>
 </table>
-
-{% endcapture %}
-
-{% include two_col_md.html left="30%" right="70%" left_content=left right_content=right %}
 
 <br/><br/>
 
@@ -189,22 +186,22 @@ the news link leads to the [CLAS12 on OSG overview]({{ '/osg/osg' | relative_url
 
 ## Start Here
 
-| If you are looking for... | Start with |
-|:--|:--|
-| Biography, CV, resume, or professional links | [Profile](/home/profile/) |
-| Geant4 examples, tutorials, or JLab support | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
-| GEMC simulation workflows | [GEMC](https://gemc.github.io/home/) |
-| CLAS12 simulation releases | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) |
-| Distributed simulation production | [CLAS12 on OSG](/home/osg/osg) |
-| Research talks, papers, and technical notes | [Research & Talks](/home/showcase/) |
-| Practical computing notes | [Notes](/home/mynotes/) |
+| If you are looking for...                    | Start with                                               |
+|:---------------------------------------------|:---------------------------------------------------------|
+| Biography, CV, resume, or professional links | [Profile](/home/profile/)                                |
+| Geant4 examples, tutorials, or JLab support  | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
+| GEMC simulation workflows                    | [GEMC](https://gemc.github.io/home/)                     |
+| CLAS12 simulation releases                   | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) |
+| Distributed simulation production            | [CLAS12 on OSG](/home/osg/osg)                           |
+| Research talks, papers, and technical notes  | [Research & Talks](/home/showcase/)                      |
+| Practical computing notes                    | [Notes](/home/mynotes/)                                  |
 
 <br/><br/>
 
 ## What I Work On
 
 - **Nuclear physics:** nucleon structure, resonance-region analyses, and the transition between hadronic
-  and partonic descriptions, including the [N → Δ(1232) transition](/home/meson/pi0_delta/pi0_delta)
+  and partonic descriptions, including the [N → Δ (1232) transition](/home/meson/pi0_delta/pi0_delta)
   and [meson electroproduction at high Q<sup>2</sup>](/home/meson/pi0_resonance/pi0_resonance).
 - **Detector systems:** operation, maintenance, calibration, and performance studies of the
   [CLAS12 Low Threshold Cherenkov Counter](/home/ltcc/ltcc).
@@ -264,21 +261,18 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
 
 ## Technical Skills
 
-| Area | Tools and Experience |
-|:--|:--|
-| Simulation and analysis | Geant4, GEMC, CLAS12 simulations, ROOT, detector geometry, event generation, digitization workflows |
+| Area                           | Tools and Experience                                                                                                          |
+|:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
+| Simulation and analysis        | Geant4, GEMC, CLAS12 simulations, ROOT, detector geometry, event generation, digitization workflows                           |
 | Programming and infrastructure | C++, Python, shell scripting, Git, GitHub, continuous integration, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
-| Scientific communication | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, technical documentation, tutorials, presentations |
-| Languages | English, Italian |
-
+| Scientific communication       | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, technical documentation, tutorials, presentations                         |
+| Languages                      | English, Italian                                                                                                              |
 
 <br/>
 
 {% capture left2 %}
 
-
 ## Interests
-
 
 <div class="no-bullets-list">
   {{ page.interest | markdownify }}
@@ -286,9 +280,7 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
 
 {% endcapture %}
 
-
 {% capture right2 %}
-
 
 ## Experience and Education
 
@@ -296,7 +288,7 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
 
 <div class="no-bullets-list">
 
-  {{ page.education | markdownify }}
+{{ page.education | markdownify }}
 </div>
 
 {% endcapture %}
@@ -326,6 +318,12 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
     	</li>
     	<li data-thumb="assets/images/empty.png">
 			<a href="/home/wfd/">What's For Dinner meal planner<br/><img src="assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
+    	</li>
+    	<li data-thumb="assets/images/empty.png">
+			<a href="https://gemc.github.io/home/">GEMC home page<br/><img src="assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
+    	</li>
+    	<li data-thumb="assets/images/empty.png">
+			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC simulation web interface<br/><img src="assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 
