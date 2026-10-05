@@ -24,3 +24,8 @@ The LTCC sectors are filled with C4F10 gas and are designed for pion/kaon
 separation from 3.5 to 9 GeV/c. Each sector includes mirrors, Winston cones,
 PMTs, and magnetic shields. My work is connected to the detector refurbishment,
 operation, maintenance, calibration, and performance studies.
+
+Recent simulation work includes an optimized CAD description of the LTCC geometry — the hardware
+mounts, nose, and Winston cones — for Geant4 studies, benchmarked for loading time, memory use, and
+particle transport against the original model, with the comparison and validation written up in a
+forthcoming CLAS12 technical note.

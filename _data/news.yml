@@ -8,6 +8,16 @@
   image: "/home/assets/images/home/osg.png"
   link: "/home/osg/osg"
 
+- title: "CLAS12 detector systems build on GEMC3 from source"
+  date: "Upcoming"
+  image: "/home/assets/images/software/gemc3.png"
+  link: "/home/weekly/2026/2026-W40/"
+
+- title: "CLAS12 technical note on LTCC CAD geometry optimization"
+  date: "Upcoming"
+  image: "/home/assets/images/home/ltcc.png"
+  link: "/home/ltcc/ltcc"
+
 - title: "Geant4 School at JLab 2026"
   date: "2026"
   image: "https://jeffersonlab.github.io/g4home/assets/images/tutorial.png"
