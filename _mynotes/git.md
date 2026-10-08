@@ -13,6 +13,45 @@ title: "Using Git"
 <br/>
 
 
+## Connect an existing directory to an existing repository
+
+To use files already in a directory with a remote repository that has commits, initialize Git there and
+attach it to the remote history. There is no need to clone into another directory or copy the files.
+
+For a directory that does not yet have a `.git` directory or file:
+
+```shell
+cd path/to/existing-directory
+git init -b main
+git remote add origin git@github.com:owner/repository.git
+git fetch origin
+git reset --mixed origin/main
+git branch --set-upstream-to=origin/main main
+git status
+git diff
+```
+
+Replace the URL with the repository's SSH or HTTPS clone URL, and replace `main` throughout if you want
+another remote branch. Use `git branch -r` after fetching to list the available remote branches.
+
+`git reset --mixed` sets the local branch and staging area to the remote commit while leaving your files
+untouched. Existing files that differ from the remote appear as local changes; extra files are untracked
+unless ignored. Files present only in the remote appear as deletions, so review `git status` and `git diff`
+before staging or committing anything. This connects your work to the existing history.
+
+If the directory is already a Git repository, check its remotes with `git remote -v`. To point an existing
+`origin` at another repository, use:
+
+```shell
+git remote set-url origin git@github.com:owner/repository.git
+git fetch origin
+```
+
+If `origin` does not exist, use `git remote add origin` with the URL instead. Changing the remote URL keeps
+your local files and commits; it does not reconcile local history with the new remote repository.
+
+<br/>
+
 ## Clone one branch or tag, w/o history, with submodules w/o their history (shallow)
 
 ```shell
