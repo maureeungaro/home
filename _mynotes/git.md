@@ -211,6 +211,102 @@ List all remote branches:
 
 <br/>
 
+## Modify an existing pull request or merge request
+
+A GitHub pull request (PR) or GitLab merge request (MR) from a **fork** tracks a **source branch in that
+fork** and proposes merging it into a **target branch in the original repository** (often `main`). A fork
+is a separate repository; it still contains branches. Add commits to the same branch in the same fork,
+either in the browser or by pushing from a local clone, to update an open request automatically.
+There is no need to create another request.
+
+### Update the code in the browser
+
+You do not need to clone the fork. You still need permission to update its source branch: the author can
+edit their own fork, and maintainers can contribute when the author enables **Allow edits from
+maintainers** on GitHub or **Allow contributions from members** on GitLab.
+
+1. Open the existing PR or MR and identify its **source fork and source branch**.
+2. Open that fork in the browser and select the source branch, for example `my-feature`.
+3. Open the file and use the web editor. For changes across multiple files, use GitHub's web editor or
+   GitLab's Web IDE.
+4. Review the changes and commit them directly to the **existing source branch**. If offered a choice,
+   choose that branch rather than creating a new branch or request.
+
+The existing PR or MR automatically includes those commits. Check the updated diff and check results on
+the request's page.
+
+You can also apply suggested changes from review comments directly on the PR or MR when you have
+permission to update the source branch. Applying a suggestion creates a commit on that branch.
+Reviewers without that permission can suggest changes for the author or an authorized maintainer to apply.
+
+### Update the code from a local clone
+
+#### 1) Identify the fork and its source branch
+
+Find the source fork and branch on the request's page, for example `your-user/repository` and `my-feature`.
+You need write access to that fork's source branch. Creating another fork or pushing to a different branch
+will not update the existing request.
+
+In your local clone, check which repository each remote points to:
+
+```shell
+git remote -v
+```
+
+The commands below use a remote named `fork` pointing to the request's source fork. If that fork is already
+your `origin`, replace `fork` with `origin` throughout. If no remote points to it, add one using the fork's
+SSH or HTTPS clone URL from GitHub or GitLab:
+
+```shell
+git remote add fork <fork-clone-url>
+```
+
+#### 2) Switch to the source branch in the fork
+
+Start with a clean working tree: commit or stash any unrelated changes before switching branches.
+
+```shell
+git status
+git fetch fork
+git switch my-feature
+# If the branch does not exist locally, use this instead:
+# git switch --track fork/my-feature
+git pull --ff-only fork my-feature
+```
+
+If the pull reports diverging branches, reconcile the local and remote commits before continuing.
+
+#### 3) Edit the files, review the changes, commit, and push to the fork
+
+Make the requested changes and run the relevant checks, then:
+
+```shell
+git diff
+git add path/to/file path/to/another-file
+git diff --cached
+git commit -m "Address review feedback"
+git push fork HEAD:my-feature
+```
+
+`HEAD:my-feature` pushes your current commit to the fork's existing source branch. The original repository's
+PR or MR now includes the new commits. Review the updated diff and check results on its page.
+
+#### 4) Update the title or description if needed
+
+Open the existing request on GitHub or GitLab and edit its title or description. These edits do not
+require a Git commit. If the scope changed, describe the final change so reviewers can understand it.
+
+#### If you amended commits or rebased the source branch
+
+Amending or rebasing commits already pushed rewrites their history. Coordinate with anyone sharing the
+branch, then use `git push --force-with-lease fork HEAD:my-feature` to update the same request. If the lease
+check rejects the push, fetch and review the remote changes before trying again. Branch protection may
+forbid force pushes; adding a new commit avoids rewriting history.
+
+Once a request has been merged, submit further changes through a new branch and a new PR or MR.
+
+<br/>
+
 ## Take specific files from another branch (not a full merge)
 
 When you only want one or a few files from another branch (or commit/tag), don't merge the whole branch —
