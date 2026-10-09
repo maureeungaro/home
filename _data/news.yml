@@ -1,7 +1,12 @@
-- title: "GEMC3 0.5: next release"
+- title: "GEMC3 0.5 released, with pygemc 0.5.0 and CLAS12 systems 0.3"
+  date: "October 2026"
+  image: "/home/assets/images/software/gemc3.png"
+  link: "/home/weekly/2026/2026-W41/"
+
+- title: "GEMC3 0.6: next release"
   date: "Upcoming"
   image: "/home/assets/images/software/gemc3.png"
-  link: "https://gemc.github.io/home/roadmap/2026/08/17/next-release-0.5.html"
+  link: "/home/weekly/2026/2026-W41/"
 
 - title: "CLAS12 note on the OSG simulation framework"
   date: "Upcoming"
@@ -9,7 +14,7 @@
   link: "/home/osg/osg"
 
 - title: "CLAS12 detector systems build on GEMC3 from source"
-  date: "Upcoming"
+  date: "October 2026"
   image: "/home/assets/images/software/gemc3.png"
   link: "/home/weekly/2026/2026-W40/"
 
@@ -28,7 +33,7 @@
   image: "/home/assets/images/home/clas12.png"
   link: "https://userweb.jlab.org/~ungaro/slides/gemc/sro/fullTalks/update_sept28.pdf"
 
-- title: "GEMC3 generator examples: upcoming in the next release"
+- title: "GEMC3 generator examples"
   date: "September 2026"
   image: "/home/assets/images/software/gemc3.png"
   link: "https://gemc.github.io/home/examples/basic/generator_manipulations.html"
