@@ -276,6 +276,40 @@ a:active {
   color: var(--link);
 }
 
+/* ========================================================================== */
+/* Language switcher (jekyll-polyglot)                                        */
+/* ========================================================================== */
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+.lang-switcher .lang-link {
+  color: var(--link);          /* unselected languages: blue */
+  text-decoration: none;
+}
+
+.lang-switcher .lang-link:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.lang-switcher .lang-current {
+  color: #1a7f37;              /* selected language: green + bold */
+  font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lang-switcher .lang-current {
+    color: #3fb950;
+  }
+}
+
 a.site-title:hover,
 a.page-link:hover {
   color: var(--link-hover);
