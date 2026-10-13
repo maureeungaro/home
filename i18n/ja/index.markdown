@@ -6,6 +6,7 @@
 # Table: add first row (3 |) for autoformatting
 
 layout: default
+permalink: /
 title: Maurizio Ungaro
 description: >-
   Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
@@ -64,7 +65,7 @@ human_reviewed: false
 {% capture left %}
 
 {% include figure.html
-src="assets/images/home/mauri.png"
+src="/assets/images/home/mauri.png"
 alt="Portrait of Maurizio Ungaro"
 width="170"
 %}
@@ -77,7 +78,7 @@ width="170"
 |                     `Staff Scientist`                      |
 |:----------------------------------------------------------:|
 |        [ジェファーソン研究所](https://www.jlab.org)        |
-| [実験ホール B](https://www.jlab.org/physics/hall-b) |
+| [Hall-B実験ホール](https://www.jlab.org/physics/hall-b) |
 
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
@@ -104,16 +105,16 @@ width="170"
 
 ## 自己紹介
 
-私は [ジェファーソン研究所](https://www.jlab.org) の [Hall-B](https://www.jlab.org/physics/hall-b)
-に所属するスタッフ研究員、Maurizio（Mauri）Ungaro です。原子核物理、検出器システム、シミュレーションソフトウェアに取り組んでいます。
+Maurizio（Mauri）Ungaroです。[ジェファーソン研究所](https://www.jlab.org)の[Hall-B](https://www.jlab.org/physics/hall-b)に所属する
+スタッフ研究員として、原子核物理、検出器システム、シミュレーションソフトウェアに取り組んでいます。
 
-現在は、GEMC を用いた Geant4 ベースのシミュレーション、Open Science Grid 上での
-CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾値チェレンコフ検出器の
-運用・較正・性能評価に取り組んでいます。研究では、中間子電気生成を通じて核子構造を探究しています。
+現在は、GEMCを用いたGeant4ベースのシミュレーション、Open Science Grid上でのCLAS12の本番シミュレーション
+ワークフロー、CLAS12低閾値チェレンコフ検出器の運用・較正・性能評価に取り組んでいます。
+研究では、中間子の電子生成を通じて核子構造を探究しています。
 
-ここでは、共同研究者や学生に向けたソフトウェア、講演、技術ノート、実践的な例を紹介しています。
+ここでは、共同研究者や学生に向けたソフトウェア、講演、技術ノート、実践的な例をご覧いただけます。
 
-余暇には、自分よりずっと速く滑る我が子の姿を楽しみながら、ホッケーを習っています。
+余暇には、自分よりもはるかに速く滑る我が子の姿を楽しみながら、ホッケーを習っています。
 
 <table class="zebra compact-table">
   <tr>
@@ -125,7 +126,7 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
   </tr>
 </table>
 
-共同研究や、シミュレーション・検出器関連の支援については、[メールでご連絡ください](mailto:ungaro@jlab.org)。
+共同研究や、シミュレーション・検出器関連の作業についてのご相談は、[メールでご連絡ください](mailto:ungaro@jlab.org)。
 以下のプロフィールから、私の論文やコードもご覧いただけます。
 <br/>
 <br/>
@@ -158,7 +159,7 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
 
 <br/><br/>
 
-## 最新ニュースと今後の取り組み
+## 最新ニュースと今後の予定
 
 <table class="alternate">
   <thead>
@@ -178,42 +179,42 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
   </tbody>
 </table>
 
-公開予定の CLAS12 ノートでは、simGrid OSG フレームワークについて、アーキテクチャと
-ジョブワークフローの図を交えて解説します。ノートが公開されるまでは、
-ニュースのリンク先は [OSG 上での CLAS12 の概要]({{ '/osg/osg' | relative_url }}) です。
+公開予定のCLAS12ノートでは、simGrid OSGフレームワークについて、アーキテクチャと
+ジョブワークフローの図を交えて解説します。ノートが公開されるまでの間、
+ニュースのリンク先は[OSG上のCLAS12の概要]({{ '/osg/osg' | relative_url }})です。
 
 <br/>
 
 ## はじめに
 
-| お探しの内容                                 | 最初にご覧いただくページ                                 |
+| お探しの情報                                 | 最初に見るページ                                         |
 |:---------------------------------------------|:---------------------------------------------------------|
-| 略歴、CV、履歴書、専門活動に関するリンク       | [プロフィール](/home/profile/)                           |
-| Geant4 の例、チュートリアル、JLab でのサポート | [JLab における Geant4](https://jeffersonlab.github.io/g4home/) |
-| GEMC シミュレーションワークフロー             | [GEMC](https://gemc.github.io/home/)                     |
-| CLAS12 シミュレーションのリリース             | [CLAS12 シミュレーション](https://github.com/gemc/clas12Tags) |
-| 分散環境でのシミュレーションの大量生成       | [OSG 上での CLAS12](/home/osg/osg)                       |
+| 経歴、CV、履歴書、職務・研究関連のリンク      | [プロフィール](/home/profile/)                           |
+| Geant4の例、チュートリアル、JLabでのサポート  | [JLabのGeant4](https://jeffersonlab.github.io/g4home/) |
+| GEMCのシミュレーションワークフロー            | [GEMC](https://gemc.github.io/home/)                     |
+| CLAS12シミュレーションのリリース              | [CLAS12シミュレーション](https://github.com/gemc/clas12Tags) |
+| 分散環境での本番シミュレーション              | [OSG上のCLAS12](/home/osg/osg)                           |
 | 研究講演、論文、技術ノート                    | [研究と講演](/home/showcase/)                            |
 | 実践的なコンピューティングノート              | [ノート](/home/mynotes/)                                 |
 
 <br/><br/>
 
-## 取り組んでいる分野
+## 取り組んでいること
 
-- **原子核物理:** 核子構造、共鳴領域の解析、ハドロン描像とパートン描像の間の遷移。
-  [N → Δ (1232) 遷移](/home/meson/pi0_delta/pi0_delta) や
-  [高 Q<sup>2</sup> における中間子電気生成](/home/meson/pi0_resonance/pi0_resonance) を含みます。
-- **検出器システム:** 運用、保守、較正、性能評価。対象は
-  [CLAS12 低閾値チェレンコフ検出器](/home/ltcc/ltcc) です。
-- **シミュレーションソフトウェア:** [GEMC および GEMC3](https://gemc.github.io/home/)、
-  [CLAS12 シミュレーション](https://github.com/gemc/clas12Tags)、
-  [Open Science Grid 上での大量生成ワークフロー](/home/osg/osg) の開発。
-- **科学計算とサポート:** [JLab における Geant4](https://jeffersonlab.github.io/g4home/)、
+- **原子核物理:** 核子構造、共鳴領域の解析、ハドロンによる記述とパートンによる記述の間の移行。
+  [N → Δ (1232)遷移](/home/meson/pi0_delta/pi0_delta)や
+  [高Q<sup>2</sup>領域における中間子の電子生成](/home/meson/pi0_resonance/pi0_resonance)を含みます。
+- **検出器システム:** 運用、保守、較正、性能評価の対象は、
+  [CLAS12低閾値チェレンコフ検出器](/home/ltcc/ltcc)です。
+- **シミュレーションソフトウェア:** [GEMCおよびGEMC3](https://gemc.github.io/home/)、
+  [CLAS12シミュレーション](https://github.com/gemc/clas12Tags)、
+  [Open Science Gridでの本番シミュレーションワークフロー](/home/osg/osg)の開発。
+- **科学計算とサポート:** [JLabのGeant4](https://jeffersonlab.github.io/g4home/)、
   再現可能なシミュレーションワークフロー、チュートリアル、例、ユーザー向けドキュメント。
 
 <br/>
 
-## 最近および今後の講演とノート
+## 最近の講演・ノートと今後の予定
 
 <br/>
 
@@ -222,7 +223,7 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
 	<tr>
 		<th scope="col">タイトル</th>
 		<th scope="col">PDF</th>
-		<th scope="col">イベント</th>
+		<th scope="col">開催行事</th>
 		<th scope="col">日付</th>
 	</tr>	
 
@@ -255,7 +256,7 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
 
 </table>
 
-その他の講演、論文、ノートは [研究と講演](/home/showcase/) に掲載しています。
+その他の講演、論文、ノートは[研究と講演](/home/showcase/)に掲載されています。
 
 <br/>
 
@@ -263,9 +264,9 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
 
 | 分野                           | ツールと経験                                                                                                                  |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| シミュレーションと解析          | Geant4、GEMC、CLAS12 シミュレーション、ROOT、検出器ジオメトリ、イベント生成、デジタイゼーションワークフロー                      |
-| プログラミングとインフラ        | C++、Python、シェルスクリプト、Git、GitHub、継続的インテグレーション、Docker、Environment Modules、HTCondor、Meson、CMake、SCons |
-| 科学コミュニケーション          | LaTeX、Markdown、HTML、CSS、JavaScript、Highcharts、技術ドキュメント、チュートリアル、プレゼンテーション                         |
+| シミュレーションと解析         | Geant4、GEMC、CLAS12シミュレーション、ROOT、検出器ジオメトリ、イベント生成、デジタイゼーションワークフロー                      |
+| プログラミングとインフラ       | C++、Python、シェルスクリプト、Git、GitHub、継続的インテグレーション、Docker、Environment Modules、Meson、CMake、SCons          |
+| 科学コミュニケーション         | LaTeX、Markdown、HTML、CSS、JavaScript、Highcharts、技術ドキュメント、チュートリアル、プレゼンテーション                        |
 | 言語                           | 英語、イタリア語                                                                                                              |
 
 <br/>
@@ -307,23 +308,23 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
 	<br/>
 
 	<ul style="text-align:center"  id="light-slider" >
-    	<li data-thumb="assets/images/empty.png">
-			<img src="assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/software/charts">CSV グラフ表示ツール<br/><img src="assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/software/charts">CSVデータのグラフ表示ツール<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) 遷移 <br/><img src="assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232)遷移 <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/wfd/">What's For Dinner 献立プランナー<br/><img src="assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/wfd/">What's For Dinner 献立プランナー<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="https://gemc.github.io/home/">GEMC ホームページ<br/><img src="assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="https://gemc.github.io/home/">GEMCホームページ<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC シミュレーション用 Web インターフェース<br/><img src="assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="https://gemc.jlab.org/web_interface/index.php">GEMCシミュレーションのウェブインターフェース<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 
@@ -362,10 +363,10 @@ CLAS12 シミュレーションの大量生成ワークフロー、CLAS12 低閾
 </script>
 
 
-[code]: assets/images/home/code.png
+[code]: /home/assets/images/home/code.png
 
-[software]: assets/images/home/software.png
+[software]: /home/assets/images/home/software.png
 
-[languages]: assets/images/home/languages.png
+[languages]: /home/assets/images/home/languages.png
 
-[quote1]: assets/images/home/quote1.png
+[quote1]: /home/assets/images/home/quote1.png

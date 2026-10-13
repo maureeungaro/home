@@ -6,6 +6,7 @@
 # Table: add first row (3 |) for autoformatting
 
 layout: default
+permalink: /
 title: Maurizio Ungaro
 description: >-
   Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
@@ -64,7 +65,7 @@ human_reviewed: false
 {% capture left %}
 
 {% include figure.html
-src="assets/images/home/mauri.png"
+src="/assets/images/home/mauri.png"
 alt="Portrait of Maurizio Ungaro"
 width="170"
 %}
@@ -104,16 +105,19 @@ width="170"
 
 ## À propos de moi
 
-Je suis Maurizio (Mauri) Ungaro, chercheur permanent au [Hall-B](https://www.jlab.org/physics/hall-b)
-du [Jefferson Lab](https://www.jlab.org). Je travaille sur la physique nucléaire, les systèmes de détecteurs et les logiciels de simulation.
+Je suis Maurizio (Mauri) Ungaro, scientifique permanent au [Hall-B](https://www.jlab.org/physics/hall-b)
+du [Jefferson Lab](https://www.jlab.org). Je travaille en physique nucléaire, sur les systèmes de détecteurs
+et sur les logiciels de simulation.
 
-Mes travaux actuels comprennent des simulations fondées sur Geant4 avec GEMC, les chaînes de production CLAS12 sur
-l'Open Science Grid, ainsi que l'exploitation, l'étalonnage et les études de performance du compteur Cherenkov
-à bas seuil de CLAS12. Mes recherches explorent la structure du nucléon par l'électroproduction de mésons.
+Mes travaux actuels comprennent des simulations basées sur Geant4 avec GEMC, les workflows de production
+CLAS12 sur l'Open Science Grid, ainsi que l'exploitation, l'étalonnage et les études de performance du
+compteur Cherenkov à bas seuil de CLAS12. Mes recherches explorent la structure du nucléon à travers
+l'électroproduction de mésons.
 
-Vous trouverez ici des logiciels, des présentations, des notes techniques et des exemples pratiques pour les collaborateurs et les étudiants.
+Vous trouverez ici des logiciels, des présentations, des notes techniques et des exemples pratiques
+destinés aux collaborateurs et aux étudiants.
 
-Pendant mon temps libre, j'apprends à jouer au hockey tout en prenant plaisir à regarder mon enfant patiner bien plus vite que moi.
+Pendant mon temps libre, j'apprends à jouer au hockey et prends plaisir à voir mon enfant patiner plus vite que moi.
 
 <table class="zebra compact-table">
   <tr>
@@ -125,8 +129,8 @@ Pendant mon temps libre, j'apprends à jouer au hockey tout en prenant plaisir �
   </tr>
 </table>
 
-Pour toute collaboration ou aide concernant les simulations et les détecteurs, [écrivez-moi](mailto:ungaro@jlab.org).
-Vous pouvez également retrouver mes publications et mon code via les profils ci-dessous.
+Pour collaborer ou obtenir de l'aide sur les simulations et les détecteurs, [écrivez-moi](mailto:ungaro@jlab.org).
+Vous pouvez également consulter mes publications et mon code via les profils ci-dessous.
 <br/>
 <br/>
 
@@ -178,38 +182,38 @@ Vous pouvez également retrouver mes publications et mon code via les profils ci
   </tbody>
 </table>
 
-La note CLAS12 à paraître décrit le framework simGrid OSG, avec des schémas de son architecture
-et de ses flux de traitement des tâches. En attendant sa publication,
-le lien d'actualité mène à [l'aperçu de CLAS12 sur OSG]({{ '/osg/osg' | relative_url }}).
+La prochaine note CLAS12 décrit le framework simGrid OSG, avec des schémas de son architecture
+et des workflows d'exécution des tâches. En attendant la publication de la note,
+le lien d'actualité mène à la [présentation de CLAS12 sur l'OSG]({{ '/osg/osg' | relative_url }}).
 
 <br/>
 
-## Par où commencer
+## Commencez ici
 
-| Si vous cherchez...                          | Commencez par                                            |
+| Si vous recherchez... | Commencez par |
 |:---------------------------------------------|:---------------------------------------------------------|
-| Biographie, CV, résumé professionnel ou liens professionnels | [Profil](/home/profile/)                    |
-| Exemples Geant4, tutoriels ou assistance JLab | [Geant4 au JLab](https://jeffersonlab.github.io/g4home/) |
-| Chaînes de simulation GEMC                    | [GEMC](https://gemc.github.io/home/)                     |
-| Versions des simulations CLAS12               | [Simulations CLAS12](https://github.com/gemc/clas12Tags) |
-| Production distribuée de simulations          | [CLAS12 sur OSG](/home/osg/osg)                          |
-| Présentations de recherche, articles et notes techniques | [Recherche et présentations](/home/showcase/)    |
-| Notes pratiques d'informatique                | [Notes](/home/mynotes/)                                  |
+| Biographie, CV, résumé professionnel ou liens professionnels | [Profil](/home/profile/) |
+| Exemples Geant4, tutoriels ou assistance JLab | [Geant4 à JLab](https://jeffersonlab.github.io/g4home/) |
+| Workflows de simulation GEMC | [GEMC](https://gemc.github.io/home/) |
+| Versions des simulations CLAS12 | [Simulations CLAS12](https://github.com/gemc/clas12Tags) |
+| Production distribuée de simulations | [CLAS12 sur l'OSG](/home/osg/osg) |
+| Présentations de recherche, articles et notes techniques | [Recherche et présentations](/home/showcase/) |
+| Notes pratiques d'informatique | [Notes](/home/mynotes/) |
 
 <br/><br/>
 
 ## Mes domaines de travail
 
-- **Physique nucléaire :** structure du nucléon, analyses dans la région des résonances et transition entre les descriptions
-  hadronique et partonique, notamment la [transition N → Δ (1232)](/home/meson/pi0_delta/pi0_delta)
+- **Physique nucléaire :** structure du nucléon, analyses dans la région des résonances et transition entre les
+  descriptions hadronique et partonique, notamment la [transition N → Δ (1232)](/home/meson/pi0_delta/pi0_delta)
   et l'[électroproduction de mésons à Q<sup>2</sup> élevé](/home/meson/pi0_resonance/pi0_resonance).
 - **Systèmes de détecteurs :** exploitation, maintenance, étalonnage et études de performance du
   [compteur Cherenkov à bas seuil de CLAS12](/home/ltcc/ltcc).
 - **Logiciels de simulation :** développement de [GEMC et GEMC3](https://gemc.github.io/home/),
   des [simulations CLAS12](https://github.com/gemc/clas12Tags) et des
-  [chaînes de production sur l'Open Science Grid](/home/osg/osg).
-- **Calcul scientifique et assistance :** [Geant4 au JLab](https://jeffersonlab.github.io/g4home/),
-  chaînes de simulation reproductibles, tutoriels, exemples et documentation destinée aux utilisateurs.
+  [workflows de production sur l'Open Science Grid](/home/osg/osg).
+- **Calcul scientifique et assistance :** [Geant4 à JLab](https://jeffersonlab.github.io/g4home/),
+  workflows de simulation reproductibles, tutoriels, exemples et documentation destinée aux utilisateurs.
 
 <br/>
 
@@ -255,18 +259,18 @@ le lien d'actualité mène à [l'aperçu de CLAS12 sur OSG]({{ '/osg/osg' | rela
 
 </table>
 
-D'autres présentations, articles et notes figurent dans [Recherche et présentations](/home/showcase/).
+D'autres présentations, articles et notes sont répertoriés dans [Recherche et présentations](/home/showcase/).
 
 <br/>
 
 ## Compétences techniques
 
-| Domaine                        | Outils et expérience                                                                                                          |
+| Domaine | Outils et expérience |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| Simulation et analyse          | Geant4, GEMC, simulations CLAS12, ROOT, géométrie des détecteurs, génération d'événements, chaînes de numérisation           |
+| Simulation et analyse | Geant4, GEMC, simulations CLAS12, ROOT, géométrie des détecteurs, génération d'événements, workflows de numérisation |
 | Programmation et infrastructure | C++, Python, scripts shell, Git, GitHub, intégration continue, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
-| Communication scientifique     | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, documentation technique, tutoriels, présentations                         |
-| Langues                        | Anglais, italien                                                                                                              |
+| Communication scientifique | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, documentation technique, tutoriels, présentations |
+| Langues | Anglais, italien |
 
 <br/>
 
@@ -307,23 +311,23 @@ D'autres présentations, articles et notes figurent dans [Recherche et présenta
 	<br/>
 
 	<ul style="text-align:center"  id="light-slider" >
-    	<li data-thumb="assets/images/empty.png">
-			<img src="assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/software/charts">Afficheur de graphiques CSV<br/><img src="assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/software/charts">Visualiseur de graphiques à partir de données CSV<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/meson/pi0_delta/pi0_delta">Transition N → Δ(1232) <br/><img src="assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/meson/pi0_delta/pi0_delta">Transition N → Δ(1232) <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/wfd/">Planificateur de repas What's For Dinner<br/><img src="assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/wfd/">Planificateur de repas What's For Dinner<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="https://gemc.github.io/home/">Page d'accueil de GEMC<br/><img src="assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="https://gemc.github.io/home/">Page d'accueil de GEMC<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="https://gemc.jlab.org/web_interface/index.php">Interface web de simulation GEMC<br/><img src="assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="https://gemc.jlab.org/web_interface/index.php">Interface web de simulation GEMC<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 
@@ -362,10 +366,10 @@ D'autres présentations, articles et notes figurent dans [Recherche et présenta
 </script>
 
 
-[code]: assets/images/home/code.png
+[code]: /home/assets/images/home/code.png
 
-[software]: assets/images/home/software.png
+[software]: /home/assets/images/home/software.png
 
-[languages]: assets/images/home/languages.png
+[languages]: /home/assets/images/home/languages.png
 
-[quote1]: assets/images/home/quote1.png
+[quote1]: /home/assets/images/home/quote1.png

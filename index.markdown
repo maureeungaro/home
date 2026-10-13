@@ -6,6 +6,7 @@
 # Table: add first row (3 |) for autoformatting
 
 layout: default
+permalink: /
 title: Maurizio Ungaro
 description: >-
   Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
@@ -64,7 +65,7 @@ p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 {% capture left %}
 
 {% include figure.html
-src="assets/images/home/mauri.png"
+src="/assets/images/home/mauri.png"
 alt="Portrait of Maurizio Ungaro"
 width="170"
 %}
@@ -307,23 +308,23 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
 	<br/>
 
 	<ul style="text-align:center"  id="light-slider" >
-    	<li data-thumb="assets/images/empty.png">
-			<img src="assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/software/charts">Chart CSV displayer<br/><img src="assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/software/charts">Chart CSV displayer<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) transition <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="/home/wfd/">What's For Dinner meal planner<br/><img src="assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="/home/wfd/">What's For Dinner meal planner<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="https://gemc.github.io/home/">GEMC home page<br/><img src="assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="https://gemc.github.io/home/">GEMC home page<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
     	</li>
-    	<li data-thumb="assets/images/empty.png">
-			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC simulation web interface<br/><img src="assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
+    	<li data-thumb="/home/assets/images/empty.png">
+			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC simulation web interface<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 
@@ -362,10 +363,10 @@ More talks, papers, and notes are listed in [Research & Talks](/home/showcase/).
 </script>
 
 
-[code]: assets/images/home/code.png
+[code]: /home/assets/images/home/code.png
 
-[software]: assets/images/home/software.png
+[software]: /home/assets/images/home/software.png
 
-[languages]: assets/images/home/languages.png
+[languages]: /home/assets/images/home/languages.png
 
-[quote1]: assets/images/home/quote1.png
+[quote1]: /home/assets/images/home/quote1.png

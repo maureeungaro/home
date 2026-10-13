@@ -4,67 +4,53 @@ title: Projects
 description: Research, detector, and simulation software projects connected to CLAS12, Geant4, GEMC, OSG, and Hall-B.
 permalink: /projects/
 last_updated: "May 15, 2026"
-
-pi0: "<br/><a href=\"../meson/meson\"><img src=\"../assets/images/home/formFactor.png\" 
-alt=\"Meson electro-production form factor results\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../meson/meson\">Meson electro-production at high Q<sup>2</sup></a><br/>
-Studies of nucleon structure using single-meson electro-production measurements.<br/><br/>  "
-
-gemc: "<br/><a href=\"https://gemc.github.io/home/\"><img src=\"../assets/images/home/gemc.png\"                    
-alt=\"GEMC simulation framework\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"https://gemc.github.io/home/\">GEMC: Geant4 simulations with a Python-friendly workflow</a><br/>
-A database-driven Geant4 simulation framework for detector and radiation-transport studies.<br/><br/>  "
-  
-clas12: "<br/><a href=\"https://github.com/gemc/clas12Tags\"><img src=\"../assets/images/home/clas12.png\"    
-alt=\"CLAS12 detector simulation\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"https://github.com/gemc/clas12Tags\">CLAS12 Simulations with GEMC</a><br/>
-Tagged CLAS12 geometry and simulation releases used for production workflows.<br/><br/>  "
-
-osg: "<br/><a href=\"../osg/osg\"><img src=\"../assets/images/home/osg.png\"
-alt=\"Open Science Grid simulation portal\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../osg/osg\">CLAS12 Simulations on the Open Science Grid</a><br/>
-Web and batch submission tools for running CLAS12 simulations on distributed resources.<br/><br/>  "
-
-geant4: "<br/><a href=\"https://jeffersonlab.github.io/g4home/\"><img src=\"../assets/images/home/geant4.png\"
-alt=\"Geant4 at Jefferson Lab\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"https://jeffersonlab.github.io/g4home/\">Geant4 at Jefferson Lab</a><br/>
-Tutorials, examples, and local support material for Geant4 users at JLab.<br/><br/>  "
-
-ltcc: "<br/><a href=\"../ltcc/ltcc\"><img src=\"../assets/images/home/ltcc.png\"
-alt=\"Low Threshold Cherenkov Counter detector\" border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"../ltcc/ltcc\">Low Threshold Cherenkov Counter</a><br/>
-CLAS12 forward detector work covering LTCC operation, calibration, pion/kaon discrimination, and performance for Hall-B.<br/><br/>  "
-
 lang: ja
 human_reviewed: false
 ---
 
-最終更新日: {{ page.last_updated }}
+最終更新: {{ page.last_updated }}
 
 <br/>
 
-CLAS12、Geant4、GEMC、Hall-B に関連する、厳選された研究・検出器・ソフトウェアプロジェクト。
+CLAS12、Geant4、GEMC、Hall-B に関連する研究・検出器・ソフトウェアのプロジェクトの一部を紹介します。
 
 <br/>
 
 <table class="alternate" style="    text-align:center;">
-<tr> 
-<td>  {{page.pi0}}  </td>
-<td>  {{page.gemc}}  </td>
+<tr>
+<td>
+<br/><a href="../meson/meson"><img src="/home/assets/images/home/formFactor.png" alt="Meson electro-production form factor results" border="0px" width="550px" height="350px"/></a><br/>
+<a href="../meson/meson">高 Q<sup>2</sup> 領域での中間子電気生成</a><br/>
+単一中間子電気生成の測定を用いた核子構造の研究。<br/><br/>
+</td>
+<td>
+<br/><a href="https://gemc.github.io/home/"><img src="/home/assets/images/home/gemc.png" alt="GEMC simulation framework" border="0px" width="550px" height="350px"/></a><br/>
+<a href="https://gemc.github.io/home/">GEMC: Python と親和性の高いワークフローによる Geant4 シミュレーション</a><br/>
+検出器および放射線輸送の研究向けの、データベース駆動型 Geant4 シミュレーションフレームワーク。<br/><br/>
+</td>
 </tr>
-<tr> 
-<td>  {{page.clas12}}  </td>
-<td>  {{page.osg}}  </td>
+<tr>
+<td>
+<br/><a href="https://github.com/gemc/clas12Tags"><img src="/home/assets/images/home/clas12.png" alt="CLAS12 detector simulation" border="0px" width="550px" height="350px"/></a><br/>
+<a href="https://github.com/gemc/clas12Tags">GEMC による CLAS12 シミュレーション</a><br/>
+本番ワークフローで使用される、タグ付けされた CLAS12 ジオメトリおよびシミュレーションのリリース。<br/><br/>
+</td>
+<td>
+<br/><a href="../osg/osg"><img src="/home/assets/images/home/osg.png" alt="Open Science Grid simulation portal" border="0px" width="550px" height="350px"/></a><br/>
+<a href="../osg/osg">Open Science Grid 上での CLAS12 シミュレーション</a><br/>
+分散リソース上で CLAS12 シミュレーションを実行するための、Web およびバッチ投入ツール。<br/><br/>
+</td>
 </tr>
-<tr> 
-<td>  {{page.geant4}}  </td>
-<td>  {{page.ltcc}}  </td>
+<tr>
+<td>
+<br/><a href="https://jeffersonlab.github.io/g4home/"><img src="/home/assets/images/home/geant4.png" alt="Geant4 at Jefferson Lab" border="0px" width="550px" height="350px"/></a><br/>
+<a href="https://jeffersonlab.github.io/g4home/">Jefferson Lab における Geant4</a><br/>
+JLab の Geant4 ユーザー向けのチュートリアル、サンプル、所内サポート資料。<br/><br/>
+</td>
+<td>
+<br/><a href="../ltcc/ltcc"><img src="/home/assets/images/home/ltcc.png" alt="Low Threshold Cherenkov Counter detector" border="0px" width="550px" height="350px"/></a><br/>
+<a href="../ltcc/ltcc">低閾値チェレンコフカウンター</a><br/>
+LTCC の運用、較正、π/K 中間子の識別、および Hall-B 向けの性能評価を扱う CLAS12 前方検出器の研究。<br/><br/>
+</td>
 </tr>
 </table>
-
-
-[pi0FFImg]: assets/images/home/formFactor.png
-[gemcImg]: assets/images/home/gemc.png
-[clas12Img]: assets/images/home/clas12.png
-[osgImg]: assets/images/home/osg.png
-[ltccImg]: assets/images/home/ltcc.png
