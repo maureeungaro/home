@@ -7,7 +7,7 @@
 
 layout: default
 permalink: /
-title: Maurizio Ungaro
+title: "Maurizio Ungaro"
 description: >-
   Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
   CLAS12 detector systems, nucleon structure, and scientific computing workflows.
@@ -78,7 +78,7 @@ width="170"
 |                     `Staff Scientist`                      |
 |:----------------------------------------------------------:|
 |        [杰斐逊实验室](https://www.jlab.org)        |
-| [Hall-B 实验厅](https://www.jlab.org/physics/hall-b) |
+| [B 实验厅](https://www.jlab.org/physics/hall-b) |
 
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
@@ -105,16 +105,16 @@ width="170"
 
 ## 关于我
 
-我是 Maurizio（Mauri）Ungaro，是[杰斐逊实验室](https://www.jlab.org) [Hall-B 实验厅](https://www.jlab.org/physics/hall-b)
-的专职科学家。我从事核物理、探测器系统和仿真软件方面的工作。
+我是 Maurizio（Mauri）Ungaro，在[杰斐逊实验室](https://www.jlab.org)的
+[B 实验厅](https://www.jlab.org/physics/hall-b)担任专职科研人员。我的工作涉及核物理、探测器系统和仿真软件。
 
-我目前的工作包括使用 GEMC 进行基于 Geant4 的仿真、开放科学网格（Open Science Grid）上的
-CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的运行、
-刻度和性能研究。我的研究通过介子电产生过程探索核子结构。
+我目前的工作包括使用 GEMC 进行基于 Geant4 的仿真、在
+开放科学网格（Open Science Grid）上开展 CLAS12 仿真生产工作流，以及 CLAS12 低阈值
+切伦科夫计数器的运行、标定和性能研究。我的研究通过介子电致产生探索核子结构。
 
-在这里，你可以找到面向合作者和学生的软件、报告、技术笔记和实用示例。
+在这里，你可以找到面向合作者和学生的软件、报告、技术说明和实用示例。
 
-闲暇时，我正在学习打冰球，也很享受看着我的孩子滑得比我快得多的乐趣。
+闲暇时，我正在学习打冰球，也很享受看着我的孩子在冰上滑得比我快得多。
 
 <table class="zebra compact-table">
   <tr>
@@ -126,8 +126,8 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
   </tr>
 </table>
 
-如需在仿真和探测器工作方面开展合作或寻求帮助，请[给我发邮件](mailto:ungaro@jlab.org)。
-你也可以通过下方的个人主页找到我的论文和代码。
+如需合作，或在仿真和探测器工作方面需要帮助，请[给我发邮件](mailto:ungaro@jlab.org)。
+你也可以通过下面的各个主页找到我的论文和代码。
 <br/>
 <br/>
 
@@ -140,7 +140,7 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
 
 <table class="small-icons">
   <tr>
-    <td><a href="{{ gscholar_link }}"><img src="{{ gscholar_img }}" alt="Google Scholar"></a><br/><a href="{{ gscholar_link }}">谷歌学术</a></td>
+    <td><a href="{{ gscholar_link }}"><img src="{{ gscholar_img }}" alt="Google Scholar"></a><br/><a href="{{ gscholar_link }}">Google Scholar</a></td>
     <td><a href="{{ inspire_link }}"><img src="{{ inspire_img }}" alt="INSPIRE"></a><br/><a href="{{ inspire_link }}">INSPIRE</a></td>
     <td>
       <a href="{{ scopus_link }}"><img src="{{ scopus_img }}" alt="Scopus"></a><br/>
@@ -179,42 +179,42 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
   </tbody>
 </table>
 
-即将发布的 CLAS12 技术笔记将介绍 simGrid OSG 框架，并附有其架构
-和作业工作流的示意图。在该笔记发布之前，
-该动态链接将指向 [OSG 上的 CLAS12 概览]({{ '/osg/osg' | relative_url }})。
+即将发布的 CLAS12 技术说明介绍了 simGrid OSG 框架，并附有其架构
+和作业工作流的示意图。在该技术说明发布之前，
+该动态链接指向 [CLAS12 在 OSG 上的运行概览]({{ '/osg/osg' | relative_url }})。
 
 <br/>
 
 ## 从这里开始
 
-| 如果你正在寻找……                          | 请从这里开始                                             |
+| 如果你正在寻找……                             | 请从这里开始                                             |
 |:---------------------------------------------|:---------------------------------------------------------|
-| 个人传记、学术履历、简历或职业相关链接        | [个人简介](/home/profile/)                                |
-| Geant4 示例、教程或 JLab 支持                | [JLab 的 Geant4](https://jeffersonlab.github.io/g4home/) |
-| GEMC 仿真工作流                              | [GEMC](https://gemc.github.io/home/)                     |
-| CLAS12 仿真发布版本                          | [CLAS12 仿真](https://github.com/gemc/clas12Tags) |
-| 分布式仿真生产                               | [OSG 上的 CLAS12](/home/osg/osg)                           |
-| 研究报告、论文和技术笔记                     | [研究与报告](/home/showcase/)                      |
-| 实用计算笔记                                 | [笔记](/home/mynotes/)                                  |
+| 个人简介、学术简历、求职简历或专业主页链接 | [个人简介](/home/profile/)                                |
+| Geant4 示例、教程或 JLab 支持  | [JLab 的 Geant4 资源](https://jeffersonlab.github.io/g4home/) |
+| GEMC 仿真工作流                    | [GEMC](https://gemc.github.io/home/)                     |
+| CLAS12 仿真发行版                   | [CLAS12 仿真](https://github.com/gemc/clas12Tags) |
+| 分布式仿真生产            | [CLAS12 在 OSG 上的运行](/home/osg/osg)                           |
+| 研究报告、论文和技术说明  | [研究与报告](/home/showcase/)                      |
+| 实用计算笔记                    | [笔记](/home/mynotes/)                                  |
 
 <br/><br/>
 
 ## 我的工作内容
 
-- **核物理：** 核子结构、共振区分析，以及强子描述
-  与部分子描述之间的过渡，包括 [N → Δ (1232) 跃迁](/home/meson/pi0_delta/pi0_delta)
-  和[高 Q<sup>2</sup> 下的介子电产生](/home/meson/pi0_resonance/pi0_resonance)。
-- **探测器系统：** 运行、维护、刻度和性能研究，研究对象为
+- **核物理：** 核子结构、共振区分析，以及强子描述与部分子描述之间的过渡，包括
+  [N → Δ (1232) 跃迁](/home/meson/pi0_delta/pi0_delta)
+  和[高 Q<sup>2</sup> 下的介子电致产生](/home/meson/pi0_resonance/pi0_resonance)。
+- **探测器系统：** 运行、维护、标定和性能研究，研究对象为
   [CLAS12 低阈值切伦科夫计数器](/home/ltcc/ltcc)。
 - **仿真软件：** 开发 [GEMC 和 GEMC3](https://gemc.github.io/home/)、
-  [CLAS12 仿真](https://github.com/gemc/clas12Tags)以及
-  [开放科学网格仿真生产工作流](/home/osg/osg)。
-- **科学计算与支持：** [JLab 的 Geant4](https://jeffersonlab.github.io/g4home/)、
-  可复现的仿真工作流、教程、示例和面向用户的文档。
+  [CLAS12 仿真](https://github.com/gemc/clas12Tags)，以及
+  [开放科学网格（Open Science Grid）仿真生产工作流](/home/osg/osg)。
+- **科学计算与支持：** [JLab 的 Geant4 资源](https://jeffersonlab.github.io/g4home/)、
+  可复现的仿真工作流、教程、示例以及面向用户的文档。
 
 <br/>
 
-## 近期及即将发布的报告与笔记
+## 近期及即将推出的报告与技术说明
 
 <br/>
 
@@ -256,7 +256,7 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
 
 </table>
 
-更多报告、论文和笔记列于[研究与报告](/home/showcase/)中。
+更多报告、论文和技术说明请参见[研究与报告](/home/showcase/)。
 
 <br/>
 
@@ -264,10 +264,10 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
 
 | 领域                           | 工具与经验                                                                                                          |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| 仿真与分析                     | Geant4、GEMC、CLAS12 仿真、ROOT、探测器几何、事例生成、数字化工作流                           |
-| 编程与基础设施                 | C++、Python、shell 脚本、Git、GitHub、持续集成、Docker、Environment Modules、HTCondor、Meson、CMake、SCons |
-| 科学交流                       | LaTeX、Markdown、HTML、CSS、JavaScript、Highcharts、技术文档、教程、报告                         |
-| 语言                           | 英语、意大利语                                                                                                              |
+| 仿真与分析        | Geant4、GEMC、CLAS12 仿真、ROOT、探测器几何、事件生成、数字化工作流                           |
+| 编程与基础设施 | C++、Python、shell 脚本、Git、GitHub、持续集成、Docker、Environment Modules、HTCondor、Meson、CMake、SCons |
+| 科学交流       | LaTeX、Markdown、HTML、CSS、JavaScript、Highcharts、技术文档、教程、演示报告                         |
+| 语言                      | 英语、意大利语                                                                                                              |
 
 <br/>
 
@@ -298,7 +298,7 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
 
 <br/>
 
-## 图库
+## 画廊
 
 <link type="text/css" rel="stylesheet" href="/home/assets/lightslider.css" />
 <script src="/home/assets/jq.js"></script>
@@ -312,19 +312,19 @@ CLAS12 仿真生产工作流，以及 CLAS12 低阈值切伦科夫计数器的�
 			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="/home/software/charts">CSV 图表展示器<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+			<a href="/home/software/charts">CSV 图表显示工具<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
 			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) 跃迁 <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="/home/wfd/">What's For Dinner 膳食规划器<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
+			<a href="/home/wfd/">What's For Dinner 膳食规划工具<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
 			<a href="https://gemc.github.io/home/">GEMC 主页<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC 仿真网页界面<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
+			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC 仿真 Web 界面<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 

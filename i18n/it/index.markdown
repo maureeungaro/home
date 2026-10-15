@@ -7,7 +7,7 @@
 
 layout: default
 permalink: /
-title: Maurizio Ungaro
+title: "Maurizio Ungaro"
 description: >-
   Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
   CLAS12 detector systems, nucleon structure, and scientific computing workflows.
@@ -106,11 +106,11 @@ width="170"
 ## Chi sono
 
 Sono Maurizio (Mauri) Ungaro, Staff Scientist nella [Hall-B](https://www.jlab.org/physics/hall-b)
-al [Jefferson Lab](https://www.jlab.org). Mi occupo di fisica nucleare, rivelatori e software di simulazione.
+del [Jefferson Lab](https://www.jlab.org). Mi occupo di fisica nucleare, sistemi di rivelazione e software di simulazione.
 
-Il mio lavoro attuale comprende simulazioni basate su Geant4 con GEMC, flussi di produzione CLAS12 sulla
-Open Science Grid e attività di gestione, calibrazione e studio delle prestazioni del rivelatore
-Cherenkov a bassa soglia di CLAS12. La mia ricerca esplora la struttura del nucleone tramite l'elettroproduzione di mesoni.
+Il mio lavoro attuale comprende simulazioni basate su Geant4 con GEMC, flussi di produzione CLAS12
+sull'Open Science Grid, gestione operativa, calibrazione e studi sulle prestazioni del CLAS12 Low Threshold
+Cherenkov Counter. La mia ricerca esplora la struttura del nucleone attraverso l'elettroproduzione di mesoni.
 
 Qui puoi trovare software, presentazioni, note tecniche ed esempi pratici per collaboratori e studenti.
 
@@ -126,8 +126,8 @@ Nel tempo libero sto imparando a giocare a hockey e mi diverto a guardare mio fi
   </tr>
 </table>
 
-Per collaborazioni o assistenza con le simulazioni e le attività sui rivelatori, [scrivimi](mailto:ungaro@jlab.org).
-Puoi anche trovare le mie pubblicazioni e il mio codice tramite i profili qui sotto.
+Per collaborazioni o aiuto con le simulazioni e il lavoro sui rivelatori, [scrivimi](mailto:ungaro@jlab.org).
+Puoi inoltre trovare le mie pubblicazioni e il mio codice attraverso i profili elencati di seguito.
 <br/>
 <br/>
 
@@ -159,7 +159,7 @@ Puoi anche trovare le mie pubblicazioni e il mio codice tramite i profili qui so
 
 <br/><br/>
 
-## Ultime novità e lavori in arrivo
+## Ultime novità e lavori in programma
 
 <table class="alternate">
   <thead>
@@ -179,42 +179,42 @@ Puoi anche trovare le mie pubblicazioni e il mio codice tramite i profili qui so
   </tbody>
 </table>
 
-La nota CLAS12 di prossima pubblicazione descrive il framework simGrid OSG, con diagrammi dell'architettura
+La prossima nota CLAS12 descrive il framework simGrid OSG, con diagrammi della sua architettura
 e dei flussi di lavoro dei job. Finché la nota non sarà disponibile,
-il link della notizia rimanda alla [panoramica di CLAS12 su OSG]({{ '/osg/osg' | relative_url }}).
+il link nelle novità conduce alla [panoramica di CLAS12 su OSG]({{ '/osg/osg' | relative_url }}).
 
 <br/>
 
 ## Da dove iniziare
 
-| Se stai cercando...                           | Inizia da                                                |
+| Se stai cercando...                          | Inizia da                                                |
 |:---------------------------------------------|:---------------------------------------------------------|
 | Biografia, CV, curriculum o link professionali | [Profilo](/home/profile/)                                |
-| Esempi e tutorial Geant4 o supporto JLab      | [Geant4 al JLab](https://jeffersonlab.github.io/g4home/) |
-| Flussi di lavoro per le simulazioni GEMC     | [GEMC](https://gemc.github.io/home/)                     |
-| Release delle simulazioni CLAS12             | [Simulazioni CLAS12](https://github.com/gemc/clas12Tags) |
-| Produzione distribuita di simulazioni       | [CLAS12 su OSG](/home/osg/osg)                           |
-| Presentazioni di ricerca, articoli e note tecniche | [Ricerca e presentazioni](/home/showcase/)          |
-| Note pratiche di informatica                 | [Note](/home/mynotes/)                                  |
+| Esempi Geant4, tutorial o supporto JLab       | [Geant4 al JLab](https://jeffersonlab.github.io/g4home/) |
+| Flussi di lavoro di simulazione GEMC          | [GEMC](https://gemc.github.io/home/)                     |
+| Release delle simulazioni CLAS12              | [Simulazioni CLAS12](https://github.com/gemc/clas12Tags) |
+| Produzione distribuita di simulazioni         | [CLAS12 su OSG](/home/osg/osg)                           |
+| Presentazioni di ricerca, articoli e note tecniche | [Ricerca e presentazioni](/home/showcase/)             |
+| Note pratiche di calcolo                      | [Note](/home/mynotes/)                                  |
 
 <br/><br/>
 
 ## Di cosa mi occupo
 
-- **Fisica nucleare:** struttura del nucleone, analisi nella regione delle risonanze e transizione tra descrizioni
-  adroniche e partoniche, inclusa la [transizione N → Δ (1232)](/home/meson/pi0_delta/pi0_delta)
-  e l'[elettroproduzione di mesoni a Q<sup>2</sup> elevato](/home/meson/pi0_resonance/pi0_resonance).
-- **Sistemi di rivelazione:** gestione, manutenzione, calibrazione e studi delle prestazioni del
-  [rivelatore Cherenkov a bassa soglia di CLAS12](/home/ltcc/ltcc).
+- **Fisica nucleare:** struttura del nucleone, analisi nella regione delle risonanze e transizione tra le descrizioni
+  adronica e partonica, inclusa la [transizione N → Δ (1232)](/home/meson/pi0_delta/pi0_delta)
+  e l'[elettroproduzione di mesoni a elevati valori di Q<sup>2</sup>](/home/meson/pi0_resonance/pi0_resonance).
+- **Sistemi di rivelazione:** gestione operativa, manutenzione, calibrazione e studi sulle prestazioni del
+  [CLAS12 Low Threshold Cherenkov Counter](/home/ltcc/ltcc).
 - **Software di simulazione:** sviluppo di [GEMC e GEMC3](https://gemc.github.io/home/),
-  delle [simulazioni CLAS12](https://github.com/gemc/clas12Tags) e dei
-  [flussi di produzione sulla Open Science Grid](/home/osg/osg).
+  [simulazioni CLAS12](https://github.com/gemc/clas12Tags) e
+  [flussi di lavoro di produzione sull'Open Science Grid](/home/osg/osg).
 - **Calcolo scientifico e supporto:** [Geant4 al JLab](https://jeffersonlab.github.io/g4home/),
-  flussi di lavoro riproducibili per le simulazioni, tutorial, esempi e documentazione rivolta agli utenti.
+  flussi di lavoro di simulazione riproducibili, tutorial, esempi e documentazione rivolta agli utenti.
 
 <br/>
 
-## Presentazioni e note recenti e in arrivo
+## Presentazioni e note recenti e in programma
 
 <br/>
 
@@ -223,7 +223,7 @@ il link della notizia rimanda alla [panoramica di CLAS12 su OSG]({{ '/osg/osg' |
 	<tr>
 		<th scope="col">Titolo</th>
 		<th scope="col">PDF</th>
-		<th scope="col">Evento</th>
+		<th scope="col">Occasione</th>
 		<th scope="col">Data</th>
 	</tr>	
 
@@ -264,7 +264,7 @@ Altre presentazioni, articoli e note sono elencati in [Ricerca e presentazioni](
 
 | Area                           | Strumenti ed esperienza                                                                                                       |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| Simulazione e analisi          | Geant4, GEMC, simulazioni CLAS12, ROOT, geometria dei rivelatori, generazione di eventi, flussi di digitizzazione             |
+| Simulazione e analisi          | Geant4, GEMC, simulazioni CLAS12, ROOT, geometria dei rivelatori, generazione di eventi, flussi di lavoro di digitizzazione   |
 | Programmazione e infrastruttura | C++, Python, scripting di shell, Git, GitHub, integrazione continua, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
 | Comunicazione scientifica      | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, documentazione tecnica, tutorial, presentazioni                          |
 | Lingue                         | Inglese, italiano                                                                                                             |
@@ -312,7 +312,7 @@ Altre presentazioni, articoli e note sono elencati in [Ricerca e presentazioni](
 			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="/home/software/charts">Visualizzatore di grafici da CSV<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+			<a href="/home/software/charts">Visualizzatore di grafici da file CSV<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
 			<a href="/home/meson/pi0_delta/pi0_delta">Transizione N → Δ(1232) <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
@@ -321,7 +321,7 @@ Altre presentazioni, articoli e note sono elencati in [Ricerca e presentazioni](
 			<a href="/home/wfd/">Pianificatore di pasti What's For Dinner<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="https://gemc.github.io/home/">Pagina iniziale di GEMC<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
+			<a href="https://gemc.github.io/home/">Pagina principale di GEMC<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
 			<a href="https://gemc.jlab.org/web_interface/index.php">Interfaccia web per le simulazioni GEMC<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
@@ -335,7 +335,7 @@ Altre presentazioni, articoli e note sono elencati in [Ricerca e presentazioni](
 
 {:.zebra}
 
-| Pubblicazione della pagina iniziale | [![CI][CI-badge]][CI]  |
+| Pubblicazione della pagina principale | [![CI][CI-badge]][CI]  |
 
 
 [CI]: https://github.com/maureeungaro/home/actions/workflows/jekyll.yml

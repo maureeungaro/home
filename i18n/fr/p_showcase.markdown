@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research & Talks
+title: "Recherche et présentations"
 description: Selected papers, talks, tutorials, and technical notes on Geant4, GEMC, CLAS12 simulations, detector work, and nucleon-structure research.
 permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
@@ -11,9 +11,9 @@ human_reviewed: false
 
 <br/>
 
-# Présentations et notes récentes
+# Exposés et notes récents
 
-Séminaires, tutoriels et notes techniques récents, ainsi qu'actualités des collaborations, concernant Geant4, GEMC, la simulation de CLAS12 et les travaux sur les détecteurs.
+Séminaires, tutoriels, notes techniques et actualités des collaborations portant sur Geant4, GEMC, la simulation CLAS12 et les travaux sur les détecteurs.
 
 <table class="alternate">
 	<tr>
@@ -49,7 +49,7 @@ Séminaires, tutoriels et notes techniques récents, ainsi qu'actualités des co
 </table>
 <br/><br/>
 
-# Articles sélectionnés
+# Articles choisis
 
 Articles représentatifs liés à mes travaux sur la simulation, les détecteurs et l'électroproduction de mésons.
 
@@ -75,7 +75,7 @@ Tous les articles de recherche sont répertoriés dans le [profil INSPIRE de Mau
 
 # Présentations sur l'électroproduction de mésons
 
-Présentations sélectionnées :
+Présentations choisies :
 
 <table class="alternate">
 	<tr>
@@ -110,13 +110,13 @@ Présentations sélectionnées :
 
 </table>
 
-Toutes les présentations sur l'électroproduction de mésons sont répertoriées dans [Présentations sur l'électroproduction de mésons](/home/showcase/meson).
+Toutes les présentations sur l'électroproduction de mésons sont répertoriées dans [Exposés sur l'électroproduction de mésons](/home/showcase/meson).
 
 <br/><br/>
 
 # Compteur Cherenkov à bas seuil (LTCC)
 
-Présentations sélectionnées portant sur le fonctionnement, l'étalonnage et les performances du détecteur LTCC.
+Exposés choisis sur le fonctionnement, l'étalonnage et les performances du détecteur LTCC.
 
 <table class="alternate">
 	<tr>
@@ -151,13 +151,13 @@ Présentations sélectionnées portant sur le fonctionnement, l'étalonnage et l
 
 </table>
 
-Toutes les présentations LTCC sont répertoriées dans [Présentations sur le compteur Cherenkov à bas seuil](/home/showcase/ltcc).
+Toutes les présentations sur le LTCC sont répertoriées dans [Exposés sur le compteur Cherenkov à bas seuil](/home/showcase/ltcc).
 
 <br/><br/>
 
 # Geant4
 
-Tutoriels et présentations sélectionnés destinés aux utilisateurs de Geant4 au JLab et lors des ateliers associés.
+Tutoriels et présentations choisis destinés aux utilisateurs de Geant4 à JLab et lors d'ateliers connexes.
 
 <table class="alternate">
 	<tr>
@@ -191,13 +191,13 @@ Tutoriels et présentations sélectionnés destinés aux utilisateurs de Geant4 
 
 </table>
 
-Toutes les présentations Geant4 sont répertoriées dans [Présentations et tutoriels Geant4](/home/showcase/geant4).
+Toutes les présentations Geant4 sont répertoriées dans [Exposés et tutoriels Geant4](/home/showcase/geant4).
 
 <br/><br/>
 
 # GEMC
 
-Présentations sélectionnées sur GEMC, les simulations de CLAS12 et les flux de travail de simulation pilotés par des bases de données.
+Exposés choisis sur GEMC, les simulations CLAS12 et les flux de travail de simulation pilotés par des bases de données.
 
 <table class="alternate">
 	<tr>
@@ -232,13 +232,13 @@ Présentations sélectionnées sur GEMC, les simulations de CLAS12 et les flux d
 
 </table>
 
-Toutes les présentations GEMC sont répertoriées dans [Présentations et exposés GEMC](/home/showcase/gemc).
+Toutes les présentations GEMC sont répertoriées dans [Exposés et présentations GEMC](/home/showcase/gemc).
 
 <br/><br/>
 
 # Open Science Grid
 
-Présentations sur les flux de travail de simulation de CLAS12 et les ressources de calcul distribué.
+Présentations sur les flux de travail de simulation CLAS12 et les ressources de calcul distribué.
 
 <table class="alternate">
 	<tr>
@@ -275,9 +275,9 @@ Présentations sur les flux de travail de simulation de CLAS12 et les ressources
 
 <br/><br/>
 
-# Notes techniques CLAS/CLAS12 sélectionnées
+# Notes techniques CLAS/CLAS12 choisies
 
-Notes techniques sélectionnées pour les travaux sur les détecteurs et la simulation de CLAS et CLAS12.
+Notes techniques choisies pour les travaux sur les détecteurs et la simulation de CLAS et CLAS12.
 
 <table class="alternate">
 	<tr>

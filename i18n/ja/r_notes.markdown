@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Notes
+title: "注記"
 description: Practical notes on software development, scientific computing, systems, debugging, Jekyll, Docker, Python, C++, and research workflows.
 permalink: /mynotes/
 last_updated: "May 15, 2026"

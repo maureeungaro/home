@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research & Talks
+title: "Ricerca e presentazioni"
 description: Selected papers, talks, tutorials, and technical notes on Geant4, GEMC, CLAS12 simulations, detector work, and nucleon-structure research.
 permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
@@ -13,7 +13,7 @@ human_reviewed: false
 
 # Presentazioni e note recenti
 
-Seminari, tutorial, note tecniche e aggiornamenti recenti della collaborazione su Geant4, GEMC, la simulazione CLAS12 e le attività sui rivelatori.
+Seminari, tutorial, note tecniche e aggiornamenti recenti della collaborazione su Geant4, GEMC, simulazioni CLAS12 e attività sui rivelatori.
 
 <table class="alternate">
 	<tr>
@@ -51,7 +51,7 @@ Seminari, tutorial, note tecniche e aggiornamenti recenti della collaborazione s
 
 # Articoli selezionati
 
-Articoli rappresentativi del mio lavoro sulla simulazione, sui rivelatori e sull'elettroproduzione di mesoni.
+Articoli rappresentativi del mio lavoro su simulazioni, rivelatori ed elettroproduzione di mesoni.
 
 <table class="alternate">
 	<tr>
@@ -116,7 +116,7 @@ Tutte le presentazioni sull'elettroproduzione di mesoni sono elencate in [Presen
 
 # Contatore Cherenkov a bassa soglia (LTCC)
 
-Presentazioni selezionate sul funzionamento, sulla calibrazione e sulle prestazioni del rivelatore LTCC.
+Presentazioni selezionate sul funzionamento, la calibrazione e le prestazioni del rivelatore LTCC.
 
 <table class="alternate">
 	<tr>
@@ -157,7 +157,7 @@ Tutte le presentazioni sul LTCC sono elencate in [Presentazioni sul contatore Ch
 
 # Geant4
 
-Tutorial e presentazioni selezionati per gli utenti di Geant4 presso JLab e nei workshop correlati.
+Tutorial e presentazioni selezionati per gli utenti di Geant4 al JLab e nei workshop correlati.
 
 <table class="alternate">
 	<tr>
@@ -197,7 +197,7 @@ Tutte le presentazioni su Geant4 sono elencate in [Presentazioni e tutorial su G
 
 # GEMC
 
-Presentazioni selezionate su GEMC, sulle simulazioni CLAS12 e sui flussi di lavoro di simulazione basati su database.
+Presentazioni selezionate su GEMC, simulazioni CLAS12 e flussi di lavoro di simulazione basati su database.
 
 <table class="alternate">
 	<tr>
@@ -275,9 +275,9 @@ Presentazioni sui flussi di lavoro di simulazione CLAS12 e sulle risorse di calc
 
 <br/><br/>
 
-# Note tecniche CLAS/CLAS12 selezionate
+# Note tecniche selezionate su CLAS/CLAS12
 
-Note tecniche selezionate per le attività sui rivelatori e sulle simulazioni CLAS e CLAS12.
+Note tecniche selezionate per il lavoro sui rivelatori e sulle simulazioni CLAS e CLAS12.
 
 <table class="alternate">
 	<tr>
@@ -291,7 +291,7 @@ Note tecniche selezionate per le attività sui rivelatori e sulle simulazioni CL
             <td> {{ note.title }} </td>
 
             {% if note.source == "soon" %}
-                <td> Prossimamente </td>
+                <td> In arrivo a breve </td>
             {% else %}
                 <td> <a href="{{ note.pdf }}"  target="_blank"> PDF </a> </td>
 			{% endif %}
@@ -304,4 +304,4 @@ Note tecniche selezionate per le attività sui rivelatori e sulle simulazioni CL
 </table>
 
 
-Tutte le note tecniche CLAS e CLAS12 sono elencate in [Note tecniche CLAS e CLAS12](/home/showcase/clas_notes).
+Tutte le note tecniche su CLAS e CLAS12 sono elencate in [Note tecniche su CLAS e CLAS12](/home/showcase/clas_notes).

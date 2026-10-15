@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research & Talks
+title: "研究と講演"
 description: Selected papers, talks, tutorials, and technical notes on Geant4, GEMC, CLAS12 simulations, detector work, and nucleon-structure research.
 permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
@@ -51,13 +51,13 @@ Geant4、GEMC、CLAS12 シミュレーション、検出器研究に関する最
 
 # 主な論文
 
-私のシミュレーション、検出器、中間子電気生成の研究に関連する代表的な論文。
+私のシミュレーション、検出器、meson の電気生成に関する研究に関連する代表的な論文。
 
 <table class="alternate">
 	<tr>
 		<td> タイトル </td>
 		<td> PDF </td>
-		<td> 掲載誌 </td>
+		<td> 学術誌 </td>
 	</tr>
 	{% for paper in site.data.selected_papers %}
 		<tr>
@@ -73,9 +73,9 @@ Geant4、GEMC、CLAS12 シミュレーション、検出器研究に関する最
 
 <br/><br/>
 
-# 中間子電気生成に関する発表
+# Meson の電気生成に関する講演
 
-主な発表:
+主な講演:
 
 <table class="alternate">
 	<tr>
@@ -110,13 +110,13 @@ Geant4、GEMC、CLAS12 シミュレーション、検出器研究に関する最
 
 </table>
 
-すべての中間子電気生成に関する発表は [中間子電気生成に関する講演](/home/showcase/meson) に掲載されています。
+meson の電気生成に関するすべての講演は [Meson の電気生成に関する講演](/home/showcase/meson) に掲載されています。
 
 <br/><br/>
 
 # 低閾値チェレンコフカウンター (LTCC)
 
-LTCC の運用、較正、検出器性能に関連する主な講演。
+LTCC の運用、較正、検出器性能に関する主な講演。
 
 <table class="alternate">
 	<tr>
@@ -151,13 +151,13 @@ LTCC の運用、較正、検出器性能に関連する主な講演。
 
 </table>
 
-すべての LTCC に関する発表は [低閾値チェレンコフカウンターの講演](/home/showcase/ltcc) に掲載されています。
+LTCC に関するすべての講演は [低閾値チェレンコフカウンターに関する講演](/home/showcase/ltcc) に掲載されています。
 
 <br/><br/>
 
 # Geant4
 
-JLab および関連ワークショップでの Geant4 ユーザー向けの主なチュートリアルと発表。
+JLab および関連するワークショップでの Geant4 ユーザー向けの主なチュートリアルと講演。
 
 <table class="alternate">
 	<tr>
@@ -191,7 +191,7 @@ JLab および関連ワークショップでの Geant4 ユーザー向けの主�
 
 </table>
 
-すべての Geant4 に関する発表は [Geant4 の講演とチュートリアル](/home/showcase/geant4) に掲載されています。
+Geant4 に関するすべての講演は [Geant4 の講演とチュートリアル](/home/showcase/geant4) に掲載されています。
 
 <br/><br/>
 
@@ -232,13 +232,13 @@ GEMC、CLAS12 シミュレーション、データベース駆動のシミュレ
 
 </table>
 
-すべての GEMC に関する発表は [GEMC の講演とプレゼンテーション](/home/showcase/gemc) に掲載されています。
+GEMC に関するすべての講演は [GEMC の講演とプレゼンテーション](/home/showcase/gemc) に掲載されています。
 
 <br/><br/>
 
 # Open Science Grid
 
-CLAS12 シミュレーションワークフローと分散コンピューティングリソースに関する発表。
+CLAS12 シミュレーションワークフローと分散コンピューティングリソースに関する講演。
 
 <table class="alternate">
 	<tr>
@@ -277,7 +277,7 @@ CLAS12 シミュレーションワークフローと分散コンピューティ�
 
 # 主な CLAS/CLAS12 技術ノート
 
-CLAS および CLAS12 の検出器・シミュレーション研究に関する主な技術ノート。
+CLAS および CLAS12 の検出器とシミュレーションに関する主な技術ノート。
 
 <table class="alternate">
 	<tr>
@@ -304,4 +304,4 @@ CLAS および CLAS12 の検出器・シミュレーション研究に関する�
 </table>
 
 
-すべての CLAS および CLAS12 技術ノートは [CLAS および CLAS12 技術ノート](/home/showcase/clas_notes) に掲載されています。
+CLAS および CLAS12 のすべての技術ノートは [CLAS および CLAS12 技術ノート](/home/showcase/clas_notes) に掲載されています。
