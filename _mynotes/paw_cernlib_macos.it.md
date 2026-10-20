@@ -14,10 +14,10 @@ human_reviewed: false
 
 <br/>
 
-Ecco un modo rapido per eseguire Paw di Cernlib in un container Docker su macOS[^1]. 
-Si utilizza un container basato su Debian con paw, paw++ e Cernlib installati tramite il sistema (ossia apt-get).
+Ecco un modo rapido per eseguire Paw di Cernlib in un container Docker su macOS[^1].
+Si utilizza un container basato su Debian con paw, paw++ e Cernlib installati tramite il sistema (cioè apt-get).
 
-[^1]: Ringraziamenti a [David Lawrence per il post originale sul suo blog](https://davidljlab.wordpress.com/2018/10/03/cernlib-paw-docker/)
+[^1]: Crediti al [post originale del blog di David Lawrence](https://davidljlab.wordpress.com/2018/10/03/cernlib-paw-docker/)
 
 ## Requisiti
 
@@ -26,11 +26,11 @@ Installa le applicazioni Docker e X11 (XQuartz):
 - [Docker](https://www.docker.com)
 - [XQuartz](https://www.xquartz.org)
 
-Dopo aver installato XQuartz, abilita "Allow connections from network clients" nella scheda Preferences > Security.
+Dopo aver installato XQuartz, assicurati di abilitare "Allow connections from network clients" nella scheda Preferences > Security.
 Dovrebbe apparire così:
 
 {% include figure.html
-   src="assets/images/notes/xquartz.png"
+   src="/assets/images/notes/xquartz.png"
    alt="xquartz security preferences"
    caption="<br/>
    Allow connections from network clients. You may need to 
@@ -46,8 +46,8 @@ xhost +
 
 ## Esecuzione di Paw/Cernlib in Docker
 
-Nelle istruzioni seguenti si presume che tu stia usando un Mac
-con una CPU Apple Silicon (M1/M2/M3, ecc.). 
+Nelle istruzioni seguenti si presuppone che tu stia usando un Mac
+con una CPU Apple Silicon (M1/M2/M3, ecc.).
 Se hai una CPU Intel, rimuovi l'opzione `--platform linux/amd64` dal comando `docker run` qui sotto.
 
 

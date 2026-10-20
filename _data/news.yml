@@ -3,10 +3,15 @@
   image: "/home/assets/images/software/gemc3.png"
   link: "/home/weekly/2026/2026-W41/"
 
-- title: "GEMC3 0.6: next release"
+- title: "GEMC3 0.6: localized interface and message-based logging"
   date: "Upcoming"
   image: "/home/assets/images/software/gemc3.png"
-  link: "/home/weekly/2026/2026-W41/"
+  link: "/home/weekly/2026/2026-W42/"
+
+- title: "GEMC 6.2 for CLAS12: updated geometry and benchmarks"
+  date: "Upcoming"
+  image: "/home/assets/images/home/clas12.png"
+  link: "/home/weekly/2026/2026-W42/"
 
 - title: "CLAS12 note on the OSG simulation framework"
   date: "Upcoming"

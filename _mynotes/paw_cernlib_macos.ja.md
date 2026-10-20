@@ -14,23 +14,23 @@ human_reviewed: false
 
 <br/>
 
-macOS 上で Docker コンテナを使って Cernlib の Paw を手軽に動かす方法を紹介します[^1]。
-この方法では、paw、paw++、および Cernlib がシステム経由（つまり apt-get）でインストールされた Debian ベースのコンテナを使用します。
+macOS 上で Docker コンテナを使って Cernlib の Paw を手軽に実行する方法を紹介します[^1]。
+ここでは、paw、paw++、および Cernlib をシステム経由（つまり apt-get）でインストールした Debian ベースのコンテナを使用します。
 
-[^1]: [David Lawrence 氏による元のブログ記事](https://davidljlab.wordpress.com/2018/10/03/cernlib-paw-docker/)に感謝します。
+[^1]: [David Lawrence 氏の元のブログ記事](https://davidljlab.wordpress.com/2018/10/03/cernlib-paw-docker/)に感謝します。
 
 ## 必要なもの
 
-Docker と X11（XQuartz）アプリをインストールします。
+Docker と X11（XQuartz）のアプリをインストールします。
 
 - [Docker](https://www.docker.com)
 - [XQuartz](https://www.xquartz.org)
 
-XQuartz をインストールしたら、環境設定の「セキュリティ」タブで「ネットワーククライアントからの接続を許可」を必ず有効にしてください。
+XQuartz をインストールしたら、Preferences > Security タブで "Allow connections from network clients" を必ず有効にしてください。
 次のような表示になります。
 
 {% include figure.html
-   src="assets/images/notes/xquartz.png"
+   src="/assets/images/notes/xquartz.png"
    alt="xquartz security preferences"
    caption="<br/>
    Allow connections from network clients. You may need to 
@@ -38,7 +38,7 @@ XQuartz をインストールしたら、環境設定の「セキュリティ」
    width="800"
 %}
 
-ターミナルで次のコマンドを実行し、Docker コンテナからの X11 接続を許可します。
+Docker コンテナからの X11 接続を許可するには、ターミナルで次のコマンドを実行します。
 
 ```shell
 xhost +
@@ -48,7 +48,7 @@ xhost +
 
 以下の手順では、Apple Silicon CPU（M1/M2/M3 など）を搭載した Mac を
 使用していることを前提としています。
-Intel CPU の場合は、以下の `docker run` コマンドから `--platform linux/amd64` オプションを削除してください。
+Intel CPU を使用している場合は、以下の `docker run` コマンドから `--platform linux/amd64` オプションを削除してください。
 
 
 ターミナルで次のコマンドを実行し、コンテナ内でインタラクティブシェルを起動する

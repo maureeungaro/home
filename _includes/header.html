@@ -1,3 +1,5 @@
+{%- assign search_placeholder = site.data.ui_strings.search_placeholder | default: 'Search…' -%}
+{%- assign search_aria_label = site.data.ui_strings.search_aria_label | default: 'Search this site' -%}
 <header class="site-header" role="banner">
 	<div class="wrapper">
 		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
@@ -20,10 +22,8 @@
 				{%- endfor -%}
 
 				{%- comment -%}
-					Language switcher (jekyll-polyglot). We build each language's path explicitly and wrap the
-					href in a static_href block (polyglot's opt-out tag) so polyglot does NOT prepend the
-					active language to it — otherwise the English/default link gets rewritten to the current
-					language on translated pages.
+					Language switcher (jekyll-polyglot). Upcoming with the next release.
+					static_href preserves each link's target language.
 				{%- endcomment -%}
 				{%- if site.languages and site.languages.size > 1 -%}
 				<div class="lang-switcher" role="navigation" aria-label="Language">
@@ -34,7 +34,10 @@
 					{%- if lang == site.active_lang -%}
 					<span class="lang-current" lang="{{ lang }}" aria-current="true">{{ label }}</span>
 					{%- else -%}
-					<a class="lang-link" lang="{{ lang }}" hreflang="{{ lang }}" {% static_href %}href="{{ target | prepend: site.baseurl }}"{% endstatic_href %}>{{ label }}</a>
+					<a class="lang-link" lang="{{ lang }}" hreflang="{{ lang }}"
+						{% static_href -%}
+						href="{{ target | relative_url }}"
+						{%- endstatic_href %}>{{ label }}</a>
 					{%- endif -%}
 					{%- endfor -%}
 				</div>
@@ -45,8 +48,8 @@
 						<input
 								type="search"
 								id="search-input"
-								placeholder="Search…"
-								aria-label="Search this site"
+								placeholder="{{ search_placeholder | escape }}"
+								aria-label="{{ search_aria_label | escape }}"
 						>
 					</form>
 

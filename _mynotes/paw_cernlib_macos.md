@@ -27,7 +27,7 @@ After installing XQuartz, make sure to enable "Allow connections from network cl
 It should look like this:
 
 {% include figure.html
-   src="assets/images/notes/xquartz.png"
+   src="/assets/images/notes/xquartz.png"
    alt="xquartz security preferences"
    caption="<br/>
    Allow connections from network clients. You may need to 
