@@ -105,12 +105,12 @@ width="170"
 
 ## À propos de moi
 
-Je suis Maurizio (Mauri) Ungaro, chercheur permanent au [Hall-B](https://www.jlab.org/physics/hall-b)
+Je suis Maurizio (Mauri) Ungaro, chercheur permanent dans le [Hall B](https://www.jlab.org/physics/hall-b)
 du [Jefferson Lab](https://www.jlab.org). Je travaille en physique nucléaire, sur les systèmes de détecteurs et les logiciels de simulation.
 
-Mes travaux actuels portent sur les simulations avec GEMC fondées sur Geant4, les chaînes de production CLAS12 sur
-l'Open Science Grid, ainsi que l'exploitation, l'étalonnage et les études de performance du compteur Cherenkov
-à bas seuil de CLAS12. Mes recherches explorent la structure du nucléon par l'électroproduction de mésons.
+Mes travaux actuels portent sur les simulations fondées sur Geant4 avec GEMC, les chaînes de production CLAS12 sur
+l'Open Science Grid, ainsi que l'exploitation, l'étalonnage et les études de performance du compteur
+Tcherenkov à bas seuil de CLAS12. Mes recherches explorent la structure du nucléon par l'électroproduction de mésons.
 
 Vous trouverez ici des logiciels, des présentations, des notes techniques et des exemples pratiques pour les collaborateurs et les étudiants.
 
@@ -179,9 +179,9 @@ Vous pouvez également retrouver mes publications et mon code via les profils ci
   </tbody>
 </table>
 
-La note CLAS12 à paraître décrit l'infrastructure simGrid pour OSG, avec des diagrammes de son architecture
-et des chaînes de traitement des tâches. En attendant sa publication,
-le lien d'actualité mène à la [présentation de CLAS12 sur OSG]({{ '/osg/osg' | relative_url }}).
+La note CLAS12 à paraître décrit le framework simGrid OSG, avec des schémas de son architecture
+et des flux de traitement des tâches. En attendant la publication de cette note,
+le lien d'actualité renvoie à la [présentation de CLAS12 sur OSG]({{ '/osg/osg' | relative_url }}).
 
 <br/>
 
@@ -189,23 +189,23 @@ le lien d'actualité mène à la [présentation de CLAS12 sur OSG]({{ '/osg/osg'
 
 | Si vous cherchez...                          | Commencez par                                            |
 |:---------------------------------------------|:---------------------------------------------------------|
-| Biographie, CV, CV synthétique ou liens professionnels | [Profil](/home/profile/)                         |
+| Biographie, CV, résumé de parcours ou liens professionnels | [Profil](/home/profile/)                                |
 | Exemples Geant4, tutoriels ou assistance au JLab | [Geant4 au JLab](https://jeffersonlab.github.io/g4home/) |
 | Chaînes de simulation GEMC                    | [GEMC](https://gemc.github.io/home/)                     |
 | Versions des simulations CLAS12               | [Simulations CLAS12](https://github.com/gemc/clas12Tags) |
-| Production distribuée de simulations          | [CLAS12 sur OSG](/home/osg/osg)                           |
-| Présentations de recherche, articles et notes techniques | [Recherche et présentations](/home/showcase/) |
-| Notes pratiques de calcul                     | [Notes](/home/mynotes/)                                  |
+| Production distribuée de simulations         | [CLAS12 sur OSG](/home/osg/osg)                           |
+| Présentations de recherche, articles et notes techniques | [Recherche et présentations](/home/showcase/)                      |
+| Notes pratiques d'informatique               | [Notes](/home/mynotes/)                                  |
 
 <br/><br/>
 
 ## Mes domaines de travail
 
-- **Physique nucléaire :** structure du nucléon, analyses dans la région des résonances et transition entre les descriptions
-  hadronique et partonique, notamment la [transition N → Δ (1232)](/home/meson/pi0_delta/pi0_delta)
+- **Physique nucléaire :** structure du nucléon, analyses dans la région des résonances et transition entre
+  les descriptions hadronique et partonique, notamment la [transition N → Δ (1232)](/home/meson/pi0_delta/pi0_delta)
   et l'[électroproduction de mésons à grand Q<sup>2</sup>](/home/meson/pi0_resonance/pi0_resonance).
 - **Systèmes de détecteurs :** exploitation, maintenance, étalonnage et études de performance du
-  [compteur Cherenkov à bas seuil de CLAS12](/home/ltcc/ltcc).
+  [compteur Tcherenkov à bas seuil de CLAS12](/home/ltcc/ltcc).
 - **Logiciels de simulation :** développement de [GEMC et GEMC3](https://gemc.github.io/home/),
   des [simulations CLAS12](https://github.com/gemc/clas12Tags) et des
   [chaînes de production sur l'Open Science Grid](/home/osg/osg).
@@ -256,7 +256,7 @@ le lien d'actualité mène à la [présentation de CLAS12 sur OSG]({{ '/osg/osg'
 
 </table>
 
-D'autres présentations, articles et notes sont répertoriés dans [Recherche et présentations](/home/showcase/).
+D'autres présentations, articles et notes figurent dans [Recherche et présentations](/home/showcase/).
 
 <br/>
 
@@ -264,10 +264,10 @@ D'autres présentations, articles et notes sont répertoriés dans [Recherche et
 
 | Domaine                        | Outils et expérience                                                                                                          |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| Simulation et analyse          | Geant4, GEMC, simulations CLAS12, ROOT, géométrie des détecteurs, génération d'événements, chaînes de numérisation            |
-| Programmation et infrastructure | C++, Python, scripts shell, Git, GitHub, intégration continue, Docker, Environment Modules, HTCondor, Meson, CMake, SCons    |
-| Communication scientifique     | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, documentation technique, tutoriels, présentations                        |
-| Langues                        | anglais, italien                                                                                                              |
+| Simulation et analyse          | Geant4, GEMC, simulations CLAS12, ROOT, géométrie des détecteurs, génération d'événements, chaînes de numérisation                           |
+| Programmation et infrastructure | C++, Python, scripts shell, Git, GitHub, intégration continue, Docker, Environment Modules, HTCondor, Meson, CMake, SCons |
+| Communication scientifique     | LaTeX, Markdown, HTML, CSS, JavaScript, Highcharts, documentation technique, tutoriels, présentations                         |
+| Langues                        | Anglais, italien                                                                                                              |
 
 <br/>
 
@@ -312,7 +312,7 @@ D'autres présentations, articles et notes sont répertoriés dans [Recherche et
 			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="/home/software/charts">Visualiseur de graphiques à partir de données CSV<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+			<a href="/home/software/charts">Afficheur de graphiques à partir de données CSV<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
 			<a href="/home/meson/pi0_delta/pi0_delta">Transition N → Δ(1232) <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>

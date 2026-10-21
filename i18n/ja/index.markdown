@@ -7,7 +7,7 @@
 
 layout: default
 permalink: /
-title: "マウリツィオ・ウンガロ"
+title: "Maurizio Ungaro"
 description: >-
   Nuclear physicist and simulation software developer at Jefferson Lab working on Geant4, GEMC,
   CLAS12 detector systems, nucleon structure, and scientific computing workflows.
@@ -78,7 +78,7 @@ width="170"
 |                     `Staff Scientist`                      |
 |:----------------------------------------------------------:|
 |        [ジェファーソン研究所](https://www.jlab.org)        |
-| [実験ホールB](https://www.jlab.org/physics/hall-b) |
+| [実験ホール B](https://www.jlab.org/physics/hall-b) |
 
 [gscholar-img]: {{ gscholar_img }}
 [gscholar-link]: {{ gscholar_link }}
@@ -105,20 +105,20 @@ width="170"
 
 ## 自己紹介
 
-私は[ジェファーソン研究所](https://www.jlab.org)の[ホールB](https://www.jlab.org/physics/hall-b)に所属する
-スタッフサイエンティスト、Maurizio (Mauri) Ungaroです。原子核物理学、検出器システム、シミュレーションソフトウェアに取り組んでいます。
+私は Maurizio（Mauri）Ungaro です。[ジェファーソン研究所](https://www.jlab.org) の [Hall-B](https://www.jlab.org/physics/hall-b)
+でスタッフサイエンティストを務めています。原子核物理、検出器システム、シミュレーションソフトウェアに取り組んでいます。
 
-現在は、GEMCを用いたGeant4ベースのシミュレーション、Open Science Grid上でのCLAS12シミュレーションの大量生成ワークフロー、
-CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に取り組んでいます。
-研究では、メソン電気生成を通じて核子構造を探究しています。
+現在は、GEMC を用いた Geant4 ベースのシミュレーション、Open Science Grid 上での CLAS12 の大規模シミュレーション実行ワークフロー、
+CLAS12 低しきい値チェレンコフカウンターの運用・較正・性能評価に取り組んでいます。研究では、
+電子散乱による中間子生成を通じて核子構造を探究しています。
 
-ここでは、共同研究者や学生の皆さん向けに、ソフトウェア、講演、技術ノート、実用的な例を紹介しています。
+ここでは、共同研究者や学生に向けたソフトウェア、講演、技術ノート、実践的な例を公開しています。
 
-余暇には、自分よりずっと速く滑る我が子を見るのを楽しみながら、ホッケーを習っています。
+余暇には、私よりもずっと速くスケートをする我が子の姿を楽しみながら、ホッケーを習っています。
 
 <table class="zebra compact-table">
   <tr>
-    <th>主要リンク</th>
+    <th>主なリンク</th>
     <td><a href="/home/profile/">プロフィール</a></td>
     <td><a href="https://gemc.github.io/home/">GEMC</a></td>
     <td><a href="/home/showcase/">研究と講演</a></td>
@@ -126,7 +126,7 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
   </tr>
 </table>
 
-共同研究や、シミュレーション・検出器関連の作業についてのサポートは、[メールでご連絡ください](mailto:ungaro@jlab.org)。
+共同研究や、シミュレーション・検出器関連のサポートについては、[メールでご連絡ください](mailto:ungaro@jlab.org)。
 以下のプロフィールから、私の論文やコードもご覧いただけます。
 <br/>
 <br/>
@@ -159,7 +159,7 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
 
 <br/><br/>
 
-## 最新ニュースと今後の予定
+## 最新ニュースと今後の取り組み
 
 <table class="alternate">
   <thead>
@@ -179,42 +179,42 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
   </tbody>
 </table>
 
-公開予定のCLAS12ノートでは、simGrid OSGフレームワークについて、アーキテクチャとジョブワークフローの図を交えて解説します。
-ノートが公開されるまでは、
-ニュースのリンク先は[OSG上でのCLAS12の概要]({{ '/osg/osg' | relative_url }})です。
+公開予定の CLAS12 ノートでは、simGrid OSG フレームワークについて、アーキテクチャとジョブワークフローの図を
+交えて解説します。ノートが公開されるまでは、
+ニュースのリンク先は [OSG 上の CLAS12 の概要]({{ '/osg/osg' | relative_url }}) となります。
 
 <br/>
 
-## はじめに
+## 初めての方へ
 
-| お探しの情報                                 | 最初にご覧いただくページ                                 |
+| お探しの情報                    | まずはこちらから                                               |
 |:---------------------------------------------|:---------------------------------------------------------|
-| 略歴、CV、履歴書、研究者としての関連リンク   | [プロフィール](/home/profile/)                          |
-| Geant4の例、チュートリアル、JLabでのサポート | [JLabでのGeant4](https://jeffersonlab.github.io/g4home/) |
-| GEMCシミュレーションのワークフロー           | [GEMC](https://gemc.github.io/home/)                     |
-| CLAS12シミュレーションのリリース             | [CLAS12シミュレーション](https://github.com/gemc/clas12Tags) |
-| 分散環境でのシミュレーションの大量生成       | [OSG上でのCLAS12](/home/osg/osg)                         |
-| 研究講演、論文、技術ノート                   | [研究と講演](/home/showcase/)                            |
-| 実用的なコンピューティングのノート           | [ノート](/home/mynotes/)                                 |
+| 略歴、CV、履歴書、仕事関連のリンク | [プロフィール](/home/profile/)                                |
+| Geant4 の例、チュートリアル、JLab でのサポート  | [JLab の Geant4](https://jeffersonlab.github.io/g4home/) |
+| GEMC シミュレーションのワークフロー                    | [GEMC](https://gemc.github.io/home/)                     |
+| CLAS12 シミュレーションのリリース                   | [CLAS12 シミュレーション](https://github.com/gemc/clas12Tags) |
+| 分散環境での大規模シミュレーション実行            | [OSG 上の CLAS12](/home/osg/osg)                           |
+| 研究講演、論文、技術ノート  | [研究と講演](/home/showcase/)                      |
+| 実践的なコンピューティングノート                    | [ノート](/home/mynotes/)                                  |
 
 <br/><br/>
 
 ## 取り組んでいること
 
-- **原子核物理学：** 核子構造、共鳴領域の解析、ハドロンによる記述とパートンによる記述の間の遷移。
-  [N → Δ (1232) 遷移](/home/meson/pi0_delta/pi0_delta)や
-  [高Q<sup>2</sup>でのメソン電気生成](/home/meson/pi0_resonance/pi0_resonance)を含みます。
-- **検出器システム：** 運用、保守、較正、性能研究の対象は
-  [CLAS12低閾値チェレンコフ検出器](/home/ltcc/ltcc)です。
-- **シミュレーションソフトウェア：** [GEMCおよびGEMC3](https://gemc.github.io/home/)、
-  [CLAS12シミュレーション](https://github.com/gemc/clas12Tags)、
-  [Open Science Gridでの大量生成ワークフロー](/home/osg/osg)の開発。
-- **科学計算とサポート：** [JLabでのGeant4](https://jeffersonlab.github.io/g4home/)、
+- **原子核物理:** 核子構造、共鳴領域の解析、ハドロンによる記述とパートンによる記述の間の遷移。
+  [N → Δ (1232) 遷移](/home/meson/pi0_delta/pi0_delta)
+  および [高 Q<sup>2</sup> における電子散乱による中間子生成](/home/meson/pi0_resonance/pi0_resonance) を含みます。
+- **検出器システム:** 運用、保守、較正、性能評価の対象は
+  [CLAS12 低しきい値チェレンコフカウンター](/home/ltcc/ltcc) です。
+- **シミュレーションソフトウェア:** [GEMC および GEMC3](https://gemc.github.io/home/)、
+  [CLAS12 シミュレーション](https://github.com/gemc/clas12Tags)、
+  [Open Science Grid での大規模シミュレーション実行ワークフロー](/home/osg/osg) の開発。
+- **科学計算とサポート:** [JLab の Geant4](https://jeffersonlab.github.io/g4home/)、
   再現可能なシミュレーションワークフロー、チュートリアル、例、ユーザー向けドキュメント。
 
 <br/>
 
-## 最近の講演・ノートと今後の予定
+## 最近および今後の講演とノート
 
 <br/>
 
@@ -223,7 +223,7 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
 	<tr>
 		<th scope="col">タイトル</th>
 		<th scope="col">PDF</th>
-		<th scope="col">講演の場</th>
+		<th scope="col">発表の場</th>
 		<th scope="col">日付</th>
 	</tr>	
 
@@ -256,18 +256,18 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
 
 </table>
 
-その他の講演、論文、ノートは[研究と講演](/home/showcase/)に掲載されています。
+さらに多くの講演、論文、ノートは [研究と講演](/home/showcase/) に掲載されています。
 
 <br/>
 
 ## 技術スキル
 
-| 分野                           | ツールと経験                                                                                                                  |
+| 分野                           | ツールと経験                                                                                                          |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| シミュレーションと解析          | Geant4、GEMC、CLAS12シミュレーション、ROOT、検出器ジオメトリ、イベント生成、デジタイゼーションのワークフロー                    |
-| プログラミングとインフラ        | C++、Python、シェルスクリプト、Git、GitHub、継続的インテグレーション、Docker、Environment Modules、Meson、CMake、SCons          |
-| 科学コミュニケーション          | LaTeX、Markdown、HTML、CSS、JavaScript、Highcharts、技術ドキュメント、チュートリアル、プレゼンテーション                        |
-| 言語                           | 英語、イタリア語                                                                                                              |
+| シミュレーションと解析        | Geant4、GEMC、CLAS12 シミュレーション、ROOT、検出器ジオメトリ、イベント生成、デジタイゼーションワークフロー                           |
+| プログラミングとインフラ | C++、Python、シェルスクリプト、Git、GitHub、継続的インテグレーション、Docker、Environment Modules、HTCondor、Meson、CMake、SCons |
+| 科学コミュニケーション       | LaTeX、Markdown、HTML、CSS、JavaScript、Highcharts、技術ドキュメント、チュートリアル、プレゼンテーション                         |
+| 言語                      | 英語、イタリア語                                                                                                              |
 
 <br/>
 
@@ -312,7 +312,7 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
 			<img src="/home/assets/images/home/quote1.png" alt="Quote" height="500px" width="90%"/><br/><br/><br/>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="/home/software/charts">CSVグラフ表示ツール<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
+			<a href="/home/software/charts">CSV グラフ表示ツール<br/><img src="/home/assets/images/software/charts_big.png" alt="Chart CSV displayer screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
 			<a href="/home/meson/pi0_delta/pi0_delta">N → Δ(1232) 遷移 <br/><img src="/home/assets/images/pi0/pi0_delta_results.png" alt="N to Delta transition results" height="500px" width="90%"/></a>
@@ -321,10 +321,10 @@ CLAS12低閾値チェレンコフ検出器の運用・較正・性能研究に�
 			<a href="/home/wfd/">What's For Dinner 献立プランナー<br/><img src="/home/assets/images/home/wfd.png" alt="What's For Dinner meal planner screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="https://gemc.github.io/home/">GEMCホームページ<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
+			<a href="https://gemc.github.io/home/">GEMC ホームページ<br/><img src="/home/assets/images/home/gemc_home.png" alt="GEMC home page screenshot" height="500px" width="90%"/></a>
     	</li>
     	<li data-thumb="/home/assets/images/empty.png">
-			<a href="https://gemc.jlab.org/web_interface/index.php">GEMCシミュレーションのWebインターフェース<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
+			<a href="https://gemc.jlab.org/web_interface/index.php">GEMC シミュレーションのウェブインターフェース<br/><img src="/home/assets/images/home/osg.png" alt="GEMC simulation web interface screenshot" height="500px" width="90%"/></a>
     	</li>
 	</ul>
 
