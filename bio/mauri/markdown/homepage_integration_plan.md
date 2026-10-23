@@ -1,49 +1,31 @@
-# Homepage Integration Plan
+# Homepage Integration
 
-Goal: use the `bio/mauri` material to reach collaborators, hiring committees,
-students, and technical users without making the homepage feel like a long CV.
+The homepage now contains the biography, project overview, and professional document links.
+The separate Profile and Projects pages have been retired.
 
-## Recommended Homepage Changes
+## Source Material
 
-1. Add a compact `Professional Materials` row near the current outreach icons.
+- `markdown/bios.md`: short, medium, and long biographies, plus ORCID and LinkedIn text.
+- `markdown/profile.md`: reusable professional profile text; it is not a separate navigation page.
+- `markdown/cv_summary.md`: concise research and technical highlights.
+- `data/profile.yml`: structured profile, project, and skills data.
+- `tex/`: source documents for the CV, resume, biography sheet, and application material.
 
-   Suggested links:
+## Homepage Sections
 
-   - CV: `/home/assets/bio/mauri/mauri_cv.pdf`
-   - Resume: `/home/assets/bio/mauri/mauri_resume.pdf`
-   - Bio: `/home/assets/bio/mauri/mauri_bio.pdf`
-   - Publications: `/home/assets/bio/mauri/markdown/publications.md`
+- Keep About Me concise so visitors can quickly identify the research and software focus.
+- Use What I Work On for research, detector, simulation, computing, and support projects.
+- Keep the full biography and all professional document links in Biography and Documents.
+- Retain the professional profile icons, experience, education, research talks, and technical notes.
+- Keep recent development summaries consistent with the biography sources without duplicating a full CV.
 
-2. Keep the top homepage concise.
+## Updating Documents
 
-   The homepage should still route users quickly to GEMC, Research & Talks,
-   Notes, and profile links. CV/resume links should be visible but not
-   dominate the page.
+Edit the sources under `bio/mauri`, preserve the explicit LaTeX page breaks, then run:
 
-3. Add a dedicated future page called `Profile`.
-
-   Source material:
-
-   - `bio/mauri/markdown/profile.md`
-   - `bio/mauri/markdown/cv_summary.md`
-   - `bio/mauri/markdown/bios.md`
-
-4. Add a publications page after reviewing generated INSPIRE output.
-
-   Source material:
-
-   - `bio/mauri/markdown/publications.md`
-   - `bio/mauri/data/inspire_papers.yml`
-
-## Suggested Homepage Section
-
-```markdown
-## Professional Materials
-
-| Material | Use |
-|:--|:--|
-| [Scientific CV](/home/assets/bio/mauri/mauri_cv.pdf) | Full academic and technical record. |
-| [Resume](/home/assets/bio/mauri/mauri_resume.pdf) | Shorter profile for applications and collaborations. |
-| [Biography](/home/assets/bio/mauri/mauri_bio.pdf) | Short, medium, and long bio text. |
-| [Publications](/home/assets/bio/mauri/markdown/publications.md) | Generated INSPIRE publication list. |
+```sh
+python3 scripts/update_material.py --skip-fetch
 ```
+
+This builds the PDFs and refreshes the linkable assets under `assets/bio/mauri/` using existing
+publication data. The separate Publications page continues to use the generated INSPIRE list.

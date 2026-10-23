@@ -12,4 +12,4 @@ computing environments.
 | What is it? | A software installation and environment-management project. |
 | Who is it for? | Users maintaining repeatable research software environments. |
 | Why use it? | It helps document and reproduce setup steps for scientific computing tools. |
-| Where to start? | See the [software projects](/home/projects/) overview. |
+| Where to start? | See the [software projects](/home/#what-i-work-on) overview. |

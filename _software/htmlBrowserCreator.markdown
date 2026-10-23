@@ -12,4 +12,4 @@ workflow artifacts into browsable static HTML pages.
 | What is it? | A helper tool for generating static HTML browsers for scientific outputs. |
 | Who is it for? | Analysts who need to inspect many plots or files from a web browser. |
 | Why use it? | It makes analysis products easier to review, share, and navigate. |
-| Where to start? | See the [software projects](/home/projects/) overview. |
+| Where to start? | See the [software projects](/home/#what-i-work-on) overview. |

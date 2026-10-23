@@ -119,7 +119,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 <table class="zebra compact-table">
   <tr>
     <th>Primary links</th>
-    <td><a href="/home/profile/">Profile</a></td>
+    <td><a href="#biography-and-documents">Biography &amp; Documents</a></td>
     <td><a href="https://gemc.github.io/home/">GEMC</a></td>
     <td><a href="/home/showcase/">Research & Talks</a></td>
     <td><a href="/home/mynotes/">Notes</a></td>
@@ -189,7 +189,7 @@ the news link leads to the [CLAS12 on OSG overview]({{ '/osg/osg' | relative_url
 
 | If you are looking for...                    | Start with                                               |
 |:---------------------------------------------|:---------------------------------------------------------|
-| Biography, CV, resume, or professional links | [Profile](/home/profile/)                                |
+| Biography, CV, resume, or professional links | [Biography and Documents](#biography-and-documents)      |
 | Geant4 examples, tutorials, or JLab support  | [Geant4 at JLab](https://jeffersonlab.github.io/g4home/) |
 | GEMC simulation workflows                    | [GEMC](https://gemc.github.io/home/)                     |
 | CLAS12 simulation releases                   | [CLAS12 Simulations](https://github.com/gemc/clas12Tags) |
@@ -202,15 +202,57 @@ the news link leads to the [CLAS12 on OSG overview]({{ '/osg/osg' | relative_url
 ## What I Work On
 
 - **Nuclear physics:** nucleon structure, resonance-region analyses, and the transition between hadronic
-  and partonic descriptions, including the [N → Δ (1232) transition](/home/meson/pi0_delta/pi0_delta)
+  and partonic descriptions through [single-meson electroproduction](/home/meson/meson), including
+  the [N → Δ (1232) transition](/home/meson/pi0_delta/pi0_delta)
   and [meson electroproduction at high Q<sup>2</sup>](/home/meson/pi0_resonance/pi0_resonance).
 - **Detector systems:** operation, maintenance, calibration, and performance studies of the
-  [CLAS12 Low Threshold Cherenkov Counter](/home/ltcc/ltcc).
-- **Simulation software:** development of [GEMC and GEMC3](https://gemc.github.io/home/),
-  [CLAS12 simulations](https://github.com/gemc/clas12Tags), and
-  [Open Science Grid production workflows](/home/osg/osg).
+  [CLAS12 Low Threshold Cherenkov Counter](/home/ltcc/ltcc), including pion/kaon discrimination in Hall-B.
+- **Simulation software:** development of [GEMC and GEMC3](https://gemc.github.io/home/), a database-driven
+  Geant4 framework with a Python-friendly workflow for detector and radiation-transport studies;
+  tagged [CLAS12 geometry and simulation releases](https://github.com/gemc/clas12Tags), digitization
+  workflows, and geometry tools.
+- **Distributed computing:** [CLAS12 production on the Open Science Grid](/home/osg/osg), with web and
+  batch submission tools and HTCondor workflows for running simulations on distributed resources.
 - **Scientific computing and support:** [Geant4 at JLab](https://jeffersonlab.github.io/g4home/),
   reproducible simulation workflows, tutorials, examples, and user-facing documentation.
+
+<br/>
+
+## Biography and Documents
+
+Maurizio Ungaro is a Staff Scientist in [Hall-B](https://www.jlab.org/physics/hall-b)
+at [Jefferson Lab](https://www.jlab.org). His work connects nuclear physics analysis, detector systems,
+and simulation infrastructure. He develops and supports Geant4-based simulation workflows,
+[GEMC and GEMC3](https://gemc.github.io/home/), Python tools through
+[pygemc](https://github.com/gemc/pygemc), and [CLAS12 simulation releases](https://github.com/gemc/clas12Tags).
+His recent work includes CAD mesh repair and optimization, reproducible geometry and tracking benchmarks,
+interactive visualization with Geant4 XR integration, multilingual tools, and portable build environments.
+He also maintains [simGrid production workflows](/home/osg/osg) on the Open Science Grid and writes
+technical documentation for users.
+
+His detector work includes the CLAS12 [Low Threshold Cherenkov Counter](/home/ltcc/ltcc), with
+responsibilities in operation, maintenance, calibration, and detector performance. His research focuses
+on nucleon structure, meson electroproduction, resonance-region analyses, and the transition between
+hadronic and partonic degrees of freedom.
+
+Earlier and collaborative work includes experiments in Japan through the
+[LEPS/SPring-8 collaboration](https://www.spring8.or.jp/en/) and participation in
+[Heavy Photon Search](https://www.jlab.org/physics/hall-b/other), a dark-sector search collaboration
+at Jefferson Lab.
+
+### Documents
+
+- [Scientific CV]({{ '/assets/bio/mauri/mauri_cv.pdf' | relative_url }}): full academic, research, software,
+  and detector record.
+- [Resume]({{ '/assets/bio/mauri/mauri_resume.pdf' | relative_url }}): a shorter document for
+  collaborations, applications, and technical roles.
+- [Biography Sheet]({{ '/assets/bio/mauri/mauri_bio.pdf' | relative_url }}): short, medium, and long
+  biographies for programs, websites, and profiles.
+- [Publications]({{ '/publications/' | relative_url }}): an INSPIRE-derived publication list with
+  first-author classification.
+
+Professional profiles and contact links are available [near the top of this page](#about-me).
+Experience and education are listed [below](#experience-and-education).
 
 <br/>
 

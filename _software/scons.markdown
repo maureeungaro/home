@@ -12,4 +12,6 @@ software projects.
 | What is it? | A build-system tool for managing compilation and installation workflows. |
 | Who is it for? | Developers maintaining scientific software projects that still use SCons. |
 | Why use it? | It provides scripted, Python-driven build logic for projects where SCons is already part of the toolchain. |
-| Where to start? | See the related [software projects](/home/projects/) and technical notes. |
+| Where to start? | See the related [software projects][projects] and technical notes. |
+
+[projects]: /home/#what-i-work-on

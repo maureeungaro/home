@@ -77,6 +77,9 @@ exclude:
    - AGENTS.md
    - CLAUDE.md
    - bio
+   # Retired English pages are removed; exclude their generated translations too.
+   - i18n/*/e_projects.markdown
+   - i18n/*/p_profile.markdown
    - recipes/AGENTS.md
    - recipes/CLAUDE.md
    - recipes/.idea/

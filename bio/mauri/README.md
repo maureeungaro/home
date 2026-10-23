@@ -45,6 +45,15 @@ To refresh papers, build PDFs, and install linkable files under
 python3 scripts/update_material.py
 ```
 
+To rebuild and install the documents using the existing publication data, without network access:
+
+```sh
+python3 scripts/update_material.py --skip-fetch
+```
+
+Edit the sources in this directory and regenerate the assets; do not edit the installed copies.
+The CV and resume contain explicit `\newpage` commands that preserve their intended section breaks.
+
 Installed files can be linked from the homepage using paths such as:
 
 - `/home/assets/bio/mauri/mauri_cv.pdf`

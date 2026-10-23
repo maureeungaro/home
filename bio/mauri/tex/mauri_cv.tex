@@ -6,14 +6,16 @@
 
 \section*{Profile}
 Nuclear physicist and simulation software developer at Jefferson Lab working on
-Geant4-based detector simulations, \MauriGEMC{}, CLAS12 production workflows, detector
-systems, and nucleon-structure research. My work connects physics analysis,
-detector operations, and simulation infrastructure, with a focus on making
-Geant4 workflows easier to build, run, document, and share.
+Geant4-based detector simulations, \MauriGEMC{} and GEMC3, Python tools, CLAS12
+production workflows, and nucleon-structure research. My work connects physics
+analysis, detector operations, CAD geometry validation, and reproducible
+simulation infrastructure.
 
 \section*{Current Position}
 \RoleEntry{Staff Scientist}{2011--present}{\MauriJLab{}, Experimental Hall-B, Newport News, VA}
-{Hall-B and CLAS12 detector operations, simulation software, Geant4 support, LTCC calibration and performance, distributed simulation production, and nucleon-structure analysis.}
+{Hall-B detector operations; GEMC/GEMC3 and pygemc development; CAD geometry validation;
+Geant4 support; LTCC calibration and performance; distributed simulation production;
+nucleon-structure analysis.}
 
 \section*{Previous Positions}
 \RoleEntry{Postdoctoral Research Associate and Research Associate}{2004--2011}{University of Connecticut, Storrs, CT}
@@ -31,21 +33,31 @@ Geant4 workflows easier to build, run, document, and share.
 \section*{Research and Technical Leadership}
 \begin{itemize}
   \item Nucleon-structure measurements using meson electro-production and CLAS/CLAS12 data.
-  \item Development and support of \MauriGEMC{}, a database-driven Geant4 simulation workflow.
-  \item CLAS12 simulation releases, geometry tags, and production workflows through \MauriClasTwelve{}.
-  \item Distributed simulation production using HTCondor and Open Science Grid resources.
+  \item Development of \MauriGEMC{}, GEMC3, and pygemc for Geant4 simulation and Python geometry authoring.
+  \item CLAS12 geometry and detector-plugin migration, CAD mesh repair, and reproducible validation benchmarks.
+  \item Distributed simulation production through simGrid, HTCondor, and Open Science Grid resources.
   \item CLAS12 \MauriLTCC{} operation, maintenance, calibration, and detector-performance studies.
   \item \MauriGeantFourJLab{} tutorials, examples, and user support for Jefferson Lab users.
 \end{itemize}
 
+\newpage
+
 \section*{Selected Projects}
-\ProjectEntry{\MauriGEMC{}}{Database-driven Geant4 simulations with a Python-friendly workflow.}{https://gemc.github.io/home/}
+\ProjectEntry{\MauriGEMC{} and GEMC3}{Database-driven Geant4 simulation; C++20 framework development,
+detector plugins, Qt visualization, multilingual tools, and Geant4 XR integration.}
+{https://gemc.github.io/home/}
+
+\ProjectEntry{pygemc}{Python geometry and material authoring, PyVista visualization, output analysis,
+and command-line tools.}{https://github.com/gemc/pygemc}
 
 \ProjectEntry{\MauriGeantFourJLab{}}{Tutorials, examples, and support material for Jefferson Lab users.}{https://jeffersonlab.github.io/g4home/}
 
-\ProjectEntry{\MauriClasTwelve{}}{Tagged CLAS12 geometry and simulation releases.}{https://github.com/gemc/clas12Tags}
+\ProjectEntry{\MauriClasTwelve{}}{Tagged simulation releases and migration to GEMC3; CAD mesh repair,
+geometry consistency checks, and construction, overlap, and tracking benchmarks.}
+{https://github.com/gemc/clas12Tags}
 
-\ProjectEntry{\MauriOSG{}}{Distributed CLAS12 simulation production workflows.}{https://maureeungaro.github.io/home/osg/osg}
+\ProjectEntry{\MauriOSG{}}{simGrid web and batch production workflows using HTCondor and Open Science Grid,
+including queue management and operational support.}{https://maureeungaro.github.io/home/osg/osg}
 
 \ProjectEntry{\MauriLTCC{}}{CLAS12 forward detector work for pion/kaon discrimination.}{https://maureeungaro.github.io/home/ltcc/ltcc}
 
@@ -77,6 +89,8 @@ Geant4 workflows easier to build, run, document, and share.
   \item Deeply Virtual Compton Scattering with CLAS at 11 GeV, E12-06-119.
 \end{itemize}
 
+\newpage
+
 \section*{Selected Plenary and Invited Talks}
 \begin{itemize}
   \item Electromagnetic $N \to N^\ast$ excitations, Photonuclear Reactions Gordon Research Conference, Tilton, NH, August 2010.
@@ -89,9 +103,11 @@ Geant4 workflows easier to build, run, document, and share.
 \end{itemize}
 
 \section*{Technical Skills}
-\textbf{Simulation and analysis}: Geant4, GEMC, CLAS12 simulations, ROOT, detector geometry, digitization workflows, PyVista visualization.
+\textbf{Simulation and analysis}: Geant4, GEMC/GEMC3, pygemc, CLAS12, ROOT, CAD mesh repair,
+geometry and overlap validation, tracking benchmarks, digitization, PyVista, Qt, Geant4 XR.
 
-\textbf{Programming and infrastructure}: C++, Python, shell scripting, Git, GitHub, CI, Docker, Meson, CMake, SCons.
+\textbf{Programming and infrastructure}: C++20, Python, shell scripting, Git, GitHub, CI, Docker,
+Meson, CMake, SCons, cross-platform installation, localization.
 
 \textbf{Scientific computing}: HTCondor, Open Science Grid, SQLite, CSV/JSON/ROOT workflows, reproducible environments, documentation.
 

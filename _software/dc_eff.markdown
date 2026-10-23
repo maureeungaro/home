@@ -12,4 +12,4 @@ studies and performance monitoring.
 | What is it? | Software and notes for drift chamber efficiency studies. |
 | Who is it for? | CLAS12 detector experts and analysts checking tracking-detector performance. |
 | Why use it? | Efficiency studies help monitor detector behavior and support reliable reconstruction and simulation comparisons. |
-| Where to start? | See the [software projects](/home/projects/) overview. |
+| Where to start? | See the [software projects](/home/#what-i-work-on) overview. |

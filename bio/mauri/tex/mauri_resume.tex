@@ -6,13 +6,14 @@
 
 \section*{Summary}
 Staff Scientist at \MauriJLab{} with experience spanning nuclear physics,
-detector systems, Geant4 simulation, \MauriGEMC{} development, CLAS12 production
-workflows, and scientific software infrastructure.
+detector systems, Geant4 simulation, \MauriGEMC{}/GEMC3 and pygemc development,
+validated CAD geometry, and distributed CLAS12 production workflows.
 
 \section*{Core Strengths}
 \begin{itemize}
   \item Build and support Geant4-based simulation workflows for detector and radiation-transport studies.
-  \item Develop \MauriGEMC{} and \MauriClasTwelve{} tooling for reproducible geometry, digitization, and production workflows.
+  \item Develop GEMC3 and pygemc; migrate CLAS12 geometry and detector plugins to the new framework.
+  \item Repair and optimize CAD meshes with construction, overlap, and tracking benchmarks.
   \item Support CLAS12 detector operations, including LTCC calibration, maintenance, and performance studies.
   \item Translate complex scientific software into tutorials, examples, technical notes, and user-facing documentation.
   \item Teach and mentor students in laboratory instruction, data analysis, detector calibration, and scientific computing.
@@ -20,27 +21,31 @@ workflows, and scientific software infrastructure.
 
 \section*{Selected Experience}
 \RoleEntry{Staff Scientist}{2011--present}{\MauriJLab{}, Hall-B}
-{Geant4 and GEMC simulation support; CLAS12 simulation releases; OSG production workflows; LTCC detector work; nucleon-structure analysis.}
+{GEMC/GEMC3 and pygemc development; CAD validation; simGrid/OSG production support;
+LTCC detector work; nucleon-structure analysis.}
 
 \RoleEntry{Research Associate}{2004--2011}{University of Connecticut}
 {CLAS analyses, meson electro-production, CLAS12 software, and detector simulation development.}
 
 \section*{Selected Projects}
 \begin{tabularx}{\textwidth}{@{}lX@{}}
-\MauriGEMC{} & Database-driven Geant4 simulations with a Python-friendly workflow.\\
+\MauriGEMC{} / GEMC3 & Geant4 framework development, Qt visualization, localization, and XR integration.\\
+pygemc & Python geometry tools, PyVista rendering, and analysis workflows.\\
 \MauriGeantFourJLab{} & Tutorials, examples, and support material for Jefferson Lab users.\\
-\MauriClasTwelve{} & Tagged simulation releases and production workflows.\\
-\MauriOSG{} & Distributed simulation production using HTCondor and Open Science Grid.\\
+\MauriClasTwelve{} & Tagged releases, GEMC3 migration, CAD repair, and validation benchmarks.\\
+\MauriOSG{} & simGrid production workflows and queue management using HTCondor and OSG.\\
 \MauriLTCC{} & Forward detector operation, calibration, and performance for pion/kaon discrimination.\\
 \MauriHPS{} & Dark-sector search collaboration at Jefferson Lab.\\
 \MauriSPringEight{} & Prior experimental work in Japan through LEPS/SPring-8 collaboration.\\
 \end{tabularx}
 
 \section*{Technical Skills}
-\textbf{Simulation}: Geant4, GEMC, CLAS12, ROOT, detector geometry, digitization.\\
-\textbf{Programming}: C++, Python, shell, Git, CI, Docker, Meson, CMake, SCons.\\
+\textbf{Simulation}: Geant4, GEMC3, pygemc, CLAS12, ROOT, CAD validation, PyVista, Qt.\\
+\textbf{Programming}: C++20, Python, shell, Git, CI, Docker, Meson, CMake, SCons.\\
 \textbf{Computing}: HTCondor, OSG, SQLite, CSV/JSON/ROOT workflows, reproducible environments.\\
 \textbf{Communication}: documentation, tutorials, talks, mentoring.
+
+\newpage
 
 \section*{Education}
 Ph.D. in Nuclear Physics, \MauriRPI{}.\\

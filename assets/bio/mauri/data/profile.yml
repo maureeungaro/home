@@ -27,15 +27,19 @@ reference_links:
 
 summary: >
   Nuclear physicist and simulation software developer at Jefferson Lab working
-  on Geant4-based detector simulations, GEMC, CLAS12 production workflows,
-  detector systems, and nucleon-structure research.
+  on Geant4-based detector simulations, GEMC/GEMC3 and pygemc development,
+  validated CAD geometry, CLAS12 production workflows, detector systems,
+  and nucleon-structure research.
 
 current_focus:
   - Geant4 simulation support and tutorials for Jefferson Lab users.
-  - GEMC development and CLAS12 simulation workflows.
+  - GEMC/GEMC3 and pygemc development, including CLAS12 geometry and detector-plugin migration.
+  - CAD mesh repair and optimization with reproducible construction, overlap, and tracking checks.
+  - Interactive visualization, Geant4 XR integration, multilingual tools, and portable build environments.
   - CLAS12 Low Threshold Cherenkov Counter operation, calibration, and performance.
   - Meson electro-production and nucleon-structure measurements.
-  - Reproducible scientific computing, documentation, and distributed production workflows.
+  - simGrid production workflows, HTCondor queue management, and Open Science Grid operational support.
+  - Reproducible scientific computing, documentation, tutorials, and examples.
 
 experience:
   - role: Staff Scientist
@@ -44,7 +48,10 @@ experience:
     dates: 2011-present
     highlights:
       - Supports Hall-B and CLAS12 detector, simulation, and analysis workflows.
-      - Develops and maintains GEMC and CLAS12 simulation production tools.
+      - Develops GEMC/GEMC3, pygemc, and CLAS12 geometry and detector plugins.
+      - Repairs and optimizes CAD meshes with geometry validation and reproducible performance studies.
+      - Maintains simGrid production workflows and queue management on HTCondor and Open Science Grid.
+      - Develops visualization tools, multilingual interfaces, and cross-platform installation workflows.
       - Provides Geant4 support, tutorials, and examples for Jefferson Lab users.
       - Works on LTCC operation, calibration, maintenance, and performance.
   - role: Postdoctoral Research Associate and Research Associate
@@ -69,18 +76,21 @@ education:
     year: 1999
 
 selected_projects:
-  - name: GEMC
+  - name: GEMC and GEMC3
     url: https://gemc.github.io/home/
-    description: Database-driven Geant4 simulations with a Python-friendly workflow.
+    description: Database-driven Geant4 simulation and next-generation C++20 framework development.
+  - name: pygemc
+    url: https://github.com/gemc/pygemc
+    description: Python geometry and material authoring, PyVista visualization, output analysis, and CLI tools.
   - name: Geant4 at JLab
     url: https://jeffersonlab.github.io/g4home/
     description: Tutorials, examples, and support material for Jefferson Lab Geant4 users.
   - name: CLAS12 Simulations
     url: https://github.com/gemc/clas12Tags
-    description: Tagged CLAS12 geometry and simulation releases for production workflows.
+    description: Tagged releases, GEMC3 migration, CAD repair, and geometry and tracking validation.
   - name: CLAS12 on OSG
     url: https://maureeungaro.github.io/home/osg/osg
-    description: Distributed CLAS12 simulation production on Open Science Grid resources.
+    description: simGrid production workflows and queue management using HTCondor and Open Science Grid.
   - name: Low Threshold Cherenkov Counter
     url: https://maureeungaro.github.io/home/ltcc/ltcc
     description: CLAS12 forward detector system for pion/kaon discrimination in Hall-B.
@@ -95,13 +105,20 @@ skills:
   simulation:
     - Geant4
     - GEMC
+    - GEMC3
+    - pygemc
     - CLAS12 simulations
     - ROOT
     - detector geometry
+    - CAD mesh repair and optimization
+    - geometry and overlap validation
+    - reproducible tracking benchmarks
     - digitization workflows
     - PyVista visualization
+    - Qt visualization
+    - Geant4 XR integration
   programming:
-    - C++
+    - C++20
     - Python
     - shell scripting
     - Git
@@ -111,12 +128,14 @@ skills:
     - Meson
     - CMake
     - SCons
+    - software localization
   computing:
     - HTCondor
     - Open Science Grid
     - SQLite
     - CSV/JSON/ROOT data workflows
     - reproducible software environments
+    - cross-platform installation
     - scientific documentation
   communication:
     - technical writing

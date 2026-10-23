@@ -11,4 +11,4 @@ muEvent collects software notes related to event handling and analysis workflows
 | What is it? | A software project connected to event-oriented analysis workflows. |
 | Who is it for? | Users working with event data and related nuclear physics software tools. |
 | Why use it? | It documents project context and links from the broader software portfolio. |
-| Where to start? | See the [software projects](/home/projects/) overview. |
+| Where to start? | See the [software projects](/home/#what-i-work-on) overview. |
