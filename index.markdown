@@ -212,7 +212,8 @@ the news link leads to the [CLAS12 on OSG overview]({{ '/osg/osg' | relative_url
   tagged [CLAS12 geometry and simulation releases](https://github.com/gemc/clas12Tags), digitization
   workflows, and geometry tools.
 - **Distributed computing:** [CLAS12 production on the Open Science Grid](/home/osg/osg), with web and
-  batch submission tools and HTCondor workflows for running simulations on distributed resources.
+  batch submission tools and HTCondor workflows for running simulations on distributed resources, and
+  early work exploring HPC allocations such as NERSC to complement OSG production.
 - **Scientific computing and support:** [Geant4 at JLab](https://jeffersonlab.github.io/g4home/),
   reproducible simulation workflows, tutorials, examples, and user-facing documentation.
 
