@@ -27,10 +27,40 @@
   date: "May 2023"
 
 - title: "MC Streaming"
-  filename: "/sro/fullTalks/sroWorkshop8"
+  filename: "/gemc/sro/fullTalks/sroWorkshop8"
   pdf: "yes"
   occasion: "Workshop VIII on Streaming Readout"
   occasion_url: "https://indico.mit.edu/event/1/"
   date: "April 2021"
 
 
+- title: "Beamline Studies 2017 Summary"
+  filename: "/gemc/full/studies/beamlineAug-Sept2017"
+  pdf: "yes"
+  occasion: "Technical Control Board Meeting"
+  occasion_url: ""
+  date: "Sept 2017"
+
+
+- title: "The CLAS12 Beamline"
+  filename: "/gemc/full/hallBCollMeetings/february-2016"
+  pdf: "yes"
+  occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
+  occasion_url: "https://indico.jlab.org/event/125/"
+  date: "Feb 2016"
+
+
+- title: "Shielding Studies"
+  filename: "/gemc/full/studies/beamlineAug-Sept2017"
+  pdf: "yes"
+  occasion: "Technical Control Board Meeting"
+  occasion_url: ""
+  date: "March 2016"
+
+
+- title: "DC Studies"
+  filename: "/gemc/full/studies/beamlineAug-Sept2017"
+  pdf: "yes"
+  occasion: "Technical Control Board Meeting"
+  occasion_url: ""
+  date: "April 2014"
