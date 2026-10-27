@@ -6,13 +6,14 @@
   date: "Sept 2026"
 
 - title: "Clas12 simulations & GEMC"
-  pdf: "no"
-  occasion: "CLAS Collaboration Meeting"
-  occasion_url: "https://indico.jlab.org/event/1077/contributions/18912/attachments/14313/23138/june-2026.pdf"
+  filename: "gemc/full/hallBCollMeetings/june-2026"
+  pdf: "yes"
+  occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
+  occasion_url: "https://indico.jlab.org/event/1077/"
   date: "June 2026"
 
 - title: "Real Run Number simulations for CLAS12"
-  pdf: "no"
+  pdf: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2025-005.pdf?documentId=183"
   occasion: "CLAS12 Technical Note"
   occasion_url: "https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2025-005.pdf?documentId=183"
   date: "October 2025"

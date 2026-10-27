@@ -1,6 +1,14 @@
+- title: "electro-production of π⁰  in the resonance region at high Q² with CLAS"
+  filename: "/meson_electroproduction/nov-2016"
+  pdf: "yes"
+  occasion: "CLAS Collaboration Meeting, Newport News, Virginia"
+  occasion_url: "https://indico.jlab.org/event/180/"
+  date: "Nov 2016"
+
+
 - title: "π⁰ electro-production in the resonance region at high Q²"
   filename: "/meson_electroproduction/aps_2011_pi0_res_region"
   pdf: "yes"
   occasion: "APS, Anaheim, California"
   occasion_url: "https://meetings.aps.org/Meeting/APR11/Session/C7"
-  date: "04/2011"
+  date: "April 2011"

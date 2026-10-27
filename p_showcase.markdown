@@ -30,7 +30,7 @@ Recent seminars, tutorials, technical notes, and collaboration updates across Ge
                 {% elsif presentation.pdf == "no_animation" %}
                     <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
                  {% else %}
-                    <td></td>
+                    <td> <a href="{{presentation.pdf}}"  target="_blank"> PDF </a> </td>
                 {% endif %}
 
                  {% if presentation.occasion_url == "NA" %}
@@ -245,7 +245,7 @@ Presentations on CLAS12 simulation workflows and distributed computing resources
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
-	{% for presentation in site.data.osg_presentations %}
+	{% for presentation in site.data.osg_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
 
@@ -269,6 +269,8 @@ Presentations on CLAS12 simulation workflows and distributed computing resources
 	{% endfor %}
 
 </table>
+
+All OSG presentations are listed in [OSG Talks and Presentations](/home/showcase/osg).
 
 
 <br/><br/>
