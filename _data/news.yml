@@ -8,6 +8,11 @@
   image: "/home/assets/images/software/gemc3.png"
   link: "/home/weekly/2026/2026-W42/"
 
+- title: "CLAS12 RICH detector geometry and digitization in GEMC3"
+  date: "Upcoming"
+  image: "/home/assets/images/software/gemc3.png"
+  link: "/home/weekly/2026/2026-W44/"
+
 - title: "GEMC 6.2 for CLAS12: updated geometry and benchmarks"
   date: "Upcoming"
   image: "/home/assets/images/home/clas12.png"

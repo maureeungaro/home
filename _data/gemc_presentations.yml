@@ -179,3 +179,11 @@
   occasion: "Technical Control Board Meeting"
   occasion_url: ""
   date: "April 2014"
+
+
+- title: "BST Studies"
+  filename: "/gemc/full/studies/dc_studies-2012"
+  pdf: "yes"
+  occasion: "Technical Control Board Meeting"
+  occasion_url: ""
+  date: "May 2012"

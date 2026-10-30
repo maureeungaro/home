@@ -16,7 +16,7 @@ Recent seminars, tutorials, technical notes, and collaboration updates across Ge
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>
@@ -24,16 +24,8 @@ Recent seminars, tutorials, technical notes, and collaboration updates across Ge
 	{% for presentation in site.data.recent_and_upcoming_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
-                 {% else %}
-                    <td> <a href="{{presentation.pdf}}"  target="_blank"> PDF </a> </td>
-                {% endif %}
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
                      <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
@@ -78,24 +70,15 @@ Selected presentations:
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>
 	{% for presentation in site.data.meson_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf" target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"          target="_blank"> PDF </a> </td>
-                {% else %}
-                    <td></td>
-                {% endif %}
-
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
                      <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
@@ -119,24 +102,15 @@ Selected talks related to LTCC operation, calibration, and detector performance.
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
 	{% for presentation in site.data.ltcc_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
-                 {% else %}
-                    <td></td>
-                {% endif %}
-
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
                      <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
@@ -160,23 +134,15 @@ Selected tutorials and presentations for Geant4 users at JLab and related worksh
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
 	{% for presentation in site.data.geant4_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
-                 {% else %}
-                    <td></td>
-                {% endif %}
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
                      <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
@@ -200,24 +166,15 @@ Selected talks on GEMC, CLAS12 simulations, and database-driven simulation workf
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
 	{% for presentation in site.data.gemc_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
-                 {% else %}
-                    <td></td>
-                {% endif %}
-
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
                      <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>
@@ -241,23 +198,15 @@ Presentations on CLAS12 simulation workflows and distributed computing resources
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
 	{% for presentation in site.data.osg_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf"  target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"           target="_blank"> PDF </a> </td>
-                 {% else %}
-                    <td></td>
-                {% endif %}
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
  					<td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>

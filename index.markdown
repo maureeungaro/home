@@ -265,7 +265,7 @@ Experience and education are listed [below](#experience-and-education).
 
 	<tr>
 		<th scope="col">Title</th>
-		<th scope="col">PDF</th>
+		<th scope="col">Format</th>
 		<th scope="col">Occasion</th>
 		<th scope="col">Date</th>
 	</tr>	
@@ -273,20 +273,8 @@ Experience and education are listed [below](#experience-and-education).
 	{% for presentation in site.data.recent_and_upcoming_presentations limit: 6 %}
 		<tr>
             <td> {{ presentation.title }} </td>
-
-                {% if presentation.pdf == "yes" %}
-                    <td>
-                      <a href="{{ page.p_baseurl }}{{ presentation.filename }}.pdf" target="_blank">PDF</a>
-                    </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td>
-                      <a href="{{ page.p_baseurl }}no_pdf_animation.pdf" target="_blank">PDF</a>
-                    </td>
-                 {% else %}
-                    <td>  </td>
-                {% endif %}
-
-                 {% if presentation.occasion_url == "NA" %}
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
+                {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
                      <td> <a href="{{ presentation.occasion_url }}"  target="_blank"> {{presentation.occasion}} </a> </td>

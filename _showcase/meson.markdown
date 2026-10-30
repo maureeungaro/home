@@ -13,21 +13,15 @@ Presentations on single-meson electro-production and nucleon-structure measureme
 <table class="alternate">
 	<tr>
 		<td> Title </td>
-		<td> PDF </td>
+		<td> Format </td>
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>	
 
 	{% for presentation in site.data.meson_presentations %}
 		<tr>
-            <td> {{ presentation.title }} </td>
-                {% if presentation.pdf == "yes" %}
-                    <td> <a href="{{ page.p_baseurl }}/{{presentation.filename}}.pdf" target="_blank"> PDF </a> </td>
-                {% elsif presentation.pdf == "no_animation" %}
-                    <td> <a href="{{ page.p_baseurl }}/no_pdf_animation.pdf"          target="_blank"> PDF </a> </td>
-                {% else %}
-                    <td></td>
-                {% endif %}
+		<td> {{ presentation.title }} </td>
+            <td>{% include presentation-formats.html presentation=presentation %}</td>
                 {% if presentation.occasion_url == "NA" %}
                     <td>{{presentation.occasion}} </td>
                 {% else %}
