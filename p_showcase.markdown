@@ -63,7 +63,7 @@ All research papers are listed in [Maurizio Ungaro's INSPIRE profile](https://in
 
 <br/><br/>
 
-# Meson Electro-production Presentations
+# Physics Presentations
 
 Selected presentations:
 
@@ -74,7 +74,7 @@ Selected presentations:
 		<td> Occasion </td>
 		<td> Date </td>
 	</tr>
-	{% for presentation in site.data.meson_selected_presentations %}
+	{% for presentation in site.data.physics_selected_presentations %}
 		<tr>
             <td> {{ presentation.title }} </td>
             <td>{% include presentation-formats.html presentation=presentation %}</td>
@@ -91,7 +91,7 @@ Selected presentations:
 
 </table>
 
-All meson electro-production presentations are listed in [Meson Electro-Production Talks](/home/showcase/meson).
+All physics presentations are listed in [Physics Talks and Presentations](/home/showcase/physics).
 
 <br/><br/>
 

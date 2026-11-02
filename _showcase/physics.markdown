@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Meson Electro-Production Talks
-description: Presentations on single-meson electro-production, CLAS nucleon-structure measurements, pion production, form factors, and resonance-region analyses.
-permalink: /showcase/meson
+title: Physics Talks and Presentations
+description: Physics talks on meson electro-production, CLAS nucleon-structure measurements, nucleon-resonance electro-excitation, transition form factors, resonance-region analyses, and the Heavy Photon Search.
+permalink: /showcase/physics
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"
 ---
 
-# Meson Electro-Production Presentations
+# Physics Presentations
 
-Presentations on single-meson electro-production and nucleon-structure measurements.
+Physics presentations on meson electro-production, nucleon-structure measurements, nucleon-resonance studies
+with CLAS, and the Heavy Photon Search.
 
 <table class="alternate">
 	<tr>
@@ -18,7 +19,7 @@ Presentations on single-meson electro-production and nucleon-structure measureme
 		<td> Date </td>
 	</tr>	
 
-	{% for presentation in site.data.meson_presentations %}
+	{% for presentation in site.data.physics_presentations %}
 		<tr>
 		<td> {{ presentation.title }} </td>
             <td>{% include presentation-formats.html presentation=presentation %}</td>
