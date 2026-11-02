@@ -13,15 +13,13 @@
   occasion_url: "https://meetings-archive.aps.org/haw/2014/"
   date: "October 2014"
 
-
-- title: "Search for Heavy Photon at JLAB"
+- title: "Dark Matter: Search for Heavy Photon at JLab"
   filename: "/physics/hps_jlab"
   pdf: "yes"
   pptx: "yes"
   occasion: "JLab Seminar"
   occasion_url: ""
   date: "June 2011"
-
 
 - title: "π⁰ electro-production in the resonance region at high Q²"
   filename: "/physics/aps_2011_pi0_res_region"
