@@ -119,7 +119,7 @@ In my free time, I am learning to play hockey while enjoying watching my kid ska
 <table class="zebra compact-table">
   <tr>
     <th>Primary links</th>
-    <td><a href="#biography-and-documents">Biography &amp; Documents</a></td>
+    <td><a href="#biography">Biography &amp; Documents</a></td>
     <td><a href="https://gemc.github.io/home/">GEMC</a></td>
     <td><a href="/home/showcase/">Research & Talks</a></td>
     <td><a href="/home/mynotes/">Notes</a></td>
@@ -219,7 +219,7 @@ the news link leads to the [CLAS12 on OSG overview]({{ '/osg/osg' | relative_url
 
 <br/>
 
-## Biography and Documents
+## Biography
 
 Maurizio Ungaro is a Staff Scientist in [Hall-B](https://www.jlab.org/physics/hall-b)
 at [Jefferson Lab](https://www.jlab.org). His work connects nuclear physics analysis, detector systems,
@@ -241,7 +241,9 @@ Earlier and collaborative work includes experiments in Japan through the
 [Heavy Photon Search](https://www.jlab.org/physics/hall-b/other), a dark-sector search collaboration
 at Jefferson Lab.
 
-### Documents
+<br/>
+
+## Documents
 
 - [Scientific CV]({{ '/assets/bio/mauri/mauri_cv.pdf' | relative_url }}): full academic, research, software,
   and detector record.
@@ -251,6 +253,8 @@ at Jefferson Lab.
   biographies for programs, websites, and profiles.
 - [Publications]({{ '/publications/' | relative_url }}): an INSPIRE-derived publication list with
   first-author classification.
+- PhD Candidacy: [Proposal](https://userweb.jlab.org/~ungaro/pubs/candidacy/proposal/candidacy.pdf),
+  [Thesis]().
 
 Professional profiles and contact links are available [near the top of this page](#about-me).
 Experience and education are listed [below](#experience-and-education).
