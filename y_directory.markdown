@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Directory
+title: Hub
 description: Curated links and bookmarks for physics, software, computing, documentation, and frequently used resources.
 permalink: /directory/
 ---

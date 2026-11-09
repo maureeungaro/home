@@ -21,6 +21,12 @@
 title: Maurizio Ungaro
 tagline: Jefferson Lab Nuclear Physicist and Geant4/GEMC Developer
 author: Maurizio Ungaro
+header_permalinks:
+  - /showcase/
+  - /weekly/
+  - /directory/
+  - /mynotes/
+  - /wfd/
 email: ungaro@jlab.org
 description: >- # this means to ignore newlines until "baseurl:"
   Nuclear physicist at Jefferson Lab working on Geant4 simulations, GEMC,

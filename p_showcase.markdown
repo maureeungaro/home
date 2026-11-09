@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research & Talks
+title: Showcase
 description: Selected papers, talks, tutorials, and technical notes on Geant4, GEMC, CLAS12 simulations, detector work, and nucleon-structure research.
 permalink: /showcase/
 p_baseurl: "https://userweb.jlab.org/~ungaro/slides/"

@@ -254,7 +254,7 @@ at Jefferson Lab.
 - [Publications]({{ '/publications/' | relative_url }}): an INSPIRE-derived publication list with
   first-author classification.
 - PhD Candidacy: [Proposal](https://userweb.jlab.org/~ungaro/pubs/candidacy/proposal/candidacy.pdf),
-  [Thesis]().
+  Thesis (upcoming).
 
 Professional profiles and contact links are available [near the top of this page](#about-me).
 Experience and education are listed [below](#experience-and-education).

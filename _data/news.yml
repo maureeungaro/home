@@ -3,6 +3,11 @@
   image: "/home/assets/images/software/gemc3.png"
   link: "/home/weekly/2026/2026-W41/"
 
+- title: "CLAS12 simulation trials on NERSC HPC resources"
+  date: "November 2026"
+  image: "/home/assets/images/home/osg.png"
+  link: "/home/weekly/2026/2026-W45/"
+
 - title: "GEMC3 0.6: localized interface and message-based logging"
   date: "Upcoming"
   image: "/home/assets/images/software/gemc3.png"
